@@ -19,6 +19,7 @@
 import { readFileSync, writeFileSync } from "node:fs"
 import { fileURLToPath } from "node:url"
 import path from "node:path"
+import { canonicalElement } from "./radical-aliases.mjs"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, "..")
@@ -68,7 +69,7 @@ function parseGroupTree(svg, hex) {
   const rootOpen = svg.match(rootOpenRe)
   if (!rootOpen) return null
 
-  const tagRe = /<g\b([^>]*)>|<\/g>/g
+  const tagRe = /<g\b([^>]*)>|<\/g>|<path\b/g
   tagRe.lastIndex = rootOpen.index + rootOpen[0].length
   const makeNode = attrs => ({
     element: attrVal(attrs, "element"),
@@ -76,14 +77,21 @@ function parseGroupTree(svg, hex) {
     isRadical: attrVal(attrs, "radical") !== null,
     hasPart: attrVal(attrs, "part") !== null,
     children: [],
+    strokeStart: strokeCount,
+    strokeEnd: strokeCount,
   })
+  // Stroke index == document order of <path>, same as extractStrokes(); each
+  // node covers the half-open range [strokeStart, strokeEnd).
+  let strokeCount = 0
   const root = makeNode(rootOpen[1])
   const stack = [root]
   let m
   while ((m = tagRe.exec(svg))) {
     if (m[0] === "</g>") {
-      stack.pop()
+      stack.pop().strokeEnd = strokeCount
       if (stack.length === 0) break
+    } else if (m[0] === "<path") {
+      strokeCount++
     } else {
       const node = makeNode(m[1])
       stack[stack.length - 1].children.push(node)
@@ -112,6 +120,8 @@ function collectPartFragments(node, byElement) {
   }
 }
 
+const strokeRange = node => Array.from({ length: node.strokeEnd - node.strokeStart }, (_, i) => node.strokeStart + i)
+
 // Decides what a set of siblings (a node's children, or the whole kanji's
 // top-level children) resolves to. A part-fragment sibling contributes its
 // merged (whole-tree) component once, at its first occurrence in document
@@ -125,9 +135,10 @@ function expandChildren(children, inheritedPosition, results, ctx) {
       ctx.emitted.add(child.element)
       const frags = ctx.partsByElement.get(child.element)
       results.push({
-        element: child.element,
+        element: canonicalElement(child.element),
         position: frags.find(f => f.position)?.position ?? inheritedPosition,
         isRadical: frags.some(f => f.isRadical),
+        strokes: frags.flatMap(strokeRange),
       })
     } else {
       collectComponents(child, results, inheritedPosition, ctx)
@@ -136,31 +147,37 @@ function expandChildren(children, inheritedPosition, results, ctx) {
 }
 
 // Collapses a single node into the component(s) a learner would actually
-// recognize. A named node is treated as a leaf at its own name UNLESS its
-// children are all the same element (a repetition group, e.g. 森's 林
-// sub-group = 木 + 木) — in which case it hands off to its children instead
-// of contributing its own (composite) name. An unnamed positional wrapper
-// (KanjiVG groups some sibling pairs under a bare `<g>` with no kvg:element
-// — e.g. 品's bottom two 口) always hands off too. A node with 1 child, or
-// 2+ *different*-element children (e.g. 語's 吾 = 五 + 口), is a leaf:
-// further splitting a phonetic compound into its individual strokes isn't a
-// meaningful "radical" for a learner, even though KanjiVG's markup goes
-// that deep.
+// recognize. A named node is a leaf at its own name UNLESS its children are
+// all the same element (a repetition group, e.g. 森's 林 sub-group = 木 + 木)
+// — then it hands off to its children. An unnamed positional wrapper (e.g.
+// 品's bottom two 口) always hands off too. Everything else is a leaf, even
+// compounds (語's 吾 = 五 + 口) and rare phonetic glyphs (韓's 𠦝, 検's 㑒):
+// further splitting isn't a meaningful "radical" for a learner, and nhaikanji
+// -- the reference this was checked against -- keeps those as one unit too.
+// An earlier version split unrecognizable glyphs into their children; checking
+// 韓 and 検 against nhaikanji showed that over-splits (検 → 木 人 一 口 人).
 function collectComponents(node, results, inheritedPosition, ctx) {
   const position = node.position ?? inheritedPosition
   const named = node.children.filter(c => c.element)
   const allSameName = named.length >= 2 && named.every(c => c.element === named[0].element)
 
   if (node.element && !allSameName) {
-    results.push({ element: node.element, position, isRadical: node.isRadical })
+    results.push({ element: canonicalElement(node.element), position, isRadical: node.isRadical, strokes: strokeRange(node) })
     return
   }
+  const before = results.length
   expandChildren(node.children, position, results, ctx)
+  // Nothing recognizable underneath either (e.g. only bare stroke paths):
+  // keep the node itself so its strokes still belong to some component.
+  if (results.length === before && node.element) {
+    results.push({ element: canonicalElement(node.element), position, isRadical: node.isRadical, strokes: strokeRange(node) })
+  }
 }
 
-function extractComponents(svg, char, hex) {
+function extractComponents(svg, char, hex, strokeTotal) {
   const tree = parseGroupTree(svg, hex)
-  if (!tree) return [{ element: char, position: null, isRadical: true }]
+  const whole = { element: char, position: null, isRadical: true, strokes: Array.from({ length: strokeTotal }, (_, i) => i) }
+  if (!tree) return [whole]
 
   const partsByElement = new Map()
   collectPartFragments(tree, partsByElement)
@@ -171,8 +188,26 @@ function extractComponents(svg, char, hex) {
   // its children rather than running it through collectComponents.
   const results = []
   expandChildren(tree.children, null, results, ctx)
-  if (results.length === 0) return [{ element: char, position: null, isRadical: true }]
-  return results
+  if (results.length === 0) return [whole]
+  return partitionStrokes(results, strokeTotal)
+}
+
+// KanjiVG sometimes leaves a stroke as a bare <path> directly under a parent
+// group (so no component claims it, e.g. 万's/五's extra strokes) and
+// occasionally lets two components claim the same one. Make `strokes` an exact
+// partition of 0..strokeTotal-1 so the animation can color every stroke by
+// its component: first claimant wins, an unclaimed stroke joins the component
+// that owns the stroke before it (or the one after, for a leading orphan).
+function partitionStrokes(components, strokeTotal) {
+  const owner = new Array(strokeTotal).fill(-1)
+  components.forEach((c, ci) => {
+    for (const i of c.strokes) if (owner[i] === -1) owner[i] = ci
+  })
+  for (let i = 0; i < strokeTotal; i++) if (owner[i] === -1 && i > 0) owner[i] = owner[i - 1]
+  for (let i = strokeTotal - 1; i >= 0; i--) if (owner[i] === -1 && i < strokeTotal - 1) owner[i] = owner[i + 1]
+  return components
+    .map((c, ci) => ({ ...c, strokes: owner.flatMap((o, i) => (o === ci ? [i] : [])) }))
+    .filter(c => c.strokes.length > 0)
 }
 
 async function fetchOne(char) {
@@ -184,7 +219,7 @@ async function fetchOne(char) {
   const viewBoxMatch = svg.match(/viewBox="([^"]+)"/)
   const strokes = extractStrokes(svg)
   if (strokes.length === 0) throw new Error(`No strokes parsed for ${char} (${hex})`)
-  const components = extractComponents(svg, char, hex)
+  const components = extractComponents(svg, char, hex, strokes.length)
   return {
     viewBox: viewBoxMatch ? viewBoxMatch[1] : "0 0 109 109",
     strokes,
@@ -215,7 +250,11 @@ function main() {
     }
   }
 
-  const list = [...chars].filter(ch => !(ch in existing))
+  // --force re-fetches everything: the distilled JSON no longer holds the raw
+  // <g> tree, so a change to the decomposition rules above only takes effect
+  // by re-running every character, not just the ones missing from the file.
+  const force = process.argv.includes("--force")
+  const list = [...chars].filter(ch => force || !(ch in existing))
   console.log(`${chars.size} unique kanji in app data, ${list.length} not yet in kanjivg.json.`)
   if (list.length === 0) {
     console.log("Nothing to fetch.")

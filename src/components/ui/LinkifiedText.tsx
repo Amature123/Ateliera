@@ -5,7 +5,7 @@ import { Fragment } from "react"
 // through the structured relatedGrammarId/relatedGrammar fields. Left as
 // plain text, that reads as a meaningless internal id to a reader. This
 // scans for that id shape and turns each occurrence into a clickable jump
-// button showing the *pattern* (not the id) -- every id used this way is
+// button showing the *pattern* (not the id) - every id used this way is
 // validated to resolve (see scripts/validate-grammar.mjs), so a lookup
 // miss here would indicate a data bug, not an expected case.
 const GRAMMAR_ID_RE = /g_\d+(?:_\d+)*/g

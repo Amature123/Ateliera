@@ -3,7 +3,7 @@ import { useTranslation } from "@/lib/useTranslation"
 import { splitMorae, pitchLevels, classifyPitchType } from "@/lib/japanese"
 
 interface PitchAccentProps {
-  /** The word's kana reading -- used only to count morae for the diagram
+  /** The word's kana reading - used only to count morae for the diagram
    *  (the diagram never re-renders the text; pair it visually with the
    *  word shown alongside it). */
   kana: string
@@ -39,7 +39,7 @@ export const PitchAccent = memo(function PitchAccent({ kana, pitch, className = 
   const width = dims.step * (levels.length + 1)
 
   const label = t(`vocab.pitch.types.${type}`)
-  const title = `${label} (${pitch}) — ${kana}`
+  const title = `${label} (${pitch}), ${kana}`
 
   return (
     <span className={`inline-flex items-center gap-1 ${className}`} title={title}>

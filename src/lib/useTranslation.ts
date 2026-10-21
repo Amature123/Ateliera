@@ -7,7 +7,7 @@ export function useTranslation() {
   const toggleLang = useSettingsStore(s => s.toggleLang)
   const setLang = useSettingsStore(s => s.setLang)
 
-  // Stable per-`lang` (not a fresh closure every render) -- callers put
+  // Stable per-`lang` (not a fresh closure every render) - callers put
   // these in useMemo/useEffect dependency arrays (e.g. VocabBrowser's and
   // Grammar's search filters), and an unstable reference there defeats the
   // memoization, re-filtering the whole dataset on every render instead of

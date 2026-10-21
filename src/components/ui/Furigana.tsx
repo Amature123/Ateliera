@@ -40,11 +40,11 @@ function splitRuns(text: string): Run[] {
 }
 
 // Aligns a kanji+okurigana string against its full reading by anchoring on the
-// literal (non-kanji) runs — auxiliary text that has no counterpart in `kana`
+// literal (non-kanji) runs - auxiliary text that has no counterpart in `kana`
 // (e.g. a leading （〜を） note) is left outside the ruby entirely.
 //
 // Returns null when a kanji run's reading boundary can't be located (its
-// next literal doesn't appear in `kana` at all — e.g. a mid-string "(", "～",
+// next literal doesn't appear in `kana` at all - e.g. a mid-string "(", "～",
 // or "、" that's punctuation, not part of the pronunciation). Guessing here
 // previously dumped the *entire remaining reading* onto that one kanji run;
 // since the true split is unknowable without a dictionary, the caller falls
@@ -79,7 +79,7 @@ function alignFurigana(kanji: string, kana: string): Segment[] | null {
 
     // Multi-character kanji runs (pure compounds like 教師) would otherwise
     // get one ruby spanning the whole run, which the browser centers over
-    // all the characters -- overflowing onto neighbors. Look up a
+    // all the characters - overflowing onto neighbors. Look up a
     // per-character split from the build-time furigana map; entries with no
     // split (jukujikun like 明日/あした) fall through to the old whole-run
     // behavior below.
@@ -103,7 +103,7 @@ function alignFurigana(kanji: string, kana: string): Segment[] | null {
 }
 
 // Alignment is pure in (kanji, kana), and list rows re-mount constantly
-// (every filter/chapter change, level switch) -- memoizing avoids redoing the
+// (every filter/chapter change, level switch) - memoizing avoids redoing the
 // run splitting and map lookups for words already seen this session.
 const ALIGN_CACHE = new Map<string, Segment[] | null>()
 function alignCached(kanji: string, kana: string): Segment[] | null {

@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')!).render(
 )
 
 // Once the first paint has settled, quietly load the *other* level's vocab so
-// switching level later is instant (no empty flash). Vocab only -- the grammar
+// switching level later is instant (no empty flash). Vocab only - the grammar
 // and kanji-stroke chunks are large enough that parsing them mid-session
 // could itself cause a hitch, so they stay on-demand.
 const prefetchOtherLevel = () => {

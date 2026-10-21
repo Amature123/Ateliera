@@ -1,118 +1,149 @@
 {
   "一": {
     "hanviet": "Nhất",
+    "meaning": "Một",
     "curated": false
   },
   "乙": {
-    "hanviet": "ất",
-    "curated": true
+    "hanviet": "Ất",
+    "meaning": "Can ất",
+    "curated": false
   },
   "亠": {
-    "hanviet": "đầu",
-    "curated": true
+    "hanviet": "Đầu",
+    "meaning": "Đầu",
+    "curated": false
   },
   "八": {
     "hanviet": "Bát",
+    "meaning": "Tám",
     "curated": false
   },
   "二": {
     "hanviet": "Nhị",
+    "meaning": "Hai",
     "curated": false
   },
   "囗": {
-    "hanviet": "vi",
-    "curated": true
+    "hanviet": "Vi",
+    "meaning": "Vây quanh",
+    "curated": false
   },
   "儿": {
-    "hanviet": "nhân (chân người)",
-    "curated": true
+    "hanviet": "Nhân đi",
+    "meaning": "Dáng bước chân",
+    "curated": false
   },
   "十": {
     "hanviet": "Thập",
+    "meaning": "Mười",
     "curated": false
   },
   "冂": {
-    "hanviet": "quynh",
-    "curated": true
+    "hanviet": "Quynh",
+    "meaning": "Biên giới",
+    "curated": false
   },
   "丿": {
-    "hanviet": "phiệt",
-    "curated": true
+    "hanviet": "Phiệt",
+    "meaning": "Nét phẩy",
+    "curated": false
   },
   "火": {
     "hanviet": "Hỏa",
+    "meaning": "Lửa",
     "curated": false
   },
   "白": {
     "hanviet": "Bạch",
+    "meaning": "Màu trắng",
     "curated": false
   },
   "田": {
     "hanviet": "Điền",
+    "meaning": "Ruộng",
     "curated": false
   },
   "禾": {
-    "hanviet": "hòa",
-    "curated": true
+    "hanviet": "Hòa",
+    "meaning": "Lúa",
+    "curated": false
   },
   "氵": {
-    "hanviet": "thủy",
-    "curated": true
+    "hanviet": "3 chấm thủy",
+    "meaning": "Ba chấm thủy",
+    "curated": false
   },
   "永": {
-    "hanviet": "vĩnh",
+    "hanviet": "Vĩnh",
     "curated": true
   },
   "雨": {
     "hanviet": "Vũ",
+    "meaning": "Mưa",
     "curated": false
   },
   "日": {
     "hanviet": "Nhật",
+    "meaning": "Ngày (mặt trời)",
     "curated": false
   },
   "水": {
     "hanviet": "Thủy",
+    "meaning": "Nước",
     "curated": false
   },
   "丶": {
-    "hanviet": "chủ",
-    "curated": true
+    "hanviet": "Chủ",
+    "meaning": "Điểm, chấm",
+    "curated": false
   },
   "月": {
     "hanviet": "Nguyệt",
+    "meaning": "Mặt trăng",
+    "curated": false
+  },
+  "彐": {
+    "hanviet": "Kệ",
+    "meaning": "Đầu con nhím",
     "curated": false
   },
   "云": {
-    "hanviet": "vân",
+    "hanviet": "Vân",
     "curated": true
   },
   "大": {
     "hanviet": "Đại",
+    "meaning": "To, lớn",
     "curated": false
   },
   "小": {
     "hanviet": "Tiểu",
+    "meaning": "Nhỏ",
     "curated": false
   },
   "木": {
     "hanviet": "Mộc",
+    "meaning": "Cây",
     "curated": false
   },
   "亻": {
-    "hanviet": "nhân",
-    "curated": true
+    "hanviet": "Nhân đứng",
+    "meaning": "Dáng người đứng",
+    "curated": false
   },
   "口": {
     "hanviet": "Khẩu",
+    "meaning": "Cái miệng",
     "curated": false
   },
   "長": {
     "hanviet": "Trường",
+    "meaning": "Dài",
     "curated": false
   },
   "髟": {
-    "hanviet": "tiêu",
+    "hanviet": "Tiêu",
     "curated": true
   },
   "友": {
@@ -125,75 +156,89 @@
   },
   "土": {
     "hanviet": "Thổ",
+    "meaning": "Đất",
     "curated": false
   },
   "卜": {
-    "hanviet": "bốc",
-    "curated": true
+    "hanviet": "Bốc",
+    "meaning": "Quẻ bói",
+    "curated": false
   },
   "丨": {
-    "hanviet": "cổn",
-    "curated": true
+    "hanviet": "Cổn",
+    "meaning": "Nét sổ",
+    "curated": false
   },
   "工": {
     "hanviet": "Công",
+    "meaning": "Công nhân",
     "curated": false
   },
   "丆": {
-    "hanviet": "hán",
+    "hanviet": "Hán",
     "curated": true
   },
   "又": {
-    "hanviet": "hựu",
-    "curated": true
+    "hanviet": "Hựu",
+    "meaning": "Lại nữa",
+    "curated": false
   },
   "夕": {
     "hanviet": "Tịch",
+    "meaning": "Chiều tối",
     "curated": false
   },
   "立": {
     "hanviet": "Lập",
+    "meaning": "Đứng",
     "curated": false
   },
   "見": {
     "hanviet": "Kiến",
+    "meaning": "Nhìn",
     "curated": false
   },
   "彳": {
-    "hanviet": "xích",
-    "curated": true
+    "hanviet": "Sách",
+    "meaning": "Bước trái",
+    "curated": false
   },
   "金": {
     "hanviet": "Kim",
+    "meaning": "Kim loại, tiền, vàng",
     "curated": false
   },
   "米": {
     "hanviet": "Mễ",
+    "meaning": "Gạo",
     "curated": false
   },
   "刂": {
-    "hanviet": "đao",
-    "curated": true
+    "hanviet": "Bộ đao",
+    "meaning": "Bộ đao",
+    "curated": false
   },
   "帚": {
-    "hanviet": "trửu",
+    "hanviet": "Trửu",
     "curated": true
   },
   "食": {
     "hanviet": "Thực",
+    "meaning": "Ăn",
     "curated": false
   },
   "艮": {
-    "hanviet": "cấn",
+    "hanviet": "Cấn",
     "curated": true
   },
   "飠": {
-    "hanviet": "thực",
-    "curated": true
+    "hanviet": "Bộ thực",
+    "curated": false
   },
   "欠": {
-    "hanviet": "khiếm",
-    "curated": true
+    "hanviet": "Khiếm",
+    "meaning": "Khiếm khuyết, thiếu",
+    "curated": false
   },
   "反": {
     "hanviet": "Phản",
@@ -201,39 +246,47 @@
   },
   "人": {
     "hanviet": "Nhân",
+    "meaning": "Người",
     "curated": false
   },
   "牛": {
     "hanviet": "Ngưu",
+    "meaning": "Trâu bò",
     "curated": false
   },
   "干": {
-    "hanviet": "can",
-    "curated": true
+    "hanviet": "Can",
+    "meaning": "Khô khan",
+    "curated": false
   },
   "勿": {
-    "hanviet": "vật",
-    "curated": true
+    "hanviet": "Vật",
+    "meaning": "Chớ",
+    "curated": false
   },
   "子": {
     "hanviet": "Tử",
+    "meaning": "Con",
     "curated": false
   },
   "生": {
     "hanviet": "Sinh",
+    "meaning": "Học sinh",
     "curated": false
   },
   "气": {
-    "hanviet": "khí",
-    "curated": true
+    "hanviet": "Khí",
+    "meaning": "Hơi nước",
+    "curated": false
   },
   "乂": {
-    "hanviet": "nghệ",
+    "hanviet": "Nghệ",
     "curated": true
   },
   "艹": {
-    "hanviet": "thảo",
-    "curated": true
+    "hanviet": "Thảo",
+    "meaning": "Cỏ",
+    "curated": false
   },
   "夫": {
     "hanviet": "Phu",
@@ -241,58 +294,60 @@
   },
   "毛": {
     "hanviet": "Mao",
+    "meaning": "Lông",
     "curated": false
   },
-  "⺍": {
-    "hanviet": "tiểu",
-    "curated": true
-  },
   "冖": {
-    "hanviet": "mịch",
-    "curated": true
+    "hanviet": "Mịch",
+    "meaning": "Trùm khăn",
+    "curated": false
   },
   "手": {
     "hanviet": "Thủ",
+    "meaning": "Cái tay",
     "curated": false
   },
   "父": {
     "hanviet": "Phụ",
+    "meaning": "Bố",
     "curated": false
   },
   "毋": {
-    "hanviet": "vô",
-    "curated": true
+    "hanviet": "Vô",
+    "meaning": "Chớ, đừng",
+    "curated": false
   },
   "毎": {
     "hanviet": "Mỗi",
     "curated": false
   },
-  "⺌": {
-    "hanviet": "tiểu",
-    "curated": true
-  },
   "兀": {
-    "hanviet": "ngột",
+    "hanviet": "Ngột",
     "curated": true
   },
   "車": {
     "hanviet": "Xa",
+    "meaning": "Xe",
     "curated": false
   },
   "耳": {
     "hanviet": "Nhĩ",
+    "meaning": "Cái tai",
     "curated": false
   },
   "斤": {
-    "hanviet": "cân",
-    "curated": true
+    "hanviet": "Cân",
+    "meaning": "Cái rìu",
+    "curated": false
   },
   "音": {
     "hanviet": "Âm",
+    "meaning": "Âm thanh",
     "curated": false
   },
   "門": {
     "hanviet": "Môn",
+    "meaning": "Cổng",
     "curated": false
   },
   "寺": {
@@ -300,19 +355,22 @@
     "curated": false
   },
   "軍": {
-    "hanviet": "quân",
+    "hanviet": "Quân",
     "curated": true
   },
-  "⻌": {
-    "hanviet": "sước",
-    "curated": true
+  "辶": {
+    "hanviet": "Sước",
+    "meaning": "Đi xa",
+    "curated": false
   },
   "寸": {
-    "hanviet": "thốn",
-    "curated": true
+    "hanviet": "Thốn",
+    "meaning": "Tấc",
+    "curated": false
   },
   "目": {
     "hanviet": "Mục",
+    "meaning": "Mắt",
     "curated": false
   },
   "千": {
@@ -320,7 +378,8 @@
     "curated": false
   },
   "里": {
-    "hanviet": "Lý",
+    "hanviet": "Lí",
+    "meaning": "Làng",
     "curated": false
   },
   "何": {
@@ -328,59 +387,69 @@
     "curated": false
   },
   "可": {
-    "hanviet": "khả",
+    "hanviet": "Khả",
     "curated": true
   },
   "罒": {
-    "hanviet": "võng",
-    "curated": true
+    "hanviet": "Võng",
+    "curated": false
   },
   "貝": {
-    "hanviet": "bối",
-    "curated": true
+    "hanviet": "Bối",
+    "meaning": "Bảo bối, con sò",
+    "curated": false
   },
   "入": {
     "hanviet": "Nhập",
+    "meaning": "Vào",
     "curated": false
   },
   "山": {
     "hanviet": "Sơn",
+    "meaning": "Núi",
     "curated": false
   },
   "肉": {
     "hanviet": "Nhục",
+    "meaning": "Thịt",
     "curated": false
   },
   "凵": {
-    "hanviet": "khảm",
-    "curated": true
+    "hanviet": "Khảm",
+    "meaning": "Há miệng",
+    "curated": false
   },
   "言": {
     "hanviet": "Ngôn",
+    "meaning": "Nói",
     "curated": false
   },
   "舌": {
-    "hanviet": "thiệt",
-    "curated": true
+    "hanviet": "Thiệt",
+    "meaning": "Lưỡi",
+    "curated": false
   },
   "央": {
-    "hanviet": "ương",
+    "hanviet": "Ương",
     "curated": true
   },
   "力": {
     "hanviet": "Lực",
+    "meaning": "Sức lực",
     "curated": false
   },
   "丁": {
-    "hanviet": "đinh",
-    "curated": true
+    "hanviet": "Đinh",
+    "curated": false
   },
   "灬": {
-    "hanviet": "hỏa",
-    "curated": true
+    "hanviet": "4 chấm hỏa",
+    "meaning": "Bốn chấm hỏa",
+    "curated": false
   },
   "女": {
     "hanviet": "Nữ",
+    "meaning": "Phụ nữ",
     "curated": false
   },
   "化": {
@@ -388,24 +457,26 @@
     "curated": false
   },
   "宀": {
-    "hanviet": "miên",
-    "curated": true
+    "hanviet": "Miên",
+    "meaning": "Mái nhà",
+    "curated": false
   },
   "士": {
-    "hanviet": "sĩ",
-    "curated": true
+    "hanviet": "Sĩ",
+    "meaning": "Binh sĩ",
+    "curated": false
   },
   "売": {
     "hanviet": "Mại",
     "curated": false
   },
   "廿": {
-    "hanviet": "chấp",
+    "hanviet": "Chấp",
     "curated": true
   },
   "匕": {
-    "hanviet": "chủy",
-    "curated": true
+    "hanviet": "Chuỷ",
+    "curated": false
   },
   "西": {
     "hanviet": "Tây",
@@ -416,88 +487,104 @@
     "curated": false
   },
   "酉": {
-    "hanviet": "dậu",
-    "curated": true
+    "hanviet": "Dậu",
+    "meaning": "Giờ dậu",
+    "curated": false
   },
   "聿": {
-    "hanviet": "duật",
-    "curated": true
+    "hanviet": "Duật",
+    "meaning": "Bút",
+    "curated": false
   },
   "川": {
     "hanviet": "Xuyên",
+    "meaning": "Sông",
     "curated": false
   },
   "方": {
     "hanviet": "Phương",
+    "meaning": "Phương hướng",
     "curated": false
   },
   "礻": {
-    "hanviet": "thị",
-    "curated": true
+    "hanviet": "Bộ thị",
+    "curated": false
   },
   "豕": {
-    "hanviet": "thỉ",
-    "curated": true
+    "hanviet": "Thỉ",
+    "meaning": "Con lợn",
+    "curated": false
   },
   "刀": {
-    "hanviet": "đao",
-    "curated": true
+    "hanviet": "Đao",
+    "meaning": "Kiếm",
+    "curated": false
   },
-  "龰": {
-    "hanviet": "chỉ",
-    "curated": true
+  "止": {
+    "hanviet": "Chỉ",
+    "meaning": "Dừng lại",
+    "curated": false
   },
   "疒": {
-    "hanviet": "nạch",
-    "curated": true
+    "hanviet": "Nạch",
+    "meaning": "Bệnh tật",
+    "curated": false
   },
   "丙": {
-    "hanviet": "bính",
+    "hanviet": "Bính",
     "curated": true
   },
   "幺": {
-    "hanviet": "yêu",
-    "curated": true
+    "hanviet": "Yêu",
+    "meaning": "Nhỏ",
+    "curated": false
   },
   "夂": {
-    "hanviet": "truy",
-    "curated": true
+    "hanviet": "Truy",
+    "meaning": "Phía sau",
+    "curated": false
   },
   "玉": {
     "hanviet": "Ngọc",
+    "meaning": "Viên ngọc",
     "curated": false
   },
   "匸": {
-    "hanviet": "hệ",
+    "hanviet": "Hệ",
     "curated": true
   },
   "矢": {
-    "hanviet": "thỉ",
-    "curated": true
+    "hanviet": "Thỉ",
+    "meaning": "Mũi tên",
+    "curated": false
   },
   "厶": {
-    "hanviet": "tư",
-    "curated": true
+    "hanviet": "Khư",
+    "meaning": "Riêng tư",
+    "curated": false
   },
   "耂": {
-    "hanviet": "lão",
+    "hanviet": "Lão",
     "curated": true
   },
   "孝": {
-    "hanviet": "hiếu",
+    "hanviet": "Hiếu",
     "curated": true
   },
   "攵": {
-    "hanviet": "phộc",
-    "curated": true
+    "hanviet": "Phộc",
+    "meaning": "Đánh khẽ",
+    "curated": false
   },
   "巾": {
-    "hanviet": "cân",
-    "curated": true
+    "hanviet": "Cân",
+    "meaning": "Cái khăn",
+    "curated": false
   },
   "韋": {
-    "hanviet": "vi",
-    "curated": true
+    "hanviet": "Vi",
+    "meaning": "Da",
+    "curated": false
   },
   "王": {
     "hanviet": "Vương",
@@ -508,183 +595,198 @@
     "curated": false
   },
   "頁": {
-    "hanviet": "hiệt",
-    "curated": true
+    "hanviet": "Hiệt",
+    "meaning": "Trang giấy, đầu",
+    "curated": false
   },
   "亅": {
-    "hanviet": "quyết",
-    "curated": true
+    "hanviet": "Quyết",
+    "meaning": "Nét móc",
+    "curated": false
   },
   "交": {
     "hanviet": "Giao",
     "curated": false
   },
   "官": {
-    "hanviet": "quan",
+    "hanviet": "Quan",
     "curated": true
   },
   "更": {
-    "hanviet": "canh",
+    "hanviet": "Canh",
     "curated": true
   },
   "尸": {
-    "hanviet": "thi",
-    "curated": true
+    "hanviet": "Thi",
+    "meaning": "Xác chết",
+    "curated": false
   },
   "句": {
-    "hanviet": "cú",
-    "curated": true
+    "hanviet": "Cú",
+    "curated": false
   },
   "垂": {
-    "hanviet": "thùy",
+    "hanviet": "Thùy",
     "curated": true
   },
-  "⻏": {
-    "hanviet": "ấp",
-    "curated": true
+  "阝": {
+    "hanviet": "Ấp",
+    "meaning": "Vùng đất",
+    "curated": false
   },
   "⻖": {
-    "hanviet": "phụ",
+    "hanviet": "Phụ",
     "curated": true
   },
   "完": {
-    "hanviet": "hoàn",
-    "curated": true
+    "hanviet": "Hoàn",
+    "curated": false
   },
   "吾": {
-    "hanviet": "ngô",
+    "hanviet": "Ngô",
     "curated": true
   },
   "辛": {
-    "hanviet": "tân",
-    "curated": true
+    "hanviet": "Tân",
+    "meaning": "Cay",
+    "curated": false
   },
   "釆": {
-    "hanviet": "biện",
-    "curated": true
+    "hanviet": "Biện",
+    "meaning": "Phân biệt",
+    "curated": false
   },
   "戸": {
-    "hanviet": "hộ",
-    "curated": true
+    "hanviet": "Hộ",
+    "meaning": "Cánh cửa",
+    "curated": false
   },
   "殳": {
-    "hanviet": "thù",
-    "curated": true
+    "hanviet": "Thù",
+    "meaning": "Binh khí",
+    "curated": false
   },
   "吏": {
-    "hanviet": "lại",
+    "hanviet": "Lại",
     "curated": true
   },
   "翟": {
-    "hanviet": "địch",
+    "hanviet": "Địch",
     "curated": true
   },
   "乍": {
-    "hanviet": "sạ",
+    "hanviet": "Sạ",
     "curated": true
   },
   "延": {
-    "hanviet": "diên",
-    "curated": true
+    "hanviet": "Diên",
+    "curated": false
   },
   "扌": {
-    "hanviet": "thủ",
-    "curated": true
+    "hanviet": "Bộ thủ",
+    "curated": false
   },
   "旨": {
-    "hanviet": "chỉ",
+    "hanviet": "Chỉ",
     "curated": true
   },
   "侖": {
-    "hanviet": "luân",
+    "hanviet": "Luân",
     "curated": true
   },
   "青": {
-    "hanviet": "thanh",
-    "curated": true
+    "hanviet": "Thanh",
+    "meaning": "Màu xanh",
+    "curated": false
   },
   "雲": {
     "hanviet": "Vân",
     "curated": false
   },
   "隹": {
-    "hanviet": "chuy",
-    "curated": true
+    "hanviet": "Truy",
+    "meaning": "Chim",
+    "curated": false
   },
   "建": {
-    "hanviet": "kiến",
-    "curated": true
+    "hanviet": "Kiến",
+    "curated": false
   },
   "戠": {
-    "hanviet": "thức",
+    "hanviet": "Thức",
     "curated": true
   },
   "果": {
-    "hanviet": "quả",
-    "curated": true
+    "hanviet": "Quả",
+    "curated": false
   },
   "廾": {
-    "hanviet": "củng",
-    "curated": true
+    "hanviet": "Củng",
+    "meaning": "Chắp tay",
+    "curated": false
   },
   "广": {
-    "hanviet": "nghiễm",
-    "curated": true
+    "hanviet": "Nghiễm",
+    "meaning": "Mái hiên",
+    "curated": false
   },
   "占": {
-    "hanviet": "chiêm",
-    "curated": true
+    "hanviet": "Chiếm",
+    "curated": false
   },
   "周": {
-    "hanviet": "chu",
-    "curated": true
+    "hanviet": "Chu",
+    "curated": false
   },
   "至": {
-    "hanviet": "chí",
-    "curated": true
+    "hanviet": "Chí",
+    "meaning": "Kịp, đến",
+    "curated": false
   },
   "馬": {
     "hanviet": "Mã",
+    "meaning": "Con ngựa",
     "curated": false
   },
   "尺": {
-    "hanviet": "xích",
+    "hanviet": "Xích",
     "curated": true
   },
   "咅": {
-    "hanviet": "bồi",
+    "hanviet": "Bồi",
     "curated": true
   },
   "也": {
-    "hanviet": "dã",
+    "hanviet": "Dã",
     "curated": true
   },
   "失": {
-    "hanviet": "thất",
-    "curated": true
+    "hanviet": "Thất",
+    "curated": false
   },
   "取": {
-    "hanviet": "thủ",
-    "curated": true
+    "hanviet": "Thủ",
+    "curated": false
   },
   "亜": {
-    "hanviet": "á",
+    "hanviet": "Á",
     "curated": true
   },
   "心": {
     "hanviet": "Tâm",
+    "meaning": "Trái tim",
     "curated": false
   },
   "者": {
     "hanviet": "Giả",
     "curated": false
   },
-  "⺨": {
-    "hanviet": "khuyển",
-    "curated": true
+  "犭": {
+    "hanviet": "Bộ khuyển",
+    "curated": false
   },
   "夹": {
-    "hanviet": "giáp",
+    "hanviet": "Giáp",
     "curated": true
   },
   "三": {
@@ -692,19 +794,20 @@
     "curated": false
   },
   "冫": {
-    "hanviet": "băng",
-    "curated": true
+    "hanviet": "2 chấm băng",
+    "meaning": "Nước lạnh",
+    "curated": false
   },
   "忄": {
-    "hanviet": "tâm",
-    "curated": true
+    "hanviet": "Bộ tâm",
+    "curated": false
   },
   "亡": {
-    "hanviet": "vong",
-    "curated": true
+    "hanviet": "Vong",
+    "curated": false
   },
   "叚": {
-    "hanviet": "hà",
+    "hanviet": "Hà",
     "curated": true
   },
   "九": {
@@ -712,15 +815,16 @@
     "curated": false
   },
   "衤": {
-    "hanviet": "y",
-    "curated": true
+    "hanviet": "Bộ y",
+    "curated": false
   },
   "复": {
-    "hanviet": "phục",
+    "hanviet": "Phục",
     "curated": true
   },
   "竹": {
     "hanviet": "Trúc",
+    "meaning": "Tre trúc",
     "curated": false
   },
   "間": {
@@ -728,43 +832,46 @@
     "curated": false
   },
   "甲": {
-    "hanviet": "giáp",
+    "hanviet": "Giáp",
     "curated": true
   },
   "争": {
-    "hanviet": "tranh",
-    "curated": true
+    "hanviet": "Tranh",
+    "curated": false
   },
   "寍": {
-    "hanviet": "ninh",
+    "hanviet": "Ninh",
     "curated": true
   },
   "犬": {
     "hanviet": "Khuyển",
+    "meaning": "Con chó",
     "curated": false
   },
   "受": {
-    "hanviet": "thụ",
-    "curated": true
+    "hanviet": "Thụ",
+    "curated": false
   },
   "业": {
-    "hanviet": "nghiệp",
+    "hanviet": "Nghiệp",
     "curated": true
   },
   "羊": {
-    "hanviet": "dương",
-    "curated": true
+    "hanviet": "Dương",
+    "meaning": "Con dê",
+    "curated": false
   },
   "叔": {
-    "hanviet": "thúc",
+    "hanviet": "Thúc",
     "curated": true
   },
   "面": {
-    "hanviet": "diện",
-    "curated": true
+    "hanviet": "Diện",
+    "meaning": "Bề mặt",
+    "curated": false
   },
   "啇": {
-    "hanviet": "đích",
+    "hanviet": "Đích",
     "curated": true
   },
   "七": {
@@ -773,22 +880,24 @@
   },
   "糸": {
     "hanviet": "Mịch",
+    "meaning": "Sợi tơ",
     "curated": false
   },
   "義": {
-    "hanviet": "nghĩa",
-    "curated": true
+    "hanviet": "Nghĩa",
+    "curated": false
   },
   "豆": {
-    "hanviet": "đậu",
-    "curated": true
+    "hanviet": "Đậu",
+    "meaning": "Hạt đậu",
+    "curated": false
   },
   "亦": {
-    "hanviet": "diệc",
+    "hanviet": "Diệc",
     "curated": true
   },
   "畐": {
-    "hanviet": "bức",
+    "hanviet": "Bức",
     "curated": true
   },
   "今": {
@@ -796,159 +905,163 @@
     "curated": false
   },
   "昜": {
-    "hanviet": "dương",
+    "hanviet": "Dương",
     "curated": true
   },
   "歹": {
-    "hanviet": "đãi",
-    "curated": true
+    "hanviet": "Ngạt",
+    "meaning": "Xấu xa",
+    "curated": false
   },
   "戋": {
-    "hanviet": "tiễn",
+    "hanviet": "Tiễn",
     "curated": true
   },
   "廴": {
-    "hanviet": "dẫn",
-    "curated": true
+    "hanviet": "Dẫn",
+    "meaning": "Bước dài",
+    "curated": false
   },
   "憂": {
-    "hanviet": "ưu",
+    "hanviet": "Ưu",
     "curated": true
   },
   "未": {
-    "hanviet": "vị",
+    "hanviet": "Vị",
     "curated": true
   },
   "示": {
-    "hanviet": "thị",
-    "curated": true
+    "hanviet": "Thị",
+    "meaning": "Chỉ thị",
+    "curated": false
   },
   "式": {
-    "hanviet": "thức",
-    "curated": true
+    "hanviet": "Thức",
+    "curated": false
   },
   "弓": {
-    "hanviet": "cung",
-    "curated": true
+    "hanviet": "Cung",
+    "meaning": "Cung tên",
+    "curated": false
   },
   "虫": {
     "hanviet": "Trùng",
+    "meaning": "Côn trùng",
     "curated": false
   },
   "免": {
-    "hanviet": "miễn",
+    "hanviet": "Miễn",
     "curated": true
   },
   "刑": {
-    "hanviet": "hình",
-    "curated": true
-  },
-  "⺷": {
-    "hanviet": "dương",
+    "hanviet": "Hình",
     "curated": true
   },
   "谷": {
     "hanviet": "Cốc",
+    "meaning": "Thung lũng",
     "curated": false
   },
   "廷": {
-    "hanviet": "đình",
+    "hanviet": "Đình",
     "curated": true
   },
   "袁": {
-    "hanviet": "viên",
+    "hanviet": "Viên",
     "curated": true
   },
   "奇": {
-    "hanviet": "kỳ",
-    "curated": true
+    "hanviet": "Kỳ",
+    "curated": false
   },
   "才": {
     "hanviet": "Tài",
     "curated": false
   },
   "几": {
-    "hanviet": "kỷ",
-    "curated": true
+    "hanviet": "Kỉ",
+    "meaning": "Cái ghế",
+    "curated": false
   },
   "具": {
     "hanviet": "Cụ",
     "curated": false
   },
   "相": {
-    "hanviet": "tương",
-    "curated": true
+    "hanviet": "Tương",
+    "curated": false
   },
   "黄": {
     "hanviet": "Hoàng",
+    "meaning": "Màu vàng",
     "curated": false
   },
   "肖": {
-    "hanviet": "tiếu",
+    "hanviet": "Tiếu",
     "curated": true
   },
   "粦": {
-    "hanviet": "lân",
+    "hanviet": "Lân",
     "curated": true
   },
   "皆": {
-    "hanviet": "giai",
+    "hanviet": "Giai",
     "curated": true
   },
   "由": {
-    "hanviet": "do",
-    "curated": true
+    "hanviet": "Do",
+    "curated": false
   },
   "尚": {
-    "hanviet": "thượng",
+    "hanviet": "Thượng",
     "curated": true
   },
   "矛": {
-    "hanviet": "mâu",
-    "curated": true
+    "hanviet": "Mâu",
+    "meaning": "Mẫu thuẫn",
+    "curated": false
   },
   "穴": {
-    "hanviet": "huyệt",
-    "curated": true
+    "hanviet": "Huyệt",
+    "meaning": "Lỗ",
+    "curated": false
   },
   "昷": {
-    "hanviet": "ôn",
+    "hanviet": "Ôn",
     "curated": true
   },
   "苗": {
-    "hanviet": "miêu",
+    "hanviet": "Miêu",
     "curated": true
   },
   "布": {
-    "hanviet": "bố",
-    "curated": true
+    "hanviet": "Bố",
+    "curated": false
   },
   "息": {
-    "hanviet": "tức",
-    "curated": true
+    "hanviet": "Tức",
+    "curated": false
   },
   "代": {
-    "hanviet": "đại",
-    "curated": true
+    "hanviet": "Đại",
+    "curated": false
   },
   "衣": {
-    "hanviet": "y",
-    "curated": true
+    "hanviet": "Bộ y",
+    "curated": false
   },
   "皿": {
     "hanviet": "Mãnh",
-    "curated": false
-  },
-  "止": {
-    "hanviet": "Chỉ",
+    "meaning": "Cái đĩa",
     "curated": false
   },
   "戌": {
-    "hanviet": "tuất",
-    "curated": true
+    "hanviet": "Tuất",
+    "meaning": "Giờ tuất",
+    "curated": false
   },
   "埶": {
-    "hanviet": "nghệ",
+    "hanviet": "Nghệ",
     "curated": true
   },
   "動": {
@@ -960,76 +1073,84 @@
     "curated": false
   },
   "皮": {
-    "hanviet": "bì",
-    "curated": true
+    "hanviet": "Bì",
+    "meaning": "Da",
+    "curated": false
   },
   "走": {
     "hanviet": "Tẩu",
+    "meaning": "Chạy",
     "curated": false
   },
   "己": {
-    "hanviet": "kỷ",
-    "curated": true
+    "hanviet": "Kỉ",
+    "meaning": "Bản thân",
+    "curated": false
   },
-  "⺦": {
-    "hanviet": "hỏa",
-    "curated": true
+  "丬": {
+    "hanviet": "Bộ tường",
+    "curated": false
   },
   "斿": {
-    "hanviet": "du",
+    "hanviet": "Du",
     "curated": true
   },
   "与": {
-    "hanviet": "dữ",
+    "hanviet": "Dữ",
     "curated": true
   },
   "冉": {
-    "hanviet": "nhiễm",
+    "hanviet": "Nhiễm",
     "curated": true
   },
   "尞": {
-    "hanviet": "liệu",
+    "hanviet": "Liệu",
     "curated": true
   },
   "旦": {
-    "hanviet": "đán",
+    "hanviet": "Đán",
     "curated": true
   },
   "厂": {
-    "hanviet": "hán",
-    "curated": true
+    "hanviet": "Hán",
+    "meaning": "Sườn núi",
+    "curated": false
   },
   "志": {
-    "hanviet": "chí",
+    "hanviet": "Chí",
     "curated": true
   },
   "革": {
-    "hanviet": "cách",
-    "curated": true
+    "hanviet": "Cách",
+    "meaning": "Cải cách",
+    "curated": false
   },
   "民": {
-    "hanviet": "dân",
-    "curated": true
+    "hanviet": "Dân",
+    "curated": false
   },
   "是": {
-    "hanviet": "thị",
+    "hanviet": "Thị",
     "curated": true
   },
   "自": {
     "hanviet": "Tự",
+    "meaning": "Bản thân",
     "curated": false
   },
   "兌": {
-    "hanviet": "đoài",
+    "hanviet": "Đoài",
     "curated": true
   },
   "卩": {
-    "hanviet": "tiết",
-    "curated": true
+    "hanviet": "Tiết",
+    "meaning": "Đốt tre",
+    "curated": false
   },
   "氏": {
-    "hanviet": "thị",
-    "curated": true
+    "hanviet": "Thị",
+    "meaning": "Họ",
+    "curated": false
   },
   "分": {
     "hanviet": "Phân",
@@ -1040,7 +1161,7 @@
     "curated": false
   },
   "固": {
-    "hanviet": "cố",
+    "hanviet": "Cố",
     "curated": true
   },
   "重": {
@@ -1052,39 +1173,39 @@
     "curated": false
   },
   "采": {
-    "hanviet": "thái",
+    "hanviet": "Thái",
     "curated": true
   },
   "幾": {
-    "hanviet": "cơ",
+    "hanviet": "Cơ",
     "curated": true
   },
   "共": {
-    "hanviet": "cộng",
+    "hanviet": "Cộng",
     "curated": true
   },
   "戒": {
-    "hanviet": "giới",
+    "hanviet": "Giới",
     "curated": true
   },
   "付": {
-    "hanviet": "phó",
-    "curated": true
+    "hanviet": "Phó",
+    "curated": false
   },
   "卯": {
-    "hanviet": "mão",
+    "hanviet": "Mão",
     "curated": true
   },
   "最": {
-    "hanviet": "tối",
-    "curated": true
+    "hanviet": "Tối",
+    "curated": false
   },
   "乡": {
-    "hanviet": "hương",
+    "hanviet": "Hương",
     "curated": true
   },
   "喬": {
-    "hanviet": "kiều",
+    "hanviet": "Kiều",
     "curated": true
   },
   "古": {
@@ -1092,23 +1213,23 @@
     "curated": false
   },
   "泉": {
-    "hanviet": "tuyền",
-    "curated": true
+    "hanviet": "Tuyền",
+    "curated": false
   },
   "升": {
-    "hanviet": "thăng",
+    "hanviet": "Thăng",
     "curated": true
   },
   "巴": {
-    "hanviet": "ba",
+    "hanviet": "Ba",
     "curated": true
   },
   "単": {
-    "hanviet": "đơn",
-    "curated": true
+    "hanviet": "Đơn",
+    "curated": false
   },
   "关": {
-    "hanviet": "quan",
+    "hanviet": "Quan",
     "curated": true
   },
   "会": {
@@ -1116,19 +1237,19 @@
     "curated": false
   },
   "娄": {
-    "hanviet": "lâu",
+    "hanviet": "Lâu",
     "curated": true
   },
   "求": {
-    "hanviet": "cầu",
+    "hanviet": "Cầu",
     "curated": true
   },
   "彔": {
-    "hanviet": "lục",
+    "hanviet": "Lục",
     "curated": true
   },
   "兼": {
-    "hanviet": "kiêm",
+    "hanviet": "Kiêm",
     "curated": true
   },
   "市": {
@@ -1136,7 +1257,7 @@
     "curated": false
   },
   "且": {
-    "hanviet": "thả",
+    "hanviet": "Thả",
     "curated": true
   },
   "北": {
@@ -1144,7 +1265,7 @@
     "curated": false
   },
   "弔": {
-    "hanviet": "điếu",
+    "hanviet": "Điếu",
     "curated": true
   },
   "京": {
@@ -1152,51 +1273,57 @@
     "curated": false
   },
   "身": {
-    "hanviet": "thân",
-    "curated": true
+    "hanviet": "Thân",
+    "meaning": "Bản thân",
+    "curated": false
   },
   "巷": {
-    "hanviet": "hạng",
+    "hanviet": "Hạng",
     "curated": true
   },
   "癶": {
-    "hanviet": "bát",
-    "curated": true
+    "hanviet": "Bát",
+    "meaning": "Trở lại",
+    "curated": false
   },
   "片": {
-    "hanviet": "phiến",
-    "curated": true
+    "hanviet": "Phiến",
+    "meaning": "Mảnh, tấm",
+    "curated": false
   },
   "勺": {
-    "hanviet": "chước",
+    "hanviet": "Chước",
     "curated": true
   },
   "佰": {
-    "hanviet": "bách",
+    "hanviet": "Bách",
     "curated": true
   },
   "冬": {
-    "hanviet": "đông",
-    "curated": true
+    "hanviet": "Đông",
+    "curated": false
   },
   "麻": {
-    "hanviet": "ma",
-    "curated": true
+    "hanviet": "Ma",
+    "meaning": "Ma túy",
+    "curated": false
   },
   "石": {
     "hanviet": "Thạch",
+    "meaning": "Đá",
     "curated": false
   },
   "隼": {
-    "hanviet": "chuẩn",
+    "hanviet": "Chuẩn",
     "curated": true
   },
   "用": {
-    "hanviet": "dụng",
-    "curated": true
+    "hanviet": "Dụng",
+    "meaning": "Sử dụng",
+    "curated": false
   },
   "余": {
-    "hanviet": "dư",
+    "hanviet": "Dư",
     "curated": true
   },
   "台": {
@@ -1204,7 +1331,7 @@
     "curated": false
   },
   "貫": {
-    "hanviet": "quán",
+    "hanviet": "Quán",
     "curated": true
   },
   "東": {
@@ -1212,15 +1339,16 @@
     "curated": false
   },
   "了": {
-    "hanviet": "liễu",
-    "curated": true
+    "hanviet": "Liễu",
+    "curated": false
   },
   "羽": {
     "hanviet": "Vũ",
+    "meaning": "Lông vũ",
     "curated": false
   },
   "氺": {
-    "hanviet": "thủy",
+    "hanviet": "Thủy",
     "curated": true
   },
   "元": {
@@ -1228,20 +1356,20 @@
     "curated": false
   },
   "乞": {
-    "hanviet": "khất",
+    "hanviet": "Khất",
     "curated": true
   },
   "介": {
-    "hanviet": "giới",
-    "curated": true
+    "hanviet": "Giới",
+    "curated": false
   },
   "各": {
-    "hanviet": "các",
+    "hanviet": "Các",
     "curated": true
   },
   "次": {
-    "hanviet": "thứ",
-    "curated": true
+    "hanviet": "Thứ",
+    "curated": false
   },
   "楽": {
     "hanviet": "Nhạc",
@@ -1252,11 +1380,12 @@
     "curated": false
   },
   "及": {
-    "hanviet": "cập",
+    "hanviet": "Cập",
     "curated": true
   },
   "色": {
     "hanviet": "Sắc",
+    "meaning": "Màu sắc",
     "curated": false
   },
   "主": {
@@ -1265,98 +1394,105 @@
   },
   "文": {
     "hanviet": "Văn",
+    "meaning": "Văn học",
     "curated": false
   },
   "直": {
-    "hanviet": "trực",
-    "curated": true
+    "hanviet": "Trực",
+    "curated": false
   },
   "甬": {
-    "hanviet": "dũng",
+    "hanviet": "Dũng",
     "curated": true
   },
   "夭": {
-    "hanviet": "yểu",
+    "hanviet": "Yểu",
     "curated": true
   },
   "并": {
-    "hanviet": "tính",
+    "hanviet": "Tính",
     "curated": true
   },
   "瓦": {
-    "hanviet": "ngõa",
-    "curated": true
+    "hanviet": "Ngõa",
+    "meaning": "Ngói",
+    "curated": false
   },
   "中": {
     "hanviet": "Trung",
     "curated": false
   },
   "洛": {
-    "hanviet": "lạc",
+    "hanviet": "Lạc",
     "curated": true
   },
   "吉": {
-    "hanviet": "cát",
+    "hanviet": "Cát",
     "curated": true
   },
   "到": {
-    "hanviet": "đáo",
+    "hanviet": "Đáo",
     "curated": true
   },
   "需": {
-    "hanviet": "nhu",
+    "hanviet": "Nhu",
     "curated": true
   },
   "害": {
-    "hanviet": "hại",
+    "hanviet": "Hại",
     "curated": true
   },
   "昏": {
-    "hanviet": "hôn",
+    "hanviet": "Hôn",
     "curated": true
   },
   "奄": {
-    "hanviet": "yểm",
+    "hanviet": "Yểm",
     "curated": true
   },
   "角": {
-    "hanviet": "giác",
-    "curated": true
+    "hanviet": "Giác",
+    "meaning": "Góc",
+    "curated": false
   },
   "彡": {
-    "hanviet": "sam",
-    "curated": true
+    "hanviet": "Sam",
+    "meaning": "Tóc",
+    "curated": false
   },
   "冓": {
-    "hanviet": "cấu",
+    "hanviet": "Cấu",
     "curated": true
   },
   "首": {
-    "hanviet": "thủ",
-    "curated": true
+    "hanviet": "Thủ",
+    "meaning": "Thủ tướng, cái cổ",
+    "curated": false
   },
   "非": {
-    "hanviet": "phi",
-    "curated": true
+    "hanviet": "Phi",
+    "meaning": "Phi thường",
+    "curated": false
   },
   "或": {
-    "hanviet": "hoặc",
+    "hanviet": "Hoặc",
     "curated": true
   },
   "宛": {
-    "hanviet": "uyển",
+    "hanviet": "Uyển",
     "curated": true
   },
   "忍": {
-    "hanviet": "nhẫn",
+    "hanviet": "Nhẫn",
     "curated": true
   },
   "弋": {
-    "hanviet": "dặc",
-    "curated": true
+    "hanviet": "Dặc",
+    "meaning": "Chiếm lấy",
+    "curated": false
   },
   "尭": {
-    "hanviet": "nghiêu",
+    "hanviet": "Nghiêu",
     "curated": true
   },
   "安": {
@@ -1364,75 +1500,83 @@
     "curated": false
   },
   "保": {
-    "hanviet": "bảo",
-    "curated": true
+    "hanviet": "Bảo",
+    "curated": false
   },
   "爰": {
-    "hanviet": "viên",
+    "hanviet": "Viên",
     "curated": true
   },
   "召": {
-    "hanviet": "triệu",
-    "curated": true
+    "hanviet": "Triệu",
+    "curated": false
   },
   "戈": {
-    "hanviet": "qua",
-    "curated": true
+    "hanviet": "Qua",
+    "meaning": "Cây qua",
+    "curated": false
   },
   "曷": {
-    "hanviet": "hạt",
+    "hanviet": "Hạt",
     "curated": true
   },
   "彦": {
-    "hanviet": "ngạn",
+    "hanviet": "Ngạn",
     "curated": true
   },
   "呂": {
-    "hanviet": "lữ",
-    "curated": true
+    "hanviet": "Lữ",
+    "curated": false
   },
   "司": {
-    "hanviet": "ty",
-    "curated": true
+    "hanviet": "Tư",
+    "curated": false
+  },
+  "隶": {
+    "hanviet": "Đãi",
+    "meaning": "Kịp đến",
+    "curated": false
   },
   "縣": {
-    "hanviet": "huyện",
+    "hanviet": "Huyện",
     "curated": true
   },
   "令": {
-    "hanviet": "lệnh",
+    "hanviet": "Lệnh",
     "curated": true
   },
   "臣": {
-    "hanviet": "thần",
-    "curated": true
+    "hanviet": "Thần",
+    "meaning": "Đại thần",
+    "curated": false
   },
   "莫": {
-    "hanviet": "mạc",
+    "hanviet": "Mạc",
     "curated": true
   },
   "契": {
-    "hanviet": "khế",
-    "curated": true
+    "hanviet": "Khế",
+    "curated": false
   },
   "成": {
-    "hanviet": "thành",
-    "curated": true
+    "hanviet": "Thành",
+    "curated": false
   },
   "両": {
-    "hanviet": "lưỡng",
-    "curated": true
+    "hanviet": "Lưỡng",
+    "curated": false
   },
   "骨": {
-    "hanviet": "cốt",
-    "curated": true
+    "hanviet": "Cốt",
+    "meaning": "Xương",
+    "curated": false
   },
   "則": {
-    "hanviet": "tắc",
-    "curated": true
+    "hanviet": "Tắc",
+    "curated": false
   },
   "灰": {
-    "hanviet": "hôi",
+    "hanviet": "Hôi",
     "curated": true
   },
   "客": {
@@ -1441,38 +1585,40 @@
   },
   "鳥": {
     "hanviet": "Điểu",
+    "meaning": "Con chim",
     "curated": false
   },
-  "⺤": {
-    "hanviet": "trảo",
-    "curated": true
+  "爫": {
+    "hanviet": "Bộ trảo",
+    "curated": false
   },
   "曲": {
-    "hanviet": "khúc",
-    "curated": true
+    "hanviet": "Khúc",
+    "curated": false
   },
   "幸": {
-    "hanviet": "hạnh",
-    "curated": true
+    "hanviet": "Hạnh",
+    "curated": false
   },
   "孚": {
-    "hanviet": "phu",
+    "hanviet": "Phu",
     "curated": true
   },
   "束": {
-    "hanviet": "thúc",
-    "curated": true
+    "hanviet": "Thúc",
+    "curated": false
   },
   "舛": {
-    "hanviet": "suyễn",
-    "curated": true
+    "hanviet": "Suyễn",
+    "meaning": "Sai lầm",
+    "curated": false
   },
   "俞": {
-    "hanviet": "du",
+    "hanviet": "Du",
     "curated": true
   },
   "亟": {
-    "hanviet": "cức",
+    "hanviet": "Cức",
     "curated": true
   },
   "去": {
@@ -1480,32 +1626,35 @@
     "curated": false
   },
   "舎": {
-    "hanviet": "xá",
-    "curated": true
+    "hanviet": "Xá",
+    "curated": false
   },
   "加": {
-    "hanviet": "gia",
-    "curated": true
+    "hanviet": "Gia",
+    "curated": false
   },
   "足": {
     "hanviet": "Túc",
+    "meaning": "Chân",
     "curated": false
   },
   "巛": {
-    "hanviet": "xuyên",
-    "curated": true
+    "hanviet": "Bộ xuyên",
+    "curated": false
   },
   "辰": {
-    "hanviet": "thìn",
-    "curated": true
+    "hanviet": "Thần",
+    "meaning": "Thìn",
+    "curated": false
   },
   "烝": {
-    "hanviet": "chưng",
+    "hanviet": "Chưng",
     "curated": true
   },
   "支": {
-    "hanviet": "chi",
-    "curated": true
+    "hanviet": "Chi",
+    "meaning": "Chi nhánh",
+    "curated": false
   },
   "合": {
     "hanviet": "Hợp",
@@ -1513,90 +1662,93 @@
   },
   "魚": {
     "hanviet": "Ngư",
+    "meaning": "Con cá",
     "curated": false
   },
   "帛": {
-    "hanviet": "bạch",
+    "hanviet": "Bạch",
     "curated": true
   },
   "禽": {
-    "hanviet": "cầm",
+    "hanviet": "Cầm",
     "curated": true
   },
   "喿": {
-    "hanviet": "táo",
+    "hanviet": "Táo",
     "curated": true
   },
   "責": {
-    "hanviet": "trách",
+    "hanviet": "Trách",
     "curated": true
   },
   "鹵": {
-    "hanviet": "lỗ",
+    "hanviet": "Lỗ",
     "curated": true
   },
   "戊": {
-    "hanviet": "mậu",
-    "curated": true
+    "hanviet": "Mâu",
+    "meaning": "Bụi cây",
+    "curated": false
   },
   "耑": {
-    "hanviet": "đoan",
+    "hanviet": "Đoan",
     "curated": true
   },
   "井": {
-    "hanviet": "tỉnh",
+    "hanviet": "Tỉnh",
     "curated": true
   },
   "歯": {
-    "hanviet": "xỉ",
-    "curated": true
+    "hanviet": "Xỉ",
+    "curated": false
   },
   "系": {
-    "hanviet": "hệ",
-    "curated": true
+    "hanviet": "Hệ",
+    "curated": false
   },
   "歩": {
     "hanviet": "Bộ",
     "curated": false
   },
   "奐": {
-    "hanviet": "hoán",
+    "hanviet": "Hoán",
     "curated": true
   },
   "祭": {
-    "hanviet": "tế",
-    "curated": true
+    "hanviet": "Tế",
+    "curated": false
   },
   "章": {
-    "hanviet": "chương",
+    "hanviet": "Chương",
     "curated": true
   },
   "焦": {
-    "hanviet": "tiêu",
+    "hanviet": "Tiêu",
     "curated": true
   },
   "玄": {
-    "hanviet": "huyền",
-    "curated": true
+    "hanviet": "Huyền",
+    "meaning": "Màu đen",
+    "curated": false
   },
   "告": {
-    "hanviet": "cáo",
-    "curated": true
+    "hanviet": "Cáo",
+    "curated": false
   },
   "戍": {
-    "hanviet": "thú",
+    "hanviet": "Thú",
     "curated": true
   },
   "票": {
-    "hanviet": "phiếu",
+    "hanviet": "Phiếu",
     "curated": true
   },
   "丘": {
-    "hanviet": "khâu",
+    "hanviet": "Khâu",
     "curated": true
   },
   "象": {
-    "hanviet": "tượng",
+    "hanviet": "Tượng",
     "curated": true
   },
   "区": {
@@ -1604,63 +1756,67 @@
     "curated": false
   },
   "巻": {
-    "hanviet": "quyển",
-    "curated": true
+    "hanviet": "Quyển",
+    "curated": false
   },
   "家": {
     "hanviet": "Gia",
     "curated": false
   },
   "復": {
-    "hanviet": "phục",
-    "curated": true
+    "hanviet": "Phục",
+    "curated": false
   },
   "斉": {
-    "hanviet": "tề",
-    "curated": true
+    "hanviet": "Tề",
+    "meaning": "Ngang bằng",
+    "curated": false
   },
   "列": {
-    "hanviet": "liệt",
-    "curated": true
+    "hanviet": "Liệt",
+    "curated": false
   },
   "呈": {
-    "hanviet": "trình",
+    "hanviet": "Trình",
     "curated": true
   },
   "竟": {
-    "hanviet": "cánh",
+    "hanviet": "Cánh",
     "curated": true
   },
   "耒": {
-    "hanviet": "lỗi",
-    "curated": true
+    "hanviet": "Lỗi",
+    "meaning": "Cái cày",
+    "curated": false
   },
   "昔": {
-    "hanviet": "tích",
-    "curated": true
+    "hanviet": "Tích",
+    "curated": false
   },
   "甫": {
-    "hanviet": "phủ",
+    "hanviet": "Phủ",
     "curated": true
   },
   "任": {
-    "hanviet": "nhiệm",
-    "curated": true
+    "hanviet": "Nhiệm",
+    "curated": false
   },
   "牙": {
-    "hanviet": "nha",
-    "curated": true
+    "hanviet": "Nha",
+    "meaning": "Răng nanh",
+    "curated": false
   },
   "行": {
     "hanviet": "Hành",
+    "meaning": "Đi, ngân hàng",
     "curated": false
   },
   "朮": {
-    "hanviet": "truật",
+    "hanviet": "Truật",
     "curated": true
   },
   "咸": {
-    "hanviet": "hàm",
+    "hanviet": "Hàm",
     "curated": true
   },
   "右": {
@@ -1668,39 +1824,40 @@
     "curated": false
   },
   "弗": {
-    "hanviet": "phất",
+    "hanviet": "Phất",
     "curated": true
   },
   "庄": {
-    "hanviet": "trang",
+    "hanviet": "Trang",
     "curated": true
   },
   "叟": {
-    "hanviet": "tẩu",
+    "hanviet": "Tẩu",
     "curated": true
   },
   "筑": {
-    "hanviet": "trúc",
+    "hanviet": "Trúc",
     "curated": true
   },
   "勹": {
-    "hanviet": "bao",
-    "curated": true
+    "hanviet": "Bao",
+    "meaning": "Bao bọc",
+    "curated": false
   },
   "正": {
     "hanviet": "Chính",
     "curated": false
   },
   "虚": {
-    "hanviet": "hư",
+    "hanviet": "Hư",
     "curated": true
   },
   "兆": {
-    "hanviet": "triệu",
+    "hanviet": "Triệu",
     "curated": true
   },
   "屰": {
-    "hanviet": "nghịch",
+    "hanviet": "Nghịch",
     "curated": true
   },
   "然": {
@@ -1708,16 +1865,16 @@
     "curated": false
   },
   "敬": {
-    "hanviet": "kính",
-    "curated": true
+    "hanviet": "Kính",
+    "curated": false
   },
   "亥": {
-    "hanviet": "hợi",
+    "hanviet": "Hợi",
     "curated": true
   },
   "充": {
-    "hanviet": "sung",
-    "curated": true
+    "hanviet": "Sung",
+    "curated": false
   },
   "内": {
     "hanviet": "Nội",
@@ -1728,71 +1885,73 @@
     "curated": false
   },
   "卦": {
-    "hanviet": "quái",
+    "hanviet": "Quái",
     "curated": true
   },
   "我": {
-    "hanviet": "ngã",
-    "curated": true
+    "hanviet": "Ngã",
+    "curated": false
   },
   "将": {
-    "hanviet": "tướng",
-    "curated": true
+    "hanviet": "Tương",
+    "curated": false
   },
   "缶": {
-    "hanviet": "phẫu",
-    "curated": true
+    "hanviet": "Phẫu",
+    "meaning": "Đồ sành",
+    "curated": false
   },
   "允": {
-    "hanviet": "doãn",
+    "hanviet": "Doãn",
     "curated": true
   },
   "孰": {
-    "hanviet": "thục",
+    "hanviet": "Thục",
     "curated": true
   },
   "离": {
-    "hanviet": "ly",
+    "hanviet": "Ly",
     "curated": true
   },
   "肋": {
-    "hanviet": "lặc",
+    "hanviet": "Lặc",
     "curated": true
   },
   "舟": {
-    "hanviet": "chu",
-    "curated": true
+    "hanviet": "Chu",
+    "meaning": "Thuyền",
+    "curated": false
   },
   "亢": {
-    "hanviet": "kháng",
+    "hanviet": "Kháng",
     "curated": true
   },
   "意": {
-    "hanviet": "ý",
-    "curated": true
+    "hanviet": "Ý",
+    "curated": false
   },
   "苟": {
-    "hanviet": "cẩu",
+    "hanviet": "Cẩu",
     "curated": true
   },
   "厄": {
-    "hanviet": "ách",
+    "hanviet": "Ách",
     "curated": true
   },
   "唐": {
-    "hanviet": "đường",
+    "hanviet": "Đường",
     "curated": true
   },
   "帝": {
-    "hanviet": "đế",
+    "hanviet": "Đế",
     "curated": true
   },
   "要": {
-    "hanviet": "yếu",
-    "curated": true
+    "hanviet": "Yếu",
+    "curated": false
   },
   "冒": {
-    "hanviet": "mạo",
+    "hanviet": "Mạo",
     "curated": true
   },
   "同": {
@@ -1800,23 +1959,23 @@
     "curated": false
   },
   "申": {
-    "hanviet": "thân",
-    "curated": true
+    "hanviet": "Thân",
+    "curated": false
   },
   "昆": {
-    "hanviet": "côn",
+    "hanviet": "Côn",
     "curated": true
   },
   "即": {
-    "hanviet": "tức",
+    "hanviet": "Tức",
     "curated": true
   },
   "秀": {
-    "hanviet": "tú",
+    "hanviet": "Tú",
     "curated": true
   },
   "巽": {
-    "hanviet": "tốn",
+    "hanviet": "Tốn",
     "curated": true
   },
   "男": {
@@ -1824,19 +1983,20 @@
     "curated": false
   },
   "敢": {
-    "hanviet": "cảm",
+    "hanviet": "Cảm",
     "curated": true
   },
   "溥": {
-    "hanviet": "phổ",
+    "hanviet": "Phổ",
     "curated": true
   },
   "良": {
     "hanviet": "Lương",
+    "meaning": "Tốt",
     "curated": false
   },
   "劵": {
-    "hanviet": "khoán",
+    "hanviet": "Khoán",
     "curated": true
   },
   "以": {
@@ -1844,19 +2004,19 @@
     "curated": false
   },
   "涂": {
-    "hanviet": "đồ",
+    "hanviet": "Đồ",
     "curated": true
   },
   "曽": {
-    "hanviet": "tằng",
+    "hanviet": "Tằng",
     "curated": true
   },
   "奴": {
-    "hanviet": "nô",
+    "hanviet": "Nô",
     "curated": true
   },
   "崔": {
-    "hanviet": "thôi",
+    "hanviet": "Thôi",
     "curated": true
   },
   "度": {
@@ -1868,11 +2028,11 @@
     "curated": false
   },
   "尤": {
-    "hanviet": "vưu",
+    "hanviet": "Vưu",
     "curated": true
   },
   "敕": {
-    "hanviet": "sắc",
+    "hanviet": "Sắc",
     "curated": true
   },
   "番": {
@@ -1880,19 +2040,19 @@
     "curated": false
   },
   "曼": {
-    "hanviet": "mạn",
+    "hanviet": "Mạn",
     "curated": true
   },
   "壬": {
-    "hanviet": "nhâm",
+    "hanviet": "Nhâm",
     "curated": true
   },
   "射": {
-    "hanviet": "xạ",
+    "hanviet": "Xạ",
     "curated": true
   },
   "攸": {
-    "hanviet": "du",
+    "hanviet": "Du",
     "curated": true
   },
   "午": {

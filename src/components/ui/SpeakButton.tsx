@@ -4,7 +4,7 @@ import { useTranslation } from "@/lib/useTranslation"
 
 interface SpeakButtonProps {
   /** What to read aloud. Pass the word's *kana* reading, not its kanji
-   *  spelling -- the synthetic voice guesses at readings for kanji it
+   *  spelling - the synthetic voice guesses at readings for kanji it
    *  hasn't seen in context (今日, 一日, 何, counters like 一本...) and can
    *  guess wrong, which is worse than no button in a learning app. Full
    *  example sentences are the exception: pass their `ja` form, since
@@ -28,7 +28,7 @@ const SIZE_PX = { sm: 15, md: 19 }
 
 /**
  * Speaker icon button that reads `text` aloud via the device's built-in
- * Japanese voice (see src/lib/speech.ts) -- no audio files, no network call.
+ * Japanese voice (see src/lib/speech.ts) - no audio files, no network call.
  * Pulses while its own utterance is the one playing; tapping a different
  * SpeakButton interrupts it, matching how a single voice can only say one
  * thing at a time.
@@ -36,7 +36,7 @@ const SIZE_PX = { sm: 15, md: 19 }
 export function SpeakButton({ text, size = "sm", className = "", style }: SpeakButtonProps) {
   const { t } = useTranslation()
   const id = useId()
-  // A boolean snapshot, not the raw active id -- with dozens/hundreds of
+  // A boolean snapshot, not the raw active id - with dozens/hundreds of
   // SpeakButtons mounted (a scrolled Vocab list), returning the shared id
   // would re-render every one of them on every start/end instead of just
   // the two whose active-ness actually changed.
@@ -44,7 +44,7 @@ export function SpeakButton({ text, size = "sm", className = "", style }: SpeakB
   // The only thing worth disabling for: no such device API at all. Whether
   // a Japanese voice is loaded can't be known reliably up front (getVoices()
   // legitimately stays briefly empty, especially on iOS, right up until it
-  // isn't) -- disabling on that would show a dead-looking button on exactly
+  // isn't) - disabling on that would show a dead-looking button on exactly
   // the platform this app targets.
   const disabled = !isSpeechSupported() || !text.trim()
   const label = t("common.playPronunciation", { text })

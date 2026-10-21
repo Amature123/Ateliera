@@ -67,11 +67,11 @@ export function cleanReadings(readings: string[], limit: number = MAX_READINGS_S
   return { shown: cleaned.slice(0, limit), extra: Math.max(0, cleaned.length - limit) }
 }
 
-// -- Anchor kanji lookup (KanjiDrawer's primary source) --------------------
+// - Anchor kanji lookup (KanjiDrawer's primary source) --------------------
 // Every kanji.json "leading kanji" (N5 + N4, 248 unique anchors) with its
 // full textbook-verified detail: on/kun readings, bilingual meaning, and
 // which level/chapter it belongs to. Non-anchor characters (everything else
-// that shows up in vocab) fall back to kanji-readings.json instead -- see
+// that shows up in vocab) fall back to kanji-readings.json instead - see
 // build-kanji-readings.mjs and KanjiDrawer's lookup order.
 export interface KanjiDetail {
   group: KanjiGroup
@@ -97,7 +97,7 @@ function buildKanjiIndex(): Map<string, KanjiDetail> {
 
 export const KANJI_INDEX = buildKanjiIndex()
 
-// -- Pitch accent for kanji-group compound words ----------------------------
+// - Pitch accent for kanji-group compound words ----------------------------
 // KanjiGroup.words (kanji.json's per-anchor "related words" list, e.g. shown
 // in KanjiGroupModal) is a separate dataset from vocabulary.json and doesn't
 // carry its own `pitch` field. Rather than run a second, independent
@@ -105,7 +105,7 @@ export const KANJI_INDEX = buildKanjiIndex()
 // but for a smaller and less-central list), this looks up the word's pitch
 // from vocabulary.json's already-verified data by exact (kanji, kana) pair.
 // Words with no vocab counterpart simply get no pitch accent shown.
-// Built lazily from the loaded vocabulary (both levels -- kanji groups span
+// Built lazily from the loaded vocabulary (both levels - kanji groups span
 // N5 and N4) instead of at module load, so importing this file no longer
 // pulls the vocab chunks into every page that just needs a kanji helper.
 let wordPitchIndex: Promise<Map<string, number>> | null = null
@@ -131,4 +131,12 @@ export function usePitchForWord(): (kanji: string, kana: string) => number | und
     return () => { cancelled = true }
   }, [])
   return useCallback((kanji, kana) => index?.get(`${kanji} ${kana}`), [index])
+}
+
+// Prev/next order for the kanji drawer: textbook anchors in chapter order
+// (N5 then N4), then every other kanji the stroke data covers.
+export function kanjiOrder(allChars: string[]): string[] {
+  const anchors = [...KANJI_INDEX.keys()]
+  const seen = new Set(anchors)
+  return [...anchors, ...allChars.filter(c => !seen.has(c))]
 }

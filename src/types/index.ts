@@ -9,13 +9,13 @@
   jlptLevel: string
   // N5 words carry a textbook `chapter` (1-15, source: kanjis.tex chapters
   // + the N5-supplement chapter). N4's original source was a thematic word
-  // list with no chapters -- those entries carry `category` instead. Two
+  // list with no chapters - those entries carry `category` instead. Two
   // chaptered N4 sources have since backfilled `chapter` (15-24 via
   // apply-n4-chapters.mjs, 24-33 via apply-n4-chapters-25-33.mjs +
   // add-n4-bai25-33-vocab.mjs) onto most entries; chapters 1-14 aren't
   // sourced yet, so a residual handful of N4 entries still have `category`
   // only and omit `chapter`. Both fields can be present at once. Never treat
-  // a missing chapter as chapter 0 -- 0 is a corruption signal in this
+  // a missing chapter as chapter 0 - 0 is a corruption signal in this
   // codebase's history, not a valid "no chapter" value.
   chapter?: number
   category?: string
@@ -25,10 +25,10 @@
   examples: Array<{ ja: string; kana: string; vi: string; en: string }>
   // Pitch accent (アクセント), NHK/OJAD convention: the mora index (counting
   // from 1) after which the pitch drops from high to low, or 0 for heiban
-  // (no drop -- stays low-high-high...), always measured against this
-  // entry's own `kana` (never a different conjugated/citation form -- see
+  // (no drop - stays low-high-high...), always measured against this
+  // entry's own `kana` (never a different conjugated/citation form - see
   // scripts/enrich-pitch-accent.mjs). Sourced from the Kanjium pitch-accent
-  // dataset; left absent (never 0-as-placeholder -- 0 is heiban, a real
+  // dataset; left absent (never 0-as-placeholder - 0 is heiban, a real
   // value) when no confident match against `kana` itself was found, e.g.
   // ます-form verbs and する-compounds (kanjium indexes the dictionary
   // form, a different string), true homophones the source doesn't
@@ -37,7 +37,7 @@
   pitch?: number
 }
 
-// -- Grammar Expansion V2 -----------------------------------------------
+// - Grammar Expansion V2 -----------------------------------------------
 // Adds a deeper taxonomy (formation rules, pragmatics, pitfalls, rich
 // examples) on top of the original GrammarPoint fields below, rather than
 // a parallel "EnhancedGrammarPoint" the app would have to discriminate
@@ -49,7 +49,9 @@ export type ToneType = 'formal' | 'casual' | 'polite' | 'written' | 'spoken' | '
 
 export interface ConnectionRule {
   pos: PosType
-  form: string // e.g. 'Dictionary form (辞書形)', 'て-form', 'Stem (ます-stem)'
+  form: string // original mixed-language label; the UI reads formVi / formEn (scripts/localize-formation.mjs)
+  formVi?: string // fully Vietnamese label
+  formEn?: string // fully English label
   particle?: string // optional connecting particle, e.g. 'の', 'な'
   exampleStr: string // e.g. '食べる ＋ ほうがいい'
 }
@@ -57,7 +59,7 @@ export interface ConnectionRule {
 export interface Pragmatics {
   tones: ToneType[]
   // Bilingual like every other content field (meaning, explanation,
-  // contextualExplanation...) -- these render under localized labels
+  // contextualExplanation...) - these render under localized labels
   // (t('grammar.pragmatics.*')), so the content itself must localize too.
   intent?: { vi: string; en: string } // what the speaker achieves, e.g. 'Giving advice'
   emotionalNuance?: { vi: string; en: string } // e.g. 'Can sound bossy or condescending to superiors'
@@ -90,7 +92,7 @@ export interface EnhancedGrammarExample {
   audioStub?: string // e.g. 'g_136_ex1.mp3' or absent
 }
 
-/** The subset of a GrammarPoint that cross-link chips render -- served from
+/** The subset of a GrammarPoint that cross-link chips render - served from
  *  the slim build-time index (src/data/grammar-links.ts). */
 export type GrammarLink = Pick<GrammarPoint, 'id' | 'pattern' | 'patternRuby' | 'meaning' | 'category' | 'requiredVerbForm'>
 
@@ -112,7 +114,7 @@ export interface GrammarPoint {
   tags: string[]
   requiredVerbForm: string[]
 
-  // Grammar Expansion V2 (optional -- absent/empty on unmigrated records)
+  // Grammar Expansion V2 (optional - absent/empty on unmigrated records)
   formationRules?: ConnectionRule[]
   pragmatics?: Pragmatics
   notesAndPitfalls?: GrammarPitfall[]
@@ -124,13 +126,13 @@ export interface GrammarPoint {
 // same shape as GrammarPoint, since the new fields live on it directly.
 export type EnhancedGrammarPoint = GrammarPoint
 
-// A single comparative example inside a chapter summary -- `pattern` names
+// A single comparative example inside a chapter summary - `pattern` names
 // which grammar point in the chapter it illustrates (its `pattern` string or
 // num, e.g. "たら" or "g_081"), not a jump-link id, since the summary is
 // prose, not a UI cross-reference. No `jaRuby`: unlike richExamples[], this
 // is new, hand-authored content with no existing pipeline to validate a
 // ruby's structural correctness against `ja` (see handoff.md's jaRuby
-// gotcha) -- render via <Furigana kanji={ja} kana={kana} /> instead, which
+// gotcha) - render via <Furigana kanji={ja} kana={kana} /> instead, which
 // aligns at render time from plain kana.
 export interface GrammarSummaryExample {
   pattern: string
@@ -152,7 +154,7 @@ export interface GrammarCategory {
   order: number
   title: { vi: string; en: string }
   count: number
-  // Comparative wrap-up for the chapter -- contrasts the points within it
+  // Comparative wrap-up for the chapter - contrasts the points within it
   // side by side. Optional: absent on a category not yet authored (schema
   // added incrementally, same pattern as GrammarPoint's V2 fields).
   summary?: GrammarChapterSummary
@@ -265,6 +267,9 @@ export interface KanjiVgComponent {
   element: string
   position: string | null
   isRadical: boolean
+  /** Indices into KanjiVgEntry.strokes drawn by this component; across a
+   *  kanji's components they partition 0..strokes.length-1 exactly. */
+  strokes: number[]
 }
 
 export interface KanjiVgEntry {
@@ -277,6 +282,8 @@ export type KanjiVgData = Record<string, KanjiVgEntry>
 
 export interface RadicalNameEntry {
   hanviet: string
+  /** Vietnamese gloss from bothu.pdf ("Dáng người đứng"); absent for non-PDF names. */
+  meaning?: string
   curated: boolean
 }
 
@@ -322,13 +329,13 @@ export interface CountersData {
   bigNumberExamples: CounterBigNumberExample[]
 }
 
-// -- Transitivity (自動詞・他動詞) -----------------------------------------
+// - Transitivity (自動詞・他動詞) -----------------------------------------
 // Ties back to N4 chapter 19 (grammar.json category "transitive-intransitive",
 // g_161-g_164) but is level-agnostic vocabulary/morphology content in its own
 // right, so it lives as a standalone dataset rather than an n4/-scoped file.
 export interface TransitivityExample {
   ja: string
-  kana: string // full reading, kanji runs only -- fed straight to <Furigana kanji={ja} kana={kana}/>
+  kana: string // full reading, kanji runs only, fed straight to <Furigana kanji={ja} kana={kana}/>
   vi: string
   en: string
 }
@@ -343,8 +350,8 @@ export interface VerbTransitivityHalf {
 export interface VerbTransitivityPair {
   id: string
   patternId: string
-  transitive: VerbTransitivityHalf // 他動詞 -- takes を
-  intransitive: VerbTransitivityHalf // 自動詞 -- takes が
+  transitive: VerbTransitivityHalf // 他動詞, takes を
+  intransitive: VerbTransitivityHalf // 自動詞, takes が
   note?: { vi: string; en: string } // e.g. a homophone trap worth flagging
 }
 
@@ -356,18 +363,18 @@ export interface TransitivityPattern {
   description: { vi: string; en: string }
 }
 
-// -- Usage & Nuances (synonyms, verb-particle collocations, hojo doushi) --
+// - Usage & Nuances (synonyms, verb-particle collocations, hojo doushi) --
 // A single reference feature covering three learner-confusion areas that
 // don't fit any existing dataset: (1) near-synonym verbs/words that split
 // on use-case rather than meaning (着る/履く/被る...), (2) strict/exception
 // verb-particle pairings (Nに乗る vs Nを降りる), and (3) auxiliary verbs
 // riding on the て-form (〜てしまう, 〜てみる...). Level-agnostic like
-// transitivity.ts -- these are vocabulary/usage facts, not tied to one
-// textbook's chapter split -- but individual entries can still cross-link
+// transitivity.ts - these are vocabulary/usage facts, not tied to one
+// textbook's chapter split - but individual entries can still cross-link
 // into the level-aware grammar.ts database via grammarIds.
 export interface UsageExample {
   ja: string
-  kana: string // full reading, kanji runs only -- fed straight to <Furigana kanji={ja} kana={kana}/>
+  kana: string // full reading, kanji runs only, fed straight to <Furigana kanji={ja} kana={kana}/>
   vi: string
   en: string
 }
@@ -376,9 +383,9 @@ export interface SynonymWord {
   kanji: string
   kana: string
   meaning: { vi: string; en: string }
-  pos: string // matches VocabEntry.pos, e.g. 'verb-group1' -- rendered with <PosTag>
+  pos: string // matches VocabEntry.pos, e.g. 'verb-group1', rendered with <PosTag>
   verbGroup?: number | null
-  // Why THIS word over its groupmates -- the actual answer to "which one do
+  // Why THIS word over its groupmates - the actual answer to "which one do
   // I use here", not a repeat of `meaning`.
   nuance: { vi: string; en: string }
   example: UsageExample
@@ -389,7 +396,7 @@ export interface SynonymGroup {
   glossJa: string // short kanji-only label for the shared English/Vietnamese gloss, e.g. "着る/履く/被る/かける"
   title: { vi: string; en: string } // the shared gloss, e.g. "to wear"
   words: SynonymWord[]
-  // Overall trap/summary that doesn't belong to any single word -- e.g. a
+  // Overall trap/summary that doesn't belong to any single word - e.g. a
   // cross-cutting rule of thumb ("body part the item covers decides the verb").
   note?: { vi: string; en: string }
 }
@@ -402,7 +409,7 @@ export interface CollocationEntry {
   explanation: { vi: string; en: string }
   example: UsageExample
   // Common mistake or exception worth flagging (e.g. "learners guess で
-  // here by analogy with English 'by' -- but this verb always takes に").
+  // here by analogy with English 'by' - but this verb always takes に").
   trap?: { vi: string; en: string }
   // id of another CollocationEntry this one is a minimal-pair contrast
   // against (e.g. 電車に乗る <-> 電車を降りる), for a side-by-side render.
@@ -425,35 +432,9 @@ export interface AuxiliaryVerb {
   trap?: { vi: string; en: string } // confusion vs. a lookalike auxiliary
   examples: UsageExample[] // 1-2 examples, often showing different nuances of the same pattern
   // Cross-links into grammar.ts's level-aware database (getGrammar()) for
-  // patterns that already have a full entry there -- absent when this
+  // patterns that already have a full entry there - absent when this
   // auxiliary has no matching grammar point yet (most hojo doushi don't).
   grammarIds?: string[]
-}
-
-export interface KaiwaAnswer {
-  ja: string
-  kana: string // full reading, kanji runs only -- fed straight to <Furigana kanji={ja} kana={kana}/>
-  vi: string
-  en: string
-}
-
-export interface KaiwaQuestion {
-  id: string
-  ja: string
-  kana: string // full reading, kanji runs only -- see KaiwaAnswer.kana
-  topic: string // key into kaiwaTopics, e.g. "soThich"
-  answer: KaiwaAnswer
-  // Why this pattern fits the question / how to adapt it -- not a repeat of
-  // the answer itself, the same role UsageExample plays for AuxiliaryVerb.
-  tip: { vi: string; en: string }
-  // Cross-links into grammar.ts's level-aware database, same convention as
-  // AuxiliaryVerb.grammarIds -- 1-2 ids per question, most relevant first.
-  grammarIds?: string[]
-}
-
-export interface KaiwaSet {
-  id: string // "1".."25", matches the original 25 "Bộ câu hỏi" oral-exam sets
-  questionIds: string[] // 5 ids into kaiwaQuestions, in the set's original order
 }
 
 export type SRSState = 'new' | 'learning' | 'review' | 'mastered'
@@ -461,7 +442,7 @@ export type SRSState = 'new' | 'learning' | 'review' | 'mastered'
 export interface SRSCard {
   vocabId: string
   cardType: string
-  // Classic SM-2 (SuperMemo-2) fields -- see src/lib/srs.ts. Replaced this
+  // Classic SM-2 (SuperMemo-2) fields - see src/lib/srs.ts. Replaced this
   // session's FSRS-inspired stability/difficulty fields at the user's
   // request (personal project, explicitly OK with resetting all schedules).
   interval: number

@@ -11,19 +11,33 @@ import { useTranslation } from "@/lib/useTranslation"
 import { useVocab } from "@/data/vocab"
 import { prefetchRoute } from "@/lib/routes"
 
-const nav = [
-  { to: "/",           label: "ホーム",     kana: "ホーム",         key: "home" },
-  { to: "/vocab",      label: "単語",       kana: "たんご",         key: "vocabulary" },
-  { to: "/review",     label: "復習",       kana: "ふくしゅう",      key: "review" },
-  { to: "/grammar",    label: "文法",       kana: "ぶんぽう",        key: "grammar" },
-  { to: "/kaiwa",      label: "会話練習",   kana: "かいわれんしゅう", key: "kaiwa" },
-  { to: "/verb-forms", label: "動詞の形",   kana: "どうしのかたち",   key: "verbForms" },
-  { to: "/transitivity", label: "自他動詞", kana: "じたどうし",      key: "transitivity" },
-  { to: "/usage",      label: "使い方",     kana: "つかいかた",      key: "usage" },
-  { to: "/kanji",      label: "漢字",       kana: "かんじ",          key: "kanji" },
-  { to: "/counters",   label: "数え方",     kana: "かぞえかた",      key: "counters" },
-  { to: "/homophones", label: "同音語",     kana: "どうおんご",      key: "homophones" },
-  { to: "/settings",   label: "設定",       kana: "せってい",        key: "settings" },
+interface NavItem { to: string; label: string; kana: string; key: string }
+
+// Grouped so the 14 destinations read as four areas instead of one long list.
+// Home stands alone above the groups.
+const HOME: NavItem = { to: "/", label: "ホーム", kana: "ホーム", key: "home" }
+const navGroups: { id: string; items: NavItem[] }[] = [
+  { id: "learn", items: [
+    { to: "/vocab",        label: "単語",     kana: "たんご",       key: "vocabulary" },
+    { to: "/review",       label: "復習",     kana: "ふくしゅう",    key: "review" },
+  ] },
+  { id: "grammar", items: [
+    { to: "/grammar",      label: "文法",     kana: "ぶんぽう",      key: "grammar" },
+    { to: "/verb-forms",   label: "動詞の形", kana: "どうしのかたち", key: "verbForms" },
+    { to: "/transitivity", label: "自他動詞", kana: "じたどうし",    key: "transitivity" },
+    { to: "/usage",        label: "使い方",   kana: "つかいかた",    key: "usage" },
+  ] },
+  { id: "kanji", items: [
+    { to: "/kanji",        label: "漢字",     kana: "かんじ",       key: "kanji" },
+    { to: "/radicals",     label: "部首",     kana: "ぶしゅ",       key: "radicals" },
+    { to: "/lookup",       label: "字引",     kana: "じびき",       key: "lookup" },
+    { to: "/rules",        label: "規則",     kana: "きそく",       key: "rules" },
+  ] },
+  { id: "more", items: [
+    { to: "/counters",     label: "数え方",   kana: "かぞえかた",    key: "counters" },
+    { to: "/homophones",   label: "同音語",   kana: "どうおんご",    key: "homophones" },
+    { to: "/settings",     label: "設定",     kana: "せってい",      key: "settings" },
+  ] },
 ]
 
 interface SidebarProps {
@@ -80,11 +94,11 @@ export function Sidebar({ open, onClose }: SidebarProps) {
         background: 'var(--tori-bg-sidebar)',
         borderColor: 'var(--tori-sb-border)',
         // Landscape on a notched iPhone can put the notch/rounded corner
-        // over the drawer's left edge -- no-op in portrait (inset is 0).
+        // over the drawer's left edge - no-op in portrait (inset is 0).
         paddingLeft: 'env(safe-area-inset-left)',
       }}
     >
-      {/* Logo -- extra top padding on mobile covers the drawer sitting flush
+      {/* Logo - extra top padding on mobile covers the drawer sitting flush
           against the top edge, under the iPhone notch/Dynamic Island. */}
       <div
         className="border-b-3 border-structural p-5"
@@ -124,7 +138,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
         </div>
       </div>
 
-      {/* Ink cabinet — compact theme picker + RAW/NEO toggle */}
+      {/* Ink cabinet - compact theme picker + RAW/NEO toggle */}
       <div className="border-b-3 border-structural p-3">
         <InkCabinet compact />
       </div>
@@ -138,33 +152,38 @@ export function Sidebar({ open, onClose }: SidebarProps) {
       )}
 
       {/* Nav */}
-      <nav className="flex-1 p-4 flex flex-col gap-1">
-        {nav.map(({ to, label, kana, key }) => (
-          <NavLink
-            key={to}
-            to={to}
-            end={to === "/"}
-            onClick={onClose}
-            // Warm the page chunk + its data as soon as a finger/cursor lands,
-            // ~100-300ms before the click registers.
-            onPointerDown={() => prefetchRoute(to)}
-            onPointerEnter={() => prefetchRoute(to)}
-            className={({ isActive }) =>
-              [
-                "nav-item flex items-center gap-3 px-4 py-2.5 border-3 transition-[color,background-color,border-color,transform,box-shadow] duration-100",
-                isActive
-                  ? "border-ink bg-ink text-paper shadow-none translate-x-0.5 translate-y-0.5"
-                  : "border-transparent hover:border-structural hover:shadow-[var(--shadow-brutal)] hover:-translate-x-0.5 hover:-translate-y-0.5",
-              ].join(" ")
-            }
-          >
-            <div>
-              <div className="font-black text-sm leading-tight">
-                <Furigana kanji={label} kana={kana} />
+      <nav className="flex-1 p-3 flex flex-col gap-0.5">
+        {[{ id: "", items: [HOME] }, ...navGroups].map(group => (
+          <div key={group.id || "home"} className={group.id ? "mt-3" : ""}>
+            {group.id && (
+              <div className="px-3 pb-1 font-mono text-[10px] font-black uppercase tracking-widest text-muted">
+                {t(`nav.groups.${group.id}`)}
               </div>
-              <div className="font-mono text-xs font-bold uppercase tracking-wider opacity-60">{t(`nav.${key}`)}</div>
-            </div>
-          </NavLink>
+            )}
+            {group.items.map(({ to, label, kana, key }) => (
+              <NavLink
+                key={to}
+                to={to}
+                end={to === "/"}
+                onClick={onClose}
+                onPointerDown={() => prefetchRoute(to)}
+                onPointerEnter={() => prefetchRoute(to)}
+                className={({ isActive }) =>
+                  [
+                    "nav-item flex items-baseline gap-2.5 px-3 py-2 border-3 transition-[color,background-color,border-color,transform,box-shadow] duration-100",
+                    isActive
+                      ? "border-ink bg-ink text-paper shadow-none translate-x-0.5 translate-y-0.5"
+                      : "border-transparent hover:border-structural hover:shadow-[var(--shadow-brutal)] hover:-translate-x-0.5 hover:-translate-y-0.5",
+                  ].join(" ")
+                }
+              >
+                <span className="font-black text-sm leading-tight shrink-0">
+                  <Furigana kanji={label} kana={kana} />
+                </span>
+                <span className="font-mono text-[11px] font-bold uppercase tracking-wider opacity-60 truncate">{t(`nav.${key}`)}</span>
+              </NavLink>
+            ))}
+          </div>
         ))}
       </nav>
 

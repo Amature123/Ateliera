@@ -10,7 +10,7 @@ interface NotesAndTrapsCalloutProps {
 }
 
 // false_friend and common_mistake are the two types the spec calls out as
-// "critical" -- inverted ink/paper theme makes them impossible to skim past.
+// "critical" - inverted ink/paper theme makes them impossible to skim past.
 // nuance_trap is presented as a softer, accent-bordered callout instead.
 const CRITICAL_TYPES: GrammarPitfall['type'][] = ['false_friend', 'common_mistake']
 

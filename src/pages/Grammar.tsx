@@ -14,7 +14,6 @@ import { useProgressiveList } from "@/lib/useProgressiveList"
 import { FormationMatrix } from "@/components/ui/FormationMatrix"
 import { NotesAndTrapsCallout } from "@/components/ui/NotesAndTrapsCallout"
 import { InteractiveExampleCard } from "@/components/ui/InteractiveExampleCard"
-import { prefetchVoicevox } from "@/lib/speech"
 import { ToriLoader } from "@/components/ui/ToriLoader"
 
 // Cross-references (relatedGrammar/opposingGrammar/notesAndPitfalls[].relatedGrammarId)
@@ -33,7 +32,7 @@ const EMPTY_TIPS: { vi: string; en: string }[] = []
 const ALL_TONES: ToneType[] = ['formal', 'polite', 'casual', 'spoken', 'written', 'keigo', 'neutral']
 
 // requiredVerbForm cross-links only exist for N5 grammar (verb-forms.json is
-// N5-only, see handoff.md) -- the pill filter and its badges are simply
+// N5-only, see handoff.md) - the pill filter and its badges are simply
 // inert (never match) on N4/all-scope grammar points rather than hidden.
 const verbForms = (verbFormsData as unknown as VerbFormsData).forms
 
@@ -79,7 +78,7 @@ export function Grammar() {
   const [showFurigana, setShowFurigana] = useState(true)
   const [showRomaji, setShowRomaji] = useState(false)
 
-  // Jumps the detail drawer to another grammar point by id -- used by
+  // Jumps the detail drawer to another grammar point by id - used by
   // cross-reference links (notesAndPitfalls, relatedGrammar, opposingGrammar).
   // Deliberately does not touch `level`/`cat`: the target may belong to the
   // other JLPT level or a different category than what's currently listed,
@@ -99,7 +98,7 @@ export function Grammar() {
   }
 
   // A stale category/point selection from before a level switch has no
-  // meaning in the new level's category set -- clear it rather than showing
+  // meaning in the new level's category set - clear it rather than showing
   // a detail drawer or filter chip for a point that's no longer listed.
   useEffect(() => {
     setCat(null)
@@ -107,25 +106,12 @@ export function Grammar() {
     setSelected(null)
   }, [level])
 
-  // Warms the VOICEVOX cache for this point's examples as soon as the detail
-  // drawer opens for it -- see the identical comment in VocabBrowser.tsx.
-  useEffect(() => {
-    // Capped at the first couple examples -- richExamples can run to half a
-    // dozen or more, and the queue is one-at-a-time, so prefetching all of
-    // them would mostly just warm clips for examples the user never scrolls
-    // to while the ones they're actually looking at wait behind them.
-    const examples = (selected?.richExamples ?? []).slice(0, 2)
-    prefetchVoicevox(examples.map(ex => ex.ja))
-    // See the identical cleanup in VocabBrowser.tsx.
-    return () => prefetchVoicevox([])
-  }, [selected])
-
   // Cross-navigation from the Verb Forms tab: /grammar?point=<id> opens
   // that point's detail drawer and makes sure its category is expanded.
   useEffect(() => {
     const pointId = searchParams.get('point')
     if (!pointId) return
-    // Wait for the level's chunk -- otherwise the lookup below would miss and
+    // Wait for the level's chunk - otherwise the lookup below would miss and
     // the param would be dropped before the point could open.
     if (!data) return
     const point = grammar.find(g => g.id === pointId)
@@ -137,7 +123,7 @@ export function Grammar() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams, data])
 
-  // Which tones actually occur in the current level's data -- only render
+  // Which tones actually occur in the current level's data - only render
   // tone filter chips that could possibly match something.
   const availableTones = useMemo(
     () => ALL_TONES.filter(tn => grammar.some(g => g.pragmatics?.tones?.includes(tn))),
@@ -145,7 +131,7 @@ export function Grammar() {
   )
 
   // Sections render in `categories` order, so the list is sorted into that
-  // same order -- the progressive window below is a prefix of it, and a
+  // same order - the progressive window below is a prefix of it, and a
   // prefix of an unsorted list would leave gaps in earlier sections.
   const categoryOrder = useMemo(
     () => new Map(categories.map((c, i) => [c.slug, i])),
@@ -198,7 +184,7 @@ export function Grammar() {
     <div className="flex h-full overflow-hidden">
       {/* Main list */}
       <div className="flex-1 flex flex-col overflow-hidden relative">
-        {/* Uses 法 rather than 文 here -- the empty-state right panel (below)
+        {/* Uses 法 rather than 文 here - the empty-state right panel (below)
             already shows a giant 文, and the two would visually double up
             whenever nothing is selected. 文法 (bunpou) = "grammar" together. */}
         <Watermark char="法" />
@@ -292,7 +278,7 @@ export function Grammar() {
             )}
           </div>
 
-          {/* Tone pill filter -- only shown once some enriched points carry
+          {/* Tone pill filter - only shown once some enriched points carry
               pragmatics.tones data for the current level. */}
           {availableTones.length > 0 && (
             <div className="w-full flex items-center gap-2 flex-wrap pt-2 mt-1 border-t border-ink/10">
@@ -379,7 +365,7 @@ export function Grammar() {
                   </div>
                 )}
 
-                {/* Chapter summary -- only once the full chapter is showing
+                {/* Chapter summary - only once the full chapter is showing
                     (no search/verb-form/tone filter narrowing `items` below
                     the category's real count), since a comparative wrap-up
                     of the whole chapter reads wrong sitting under a filtered
@@ -417,7 +403,7 @@ export function Grammar() {
         </div>
       </div>
 
-      {/* Detail drawer -- full-screen overlay below `lg` (there's no room for
+      {/* Detail drawer - full-screen overlay below `lg` (there's no room for
           a second pane at phone/tablet widths), a fixed side panel at `lg`+ */}
       {selected ? (
         <div className="fixed inset-0 z-40 lg:static lg:z-auto lg:w-96 lg:flex-shrink-0 overflow-y-auto bg-paper border-l-3 border-structural pb-[env(safe-area-inset-bottom)]">
@@ -603,13 +589,13 @@ const GrammarCard = memo(function GrammarCard({ g, accent, selected, onSelect }:
               <Ruby text={g.pattern} html={g.patternRuby} />
             </div>
             <div className={`text-xs mt-1 ${selected ? 'text-paper/70' : 'text-muted'}`}>
-              {localize(g.meaning) || '—'}
+              {localize(g.meaning) || '-'}
             </div>
           </div>
         </div>
       </button>
 
-      {/* Hover preview -- sticky-hover on tap reads as broken on touch, and
+      {/* Hover preview - sticky-hover on tap reads as broken on touch, and
           the same content is already one tap away in the detail drawer, so
           this only shows at `lg`+ where a real mouse hover is available. */}
       {ex && (

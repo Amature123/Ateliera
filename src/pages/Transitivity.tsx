@@ -71,7 +71,7 @@ export function Transitivity() {
     return map
   }, [visible])
 
-  // Chapter 19 grammar (Nを+他動詞, N（は/が）+自動詞, てある x2) -- level-aware
+  // Chapter 19 grammar (Nを+他動詞, N（は/が）+自動詞, てある x2) - level-aware
   // like VerbForms' relatedGrammar, so an N5-only view shows nothing rather
   // than a cross-link to a point outside the current scope.
   const relatedGrammar = useMemo(
@@ -93,7 +93,7 @@ export function Transitivity() {
           <div className="text-sm font-bold uppercase tracking-wider text-muted mt-1">{t('transitivity.subtitle')}</div>
         </div>
 
-        {/* Concept explainer -- を vs が */}
+        {/* Concept explainer - を vs が */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
           <Card className="p-5">
             <div className="flex items-center gap-2 mb-2">
@@ -119,7 +119,7 @@ export function Transitivity() {
           </Card>
         </div>
 
-        {/* Chapter 19 tie-in -- てある vs ている (vs ておく, prose-only: no
+        {/* Chapter 19 tie-in - てある vs ている (vs ておく, prose-only: no
             grammar point for it in the dataset yet) */}
         <div className="border-3 border-structural bg-yellow/20 p-5 mb-8">
           <div className="text-xs font-black uppercase tracking-wider mb-3">{t('transitivity.chapterTieIn')}</div>

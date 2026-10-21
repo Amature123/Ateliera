@@ -1,9 +1,9 @@
 // Hiragana/katakana -> Hepburn romaji conversion, for romaji-based vocab
 // search (e.g. typing "taberu" to find 食べる / たべる).
 //
-// Pure lookup-table implementation -- no external dependencies.
+// Pure lookup-table implementation - no external dependencies.
 
-// -- Digraphs (consonant + small ya/yu/yo, 2 kana -> 1 mora) ----------------
+// - Digraphs (consonant + small ya/yu/yo, 2 kana -> 1 mora) ----------------
 
 const DIGRAPHS: Record<string, string> = {
   // hiragana
@@ -42,7 +42,7 @@ const DIGRAPHS: Record<string, string> = {
   'イェ': 'ye',
 }
 
-// -- Single-kana mora ---------------------------------------------------
+// - Single-kana mora ---------------------------------------------------
 
 const SINGLE: Record<string, string> = {
   // hiragana

@@ -12,7 +12,7 @@ import { CollapsibleFilters } from "@/components/ui/CollapsibleFilters"
 import { useProgressiveList } from "@/lib/useProgressiveList"
 
 // N5's textbook chapters run 1-15 and N4's run 15-33 (both numbered after
-// their own curriculum's Bai/chapter, per their own source material) -- so
+// their own curriculum's Bai/chapter, per their own source material) - so
 // "chapter 15" exists in both. Every chapter/group is tagged with its
 // source level below so 'all' scope never collides the two under one key.
 type Src = 'N5' | 'N4'
@@ -49,7 +49,7 @@ export function Kanji() {
   const [selectedGroupIndex, setSelectedGroupIndex] = useState<number | null>(null)
 
   // A chapter selection from before a level switch may no longer exist in
-  // the new chapter set -- reset to "all chapters" rather than filtering to
+  // the new chapter set - reset to "all chapters" rather than filtering to
   // nothing (or, worse, matching an unrelated chapter of the same number).
   useEffect(() => {
     setChapterKey(null)
@@ -57,7 +57,7 @@ export function Kanji() {
 
   const totalWords = useMemo(() => chapters.reduce((a, c) => a + c.wordCount, 0), [chapters])
 
-  // Memoized so it keeps its identity across keystrokes -- a fresh array here
+  // Memoized so it keeps its identity across keystrokes - a fresh array here
   // would bust filteredGroups' memo on every render while a chapter is picked.
   const visibleChapters = useMemo(
     () => deferredChapterKey === null ? chapters : chapters.filter(c => `${c.src}-${c.chapter}` === deferredChapterKey),

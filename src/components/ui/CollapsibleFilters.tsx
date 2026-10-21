@@ -4,14 +4,14 @@ import { useEffect, useRef, useState } from "react"
  * Responsive collapsible filter panel.
  *
  * - Desktop (≥ lg / 1024px): renders children in a normal flex-wrap container,
- *   no toggle bar, no collapse behavior — identical to the old layout.
+ *   no toggle bar, no collapse behavior - identical to the old layout.
  *   Children are mounted once and restyled by breakpoint, not duplicated.
  * - Mobile (< lg): collapses to a compact summary bar showing the active
  *   filter label + a chevron toggle. Tapping expands the chip grid.
  *   Auto-collapses when `activeLabel` changes (= user made a selection).
  *
  * Animation uses the same `grid-template-rows: 0fr → 1fr` trick as the
- * existing `.acc-body` accordion in index.css — smooth, no JS measurement.
+ * existing `.acc-body` accordion in index.css - smooth, no JS measurement.
  */
 
 interface CollapsibleFiltersProps {

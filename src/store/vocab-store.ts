@@ -76,7 +76,7 @@ export const useVocabStore = create<VocabStore>()(
     }),
     // Renamed from 'kotodori-vocab': the SM-2 schema swap this session
     // changes every SRSCard field, so old localStorage data under the old
-    // key is deliberately abandoned rather than migrated -- the user
+    // key is deliberately abandoned rather than migrated - the user
     // explicitly OK'd a full reset ("no harm... I'm not familiar with
     // FSRS, I'm more like the OG [SM-2] enjoyer"). Reusing the old key
     // would have silently mixed the new field shape with leftover

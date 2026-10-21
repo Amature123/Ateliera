@@ -1,5 +1,5 @@
 // Central level-aware selector for kanji chapter data, mirroring vocab.ts's
-// pattern -- pages should import from here instead of reaching into
+// pattern - pages should import from here instead of reaching into
 // src/data/n5/kanji.json or src/data/n4/kanji.json directly.
 import type { KanjiChapter } from "@/types"
 import type { Level } from "@/store/settings-store"

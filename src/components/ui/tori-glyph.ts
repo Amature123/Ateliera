@@ -1,6 +1,6 @@
 // The 鳥 (tori) stroke paths from src/data/kanjivg.json, hardcoded so the
 // route loader (ToriLoader) and Landing's hero can draw the site's mark
-// without importing kanjivg.json -- that file is ~1MB and is otherwise only
+// without importing kanjivg.json - that file is ~1MB and is otherwise only
 // loaded on demand by KanjiDrawer.
 export const TORI_VIEW_BOX = "0 0 109 109"
 export const TORI_STROKES = [

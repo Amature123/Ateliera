@@ -10,7 +10,7 @@ export function Layout() {
 
   // Close the mobile drawer whenever the route changes (covers back/forward
   // nav and any navigation that doesn't go through Sidebar's own onClose).
-  // Also stops any in-flight pronunciation -- without this, tapping a
+  // Also stops any in-flight pronunciation - without this, tapping a
   // SpeakButton and then switching tabs mid-utterance leaves the voice
   // reading a word from the screen you just left.
   useEffect(() => {

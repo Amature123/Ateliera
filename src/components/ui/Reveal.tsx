@@ -2,7 +2,7 @@ import { useEffect, useRef, type CSSProperties, type ElementType, type ReactNode
 
 interface RevealProps {
   children: ReactNode
-  /** stagger position — delay is index * 80ms, see .reveal.in in index.css */
+  /** stagger position - delay is index * 80ms, see .reveal.in in index.css */
   index?: number
   as?: ElementType
   className?: string

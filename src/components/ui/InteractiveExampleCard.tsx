@@ -15,7 +15,7 @@ interface InteractiveExampleCardProps {
   showRomaji: boolean
   accentHex?: string
   /** contextualExplanation routinely cross-references another grammar
-   * point inline (e.g. "see g_150") -- these resolve it to a clickable
+   * point inline (e.g. "see g_150") - these resolve it to a clickable
    * pattern name instead of showing the raw id. */
   patternById?: Record<string, string>
   onJumpTo?: (grammarId: string) => void
@@ -35,7 +35,7 @@ export function InteractiveExampleCard({ example, showFurigana, showRomaji, acce
         <span className="text-[10px] font-black uppercase tracking-widest px-1.5 py-0.5 border-2 border-structural rounded-[var(--radius-sm)] text-muted">
           {t(`grammar.examples.category.${example.category}`)}
         </span>
-        {/* Reads example.ja aloud via the device voice -- audioStub (a named
+        {/* Reads example.ja aloud via the device voice - audioStub (a named
             .mp3 that was never produced) stays on the type for a future
             pre-recorded-audio pass, but isn't needed for this. */}
         <SpeakButton text={example.ja} />

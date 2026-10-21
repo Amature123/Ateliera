@@ -34,7 +34,7 @@ export function formatReading(kanji: string, kana: string): { type: 'ruby' | 'ka
   return { type: 'kana', display: kanji }
 }
 
-// -- Pitch accent (see components/ui/PitchAccent.tsx) -----------------------
+// - Pitch accent (see components/ui/PitchAccent.tsx) -----------------------
 
 export type PitchAccentType = 'heiban' | 'atamadaka' | 'nakadaka' | 'odaka'
 

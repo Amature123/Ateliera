@@ -30,7 +30,7 @@ const MORA_VOWEL: Record<string, string> = {
 
 // Words whose kana genuinely contains a doubled vowel as two separate
 // morphemes (いい+え, 言(い)+い+ます), not a stylistic long-vowel spelling of
-// one syllable (ええっ ~ えっ, ん ~ ううん) -- collapsing these specific two
+// one syllable (ええっ ~ えっ, ん ~ ううん) - collapsing these specific two
 // would falsely merge いいえ ("no") onto 家 ("house", read いえ) and 言います
 // ("say") onto います ("to be/exist"). Found by diffing computeGroups()'s
 // output with the collapse on vs. off and checking every group the collapse
@@ -43,13 +43,13 @@ const DOUBLED_VOWEL_COLLAPSE_EXCEPTIONS = new Set(['いいえ', 'いいます'])
 // 3. Expand the long vowel mark ー to the vowel it elongates (コーヒー →
 //    こおひい), rather than dropping it. Dropping it used to collapse
 //    unrelated loanwords onto short native words that merely share a
-//    prefix -- ステーキ ("suteeki") lost its ー entirely and normalized to
-//    すてき, colliding with 素敵 (a real, unrelated word) -- so every
+//    prefix - ステーキ ("suteeki") lost its ー entirely and normalized to
+//    すてき, colliding with 素敵 (a real, unrelated word) - so every
 //    loanword ending in a vowel mark was silently falsely paired with
 //    whatever short word happened to share its first mora.
 // 4. Collapse doubled VOWEL kana only (long-vowel spelling variants, e.g.
 //    ええっ ~ えっ, ううん ~ うん). Deliberately does NOT fold おう→おお or
-//    えい→ええ — N5/N4 dictionary kana already spell long vowels
+//    えい→ええ - N5/N4 dictionary kana already spell long vowels
 //    consistently, so there's no real variant-spelling collision for that
 //    substitution to catch, and folding those seams merges unrelated words
 //    that merely straddle a vowel boundary. See the exceptions set above for
@@ -71,7 +71,7 @@ function normalizeReading(kana: string): string {
 
 // Pairs that collapse to the same normalized reading but are the same word
 // spelled two ways (kanji vs. an alternate kana/mixed spelling), not two
-// distinct words that happen to sound alike -- grouping them as "homophones"
+// distinct words that happen to sound alike - grouping them as "homophones"
 // would be misleading. Keyed by the pair's kanji fields, found by manually
 // auditing computeGroups()'s full output.
 const SPELLING_VARIANTS: [string, string][] = [
@@ -93,7 +93,7 @@ function isSpellingVariantPair(a: string, b: string): boolean {
 
 // Two entries are the "same word" (not a homophone pair) if they differ only
 // by a bracketed usage-note ((～を), (メモを)…) or a leading ～/∼ particle
-// prefix (～時間 vs 時間) — strip those before comparing kanji identity so
+// prefix (～時間 vs 時間) - strip those before comparing kanji identity so
 // note-variants of one word don't get double-counted as distinct words.
 function coreKanji(kanji: string): string {
   return kanji.replace(/[（(][^）)]*[）)]/g, '').replace(/^[～∼]/, '').trim()
@@ -107,7 +107,7 @@ function hasRealKanjiField(kanji: string | undefined): kanji is string {
 }
 
 // Expand the candidate pool beyond vocabulary.json with kanji.json's
-// supplementary words[] (per-chapter leading-kanji groups) — this is a
+// supplementary words[] (per-chapter leading-kanji groups) - this is a
 // separate, larger word list with limited overlap, so it surfaces real
 // same-reading/different-kanji pairs that vocabulary.json alone is too
 // sparse to catch. Synthesized entries get a full VocabEntry shape (stable
@@ -124,7 +124,7 @@ function buildPool(level: Level, vocab: readonly VocabEntry[]): VocabEntry[] {
     pool.push(v)
   }
   // kanji.json's supplementary words are N5-only (synthesized jlptLevel
-  // 'N5' below) -- skip them entirely in N4-only scope so the pool doesn't
+  // 'N5' below) - skip them entirely in N4-only scope so the pool doesn't
   // silently leak N5 content into a supposedly-N4 view.
   if (level === 'N4') return pool
   for (const chapter of kanjiChapters) {
@@ -165,7 +165,7 @@ interface SoundGroup {
 
 // Recomputed per level (see useMemo in Homophones()) rather than once at
 // module load, since the pool it's built from now depends on the level
-// toggle -- still cheap enough to redo on a level switch.
+// toggle - still cheap enough to redo on a level switch.
 function computeGroups(level: Level, vocab: readonly VocabEntry[]): SoundGroup[] {
   const pool = buildPool(level, vocab)
   const map = new Map<string, VocabEntry[]>()
@@ -179,7 +179,7 @@ function computeGroups(level: Level, vocab: readonly VocabEntry[]): SoundGroup[]
   let i = 1
   for (const [norm, list] of map) {
     if (list.length < 2) continue
-    // De-dupe note-variants of the same underlying word before counting —
+    // De-dupe note-variants of the same underlying word before counting -
     // only genuinely distinct kanji forms count as separate homophones.
     const byCore = new Map<string, VocabEntry>()
     for (const v of list) {
@@ -187,7 +187,7 @@ function computeGroups(level: Level, vocab: readonly VocabEntry[]): SoundGroup[]
       if (!byCore.has(core)) byCore.set(core, v)
     }
     // Further merge known spelling-variant pairs (できる/出来る, 子供/子ども...)
-    // — same word, two scripts, not two homophones.
+    // - same word, two scripts, not two homophones.
     const entries: VocabEntry[] = []
     for (const v of byCore.values()) {
       const isDupe = entries.some(e => isSpellingVariantPair(coreKanji(e.kanji) || e.kana, coreKanji(v.kanji) || v.kana))
@@ -262,7 +262,7 @@ export function Homophones() {
         </p>
       </div>
 
-      {/* Group detail -- lists the exact homophones/sound-alikes directly,
+      {/* Group detail - lists the exact homophones/sound-alikes directly,
           no reveal/guessing step. */}
       {selected ? (
         <div>

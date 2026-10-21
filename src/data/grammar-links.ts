@@ -1,6 +1,6 @@
 // Lightweight grammar lookup for cross-link chips (Verb Forms, Transitivity,
 // Usage). Reads the slim build-time index instead of @/data/grammar, which
-// carries every enriched grammar point (~1.2MB) -- only the Grammar page
+// carries every enriched grammar point (~1.2MB) - only the Grammar page
 // itself needs that. See grammarIndex() in vite.config.ts.
 import type { GrammarLink } from "@/types"
 import type { Level } from "@/store/settings-store"

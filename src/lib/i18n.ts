@@ -31,9 +31,9 @@ export function t(lang: Locale, key: string, vars?: Record<string, string | numb
   return interpolate(raw, vars)
 }
 
-// Vocab/grammar content fields use { vi, en } — en is "" (present, not
+// Vocab/grammar content fields use { vi, en } - en is "" (present, not
 // undefined) on essentially all entries today, so this must be a truthy
-// check (||), not ?? — otherwise English mode would render blank content.
+// check (||), not ?? - otherwise English mode would render blank content.
 export function localize(meanings: { vi: string; en: string } | undefined | null, lang: Locale): string {
   if (!meanings) return ''
   return meanings[lang] || meanings.vi

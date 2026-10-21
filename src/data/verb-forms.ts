@@ -1,8 +1,8 @@
 // Central level-aware selector for verb-form data, mirroring grammar.ts's
 // pattern. Verb group classification (godan/ichidan/irregular) and the
 // basic cheat sheet/exceptions are level-agnostic reference material that
-// stays the same regardless of level, so only `forms` -- and each level's
-// own cheat sheet/key-exceptions table -- are actually split by level.
+// stays the same regardless of level, so only `forms` - and each level's
+// own cheat sheet/key-exceptions table - are actually split by level.
 // n4/verb-forms.json intentionally has no `groups` of its own: it's an
 // additive file (passive/causative/causative-passive), not a parallel
 // N5-shaped file like grammar.json's n4 counterpart.
@@ -28,7 +28,7 @@ const n4 = n4Json as unknown as {
   keyExceptionsRuby?: KeyExceptions
 }
 
-// Verb group classification never changes by level -- always shown as-is.
+// Verb group classification never changes by level - always shown as-is.
 export const verbGroups: VerbGroup[] = n5.groups
 
 export const n5Forms: VerbForm[] = n5.forms
@@ -42,7 +42,7 @@ export function getVerbForms(level: Level): VerbForm[] {
 }
 
 // Each level's cheat sheet/key-exceptions cover only that level's own forms
-// (N4's table doesn't repeat N5's dictionary/nai/ta/te/... rows) -- "all"
+// (N4's table doesn't repeat N5's dictionary/nai/ta/te/... rows) - "all"
 // shows both tables back to back rather than trying to merge two
 // differently-scoped tables into one.
 export function getCheatSheets(level: Level): { label: "N5" | "N4"; table: CheatSheet }[] {

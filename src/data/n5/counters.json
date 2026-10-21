@@ -4,8 +4,8 @@
     "en": "A complete guide to counting in Japanese"
   },
   "intro": {
-    "vi": "Số, người, đồ vật, động vật, tiền, ngày tháng, giờ phút và tuổi — tổng hợp đầy đủ lượng từ (助数詞) và các trường hợp đọc số biến âm/bất quy tắc thường gặp ở trình độ N5.",
-    "en": "Numbers, people, objects, animals, money, dates, time, and age -- a full rundown of Japanese counters (助数詞) and the sound-shift/irregular readings most commonly seen at N5 level."
+    "vi": "Số, người, đồ vật, động vật, tiền, ngày tháng, giờ phút và tuổi, tổng hợp đầy đủ lượng từ (助数詞) và các trường hợp đọc số biến âm/bất quy tắc thường gặp ở trình độ N5.",
+    "en": "Numbers, people, objects, animals, money, dates, time, and age, a full rundown of Japanese counters (助数詞) and the sound-shift/irregular readings most commonly seen at N5 level."
   },
   "categories": [
     {
@@ -19,7 +19,7 @@
         "en": "Basic numbers"
       },
       "usage": {
-        "vi": "Nền tảng để ghép với các lượng từ khác. Tiếng Nhật nhóm số lớn theo hàng vạn (4 chữ số 0 — 万) thay vì hàng nghìn như tiếng Việt.",
+        "vi": "Nền tảng để ghép với các lượng từ khác. Tiếng Nhật nhóm số lớn theo hàng vạn (4 chữ số 0, 万) thay vì hàng nghìn như tiếng Việt.",
         "en": "The foundation for combining with every other counter. Japanese groups large numbers by 万 (10,000s) rather than by thousands the way English does."
       },
       "columns": [
@@ -31,8 +31,8 @@
       ],
       "wide": true,
       "footnote": {
-        "vi": "Các ô đỏ (300/600/800 và 3.000/8.000) có biến âm đặc biệt ở phụ âm đầu của 百/千 — không đọc ghép trực tiếp như các số khác.",
-        "en": "The red cells (300/600/800 and 3,000/8,000) have a special sound shift on the leading consonant of 百/千 -- they don't attach directly the way the other numbers do."
+        "vi": "Các ô đỏ (300/600/800 và 3.000/8.000) có biến âm đặc biệt ở phụ âm đầu của 百/千, không đọc ghép trực tiếp như các số khác.",
+        "en": "The red cells (300/600/800 and 3,000/8,000) have a special sound shift on the leading consonant of 百/千, they don't attach directly the way the other numbers do."
       },
       "rows": [
         {
@@ -906,8 +906,8 @@
         "romaji"
       ],
       "footnote": {
-        "vi": "Đối với giá tiền, thay vì hỏi bằng \"何\" (cái gì), người Nhật dùng \"いくら\" — Bao nhiêu tiền.",
-        "en": "For prices, instead of asking with \"何\" (what), Japanese uses \"いくら\" -- how much."
+        "vi": "Đối với giá tiền, thay vì hỏi bằng \"何\" (cái gì), người Nhật dùng \"いくら\", Bao nhiêu tiền.",
+        "en": "For prices, instead of asking with \"何\" (what), Japanese uses \"いくら\", how much."
       },
       "rows": [
         {
@@ -978,7 +978,7 @@
       "counter": "日",
       "counterKana": "にち",
       "usage": {
-        "vi": "Mùng 1 đến mùng 10 là các từ đọc riêng, không theo quy tắc — phải học thuộc. Từ 11 trở đi theo quy tắc số Hán + にち, TRỪ 14, 20 và 24.",
+        "vi": "Mùng 1 đến mùng 10 là các từ đọc riêng, không theo quy tắc, phải học thuộc. Từ 11 trở đi theo quy tắc số Hán + にち, TRỪ 14, 20 và 24.",
         "en": "The 1st through the 10th each have their own irregular reading that must be memorized. From the 11th onward it follows the Sino-Japanese number + にち rule, EXCEPT for 14, 20, and 24."
       },
       "columns": [

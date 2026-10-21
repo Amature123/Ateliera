@@ -1,7 +1,7 @@
 import type { ReactNode } from "react"
 import { Reveal } from "./Reveal"
 
-/** Giant faint kanji sitting behind a screen header — Tori's signature watermark. */
+/** Giant faint kanji sitting behind a screen header - Tori's signature watermark. */
 export function Watermark({ char, className = "" }: { char: string; className?: string }) {
   return (
     <span

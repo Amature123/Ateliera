@@ -1,13 +1,16 @@
 import { useEffect, useMemo, useState } from "react"
+import { Link } from "react-router-dom"
 import radicalNamesJson from "@/data/radical-names.json"
 import kanjiReadingsJson from "@/data/kanji-readings.json"
 import type { KanjiVgComponent, KanjiVgData, RadicalNamesData } from "@/types"
 import { AnimatedKanjiSvg } from "./AnimatedKanjiSvg"
+import { ComponentGraph } from "./ComponentGraph"
+import { rulesForKanji } from "@/lib/onyomi-rules"
 import { useTranslation } from "@/lib/useTranslation"
-import { hanVietForChar, KANJI_INDEX, cleanReadings } from "@/lib/kanji"
+import { hanVietForChar, KANJI_INDEX, cleanReadings, kanjiOrder } from "@/lib/kanji"
 
 // kanjivg.json (stroke paths for every kanji, ~900KB) is fetched the first
-// time any drawer opens rather than bundled with the page -- Vocab and Kanji
+// time any drawer opens rather than bundled with the page - Vocab and Kanji
 // both mount this drawer closed, and statically importing the data made
 // every visit to those tabs download and parse it up front. Cached at module
 // level so it loads once per session.
@@ -30,10 +33,18 @@ interface GroupedComponent {
   count: number
   isRadical: boolean
   positions: string[]
+  /** Union of every occurrence's stroke indices (e.g. all three 木 of 森). */
+  strokes: number[]
 }
 
+// One ink color per distinct component, cycled. Chosen to stay distinguishable
+// on the drawer's fixed white surface; the chip border/swatch reuse the same
+// color so a chip and its strokes read as one thing.
+const COMPONENT_COLORS = ["#be4327", "#3b82f6", "#16a34a", "#a855f7", "#d97706", "#0891b2", "#db2777"]
+const DIMMED_STROKE = "#d4dbe4"
+
 // Components can repeat (e.g. 森 → 木 木 木, from three separate SVG groups).
-// Collapse same-element occurrences into one tag with a ×N multiplier —
+// Collapse same-element occurrences into one tag with a ×N multiplier -
 // lighter than trying to lay tags out spatially, and it's what the
 // "[ 木 - Mộc ] ×3" format calls for.
 function groupComponents(components: KanjiVgComponent[]): GroupedComponent[] {
@@ -42,11 +53,12 @@ function groupComponents(components: KanjiVgComponent[]): GroupedComponent[] {
   for (const comp of components) {
     let g = map.get(comp.element)
     if (!g) {
-      g = { element: comp.element, count: 0, isRadical: false, positions: [] }
+      g = { element: comp.element, count: 0, isRadical: false, positions: [], strokes: [] }
       map.set(comp.element, g)
       order.push(comp.element)
     }
     g.count++
+    g.strokes.push(...comp.strokes)
     if (comp.isRadical) g.isRadical = true
     if (comp.position && !g.positions.includes(comp.position)) g.positions.push(comp.position)
   }
@@ -54,7 +66,7 @@ function groupComponents(components: KanjiVgComponent[]): GroupedComponent[] {
 }
 
 // This drawer is deliberately theme-independent (always a white Kanagawa-
-// styled panel -- predates the paper-theme system, see handoff.md). That
+// styled panel - predates the paper-theme system, see handoff.md). That
 // means it can NEVER use theme-reactive Tailwind classes like text-muted or
 // border-ink for anything drawn on its own white surface: on the four dark
 // papers those resolve to near-white, which is invisible (or worse,
@@ -66,6 +78,30 @@ const DRAWER_ACCENT = "#be4327"
 const DRAWER_HAIRLINE = "rgba(46,50,87,0.15)"
 const DRAWER_BLUE = "#3b82f6"
 const DRAWER_GREEN = "#22c55e"
+const DRAWER_ORANGE = "#d97706"
+
+// bothu.pdf names the positional variants "Bộ thủ", "Bộ khuyển", ... - the
+// lead-in word is noise on a chip, so chips and the diagram show "Thủ",
+// "Khuyển". The flashcards and the radical card keep the full PDF name.
+function shortName(name: string | undefined): string {
+  if (!name) return ''
+  const stripped = name.replace(/^Bộ\s+/i, '')
+  return stripped.charAt(0).toLocaleUpperCase('vi') + stripped.slice(1)
+}
+
+function NavButton({ onClick, label, children }: { onClick: () => void; label: string; children: React.ReactNode }) {
+  return (
+    <button
+      onClick={onClick}
+      title={label}
+      aria-label={label}
+      className="w-7 h-7 border-2 font-black text-sm leading-none cursor-pointer"
+      style={{ borderColor: DRAWER_MUTED, color: DRAWER_INK }}
+    >
+      {children}
+    </button>
+  )
+}
 
 function ReadingPill({ text, color }: { text: string; color: string }) {
   return (
@@ -79,7 +115,7 @@ function ReadingPill({ text, color }: { text: string; color: string }) {
 }
 
 // On/kun readings + meaning + level badge, for whichever source resolved
-// (KANJI_INDEX anchor data, or the kanji-readings.json fallback -- see
+// (KANJI_INDEX anchor data, or the kanji-readings.json fallback - see
 // KanjiDrawer's lookup below). Shared between the "has stroke animation"
 // and "no stroke animation" render branches so both surfaces show it.
 function ReadingsSection({
@@ -163,7 +199,7 @@ interface KanjiDrawerProps {
 }
 
 // Always-mounted right-side slide-over shell (translate-x + backdrop toggle)
-// so the close transition can play — conditionally rendering would unmount
+// so the close transition can play - conditionally rendering would unmount
 // mid-swipe. `displayChar` keeps the last kanji's content visible while it
 // slides out (`char` alone would blank the panel before the transition
 // finishes), then is cleared so the closed drawer holds no content.
@@ -181,6 +217,10 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
   const [replayKey, setReplayKey] = useState(0)
   const [vgData, setVgData] = useState<KanjiVgData | null>(kanjivgData)
   const [vgFailed, setVgFailed] = useState(false)
+  const [hoverElement, setHoverElement] = useState<string | null>(null)
+  const [showNumbers, setShowNumbers] = useState(false)
+  // Components the user clicked through (語 → 吾 → ...), so "back" can retrace.
+  const [history, setHistory] = useState<string[]>([])
 
   useEffect(() => {
     if (!open || vgData) return
@@ -196,9 +236,37 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
   useEffect(() => {
     if (char !== null) {
       setDisplayChar(char)
+      setHoverElement(null)
+      setHistory([])
       setReplayKey(k => k + 1)
     }
   }, [char])
+
+  const goTo = (next: string) => {
+    if (displayChar) setHistory(h => [...h, displayChar])
+    setDisplayChar(next)
+    setHoverElement(null)
+    setReplayKey(k => k + 1)
+  }
+  const goBack = () => {
+    const prev = history[history.length - 1]
+    if (prev === undefined) return
+    setHistory(h => h.slice(0, -1))
+    setDisplayChar(prev)
+    setHoverElement(null)
+    setReplayKey(k => k + 1)
+  }
+
+  // Prev/next walks the textbook order (anchors by chapter, then the rest).
+  const order = useMemo(() => (vgData ? kanjiOrder(Object.keys(vgData)) : []), [vgData])
+  const orderIndex = displayChar ? order.indexOf(displayChar) : -1
+  const step = (delta: number) => {
+    if (orderIndex < 0) return
+    setHistory([])
+    setDisplayChar(order[(orderIndex + delta + order.length) % order.length])
+    setHoverElement(null)
+    setReplayKey(k => k + 1)
+  }
 
   // Once the slide-out has finished (300ms, matching duration-300 below),
   // drop the last kanji so the SVG, readings and badges unmount and the
@@ -213,10 +281,21 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
     if (!open) return
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose()
+      const typing = e.target instanceof HTMLElement && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)
+      if (typing || orderIndex < 0) return
+      if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+        // The word/group modals underneath page on the same arrow keys through
+        // their own window listeners; this one runs first (capture phase) and
+        // swallows the key so only the drawer moves.
+        e.stopImmediatePropagation()
+        e.preventDefault()
+        step(e.key === "ArrowLeft" ? -1 : 1)
+      }
     }
-    window.addEventListener("keydown", onKeyDown)
-    return () => window.removeEventListener("keydown", onKeyDown)
-  }, [open, onClose])
+    window.addEventListener("keydown", onKeyDown, true)
+    return () => window.removeEventListener("keydown", onKeyDown, true)
+    // eslint-disable-next-line react-hooks/exhaustive-deps - step() only reads orderIndex/order
+  }, [open, onClose, orderIndex, order])
 
   const entry = displayChar && vgData ? vgData[displayChar] : undefined
   const hanviet = displayChar ? hanVietForChar(displayChar) : undefined
@@ -224,6 +303,21 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
     () => (entry ? groupComponents(entry.components) : []),
     [entry]
   )
+
+  // Tint each component's strokes only when there is something to tell apart
+  // (a lone whole-kanji component stays plain ink). While a chip is hovered,
+  // every other component's strokes fade so its share of the glyph stands out.
+  const strokeColors = useMemo(() => {
+    if (!entry || groupedComponents.length < 2) return undefined
+    const colors: string[] = new Array(entry.strokes.length)
+    groupedComponents.forEach((g, gi) => {
+      const color = hoverElement === null || hoverElement === g.element
+        ? COMPONENT_COLORS[gi % COMPONENT_COLORS.length]
+        : DIMMED_STROKE
+      for (const i of g.strokes) colors[i] = color
+    })
+    return colors
+  }, [entry, groupedComponents, hoverElement])
 
   // On/kun readings + meaning: KANJI_INDEX (kanji.json anchors, textbook-
   // verified + bilingual) is checked first; kanji-readings.json (build-time
@@ -242,6 +336,20 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
     ? cleanReadings(kanjiDetail.group.kunyomi, Infinity).shown
     : (fallbackReadings ? cleanReadings(fallbackReadings.kun, Infinity).shown : [])
   const levelLabel = kanjiDetail ? `${kanjiDetail.src} · ${t('common.chapterN', { n: kanjiDetail.chapter })}` : null
+  const rules = displayChar ? rulesForKanji(displayChar) : []
+  // A radical that has no stroke animation of its own (亻, 氵, ...) still gets
+  // its bothu.pdf name + gloss when navigated to from a component chip.
+  const radicalInfo = displayChar ? radicalNames[displayChar] : undefined
+  // A kanji that is its own single component (木, 本's merged 木) has nothing
+  // to diagram.
+  const graphNodes = groupedComponents.length === 1 && groupedComponents[0].element === displayChar
+    ? []
+    : groupedComponents.map((g, gi) => ({
+        element: g.element,
+        count: g.count,
+        label: shortName(radicalNames[g.element]?.hanviet) || hanVietForChar(g.element) || '',
+        color: COMPONENT_COLORS[gi % COMPONENT_COLORS.length],
+      }))
 
   return (
     <>
@@ -271,10 +379,20 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
       >
         {/* No SpeakButton here: a bare, out-of-context kanji has no single
             correct reading (this is exactly why the panel below lists every
-            on'yomi/kun'yomi rather than picking one) -- guessing one via TTS
+            on'yomi/kun'yomi rather than picking one), guessing one via TTS
             would show a specific pronunciation as if it were THE answer. */}
-        <div className="flex items-center justify-between p-4 border-b-3" style={{ borderColor: DRAWER_INK }}>
-          <div className="text-2xl font-black jp" style={{ color: DRAWER_INK }}>{displayChar}</div>
+        <div className="flex items-center justify-between gap-2 p-4 border-b-3" style={{ borderColor: DRAWER_INK }}>
+          <div className="flex items-center gap-1.5">
+            {history.length > 0 && (
+              <NavButton onClick={goBack} label={t('kanjiDrawer.back')}>↩</NavButton>
+            )}
+            {orderIndex >= 0 && <NavButton onClick={() => step(-1)} label={t('kanjiDrawer.prev')}>‹</NavButton>}
+            <div className="text-2xl font-black jp mx-1" style={{ color: DRAWER_INK }}>{displayChar}</div>
+            {orderIndex >= 0 && <NavButton onClick={() => step(1)} label={t('kanjiDrawer.next')}>›</NavButton>}
+            {orderIndex >= 0 && (
+              <span className="text-[10px] font-bold ml-1" style={{ color: DRAWER_MUTED }}>{orderIndex + 1}/{order.length}</span>
+            )}
+          </div>
           <button
             onClick={onClose}
             className="font-black text-sm cursor-pointer transition-colors"
@@ -297,6 +415,13 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
             <div className="font-bold text-sm mb-4" style={{ color: DRAWER_MUTED }}>
               {t('kanjiDrawer.noAnimation')}
             </div>
+            {radicalInfo && (
+              <div className="mb-3 border-2 p-3 text-left" style={{ borderColor: DRAWER_MUTED }}>
+                <div className="text-[10px] font-black uppercase tracking-wider" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.radicalCard')}</div>
+                <div className="text-lg font-black" style={{ color: DRAWER_INK }}>{radicalInfo.hanviet}</div>
+                {radicalInfo.meaning && <div className="text-sm font-bold" style={{ color: DRAWER_MUTED }}>{radicalInfo.meaning}</div>}
+              </div>
+            )}
             {hanviet && (
               <HanVietBadge hanviet={hanviet} label={t('kanjiDrawer.hanvietLabel')} />
             )}
@@ -311,6 +436,8 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
                 strokes={entry.strokes}
                 viewBox={entry.viewBox}
                 replayKey={replayKey}
+                strokeColors={strokeColors}
+                showNumbers={showNumbers}
                 className="w-full aspect-square"
               />
             </div>
@@ -321,7 +448,16 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
               </div>
             )}
 
-            <div className="flex justify-center mt-3">
+            <div className="flex justify-center gap-2 mt-3">
+              <button
+                onClick={() => setShowNumbers(v => !v)}
+                aria-pressed={showNumbers}
+                title={t('kanjiDrawer.showNumbers')}
+                className="flex items-center gap-1.5 px-3 py-1.5 border-2 rounded-[var(--radius-sm)] font-bold text-xs uppercase tracking-wider cursor-pointer transition-colors"
+                style={{ borderColor: showNumbers ? DRAWER_ACCENT : DRAWER_MUTED, color: showNumbers ? DRAWER_ACCENT : DRAWER_INK }}
+              >
+                123
+              </button>
               <button
                 onClick={() => setReplayKey(k => k + 1)}
                 title={t('kanjiDrawer.replay')}
@@ -337,35 +473,66 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
 
             <ReadingsSection meaningText={meaningText} onReadings={onReadings} kunReadings={kunReadings} levelLabel={levelLabel} />
 
+            {rules.length > 0 && (
+              <div className="mt-4">
+                <div className="text-xs font-black uppercase tracking-wider mb-2" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.rulesTitle')}</div>
+                <div className="flex flex-wrap gap-1.5">
+                  {rules.map(r => (
+                    <Link
+                      key={r.id}
+                      to="/rules#on-yomi"
+                      onClick={onClose}
+                      className="px-2 py-1 border-2 text-xs font-bold"
+                      style={{ borderColor: DRAWER_ORANGE, color: DRAWER_ORANGE }}
+                    >
+                      {r.vi} → {r.ja}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {groupedComponents.length > 0 && (
               <div className="mt-5">
                 <div className="text-xs font-black uppercase tracking-wider mb-2" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.componentsTitle')}</div>
                 <div className="flex flex-wrap gap-1.5 p-2 border-2" style={{ backgroundColor: "rgb(255,255,255)", borderColor: DRAWER_HAIRLINE }}>
-                  {groupedComponents.map(g => {
+                  {groupedComponents.map((g, gi) => {
                     const name = radicalNames[g.element]
+                    // bothu.pdf name first; a non-radical component that is
+                    // itself a kanji (e.g. 吾) falls back to its Hán Việt.
+                    const label = shortName(name?.hanviet) || hanVietForChar(g.element)
                     const positionLabel = g.positions.length === 1 ? (POSITION_LABELS[g.positions[0]] ?? g.positions[0]) : null
+                    const tooltip = [name?.meaning, positionLabel].filter(Boolean).join(" · ")
+                    const color = strokeColors ? COMPONENT_COLORS[gi % COMPONENT_COLORS.length] : DRAWER_MUTED
                     return (
                       <span
                         key={g.element}
-                        title={positionLabel ?? undefined}
-                        className="group inline-flex items-center gap-1 px-2 py-1 border-2 text-sm font-bold jp cursor-default transition-colors"
-                        style={{ borderColor: "#627d9a", color: "#627d9a" }}
-                        onMouseEnter={e => {
-                          e.currentTarget.style.borderColor = "#2e3257"
-                          e.currentTarget.style.color = "#2e3257"
-                        }}
-                        onMouseLeave={e => {
-                          e.currentTarget.style.borderColor = "#627d9a"
-                          e.currentTarget.style.color = "#627d9a"
-                        }}
+                        title={tooltip || undefined}
+                        className="group inline-flex items-center gap-1 px-2 py-1 border-2 text-sm font-bold jp cursor-pointer transition-colors"
+                        style={{ borderColor: color, color }}
+                        onMouseEnter={() => setHoverElement(g.element)}
+                        onMouseLeave={() => setHoverElement(null)}
+                        onClick={() => goTo(g.element)}
                       >
-                        [ {g.element}{name ? ` - ${name.hanviet}` : ""} ]
+                        [ {g.element}{label ? ` - ${label}` : ""} ]
                         {g.count > 1 && <span className="font-black">×{g.count}</span>}
-                        {g.isRadical && <span className="text-[8px] font-black align-super">{t('kanjiDrawer.radicalBadge')}</span>}
                       </span>
                     )
                   })}
                 </div>
+                {graphNodes.length > 0 && (
+                  <div className="mt-3 border-2 p-2" style={{ borderColor: DRAWER_HAIRLINE }}>
+                    <div className="text-[10px] font-black uppercase tracking-wider mb-1" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.graphTitle')}</div>
+                    <ComponentGraph
+                      char={displayChar ?? ""}
+                      charLabel={hanviet}
+                      nodes={graphNodes}
+                      hovered={hoverElement}
+                      onHover={setHoverElement}
+                      onSelect={goTo}
+                    />
+                  </div>
+                )}
               </div>
             )}
           </div>

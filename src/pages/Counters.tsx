@@ -131,7 +131,7 @@ function CounterTable({ category, accent, columnLabels, localize }: { category: 
                         'text-muted text-xs'
                       }`}
                     >
-                      {value || '—'}
+                      {value || '-'}
                     </td>
                   )
                 })}

@@ -18,11 +18,11 @@ import { groupKey, compareGroupKeys, isChapterKey } from "@/lib/vocab-grouping"
 
 // N5's chapter 15 ("N5 supplement") and N4's chapter 15 (Bai 15) both use
 // the identical k15_gN group-id scheme (see Kanji.tsx's own src-tagging for
-// the same collision) -- so kanji-mode review card ids are tagged with
+// the same collision) - so kanji-mode review card ids are tagged with
 // their source level too, e.g. "N5:k15_g1::w0" vs "N4:k15_g1::w0". This
 // changes every existing kanji-mode SRS card id; that's fine only because
 // this session's SM-2 migration (see srs.ts) already resets every card's
-// schedule regardless of id, per the user's explicit go-ahead -- don't
+// schedule regardless of id, per the user's explicit go-ahead - don't
 // repeat this rename casually once cards are live under the new scheme.
 type Src = 'N5' | 'N4'
 function taggedKanjiChapters(level: Level): Array<KanjiChapter & { src: Src }> {
@@ -45,7 +45,7 @@ type KanjiReviewCard = {
 type ReviewCard = VocabReviewCard | KanjiReviewCard
 
 // A flashcard-able unit for kanji mode is a single word within a leading-kanji
-// group, not the group itself — so a group with 4 words yields 4 cards.
+// group, not the group itself - so a group with 4 words yields 4 cards.
 type KanjiPoolEntry = { id: string; word: KanjiWord; group: KanjiGroup; chapterNum: number }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -71,7 +71,7 @@ export function Review() {
   const POS_LIST = useMemo(() => Array.from(new Set(vocab.map(v => v.pos))).sort(), [vocab])
   // Same chapter/category grouping VocabBrowser uses: chapter number where
   // one's been backfilled (N5 always, N4 for Bài 15-33), thematic category
-  // otherwise -- one unified filter axis instead of picking a single scheme
+  // otherwise - one unified filter axis instead of picking a single scheme
   // per level (which is what left N4 without a chapter option at all).
   const GROUPS = useMemo(() => Array.from(new Set(vocab.map(groupKey))).sort(compareGroupKeys), [vocab])
   const hasChapterKeys = useMemo(() => GROUPS.some(isChapterKey), [GROUPS])
@@ -154,12 +154,12 @@ export function Review() {
 
   // Again/Hard requeue the card a few cards ahead so it resurfaces later in
   // this same session (Anki-style relearning), instead of only coming back
-  // whenever its FSRS nextReview date is up. Good/Easy don't requeue — those
+  // whenever its FSRS nextReview date is up. Good/Easy don't requeue - those
   // ratings are trusted to the normal schedule.
   const REQUEUE_GAP = 4
 
   // Split so a keyboard rating can flash the button before the card actually
-  // advances (mouse clicks advance immediately — see RatingBar).
+  // advances (mouse clicks advance immediately - see RatingBar).
   const commitRating = (rating: number) => {
     if (!current) return
     reviewCard(current.id, current.cardType, rating)
@@ -273,7 +273,7 @@ function ReviewSetup({
   const { t } = useTranslation()
   // "Chapter" when every group key is a chapter number (N5), "Chapter /
   // Category" when it's a mix (N4, all), "Category" if somehow no chapter
-  // keys exist at all -- mirrors VocabBrowser's own dropdown-label logic.
+  // keys exist at all - mirrors VocabBrowser's own dropdown-label logic.
   const groupLabel = allChapterKeys
     ? t('review.chapterLabel')
     : hasChapterKeys ? t('review.chapterCategoryLabel') : t('review.categoryLabel')
@@ -304,7 +304,7 @@ function ReviewSetup({
 
         <div className="p-6 space-y-6">
           {/* Vocab: unified chapter/category filter (same grouping as
-              VocabBrowser). Kanji: plain chapter filter -- every kanji entry
+              VocabBrowser). Kanji: plain chapter filter, every kanji entry
               is chaptered on both levels, so this is always available. */}
           {mode === 'vocab' ? (
             <FilterSection label={groupLabel}>
@@ -461,7 +461,7 @@ function KanjiCardView({ card, flipped, onFlip }: { card: KanjiReviewCard; flipp
   const { word, group, chapterNum } = card
   const { t, localize } = useTranslation()
   // Real example sentences don't exist yet for individual kanji words (or
-  // for vocab entries in general — vocabulary.json's examples[] is empty
+  // for vocab entries in general - vocabulary.json's examples[] is empty
   // app-wide), so context comes from real sibling words in the same
   // leading-kanji family instead of fabricated sentences.
   const siblings = group.words.filter(w => w !== word).slice(0, 3)
@@ -529,7 +529,7 @@ function KanjiCardView({ card, flipped, onFlip }: { card: KanjiReviewCard; flipp
   )
 }
 
-// Binary rating only (Forgot/Remembered) -- casual use, not strict SM-2
+// Binary rating only (Forgot/Remembered) - casual use, not strict SM-2
 // drilling. The underlying reviewCard/SM-2 math is untouched; this just
 // always feeds it one of the two extremes (RATING.AGAIN / RATING.GOOD)
 // instead of exposing all four quality buckets.

@@ -1,8 +1,8 @@
-// 自動詞・他動詞 (jidoushi/tadoushi) -- transitive/intransitive verb pairs.
+// 自動詞・他動詞 (jidoushi/tadoushi) - transitive/intransitive verb pairs.
 // Level-agnostic vocabulary content (not split n5/n4 like grammar.ts/
 // verb-forms.ts): the pairs themselves are just words, but the construction
 // that motivates learning them (Nを+他動詞てある vs Nが+自動詞ている) is N4
-// chapter 19 -- see grammar.json's "transitive-intransitive" category
+// chapter 19 - see grammar.json's "transitive-intransitive" category
 // (g_161-g_164) and g_094_4 (ている, N5 ch.12), cross-linked from the page
 // itself via getGrammar()/allGrammar rather than duplicated here.
 import type { TransitivityPattern, VerbTransitivityPair } from "@/types"
@@ -11,7 +11,7 @@ export const IRREGULAR_PATTERN_ID = "irregular"
 
 // Ending-correspondence patterns, the standard "recognition table" taught
 // alongside these pairs (Genki/Minna no Nihongo appendix style). These are a
-// *mnemonic* grouping, not a strict morphological classification -- a few
+// *mnemonic* grouping, not a strict morphological classification - a few
 // pairs (見つかる/見つける's -aru/-eru, for instance) are textbook-perfect,
 // while others are looser family resemblances. That's fine: the goal is
 // "guess the shape of the pair you haven't met yet", not formal linguistics.
@@ -22,8 +22,8 @@ export const transitivityPatterns: TransitivityPattern[] = [
     transitiveEnding: "〜eru",
     intransitiveEnding: "〜aru",
     description: {
-      vi: "Tự động từ đuôi 〜aru (godan), tha động từ cùng gốc đổi thành 〜eru (ichidan). Đây là cặp phổ biến nhất -- phần lớn tha động từ đuôi 〜eru sẽ có một tự động từ 〜aru tương ứng.",
-      en: "Intransitive ends 〜aru (godan); the transitive twin swaps to 〜eru (ichidan) on the same root. The single most common pair shape -- most 〜eru transitives have an 〜aru intransitive partner.",
+      vi: "Tự động từ đuôi 〜aru (godan), tha động từ cùng gốc đổi thành 〜eru (ichidan). Đây là cặp phổ biến nhất, phần lớn tha động từ đuôi 〜eru sẽ có một tự động từ 〜aru tương ứng.",
+      en: "Intransitive ends 〜aru (godan); the transitive twin swaps to 〜eru (ichidan) on the same root. The single most common pair shape, most 〜eru transitives have an 〜aru intransitive partner.",
     },
   },
   {
@@ -32,8 +32,8 @@ export const transitivityPatterns: TransitivityPattern[] = [
     transitiveEnding: "〜eru",
     intransitiveEnding: "〜u",
     description: {
-      vi: "Tự động từ đuôi 〜u (godan) đổi thành 〜eru (ichidan) ở dạng tha động từ -- dễ nhầm với mẫu 〜aru/〜eru ở trên vì cùng kết thúc 〜eru, nhưng nguyên âm trước đó khác (く→ける chứ không phải まる→める).",
-      en: "Intransitive ends 〜u (godan), the transitive twin becomes 〜eru (ichidan) -- easy to confuse with the 〜aru/〜eru shape above since both land on 〜eru, but the vowel just before it differs (く→ける, not まる→める).",
+      vi: "Tự động từ đuôi 〜u (godan) đổi thành 〜eru (ichidan) ở dạng tha động từ, dễ nhầm với mẫu 〜aru/〜eru ở trên vì cùng kết thúc 〜eru, nhưng nguyên âm trước đó khác (く→ける chứ không phải まる→める).",
+      en: "Intransitive ends 〜u (godan), the transitive twin becomes 〜eru (ichidan), easy to confuse with the 〜aru/〜eru shape above since both land on 〜eru, but the vowel just before it differs (く→ける, not まる→める).",
     },
   },
   {
@@ -53,7 +53,7 @@ export const transitivityPatterns: TransitivityPattern[] = [
     intransitiveEnding: "〜reru",
     description: {
       vi: "Ngược với mẫu trên: ở đây THA động từ mới là 〜u (godan), còn TỰ động từ đổi thành 〜reru (ichidan). Dễ lẫn lộn với 〜reru/〜su nên cần chú ý xem từ nào đi với を.",
-      en: "The mirror image of the pattern above: here the TRANSITIVE verb is the 〜u (godan) one, and the INTRANSITIVE twin becomes 〜reru (ichidan). Easy to mix up with 〜reru/〜su -- check which member actually takes を.",
+      en: "The mirror image of the pattern above: here the TRANSITIVE verb is the 〜u (godan) one, and the INTRANSITIVE twin becomes 〜reru (ichidan). Easy to mix up with 〜reru/〜su, check which member actually takes を.",
     },
   },
   {
@@ -72,8 +72,8 @@ export const transitivityPatterns: TransitivityPattern[] = [
     transitiveEnding: "〜asu",
     intransitiveEnding: "〜u",
     description: {
-      vi: "Tự động từ đuôi 〜u (godan), tha động từ thêm 〜asu -- trông giống thể sai khiến (使役形) nhưng đây là một từ độc lập, không phải chia động từ.",
-      en: "Intransitive ends 〜u (godan); the transitive twin tacks on 〜asu -- it LOOKS like a causative (使役形) conjugation, but it's its own dictionary word, not a conjugated form.",
+      vi: "Tự động từ đuôi 〜u (godan), tha động từ thêm 〜asu, trông giống thể sai khiến (使役形) nhưng đây là một từ độc lập, không phải chia động từ.",
+      en: "Intransitive ends 〜u (godan); the transitive twin tacks on 〜asu, it LOOKS like a causative (使役形) conjugation, but it's its own dictionary word, not a conjugated form.",
     },
   },
   {
@@ -82,12 +82,12 @@ export const transitivityPatterns: TransitivityPattern[] = [
     transitiveEnding: "〜su",
     intransitiveEnding: "〜ru",
     description: {
-      vi: "Tự động từ đuôi 〜ru (thường ichidan), tha động từ đổi 〜ru thành 〜su. Mẫu của 出る／出す -- rất hay gặp.",
-      en: "Intransitive ends 〜ru (usually ichidan); the transitive twin swaps that 〜ru for 〜su. The 出る/出す shape -- very common.",
+      vi: "Tự động từ đuôi 〜ru (thường ichidan), tha động từ đổi 〜ru thành 〜su. Mẫu của 出る／出す, rất hay gặp.",
+      en: "Intransitive ends 〜ru (usually ichidan); the transitive twin swaps that 〜ru for 〜su. The 出る/出す shape, very common.",
     },
   },
   {
-    // label/endings are placeholders -- the page renders this pattern's
+    // label/endings are placeholders - the page renders this pattern's
     // header specially (t('transitivity.irregular')) instead of an
     // ending-swap label, since there's no ending pair to show.
     id: IRREGULAR_PATTERN_ID,
@@ -95,14 +95,14 @@ export const transitivityPatterns: TransitivityPattern[] = [
     transitiveEnding: "",
     intransitiveEnding: "",
     description: {
-      vi: "Vài cặp rất thường dùng không đổi âm cuối theo mẫu nào cả (gốc từ thậm chí khác nhau) -- phải học thuộc từng cặp riêng lẻ, không đoán được.",
-      en: "A handful of very common pairs don't follow any ending-swap pattern at all (sometimes the roots barely resemble each other) -- these just have to be memorized individually, not guessed.",
+      vi: "Vài cặp rất thường dùng không đổi âm cuối theo mẫu nào cả (gốc từ thậm chí khác nhau), phải học thuộc từng cặp riêng lẻ, không đoán được.",
+      en: "A handful of very common pairs don't follow any ending-swap pattern at all (sometimes the roots barely resemble each other), these just have to be memorized individually, not guessed.",
     },
   },
 ]
 
 export const verbPairs: VerbTransitivityPair[] = [
-  // -- 〜aru / 〜eru --------------------------------------------------------
+  // - 〜aru / 〜eru --------------------------------------------------------
   {
     id: "ageru-agaru",
     patternId: "aru-eru",
@@ -189,7 +189,7 @@ export const verbPairs: VerbTransitivityPair[] = [
     },
   },
 
-  // -- 〜u / 〜eru -----------------------------------------------------------
+  // - 〜u / 〜eru -----------------------------------------------------------
   {
     id: "akeru-aku",
     patternId: "u-eru",
@@ -261,7 +261,7 @@ export const verbPairs: VerbTransitivityPair[] = [
     },
   },
 
-  // -- 〜reru / 〜su ---------------------------------------------------------
+  // - 〜reru / 〜su ---------------------------------------------------------
   {
     id: "kowasu-kowareru",
     patternId: "reru-su",
@@ -319,7 +319,7 @@ export const verbPairs: VerbTransitivityPair[] = [
     },
   },
 
-  // -- 〜u / 〜reru (mirror of the pair above -- watch which one takes を) --
+  // - 〜u / 〜reru (mirror of the pair above - watch which one takes を) --
   {
     id: "waru-wareru",
     patternId: "u-reru",
@@ -363,7 +363,7 @@ export const verbPairs: VerbTransitivityPair[] = [
     },
   },
 
-  // -- 〜eru/〜iru / 〜su/〜osu -----------------------------------------------
+  // - 〜eru/〜iru / 〜su/〜osu -----------------------------------------------
   {
     id: "kesu-kieru",
     patternId: "eru-su",
@@ -421,7 +421,7 @@ export const verbPairs: VerbTransitivityPair[] = [
     },
   },
 
-  // -- 〜u / 〜asu (looks causative -- it isn't) ----------------------------
+  // - 〜u / 〜asu (looks causative - it isn't) ----------------------------
   {
     id: "ugokasu-ugoku",
     patternId: "u-asu",
@@ -493,7 +493,7 @@ export const verbPairs: VerbTransitivityPair[] = [
     },
   },
 
-  // -- 〜ru / 〜su -----------------------------------------------------------
+  // - 〜ru / 〜su -----------------------------------------------------------
   {
     id: "dasu-deru",
     patternId: "ru-su",
@@ -521,7 +521,7 @@ export const verbPairs: VerbTransitivityPair[] = [
       meaning: { vi: "khỏi bệnh", en: "to be cured, healed" },
       example: { ja: "風邪はもう治りました。", kana: "かぜはもうなおりました。", vi: "Cảm cúm đã khỏi rồi.", en: "My cold has already healed." },
     },
-    note: { vi: "Cùng đọc なおす／なおる với 直す／直る (sửa chữa) -- khác kanji, khác nghĩa cụ thể nhưng cùng mẫu ru/su.", en: "Shares its なおす／なおる reading with 直す／直る (\"to fix/be fixed\") -- different kanji and specific meaning, but the same ru/su shape." },
+    note: { vi: "Cùng đọc なおす／なおる với 直す／直る (sửa chữa), khác kanji, khác nghĩa cụ thể nhưng cùng mẫu ru/su.", en: "Shares its なおす／なおる reading with 直す／直る (\"to fix/be fixed\"), different kanji and specific meaning, but the same ru/su shape." },
   },
   {
     id: "kaesu-kaeru",
@@ -536,7 +536,7 @@ export const verbPairs: VerbTransitivityPair[] = [
       meaning: { vi: "được trả lại", en: "to be returned, come back" },
       example: { ja: "落とした財布が返ってきました。", kana: "おとしたさいふがかえってきました。", vi: "Cái ví tôi đánh rơi đã được trả lại.", en: "The wallet I dropped came back to me." },
     },
-    note: { vi: "Đọc giống 変える (かえる, \"thay đổi\") -- nghe cùng âm nhưng khác kanji/nghĩa, dễ nhầm khi chỉ nghe.", en: "Sounds identical to 変える (かえる, \"to change\") -- same pronunciation, different kanji/meaning, an easy mix-up by ear alone." },
+    note: { vi: "Đọc giống 変える (かえる, \"thay đổi\"), nghe cùng âm nhưng khác kanji/nghĩa, dễ nhầm khi chỉ nghe.", en: "Sounds identical to 変える (かえる, \"to change\"), same pronunciation, different kanji/meaning, an easy mix-up by ear alone." },
   },
   {
     id: "toosu-tooru",
@@ -567,7 +567,7 @@ export const verbPairs: VerbTransitivityPair[] = [
     },
   },
 
-  // -- irregular / no shared ending pattern ---------------------------------
+  // - irregular / no shared ending pattern ---------------------------------
   {
     id: "ireru-hairu",
     patternId: "irregular",
@@ -581,7 +581,7 @@ export const verbPairs: VerbTransitivityPair[] = [
       meaning: { vi: "vào", en: "to enter" },
       example: { ja: "部屋に入ってもいいですか。", kana: "へやにはいってもいいですか。", vi: "Tôi có thể vào phòng được không?", en: "May I enter the room?" },
     },
-    note: { vi: "Cặp N4 kinh điển hay bị coi nhầm là mẫu 〜aru/〜eru vì cùng viết chung kanji 入 -- nhưng cách đọc (いれる／はいる) không theo mẫu nào cả.", en: "The classic N4 pair everyone assumes fits the 〜aru/〜eru shape because they share the kanji 入 -- but the readings (いれる／はいる) don't follow any pattern at all." },
+    note: { vi: "Cặp N4 kinh điển hay bị coi nhầm là mẫu 〜aru/〜eru vì cùng viết chung kanji 入, nhưng cách đọc (いれる／はいる) không theo mẫu nào cả.", en: "The classic N4 pair everyone assumes fits the 〜aru/〜eru shape because they share the kanji 入, but the readings (いれる／はいる) don't follow any pattern at all." },
   },
   {
     id: "noseru-noru",

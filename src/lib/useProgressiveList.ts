@@ -6,7 +6,7 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState, type RefObject }
  * the window by another page as it scrolls near the bottom of `rootRef`.
  *
  * Mounting ~1000 furigana/pitch-accent rows in one go took long enough on an
- * iPhone to block the main thread -- keystrokes in the search box queued up
+ * iPhone to block the main thread - keystrokes in the search box queued up
  * behind the render, and clearing the search (every row coming back at once)
  * was the worst case. Capping the first paint keeps each keystroke's render
  * small no matter how many items match.

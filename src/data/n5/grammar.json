@@ -38,7 +38,9 @@
       {
         "pos": "noun",
         "form": "Dictionary form",
-        "exampleStr": "学生 ＋ です"
+        "exampleStr": "学生 ＋ です",
+        "formVi": "Thể từ điển",
+        "formEn": "Dictionary form"
       }
     ],
     "pragmatics": {
@@ -63,16 +65,16 @@
           "en": "は marks the topic, not necessarily the grammatical subject"
         },
         "description": {
-          "vi": "は đánh dấu chủ đề của câu (cái đang được nói tới), không phải lúc nào cũng là \"chủ ngữ\" theo nghĩa tiếng Việt. N1 thường được lược bỏ nếu đã rõ trong ngữ cảnh -- ví dụ khi trả lời một câu hỏi đã nêu rõ chủ đề.",
-          "en": "は marks what the sentence is about (the topic), which is often but not always the same as the subject. N1 is commonly dropped entirely when clear from context -- e.g. when answering a question that already established the topic."
+          "vi": "は đánh dấu chủ đề của câu (cái đang được nói tới), không phải lúc nào cũng là \"chủ ngữ\" theo nghĩa tiếng Việt. N1 thường được lược bỏ nếu đã rõ trong ngữ cảnh, ví dụ khi trả lời một câu hỏi đã nêu rõ chủ đề.",
+          "en": "は marks what the sentence is about (the topic), which is often but not always the same as the subject. N1 is commonly dropped entirely when clear from context, e.g. when answering a question that already established the topic."
         },
         "examples": [
           {
             "incorrect": "田中さんは田中さんです。",
             "correct": "田中です。",
             "explanation": {
-              "vi": "Khi trả lời câu hỏi \"Bạn là ai?\", không lặp lại chủ đề đã rõ -- chỉ cần nói phần thông tin mới.",
-              "en": "When answering \"Who are you?\", don't repeat the already-clear topic -- just state the new information."
+              "vi": "Khi trả lời câu hỏi \"Bạn là ai?\", không lặp lại chủ đề đã rõ, chỉ cần nói phần thông tin mới.",
+              "en": "When answering \"Who are you?\", don't repeat the already-clear topic, just state the new information."
             }
           }
         ]
@@ -113,7 +115,7 @@
         "en": "This is Mr./Ms. Tanaka.",
         "contextualExplanation": {
           "vi": "Ở mức độ trang trọng hơn (kính ngữ), です được thay bằng でいらっしゃいます khi giới thiệu người khác một cách kính trọng.",
-          "en": "At a more formal (keigo) register, です is replaced by でいらっしゃいます when respectfully introducing someone else -- beyond N5 level but useful to recognize."
+          "en": "At a more formal (keigo) register, です is replaced by でいらっしゃいます when respectfully introducing someone else, beyond N5 level but useful to recognize."
         }
       },
       {
@@ -139,7 +141,7 @@
         "en": "No, I'm not Tanaka. I'm Yamada.",
         "contextualExplanation": {
           "vi": "Thể phủ định じゃないです được học riêng ở g_004, đặt cạnh đây để đối chiếu.",
-          "en": "The negative form janai desu is its own point (g_004) -- shown here for contrast with the affirmative."
+          "en": "The negative form janai desu is its own point (g_004), shown here for contrast with the affirmative."
         }
       },
       {
@@ -151,8 +153,8 @@
         "vi": "Cái đó là ô của tôi.",
         "en": "That's my umbrella.",
         "contextualExplanation": {
-          "vi": "Trong hội thoại thân mật giữa bạn bè, です được thay bằng だ (thể thường) -- xem thêm g_028_1.",
-          "en": "In casual speech among friends, です is replaced by its plain-form counterpart だ -- see g_028_1 for the full plain-form pattern."
+          "vi": "Trong hội thoại thân mật giữa bạn bè, です được thay bằng だ (thể thường), xem thêm g_028_1.",
+          "en": "In casual speech among friends, です is replaced by its plain-form counterpart だ, see g_028_1 for the full plain-form pattern."
         }
       }
     ],
@@ -196,7 +198,9 @@
       {
         "pos": "noun",
         "form": "Dictionary form + か",
-        "exampleStr": "学生 ＋ ですか"
+        "exampleStr": "学生 ＋ ですか",
+        "formVi": "Thể từ điển + か",
+        "formEn": "Dictionary form + か"
       }
     ],
     "pragmatics": {
@@ -222,7 +226,7 @@
         },
         "description": {
           "vi": "Tiếng Nhật không đảo trật tự từ như tiếng Anh (\"Is this a pen?\"). Chỉ cần thêm か vào cuối câu khẳng định là thành câu hỏi, giữ nguyên trật tự N1は N2です.",
-          "en": "Japanese never inverts word order the way English does (\"Is this a pen?\"). Just append か to the end of the affirmative sentence -- N1 は N2 です stays in the same order."
+          "en": "Japanese never inverts word order the way English does (\"Is this a pen?\"). Just append か to the end of the affirmative sentence, N1 は N2 です stays in the same order."
         },
         "examples": [
           {
@@ -230,7 +234,7 @@
             "correct": "田中さんは学生ですか。",
             "explanation": {
               "vi": "Không đảo trật tự, chỉ thêm か ở cuối.",
-              "en": "No inversion -- just append か at the end."
+              "en": "No inversion, just append か at the end."
             }
           }
         ]
@@ -242,8 +246,8 @@
           "en": "In casual speech, rising intonation alone can replace か"
         },
         "description": {
-          "vi": "Trong văn nói thân mật, có thể bỏ か và chỉ lên giọng ở cuối câu (学生？) để hỏi -- xem g_028_2.",
-          "en": "In casual spoken Japanese, か is often dropped entirely and replaced by just a rising intonation at the end (学生？) -- see g_028_2 for the plain-form question pattern."
+          "vi": "Trong văn nói thân mật, có thể bỏ か và chỉ lên giọng ở cuối câu (学生？) để hỏi, xem g_028_2.",
+          "en": "In casual spoken Japanese, か is often dropped entirely and replaced by just a rising intonation at the end (学生？), see g_028_2 for the plain-form question pattern."
         },
         "relatedGrammarId": "g_028_2"
       }
@@ -285,7 +289,7 @@
         "en": "Isn't this Tanaka's bag?",
         "contextualExplanation": {
           "vi": "じゃないですか ở đây không phải phủ định thật, mà là câu hỏi tu từ mang nghĩa \"phải không nhỉ?\".",
-          "en": "じゃないですか here is not a true negative -- it's a tag-question (\"isn't it...?\") seeking confirmation."
+          "en": "じゃないですか here is not a true negative, it's a tag-question (\"isn't it...?\") seeking confirmation."
         }
       },
       {
@@ -297,8 +301,8 @@
         "vi": "A: Đó là điện thoại mới hả? B: Ừ, đúng vậy.",
         "en": "A: Is that a new phone? B: Yeah, it is.",
         "contextualExplanation": {
-          "vi": "か được lược bỏ, chỉ lên giọng ở cuối câu -- xem g_028_2.",
-          "en": "か is dropped entirely; only the rising intonation marks the question -- see g_028_2."
+          "vi": "か được lược bỏ, chỉ lên giọng ở cuối câu, xem g_028_2.",
+          "en": "か is dropped entirely; only the rising intonation marks the question, see g_028_2."
         }
       },
       {
@@ -355,7 +359,9 @@
         "pos": "noun",
         "form": "Bare noun (replaces は/が/を)",
         "particle": "も",
-        "exampleStr": "私 ＋ も"
+        "exampleStr": "私 ＋ も",
+        "formVi": "Danh từ trơn (thay は/が/を)",
+        "formEn": "Bare noun (replaces は/が/を)"
       }
     ],
     "pragmatics": {
@@ -382,7 +388,7 @@
         },
         "description": {
           "vi": "も thay thế hoàn toàn は、が、を (không dùng chung: ✗ をも, ✗ はも). Với các trợ từ khác (に、で、へ...) thì も được thêm vào sau: にも、でも.",
-          "en": "も fully replaces は/が/を -- they never combine (✗ をも, ✗ はも). With other particles (に, で, へ...) も is added after them instead: にも, でも."
+          "en": "も fully replaces は/が/を, they never combine (✗ をも, ✗ はも). With other particles (に, で, へ...) も is added after them instead: にも, でも."
         },
         "examples": [
           {
@@ -390,7 +396,7 @@
             "correct": "私もりんごを食べます。",
             "explanation": {
               "vi": "も thay thế を/は, không dùng cùng lúc.",
-              "en": "も replaces を/は -- they don't co-occur."
+              "en": "も replaces を/は, they don't co-occur."
             }
           }
         ]
@@ -504,19 +510,25 @@
         "pos": "noun",
         "form": "Dictionary form",
         "particle": "じゃないです",
-        "exampleStr": "学生 ＋ じゃないです"
+        "exampleStr": "学生 ＋ じゃないです",
+        "formVi": "Thể từ điển",
+        "formEn": "Dictionary form"
       },
       {
         "pos": "noun",
         "form": "Dictionary form",
         "particle": "じゃありません",
-        "exampleStr": "学生 ＋ じゃありません"
+        "exampleStr": "学生 ＋ じゃありません",
+        "formVi": "Thể từ điển",
+        "formEn": "Dictionary form"
       },
       {
         "pos": "noun",
         "form": "Dictionary form",
         "particle": "ではありません",
-        "exampleStr": "学生 ＋ ではありません"
+        "exampleStr": "学生 ＋ ではありません",
+        "formVi": "Thể từ điển",
+        "formEn": "Dictionary form"
       }
     ],
     "pragmatics": {
@@ -595,8 +607,8 @@
         "vi": "Cái này không phải của tôi.",
         "en": "This isn't mine.",
         "contextualExplanation": {
-          "vi": "Trong văn nói thân mật, です được lược bỏ: N2じゃない -- xem g_030_2.",
-          "en": "In casual speech です drops entirely: N2じゃない -- see g_030_2 for the full plain-form negative."
+          "vi": "Trong văn nói thân mật, です được lược bỏ: N2じゃない, xem g_030_2.",
+          "en": "In casual speech です drops entirely: N2じゃない, see g_030_2 for the full plain-form negative."
         }
       },
       {
@@ -606,7 +618,7 @@
         "kana": "それはわたしのかさじゃなくて、やまださんのです。",
         "romaji": "Sore wa watashi no kasa janakute, Yamada-san no desu.",
         "vi": "Cái đó không phải ô của tôi, mà là của bạn Yamada.",
-        "en": "That's not my umbrella -- it's Yamada's.",
+        "en": "That's not my umbrella, it's Yamada's.",
         "contextualExplanation": {
           "vi": "じゃなくて (thể て của phủ định) nối hai mệnh đề để đối chiếu \"không phải A mà là B\".",
           "en": "じゃなくて (te-form of the negative) links two clauses for \"not A, but B\"."
@@ -654,7 +666,9 @@
       {
         "pos": "noun",
         "form": "Dictionary form + でした",
-        "exampleStr": "学生 ＋ でした"
+        "exampleStr": "学生 ＋ でした",
+        "formVi": "Thể từ điển + でした",
+        "formEn": "Dictionary form + でした"
       }
     ],
     "pragmatics": {
@@ -675,8 +689,8 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "でした là một từ trọn vẹn -- đừng chia thêm です trong đó",
-          "en": "でした is one word -- don't conjugate です itself"
+          "vi": "でした là một từ trọn vẹn, đừng chia thêm です trong đó",
+          "en": "でした is one word, don't conjugate です itself"
         },
         "description": {
           "vi": "Người học hay viết nhầm \"ですた\" hoặc chia です như động từ thông thường. Quá khứ của です luôn là でした (một khối cố định).",
@@ -733,8 +747,8 @@
         "vi": "A: Hôm qua rảnh không? B: Không, bận lắm.",
         "en": "A: Were you free yesterday? B: No, I was busy.",
         "contextualExplanation": {
-          "vi": "Thể thường của でした là だった -- xem g_031.",
-          "en": "The plain-form counterpart of でした is だった -- see g_031."
+          "vi": "Thể thường của でした là だった, xem g_031.",
+          "en": "The plain-form counterpart of でした is だった, see g_031."
         }
       },
       {
@@ -792,12 +806,16 @@
       {
         "pos": "noun",
         "form": "Dictionary form + じゃなかったです",
-        "exampleStr": "学生 ＋ じゃなかったです"
+        "exampleStr": "学生 ＋ じゃなかったです",
+        "formVi": "Thể từ điển + じゃなかったです",
+        "formEn": "Dictionary form + じゃなかったです"
       },
       {
         "pos": "noun",
         "form": "Dictionary form + じゃありませんでした",
-        "exampleStr": "学生 ＋ じゃありませんでした"
+        "exampleStr": "学生 ＋ じゃありませんでした",
+        "formVi": "Thể từ điển + じゃありませんでした",
+        "formEn": "Dictionary form + じゃありませんでした"
       }
     ],
     "pragmatics": {
@@ -823,7 +841,7 @@
         },
         "description": {
           "vi": "Không viết じゃないでした (sai): でした không đi ngay sau ない. Phải chọn một trong hai công thức: じゃなかったです (chia quá khứ ở なかった) hoặc じゃありませんでした (chia quá khứ ở でした).",
-          "en": "✗ じゃないでした is wrong -- でした never attaches directly after ない. Pick one of the two valid patterns: じゃなかったです (past marked on なかった) or じゃありませんでした (past marked on でした)."
+          "en": "✗ じゃないでした is wrong, でした never attaches directly after ない. Pick one of the two valid patterns: じゃなかったです (past marked on なかった) or じゃありませんでした (past marked on でした)."
         },
         "examples": [
           {
@@ -886,8 +904,8 @@
         "vi": "Bộ phim đó không hay lắm. Nhưng cũng không phải phim chán đâu.",
         "en": "That movie wasn't very interesting. But it wasn't a boring movie either.",
         "contextualExplanation": {
-          "vi": "Thể thường của じゃなかったです là じゃなかった -- xem g_032.",
-          "en": "The plain-form counterpart of じゃなかったです is じゃなかった -- see g_032."
+          "vi": "Thể thường của じゃなかったです là じゃなかった, xem g_032.",
+          "en": "The plain-form counterpart of じゃなかったです is じゃなかった, see g_032."
         }
       },
       {
@@ -945,7 +963,9 @@
       {
         "pos": "noun",
         "form": "Dictionary form + で (linking) + N3です",
-        "exampleStr": "学生 ＋ で ＋ 19歳です"
+        "exampleStr": "学生 ＋ で ＋ 19歳です",
+        "formVi": "Thể từ điển + で (nối câu) + N3です",
+        "formEn": "Dictionary form + で (linking) + N3です"
       }
     ],
     "pragmatics": {
@@ -1009,7 +1029,7 @@
         "kana": "たなかさんはがくせいじゃなくて、かいしゃいんです。",
         "romaji": "Tanaka-san wa gakusei janakute, kaishain desu.",
         "vi": "Bạn Tanaka không phải sinh viên, mà là nhân viên công ty.",
-        "en": "Tanaka isn't a student -- they're a company employee.",
+        "en": "Tanaka isn't a student, they're a company employee.",
         "contextualExplanation": {
           "vi": "Ở dạng phủ định, で đổi thành じゃなくて để nối \"không phải A mà là B\".",
           "en": "In the negative, で becomes じゃなくて for \"not A, but B\"."
@@ -1079,7 +1099,9 @@
       {
         "pos": "noun",
         "form": "Dictionary form (は)いくらですか",
-        "exampleStr": "これ ＋ （は）いくらですか"
+        "exampleStr": "これ ＋ （は）いくらですか",
+        "formVi": "Thể từ điển (は)いくらですか",
+        "formEn": "Dictionary form (は)いくらですか"
       }
     ],
     "pragmatics": {
@@ -1213,7 +1235,9 @@
       {
         "pos": "noun",
         "form": "(N1は)＋何ですか",
-        "exampleStr": "これ ＋ は何ですか"
+        "exampleStr": "これ ＋ は何ですか",
+        "formVi": "(N1は)＋何ですか",
+        "formEn": "(N1は)＋何ですか"
       }
     ],
     "pragmatics": {
@@ -1305,8 +1329,8 @@
         "vi": "Đây là sách về gì vậy?",
         "en": "What kind of book is this (about)?",
         "contextualExplanation": {
-          "vi": "何の + N hỏi về nội dung/loại của N -- xem g_011_2.",
-          "en": "何の + N asks about N's content/type -- see g_011_2."
+          "vi": "何の + N hỏi về nội dung/loại của N, xem g_011_2.",
+          "en": "何の + N asks about N's content/type, see g_011_2."
         }
       }
     ],
@@ -1349,7 +1373,9 @@
       {
         "pos": "noun",
         "form": "誰の + N2ですか",
-        "exampleStr": "誰の ＋ かばんですか"
+        "exampleStr": "誰の ＋ かばんですか",
+        "formVi": "誰の + N2ですか",
+        "formEn": "誰の + N2ですか"
       }
     ],
     "pragmatics": {
@@ -1415,8 +1441,8 @@
         "vi": "Quyển sách này là của ai vậy?",
         "en": "Whose is this book?",
         "contextualExplanation": {
-          "vi": "N2 có thể lược bỏ khi đã rõ trong ngữ cảnh, chỉ còn 誰の (の đóng vai trò thay thế danh từ) -- xem g_011_5.",
-          "en": "N2 can be omitted when clear from context, leaving just 誰の (の standing in for the noun) -- see g_011_5."
+          "vi": "N2 có thể lược bỏ khi đã rõ trong ngữ cảnh, chỉ còn 誰の (の đóng vai trò thay thế danh từ), xem g_011_5.",
+          "en": "N2 can be omitted when clear from context, leaving just 誰の (の standing in for the noun), see g_011_5."
         }
       },
       {
@@ -1442,7 +1468,7 @@
         "en": "Whose turn is it now?",
         "contextualExplanation": {
           "vi": "誰の không chỉ hỏi sở hữu vật chất mà còn dùng với danh từ trừu tượng như 番 (lượt).",
-          "en": "誰の isn't limited to physical ownership -- it also pairs with abstract nouns like 番 (turn)."
+          "en": "誰の isn't limited to physical ownership, it also pairs with abstract nouns like 番 (turn)."
         }
       }
     ],
@@ -1486,7 +1512,9 @@
       {
         "pos": "noun",
         "form": "何の + N2ですか",
-        "exampleStr": "何の ＋ 本ですか"
+        "exampleStr": "何の ＋ 本ですか",
+        "formVi": "何の + N2ですか",
+        "formEn": "何の + N2ですか"
       }
     ],
     "pragmatics": {
@@ -1511,8 +1539,8 @@
           "en": "何の N asks about content/topic, not identity"
         },
         "description": {
-          "vi": "何の本ですか hỏi về NỘI DUNG cuốn sách (sách về chủ đề gì), khác với 何ですか (hỏi đây là VẬT GÌ). Đây cũng là một trong ba nghĩa của 何の -- xem thêm g_011_4 (chất liệu).",
-          "en": "何の本ですか asks about the book's CONTENT/topic, different from plain 何ですか (asking what the object itself is). 何の also covers material -- see g_011_4."
+          "vi": "何の本ですか hỏi về NỘI DUNG cuốn sách (sách về chủ đề gì), khác với 何ですか (hỏi đây là VẬT GÌ). Đây cũng là một trong ba nghĩa của 何の, xem thêm g_011_4 (chất liệu).",
+          "en": "何の本ですか asks about the book's CONTENT/topic, different from plain 何ですか (asking what the object itself is). 何の also covers material, see g_011_4."
         },
         "relatedGrammarId": "g_011_4"
       }
@@ -1621,7 +1649,9 @@
       {
         "pos": "noun",
         "form": "どこの + N2ですか",
-        "exampleStr": "どこの ＋ 会社ですか"
+        "exampleStr": "どこの ＋ 会社ですか",
+        "formVi": "どこの + N2ですか",
+        "formEn": "どこの + N2ですか"
       }
     ],
     "pragmatics": {
@@ -1642,12 +1672,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "どこの và どこで -- xuất xứ/nhà sản xuất khác với địa điểm diễn ra hành động",
-          "en": "どこの vs どこで -- origin/maker vs. location of action"
+          "vi": "どこの và どこで, xuất xứ/nhà sản xuất khác với địa điểm diễn ra hành động",
+          "en": "どこの vs どこで, origin/maker vs. location of action"
         },
         "description": {
-          "vi": "どこの + N hỏi N2 xuất xứ/thuộc về đâu (どこの車 = xe hãng nào/nước nào). どこで + V hỏi hành động diễn ra ở đâu -- hai cấu trúc khác chức năng, dễ nhầm vì đều bắt đầu bằng どこ.",
-          "en": "どこの + N asks where N2 originates from or belongs to (どこの車 = \"a car from where/which maker\"). どこで + V asks where an action takes place -- different function, easy to confuse since both start with どこ."
+          "vi": "どこの + N hỏi N2 xuất xứ/thuộc về đâu (どこの車 = xe hãng nào/nước nào). どこで + V hỏi hành động diễn ra ở đâu, hai cấu trúc khác chức năng, dễ nhầm vì đều bắt đầu bằng どこ.",
+          "en": "どこの + N asks where N2 originates from or belongs to (どこの車 = \"a car from where/which maker\"). どこで + V asks where an action takes place, different function, easy to confuse since both start with どこ."
         }
       }
     ],
@@ -1757,7 +1787,9 @@
       {
         "pos": "noun",
         "form": "何の + N2ですか",
-        "exampleStr": "何の ＋ 肉ですか"
+        "exampleStr": "何の ＋ 肉ですか",
+        "formVi": "何の + N2ですか",
+        "formEn": "何の + N2ですか"
       }
     ],
     "pragmatics": {
@@ -1782,8 +1814,8 @@
           "en": "Same 何の, a different sense than g_011_2"
         },
         "description": {
-          "vi": "何の cùng cấu trúc với g_011_2 (hỏi chủ đề) nhưng ở đây mang nghĩa \"làm bằng gì/thành phần gì\" -- ý nghĩa cụ thể phụ thuộc vào N2 (肉=thịt gì, 木=gỗ gì...).",
-          "en": "何の has the same form as g_011_2 (asking topic) but here asks \"made of what/what kind of ingredient\" -- the specific sense depends on N2 (肉 = what kind of meat, 木 = what kind of wood...)."
+          "vi": "何の cùng cấu trúc với g_011_2 (hỏi chủ đề) nhưng ở đây mang nghĩa \"làm bằng gì/thành phần gì\", ý nghĩa cụ thể phụ thuộc vào N2 (肉=thịt gì, 木=gỗ gì...).",
+          "en": "何の has the same form as g_011_2 (asking topic) but here asks \"made of what/what kind of ingredient\", the specific sense depends on N2 (肉 = what kind of meat, 木 = what kind of wood...)."
         },
         "relatedGrammarId": "g_011_2"
       }
@@ -1894,7 +1926,9 @@
       {
         "pos": "noun",
         "form": "N1 + の + N2",
-        "exampleStr": "田中さん ＋ の ＋ かばん"
+        "exampleStr": "田中さん ＋ の ＋ かばん",
+        "formVi": "N1 + の + N2",
+        "formEn": "N1 + の + N2"
       }
     ],
     "pragmatics": {
@@ -1920,8 +1954,8 @@
           "en": "の can stand in for the noun itself (drop N2)"
         },
         "description": {
-          "vi": "Khi N2 đã rõ trong ngữ cảnh, có thể lược bỏ N2 và chỉ giữ N1の (の đóng vai trò như đại từ thay thế) -- ví dụ これは私のです thay vì これは私のかばんです.",
-          "en": "When N2 is clear from context, it can be dropped entirely, leaving just N1の -- の then acts as a pronoun standing in for the noun, e.g. これは私のです instead of これは私のかばんです."
+          "vi": "Khi N2 đã rõ trong ngữ cảnh, có thể lược bỏ N2 và chỉ giữ N1の (の đóng vai trò như đại từ thay thế), ví dụ これは私のです thay vì これは私のかばんです.",
+          "en": "When N2 is clear from context, it can be dropped entirely, leaving just N1の, の then acts as a pronoun standing in for the noun, e.g. これは私のです instead of これは私のかばんです."
         }
       }
     ],
@@ -1961,8 +1995,8 @@
         "vi": "Cái này là của ai vậy?",
         "en": "Whose is this?",
         "contextualExplanation": {
-          "vi": "N2 lược bỏ vì đã rõ đang chỉ vào vật gì -- の đứng một mình thay thế danh từ.",
-          "en": "N2 is dropped since the object is clear from pointing -- の stands alone as a pronoun."
+          "vi": "N2 lược bỏ vì đã rõ đang chỉ vào vật gì, の đứng một mình thay thế danh từ.",
+          "en": "N2 is dropped since the object is clear from pointing, の stands alone as a pronoun."
         }
       },
       {
@@ -1988,7 +2022,7 @@
         "en": "I like wooden tables.",
         "contextualExplanation": {
           "vi": "の cũng dùng để chỉ chất liệu (木のテーブル = bàn làm bằng gỗ), một cách dùng rất linh hoạt.",
-          "en": "の can also mark material (木のテーブル = \"table [made] of wood\") -- a very flexible use."
+          "en": "の can also mark material (木のテーブル = \"table [made] of wood\"), a very flexible use."
         }
       }
     ],
@@ -2033,7 +2067,9 @@
         "pos": "phrase",
         "form": "End of any sentence (plain or polite)",
         "particle": "ね",
-        "exampleStr": "いい天気です ＋ ね"
+        "exampleStr": "いい天気です ＋ ね",
+        "formVi": "Cuối câu bất kỳ (thể thường hoặc lịch sự)",
+        "formEn": "End of any sentence (plain or polite)"
       }
     ],
     "pragmatics": {
@@ -2047,8 +2083,8 @@
         "en": "Inviting agreement or confirming shared feeling/knowledge with the listener"
       },
       "emotionalNuance": {
-        "vi": "Ấm áp, làm mềm câu nói -- ngụ ý \"tôi cho rằng bạn cũng cảm thấy/biết điều này\"",
-        "en": "Warm, softening -- signals \"I assume you feel/know this too\""
+        "vi": "Ấm áp, làm mềm câu nói, ngụ ý \"tôi cho rằng bạn cũng cảm thấy/biết điều này\"",
+        "en": "Warm, softening, signals \"I assume you feel/know this too\""
       },
       "speakerStance": {
         "vi": "Tìm kiếm sự đồng điệu cảm xúc, không phải thông tin mới",
@@ -2177,7 +2213,9 @@
         "pos": "phrase",
         "form": "End of any sentence (plain or polite)",
         "particle": "よ",
-        "exampleStr": "雨が降っています ＋ よ"
+        "exampleStr": "雨が降っています ＋ よ",
+        "formVi": "Cuối câu bất kỳ (thể thường hoặc lịch sự)",
+        "formEn": "End of any sentence (plain or polite)"
       }
     ],
     "pragmatics": {
@@ -2207,8 +2245,8 @@
           "en": "Overusing よ with superiors can sound like you're lecturing them"
         },
         "description": {
-          "vi": "よ khẳng định điều người nghe chưa biết -- dùng với cấp trên/người lớn tuổi về điều họ hiển nhiên đã biết có thể nghe như đang dạy đời họ. Trong ngữ cảnh trang trọng, cân nhắc bỏ よ hoặc dùng cách diễn đạt khác.",
-          "en": "よ asserts something the listener doesn't know -- using it with a superior/elder about something they obviously already know can come across as lecturing them. In formal contexts, consider dropping よ or rephrasing."
+          "vi": "よ khẳng định điều người nghe chưa biết, dùng với cấp trên/người lớn tuổi về điều họ hiển nhiên đã biết có thể nghe như đang dạy đời họ. Trong ngữ cảnh trang trọng, cân nhắc bỏ よ hoặc dùng cách diễn đạt khác.",
+          "en": "よ asserts something the listener doesn't know, using it with a superior/elder about something they obviously already know can come across as lecturing them. In formal contexts, consider dropping よ or rephrasing."
         }
       }
     ],
@@ -2320,7 +2358,9 @@
         "pos": "phrase",
         "form": "End of any sentence (plain or polite)",
         "particle": "よね",
-        "exampleStr": "田中さんも来ます ＋ よね"
+        "exampleStr": "田中さんも来ます ＋ よね",
+        "formVi": "Cuối câu bất kỳ (thể thường hoặc lịch sự)",
+        "formEn": "End of any sentence (plain or polite)"
       }
     ],
     "pragmatics": {
@@ -2346,8 +2386,8 @@
           "en": "よね sits between よ (new info) and ね (pure agreement)"
         },
         "description": {
-          "vi": "よね kết hợp よ (khẳng định) và ね (mời xác nhận) -- dùng khi người nói khá chắc chắn về thông tin nhưng vẫn muốn người nghe xác nhận lại. Khác ね thuần túy (chỉ mời đồng cảm, không hỏi xác nhận thông tin).",
-          "en": "よね blends よ (assertion) and ね (inviting confirmation) -- used when the speaker is fairly confident about something but still wants the listener to double-check it. Different from plain ね, which only invites emotional agreement, not fact-checking."
+          "vi": "よね kết hợp よ (khẳng định) và ね (mời xác nhận), dùng khi người nói khá chắc chắn về thông tin nhưng vẫn muốn người nghe xác nhận lại. Khác ね thuần túy (chỉ mời đồng cảm, không hỏi xác nhận thông tin).",
+          "en": "よね blends よ (assertion) and ね (inviting confirmation), used when the speaker is fairly confident about something but still wants the listener to double-check it. Different from plain ね, which only invites emotional agreement, not fact-checking."
         },
         "relatedGrammarId": "g_008_1"
       }
@@ -2458,7 +2498,9 @@
       {
         "pos": "noun",
         "form": "は何時から何時までですか",
-        "exampleStr": "銀行 ＋ は何時から何時までですか"
+        "exampleStr": "銀行 ＋ は何時から何時までですか",
+        "formVi": "は何時から何時までですか",
+        "formEn": "は何時から何時までですか"
       }
     ],
     "pragmatics": {
@@ -2595,7 +2637,9 @@
       {
         "pos": "i-adj",
         "form": "Dictionary form + です",
-        "exampleStr": "高い ＋ です"
+        "exampleStr": "高い ＋ です",
+        "formVi": "Thể từ điển + です",
+        "formEn": "Dictionary form + です"
       }
     ],
     "pragmatics": {
@@ -2616,12 +2660,12 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "Tính từ đuôi い vốn đã kết thúc bằng い -- です ở đây chỉ là dấu hiệu lịch sự, không phải hệ từ nối vào tính từ",
-          "en": "い-adjectives already end in い -- です here is a politeness marker, not a copula gluing them together"
+          "vi": "Tính từ đuôi い vốn đã kết thúc bằng い, です ở đây chỉ là dấu hiệu lịch sự, không phải hệ từ nối vào tính từ",
+          "en": "い-adjectives already end in い, です here is a politeness marker, not a copula gluing them together"
         },
         "description": {
-          "vi": "Khác với danh từ/tính từ な (cần です để nối), tính từ đuôi い đã hoàn chỉnh về mặt ngữ pháp (高い đã là câu hoàn chỉnh). です chỉ thêm sắc thái lịch sự, không đóng vai trò \"là\" như với danh từ.",
-          "en": "Unlike nouns/na-adjectives (which need です to complete the sentence), an i-adjective is already grammatically complete on its own (高い alone is a full sentence). です here only adds politeness -- it doesn't function as \"is/am/are\" the way it does with nouns."
+          "vi": "Khác với danh từ/tính từ な (cần です để nối), tính từ đuôi い đã hoàn chỉnh về mặt ngữ pháp (高い đã là câu hoàn chỉnh). です chỉ thêm cảm giác lịch sự, không đóng vai trò \"là\" như với danh từ.",
+          "en": "Unlike nouns/na-adjectives (which need です to complete the sentence), an i-adjective is already grammatically complete on its own (高い alone is a full sentence). です here only adds politeness, it doesn't function as \"is/am/are\" the way it does with nouns."
         }
       }
     ],
@@ -2732,7 +2776,9 @@
       {
         "pos": "i-adj",
         "form": "い → く + ないです",
-        "exampleStr": "高い → 高く ＋ ないです"
+        "exampleStr": "高い → 高く ＋ ないです",
+        "formVi": "い → く + ないです",
+        "formEn": "い → く + ないです"
       }
     ],
     "pragmatics": {
@@ -2783,7 +2829,7 @@
         "en": "This shop isn't expensive.",
         "contextualExplanation": {
           "vi": "高い → 高く + ないです, thay い bằng く trước khi thêm ない.",
-          "en": "高い → 高く + ないです -- replace い with く before adding ない."
+          "en": "高い → 高く + ないです, replace い with く before adding ない."
         }
       },
       {
@@ -2879,7 +2925,9 @@
       {
         "pos": "na-adj",
         "form": "Stem + です",
-        "exampleStr": "元気 ＋ です"
+        "exampleStr": "元気 ＋ です",
+        "formVi": "Tính từ な + です",
+        "formEn": "na-adjective stem + です"
       }
     ],
     "pragmatics": {
@@ -2900,8 +2948,8 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "Đừng thêm な trước です -- な chỉ xuất hiện trước danh từ",
-          "en": "Don't add な before です -- な only appears before a noun"
+          "vi": "Đừng thêm な trước です, な chỉ xuất hiện trước danh từ",
+          "en": "Don't add な before です, な only appears before a noun"
         },
         "description": {
           "vi": "な chỉ xuất hiện khi tính từ な đứng trước danh từ để bổ nghĩa (元気な人). Khi đứng cuối câu với です, chỉ dùng thân từ trần trụi: 元気です (không phải 元気なです).",
@@ -2968,8 +3016,8 @@
         "vi": "Ca sĩ này nổi tiếng đấy.",
         "en": "This singer is famous, you know.",
         "contextualExplanation": {
-          "vi": "Trong văn nói thân mật, です đổi thành だ (thể thường) -- xem g_028_1.",
-          "en": "In casual speech です becomes だ (plain form) -- see g_028_1."
+          "vi": "Trong văn nói thân mật, です đổi thành だ (thể thường), xem g_028_1.",
+          "en": "In casual speech です becomes だ (plain form), see g_028_1."
         }
       },
       {
@@ -3026,12 +3074,16 @@
       {
         "pos": "na-adj",
         "form": "Stem + じゃないです",
-        "exampleStr": "元気 ＋ じゃないです"
+        "exampleStr": "元気 ＋ じゃないです",
+        "formVi": "Tính từ な + じゃないです",
+        "formEn": "na-adjective stem + じゃないです"
       },
       {
         "pos": "na-adj",
         "form": "Stem + じゃありません",
-        "exampleStr": "元気 ＋ じゃありません"
+        "exampleStr": "元気 ＋ じゃありません",
+        "formVi": "Tính từ な + じゃありません",
+        "formEn": "na-adjective stem + じゃありません"
       }
     ],
     "pragmatics": {
@@ -3056,8 +3108,8 @@
           "en": "na-adjective negation is identical in shape to noun negation (g_004)"
         },
         "description": {
-          "vi": "Về mặt hình thức, phủ định tính từ な giống hệt phủ định danh từ (じゃないです/じゃありません) -- vì cả hai đều gắn trực tiếp vào です mà không qua な. Ghi nhớ điều này giúp không phải học riêng hai quy tắc.",
-          "en": "na-adjective negation is formally identical to noun negation (じゃないです/じゃありません) -- both attach directly to です without going through な. Recognizing this means one rule covers both, not two separate ones."
+          "vi": "Về mặt hình thức, phủ định tính từ な giống hệt phủ định danh từ (じゃないです/じゃありません), vì cả hai đều gắn trực tiếp vào です mà không qua な. Ghi nhớ điều này giúp không phải học riêng hai quy tắc.",
+          "en": "na-adjective negation is formally identical to noun negation (じゃないです/じゃありません), both attach directly to です without going through な. Recognizing this means one rule covers both, not two separate ones."
         },
         "relatedGrammarId": "g_004"
       }
@@ -3111,8 +3163,8 @@
         "vi": "App này không tiện lợi.",
         "en": "This app isn't convenient.",
         "contextualExplanation": {
-          "vi": "です lược bỏ trong văn nói thân mật -- xem g_030_1/030_2.",
-          "en": "です drops in casual speech -- see g_030_1/g_030_2."
+          "vi": "です lược bỏ trong văn nói thân mật, xem g_030_1/030_2.",
+          "en": "です drops in casual speech, see g_030_1/g_030_2."
         }
       },
       {
@@ -3169,12 +3221,16 @@
       {
         "pos": "i-adj",
         "form": "Dictionary form + ですか",
-        "exampleStr": "高い ＋ ですか"
+        "exampleStr": "高い ＋ ですか",
+        "formVi": "Thể từ điển + ですか",
+        "formEn": "Dictionary form + ですか"
       },
       {
         "pos": "na-adj",
         "form": "Stem + ですか",
-        "exampleStr": "元気 ＋ ですか"
+        "exampleStr": "元気 ＋ ですか",
+        "formVi": "Tính từ な + ですか",
+        "formEn": "na-adjective stem + ですか"
       }
     ],
     "pragmatics": {
@@ -3200,7 +3256,7 @@
         },
         "description": {
           "vi": "Cả tính từ い và な đều chỉ cần thêm か ở cuối, không đảo trật tự, không thêm từ để hỏi nào khác. Cấu trúc y hệt câu khẳng định + か.",
-          "en": "Both i-adjectives and na-adjectives simply add か at the end -- no inversion, no extra question word needed. The structure is exactly the affirmative sentence + か."
+          "en": "Both i-adjectives and na-adjectives simply add か at the end, no inversion, no extra question word needed. The structure is exactly the affirmative sentence + か."
         }
       }
     ],
@@ -3311,7 +3367,9 @@
       {
         "pos": "i-adj",
         "form": "い → くて (linking) + second adjective",
-        "exampleStr": "安い → 安くて ＋ おいしいです"
+        "exampleStr": "安い → 安くて ＋ おいしいです",
+        "formVi": "い → くて (nối câu) + tính từ thứ hai",
+        "formEn": "い → くて (linking) + second adjective"
       }
     ],
     "pragmatics": {
@@ -3336,8 +3394,8 @@
           "en": "いい becomes よくて when linking, same irregularity as the negative"
         },
         "description": {
-          "vi": "いい cũng bất quy tắc khi chia thể て: よくて (không phải いくて) -- giống ngoại lệ ở dạng phủ định (よくない).",
-          "en": "いい is irregular in its te-form too: よくて (never いくて) -- the same irregularity seen in its negative (よくない)."
+          "vi": "いい cũng bất quy tắc khi chia thể て: よくて (không phải いくて), giống ngoại lệ ở dạng phủ định (よくない).",
+          "en": "いい is irregular in its te-form too: よくて (never いくて), the same irregularity seen in its negative (よくない)."
         }
       }
     ],
@@ -3403,8 +3461,8 @@
         "vi": "Cô ấy nghiêm túc mà dịu dàng.",
         "en": "She's serious and kind.",
         "contextualExplanation": {
-          "vi": "Khi tính từ đầu tiên là な (真面目), thể nối là で, không phải くて -- xem g_019.",
-          "en": "When the first adjective is a na-adjective (真面目), the linking form is で, not くて -- see g_019."
+          "vi": "Khi tính từ đầu tiên là な (真面目), thể nối là で, không phải くて, xem g_019.",
+          "en": "When the first adjective is a na-adjective (真面目), the linking form is で, not くて, see g_019."
         }
       }
     ],
@@ -3448,7 +3506,9 @@
       {
         "pos": "na-adj",
         "form": "Stem + で (linking) + second adjective",
-        "exampleStr": "静か → 静かで ＋ きれいです"
+        "exampleStr": "静か → 静かで ＋ きれいです",
+        "formVi": "Tính từ な + で (nối câu) + tính từ thứ hai",
+        "formEn": "na-adjective stem + で (linking) + second adjective"
       }
     ],
     "pragmatics": {
@@ -3473,8 +3533,8 @@
           "en": "This で is the same connective で as g_012, not the particle で"
         },
         "description": {
-          "vi": "で ở đây nối tính từ な giống hệt cách で nối danh từ (g_012, N2で N3です) -- cùng một cơ chế ngữ pháp, không phải trợ từ で chỉ nơi chốn/phương tiện.",
-          "en": "This で links na-adjectives the same way で links nouns (g_012, N2で N3です) -- same grammatical mechanism, not the place/means particle で."
+          "vi": "で ở đây nối tính từ な giống hệt cách で nối danh từ (g_012, N2で N3です), cùng một cơ chế ngữ pháp, không phải trợ từ で chỉ nơi chốn/phương tiện.",
+          "en": "This で links na-adjectives the same way で links nouns (g_012, N2で N3です), same grammatical mechanism, not the place/means particle で."
         },
         "relatedGrammarId": "g_012"
       }
@@ -3583,7 +3643,9 @@
       {
         "pos": "phrase",
         "form": "(Nは) + どうですか",
-        "exampleStr": "味 ＋ はどうですか"
+        "exampleStr": "味 ＋ はどうですか",
+        "formVi": "(Nは) + どうですか",
+        "formEn": "(Nは) + どうですか"
       }
     ],
     "pragmatics": {
@@ -3604,8 +3666,8 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "どうですか và いかがですか -- cùng một câu hỏi, khác mức độ lịch sự",
-          "en": "どうですか vs いかがですか -- same question, different politeness"
+          "vi": "どうですか và いかがですか, cùng một câu hỏi, khác mức độ lịch sự",
+          "en": "どうですか vs いかがですか, same question, different politeness"
         },
         "description": {
           "vi": "いかがですか là cách nói lịch sự hơn của どうですか, thường dùng khi mời đồ ăn/thức uống cho khách hoặc hỏi ý kiến cấp trên.",
@@ -3721,12 +3783,16 @@
       {
         "pos": "i-adj",
         "form": "い → かった (past)",
-        "exampleStr": "高い → 高かった ＋ です"
+        "exampleStr": "高い → 高かった ＋ です",
+        "formVi": "い → かった (quá khứ)",
+        "formEn": "い → かった (past)"
       },
       {
         "pos": "i-adj",
         "form": "い → くなかった (past negative)",
-        "exampleStr": "高い → 高くなかった ＋ です"
+        "exampleStr": "高い → 高くなかった ＋ です",
+        "formVi": "い → くなかった (phủ định quá khứ)",
+        "formEn": "い → くなかった (past negative)"
       }
     ],
     "pragmatics": {
@@ -3747,8 +3813,8 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "です đứng SAU かった/くなかった -- không bao giờ chia です với tính từ đuôi い",
-          "en": "です comes AFTER かった/くなかった -- never conjugate です itself for i-adjectives"
+          "vi": "です đứng SAU かった/くなかった, không bao giờ chia です với tính từ đuôi い",
+          "en": "です comes AFTER かった/くなかった, never conjugate です itself for i-adjectives"
         },
         "description": {
           "vi": "Với tính từ い, chính tính từ chia thì quá khứ (かった/くなかった), です chỉ thêm lịch sự và LUÔN giữ nguyên です (không phải でした như danh từ). Nhầm thành 高いでした là lỗi rất phổ biến.",
@@ -3814,7 +3880,7 @@
         "en": "The weather wasn't good yesterday.",
         "contextualExplanation": {
           "vi": "いい → よくなかった (không phải いくなかった), ngoại lệ quan trọng.",
-          "en": "いい → よくなかった (never いくなかった) -- an important irregular case."
+          "en": "いい → よくなかった (never いくなかった), an important irregular case."
         }
       },
       {
@@ -3826,8 +3892,8 @@
         "vi": "Quán đó rẻ hơn tôi tưởng.",
         "en": "That place was cheaper than expected.",
         "contextualExplanation": {
-          "vi": "です lược bỏ trong văn nói thân mật, chỉ còn 安かった -- xem g_035.",
-          "en": "です drops in casual speech, leaving just 安かった -- see g_035."
+          "vi": "です lược bỏ trong văn nói thân mật, chỉ còn 安かった, xem g_035.",
+          "en": "です drops in casual speech, leaving just 安かった, see g_035."
         }
       },
       {
@@ -3885,12 +3951,16 @@
       {
         "pos": "na-adj",
         "form": "Stem + でした",
-        "exampleStr": "静か ＋ でした"
+        "exampleStr": "静か ＋ でした",
+        "formVi": "Tính từ な + でした",
+        "formEn": "na-adjective stem + でした"
       },
       {
         "pos": "na-adj",
         "form": "Stem + じゃなかったです",
-        "exampleStr": "静か ＋ じゃなかったです"
+        "exampleStr": "静か ＋ じゃなかったです",
+        "formVi": "Tính từ な + じゃなかったです",
+        "formEn": "na-adjective stem + じゃなかったです"
       }
     ],
     "pragmatics": {
@@ -3916,7 +3986,7 @@
         },
         "description": {
           "vi": "Khác với tính từ い (tự chia quá khứ), tính từ な chia quá khứ giống hệt danh từ: です → でした, じゃないです → じゃなかったです. Vì cả hai đều dựa vào です để mang thông tin thời/thể.",
-          "en": "Unlike i-adjectives (which carry their own past tense), na-adjectives conjugate past tense exactly like nouns: です → でした, じゃないです → じゃなかったです -- because both rely on です to carry tense information."
+          "en": "Unlike i-adjectives (which carry their own past tense), na-adjectives conjugate past tense exactly like nouns: です → でした, じゃないです → じゃなかったです, because both rely on です to carry tense information."
         },
         "relatedGrammarId": "g_009"
       }
@@ -3970,8 +4040,8 @@
         "vi": "Thầy đó tốt bụng hơn tôi tưởng.",
         "en": "That teacher was kinder than I expected.",
         "contextualExplanation": {
-          "vi": "Thể thường của でした là だった -- xem g_031.",
-          "en": "The plain-form counterpart of でした is だった -- see g_031."
+          "vi": "Thể thường của でした là だった, xem g_031.",
+          "en": "The plain-form counterpart of でした is だった, see g_031."
         }
       },
       {
@@ -3981,7 +4051,7 @@
         "kana": "あのころ、このあたりはべんりじゃなくて、ふべんでした。",
         "romaji": "Ano koro, kono atari wa benri janakute, fuben deshita.",
         "vi": "Hồi đó, khu vực này không tiện lợi, mà bất tiện.",
-        "en": "Back then, this area wasn't convenient -- it was inconvenient.",
+        "en": "Back then, this area wasn't convenient, it was inconvenient.",
         "contextualExplanation": {
           "vi": "じゃなくて (thể て của phủ định) nối hai mệnh đề quá khứ để đối chiếu.",
           "en": "じゃなくて (te-form of the negative) links two past clauses for contrast."
@@ -4028,12 +4098,16 @@
       {
         "pos": "i-adj",
         "form": "Dictionary form + N (直接)",
-        "exampleStr": "面白い ＋ 映画"
+        "exampleStr": "面白い ＋ 映画",
+        "formVi": "Thể từ điển + N (直接)",
+        "formEn": "Dictionary form + N (直接)"
       },
       {
         "pos": "na-adj",
         "form": "Stem + な + N",
-        "exampleStr": "静か ＋ な ＋ 町"
+        "exampleStr": "静か ＋ な ＋ 町",
+        "formVi": "Tính từ な + な + N",
+        "formEn": "na-adjective stem + な + N"
       }
     ],
     "pragmatics": {
@@ -4135,8 +4209,8 @@
         "vi": "Dù bận đến đâu, tôi cũng tập thể dục mỗi ngày.",
         "en": "No matter how busy I am, I exercise every day.",
         "contextualExplanation": {
-          "vi": "どんなに (không phải どんな + N) là cách dùng khác của cùng từ gốc, mang nghĩa \"dù ~ đến mấy\" -- vượt ngoài phạm vi N5 nhưng hữu ích để nhận biết.",
-          "en": "どんなに (not どんな + N) is a different use of the same root, meaning \"no matter how...\" -- beyond N5 scope but useful to recognize."
+          "vi": "どんなに (không phải どんな + N) là cách dùng khác của cùng từ gốc, mang nghĩa \"dù ~ đến mấy\", vượt ngoài phạm vi N5 nhưng hữu ích để nhận biết.",
+          "en": "どんなに (not どんな + N) is a different use of the same root, meaning \"no matter how...\", beyond N5 scope but useful to recognize."
         }
       }
     ],
@@ -4179,7 +4253,9 @@
       {
         "pos": "phrase",
         "form": "Clause1 (polite/plain) + が + Clause2",
-        "exampleStr": "安いです ＋ が ＋ おいしくないです"
+        "exampleStr": "安いです ＋ が ＋ おいしくないです",
+        "formVi": "Mệnh đề 1 (lịch sự / thường) + が + Mệnh đề 2",
+        "formEn": "Clause1 (polite/plain) + が + Clause2"
       }
     ],
     "pragmatics": {
@@ -4201,12 +4277,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "が không phải lúc nào cũng mang nghĩa \"nhưng\" mạnh -- nó thường chỉ làm câu mềm hơn hoặc nối ý",
-          "en": "が does not always mean a strong \"but\" -- it often just softens or connects"
+          "vi": "が không phải lúc nào cũng mang nghĩa \"nhưng\" mạnh, nó thường chỉ làm câu mềm hơn hoặc nối ý",
+          "en": "が does not always mean a strong \"but\", it often just softens or connects"
         },
         "description": {
-          "vi": "が nhẹ hơn \"nhưng\" trong tiếng Việt rất nhiều -- thường chỉ dùng để nối câu, làm giọng điệu mềm mại hơn trước khi hỏi/đề nghị (すみませんが...), không hẳn luôn mang nghĩa đối lập mạnh.",
-          "en": "が is much softer than \"but\" -- it's often just a clause connector that cushions a request/question (すみませんが...) rather than always signaling strong contrast."
+          "vi": "が nhẹ hơn \"nhưng\" trong tiếng Việt rất nhiều, thường chỉ dùng để nối câu, làm giọng điệu mềm mại hơn trước khi hỏi/đề nghị (すみませんが...), không hẳn luôn mang nghĩa đối lập mạnh.",
+          "en": "が is much softer than \"but\", it's often just a clause connector that cushions a request/question (すみませんが...) rather than always signaling strong contrast."
         }
       }
     ],
@@ -4234,7 +4310,7 @@
         "en": "Excuse me, could you take a photo for me?",
         "contextualExplanation": {
           "vi": "が sau すみません không mang nghĩa \"nhưng\" mà chỉ đệm câu, mở đầu lời nhờ vả.",
-          "en": "が after すみません doesn't mean \"but\" -- it just cushions the sentence before a request."
+          "en": "が after すみません doesn't mean \"but\", it just cushions the sentence before a request."
         }
       },
       {
@@ -4259,8 +4335,8 @@
         "vi": "Muốn đi nhưng không có thời gian.",
         "en": "I want to go, but I don't have time.",
         "contextualExplanation": {
-          "vi": "Trong văn nói thân mật, が thường thay bằng けど -- xem g_034.",
-          "en": "In casual speech が is commonly replaced by けど -- see g_034."
+          "vi": "Trong văn nói thân mật, が thường thay bằng けど, xem g_034.",
+          "en": "In casual speech が is commonly replaced by けど, see g_034."
         }
       },
       {
@@ -4317,7 +4393,9 @@
       {
         "pos": "noun",
         "form": "で + question word + が一番Aですか",
-        "exampleStr": "果物 ＋ で何が一番好きですか"
+        "exampleStr": "果物 ＋ で何が一番好きですか",
+        "formVi": "で + từ để hỏi + が一番Aですか",
+        "formEn": "で + question word + が一番Aですか"
       }
     ],
     "pragmatics": {
@@ -4454,7 +4532,9 @@
       {
         "pos": "noun",
         "form": "N1と N2(と)、どっち/どちらがAですか",
-        "exampleStr": "犬と猫、どっちが好きですか"
+        "exampleStr": "犬と猫、どっちが好きですか",
+        "formVi": "N1と N2(と)、どっち/どちらがAですか",
+        "formEn": "N1と N2(と)、どっち/どちらがAですか"
       }
     ],
     "pragmatics": {
@@ -4476,12 +4556,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "どっち và どちら -- cùng nghĩa, khác mức độ lịch sự",
-          "en": "どっち vs どちら -- same meaning, different formality"
+          "vi": "どっち và どちら, cùng nghĩa, khác mức độ lịch sự",
+          "en": "どっち vs どちら, same meaning, different formality"
         },
         "description": {
-          "vi": "どっち thân mật hơn, どちら lịch sự hơn (giống 誰 vs どなた). Cả hai chỉ dùng khi so sánh đúng HAI lựa chọn -- so sánh từ ba lựa chọn trở lên phải dùng 一番 (g_025).",
-          "en": "どっち is casual, どちら is polite (parallel to 誰 vs どなた). Both are used only when comparing exactly TWO options -- comparing three or more requires 一番 (g_025)."
+          "vi": "どっち thân mật hơn, どちら lịch sự hơn (giống 誰 vs どなた). Cả hai chỉ dùng khi so sánh đúng HAI lựa chọn, so sánh từ ba lựa chọn trở lên phải dùng 一番 (g_025).",
+          "en": "どっち is casual, どちら is polite (parallel to 誰 vs どなた). Both are used only when comparing exactly TWO options, comparing three or more requires 一番 (g_025)."
         },
         "relatedGrammarId": "g_025"
       }
@@ -4548,8 +4628,8 @@
         "vi": "Trong hai cái này, cái nào rẻ hơn?",
         "en": "Between these two, which one is cheaper?",
         "contextualExplanation": {
-          "vi": "どっちのほうが nhấn mạnh rõ hơn tính chất \"bên nào hơn\" -- xem g_027 cho cấu trúc よりAです đầy đủ.",
-          "en": "どっちのほうが emphasizes \"which side is more\" more explicitly -- see g_027 for the full よりAです comparison."
+          "vi": "どっちのほうが nhấn mạnh rõ hơn tính chất \"bên nào hơn\", xem g_027 cho cấu trúc よりAです đầy đủ.",
+          "en": "どっちのほうが emphasizes \"which side is more\" more explicitly, see g_027 for the full よりAです comparison."
         }
       }
     ],
@@ -4593,7 +4673,9 @@
       {
         "pos": "noun",
         "form": "N1(は) N2より + Aです",
-        "exampleStr": "犬 ＋ は猫より大きいです"
+        "exampleStr": "犬 ＋ は猫より大きいです",
+        "formVi": "N1(は) N2より + Aです",
+        "formEn": "N1(は) N2より + Aです"
       }
     ],
     "pragmatics": {
@@ -4619,7 +4701,7 @@
         },
         "description": {
           "vi": "より ở đây không mang nghĩa \"từ\" (như trong から～まで) mà nghĩa \"so với\". N2より luôn đứng trước tính từ A, không đảo ngược.",
-          "en": "より here does not mean \"from\" (as in から～まで) -- it means \"compared to\". N2より always comes before adjective A; the order doesn't invert."
+          "en": "より here does not mean \"from\" (as in から～まで), it means \"compared to\". N2より always comes before adjective A; the order doesn't invert."
         }
       }
     ],
@@ -4730,12 +4812,16 @@
       {
         "pos": "noun",
         "form": "Dictionary form + だ",
-        "exampleStr": "学生 ＋ だ"
+        "exampleStr": "学生 ＋ だ",
+        "formVi": "Thể từ điển + だ",
+        "formEn": "Dictionary form + だ"
       },
       {
         "pos": "na-adj",
         "form": "Stem + だ",
-        "exampleStr": "元気 ＋ だ"
+        "exampleStr": "元気 ＋ だ",
+        "formVi": "Tính từ な + だ",
+        "formEn": "na-adjective stem + だ"
       }
     ],
     "pragmatics": {
@@ -4760,8 +4846,8 @@
           "en": "だ is dropped, not just made informal, before な and の"
         },
         "description": {
-          "vi": "だ thường bị lược bỏ hoàn toàn khi đứng trước danh từ hoặc の (như trong んです): 学生な → sai, phải nói 学生の -- xem thêm g_148 (んです).",
-          "en": "だ is typically dropped entirely (not just softened) before a following noun or の (as in んです): 学生な is wrong; it should be 学生の -- see also g_148 (んです)."
+          "vi": "だ thường bị lược bỏ hoàn toàn khi đứng trước danh từ hoặc の (như trong んです): 学生な → sai, phải nói 学生の, xem thêm g_148 (んです).",
+          "en": "だ is typically dropped entirely (not just softened) before a following noun or の (as in んです): 学生な is wrong; it should be 学生の, see also g_148 (んです)."
         }
       }
     ],
@@ -4872,7 +4958,9 @@
       {
         "pos": "phrase",
         "form": "Plain form + rising intonation (no か)",
-        "exampleStr": "学生 ＋ ？"
+        "exampleStr": "学生 ＋ ？",
+        "formVi": "Thể thường + lên giọng (không có か)",
+        "formEn": "Plain form + rising intonation (no か)"
       }
     ],
     "pragmatics": {
@@ -4897,8 +4985,8 @@
           "en": "Never add か to a plain-form casual question"
         },
         "description": {
-          "vi": "か chỉ dùng với thể lịch sự です/ます. Câu hỏi thể thường KHÔNG dùng か -- chỉ dựa vào ngữ điệu lên giọng ở cuối câu (thể hiện bằng dấu ？ trong văn viết).",
-          "en": "か is only used with the polite です/ます forms. A plain-form casual question NEVER adds か -- it relies purely on rising intonation, marked in writing with a ？."
+          "vi": "か chỉ dùng với thể lịch sự です/ます. Câu hỏi thể thường KHÔNG dùng か, chỉ dựa vào ngữ điệu lên giọng ở cuối câu (thể hiện bằng dấu ？ trong văn viết).",
+          "en": "か is only used with the polite です/ます forms. A plain-form casual question NEVER adds か, it relies purely on rising intonation, marked in writing with a ？."
         },
         "examples": [
           {
@@ -4923,7 +5011,7 @@
         "en": "Is this Tanaka's?",
         "contextualExplanation": {
           "vi": "Chỉ lên giọng ở cuối, không thêm か hay だ.",
-          "en": "Only rising intonation at the end -- no か and no だ."
+          "en": "Only rising intonation at the end, no か and no だ."
         }
       },
       {
@@ -5020,7 +5108,9 @@
       {
         "pos": "phrase",
         "form": "だ + よ／ね／よね",
-        "exampleStr": "学生 ＋ だよ"
+        "exampleStr": "学生 ＋ だよ",
+        "formVi": "だ + よ／ね／よね",
+        "formEn": "だ + よ／ね／よね"
       }
     ],
     "pragmatics": {
@@ -5029,7 +5119,7 @@
         "spoken"
       ],
       "intent": {
-        "vi": "Khẳng định/xác nhận một sự thật trong văn nói thân mật, mang các sắc thái giống g_008_1-3",
+        "vi": "Khẳng định/xác nhận một sự thật trong văn nói thân mật, mang các cảm giác giống g_008_1-3",
         "en": "Asserting/confirming a fact in casual speech, with the same nuance shades as g_008_1-3"
       },
       "speakerStance": {
@@ -5041,12 +5131,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Sắc thái よ/ね/よね giống hệt thể lịch sự, chỉ khác là đi kèm だ thay vì です",
+          "vi": "Cảm giác よ/ね/よね giống hệt thể lịch sự, chỉ khác là đi kèm だ thay vì です",
           "en": "Same よ/ね/よね nuances as the polite forms, just riding on だ instead of です"
         },
         "description": {
-          "vi": "よ/ね/よね giữ nguyên sắc thái như đã học ở thể lịch sự (g_008_1-3) -- chỉ khác ở chỗ gắn vào だ (thể thường) thay vì です.",
-          "en": "よ/ね/よね carry the exact same nuances covered for the polite forms (g_008_1-3) -- the only difference is attaching to だ (plain form) instead of です."
+          "vi": "よ/ね/よね giữ nguyên cảm giác như đã học ở thể lịch sự (g_008_1-3), chỉ khác ở chỗ gắn vào だ (thể thường) thay vì です.",
+          "en": "よ/ね/よね carry the exact same nuances covered for the polite forms (g_008_1-3), the only difference is attaching to だ (plain form) instead of です."
         },
         "relatedGrammarId": "g_008_1"
       }
@@ -5074,8 +5164,8 @@
         "vi": "Hôm nay nóng nhỉ.",
         "en": "It's hot today, isn't it.",
         "contextualExplanation": {
-          "vi": "ね mời đồng cảm -- với tính từ い, だ vốn đã lược bỏ nên chỉ còn ね.",
-          "en": "ね invites agreement -- with an i-adjective, だ was already absent so only ね remains."
+          "vi": "ね mời đồng cảm, với tính từ い, だ vốn đã lược bỏ nên chỉ còn ね.",
+          "en": "ね invites agreement, with an i-adjective, だ was already absent so only ね remains."
         }
       },
       {
@@ -5158,7 +5248,9 @@
       {
         "pos": "phrase",
         "form": "じゃない + rising intonation",
-        "exampleStr": "学生 ＋ じゃない？"
+        "exampleStr": "学生 ＋ じゃない？",
+        "formVi": "じゃない + lên giọng",
+        "formEn": "じゃない + rising intonation"
       }
     ],
     "pragmatics": {
@@ -5212,8 +5304,8 @@
         "vi": "Bộ đồ đó hơi lòe loẹt không?",
         "en": "Isn't that outfit a bit flashy?",
         "contextualExplanation": {
-          "vi": "じゃない？ ở đây mang nghĩa \"chẳng phải là... hay sao?\" -- nhận xét mang tính chủ quan.",
-          "en": "じゃない？ here means \"isn't it kind of...?\" -- a subjective remark."
+          "vi": "じゃない？ ở đây mang nghĩa \"chẳng phải là... hay sao?\", nhận xét mang tính chủ quan.",
+          "en": "じゃない？ here means \"isn't it kind of...?\", a subjective remark."
         }
       },
       {
@@ -5296,7 +5388,9 @@
       {
         "pos": "phrase",
         "form": "じゃない (statement, falling intonation)",
-        "exampleStr": "学生 ＋ じゃない"
+        "exampleStr": "学生 ＋ じゃない",
+        "formVi": "じゃない (câu khẳng định, xuống giọng)",
+        "formEn": "じゃない (statement, falling intonation)"
       }
     ],
     "pragmatics": {
@@ -5317,12 +5411,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Cùng hình thức với g_030_1 -- chỉ ngữ điệu mới phân biệt được câu khẳng định với câu hỏi",
-          "en": "Same form as g_030_1 -- only intonation tells statement from question"
+          "vi": "Cùng hình thức với g_030_1, chỉ ngữ điệu mới phân biệt được câu khẳng định với câu hỏi",
+          "en": "Same form as g_030_1, only intonation tells statement from question"
         },
         "description": {
-          "vi": "じゃない ở đây và じゃない？ ở g_030_1 hoàn toàn giống nhau về mặt chữ viết -- chỉ khác ở ngữ điệu (xuống giọng = câu khẳng định, lên giọng = câu hỏi).",
-          "en": "じゃない here and じゃない？ in g_030_1 are written identically -- only intonation distinguishes them (falling = statement, rising = question)."
+          "vi": "じゃない ở đây và じゃない？ ở g_030_1 hoàn toàn giống nhau về mặt chữ viết, chỉ khác ở ngữ điệu (xuống giọng = câu khẳng định, lên giọng = câu hỏi).",
+          "en": "じゃない here and じゃない？ in g_030_1 are written identically, only intonation distinguishes them (falling = statement, rising = question)."
         },
         "relatedGrammarId": "g_030_1"
       }
@@ -5387,7 +5481,7 @@
         "kana": "べつにきらいじゃない、ただきょうみがないだけ。",
         "romaji": "Betsu ni kirai janai, tada kyoumi ga nai dake.",
         "vi": "Không hẳn là ghét, chỉ là không hứng thú thôi.",
-        "en": "It's not that I dislike it -- I just don't have interest in it.",
+        "en": "It's not that I dislike it, I just don't have interest in it.",
         "contextualExplanation": {
           "vi": "嫌い (một tính từ な) cũng chia phủ định theo cùng cách.",
           "en": "嫌い (a na-adjective) negates the same way."
@@ -5434,12 +5528,16 @@
       {
         "pos": "noun",
         "form": "Dictionary form + だった",
-        "exampleStr": "休み ＋ だった"
+        "exampleStr": "休み ＋ だった",
+        "formVi": "Thể từ điển + だった",
+        "formEn": "Dictionary form + だった"
       },
       {
         "pos": "na-adj",
         "form": "Stem + だった",
-        "exampleStr": "暇 ＋ だった"
+        "exampleStr": "暇 ＋ だった",
+        "formVi": "Tính từ な + だった",
+        "formEn": "na-adjective stem + だった"
       }
     ],
     "pragmatics": {
@@ -5464,8 +5562,8 @@
           "en": "だった is the plain-form past of both です/でした and だ"
         },
         "description": {
-          "vi": "だった tương ứng với cả です→でした và だ→だった -- nói cách khác, thể thường của quá khứ luôn là だった, dù ở thể lịch sự có phải でした hay không.",
-          "en": "だった is the plain-form past counterpart of both です→でした and だ→だった -- in other words, the plain-form past is always だった, regardless of whether the polite form was でした."
+          "vi": "だった tương ứng với cả です→でした và だ→だった, nói cách khác, thể thường của quá khứ luôn là だった, dù ở thể lịch sự có phải でした hay không.",
+          "en": "だった is the plain-form past counterpart of both です→でした and だ→だった, in other words, the plain-form past is always だった, regardless of whether the polite form was でした."
         },
         "relatedGrammarId": "g_009"
       }
@@ -5577,12 +5675,16 @@
       {
         "pos": "noun",
         "form": "Dictionary form + じゃなかった",
-        "exampleStr": "休み ＋ じゃなかった"
+        "exampleStr": "休み ＋ じゃなかった",
+        "formVi": "Thể từ điển + じゃなかった",
+        "formEn": "Dictionary form + じゃなかった"
       },
       {
         "pos": "na-adj",
         "form": "Stem + じゃなかった",
-        "exampleStr": "暇 ＋ じゃなかった"
+        "exampleStr": "暇 ＋ じゃなかった",
+        "formVi": "Tính từ な + じゃなかった",
+        "formEn": "na-adjective stem + じゃなかった"
       }
     ],
     "pragmatics": {
@@ -5607,8 +5709,8 @@
           "en": "じゃなかった is the plain-form past of both じゃないです and じゃなかったです"
         },
         "description": {
-          "vi": "じゃなかった là dạng thường của cả じゃなかったです và じゃありませんでした -- không cần phân biệt hai công thức lịch sự khi nói thể thường, chỉ có một dạng duy nhất.",
-          "en": "じゃなかった is the plain form of both じゃなかったです and じゃありませんでした -- there's no need to pick between the two polite formulas in plain speech, since there's only one plain form."
+          "vi": "じゃなかった là dạng thường của cả じゃなかったです và じゃありませんでした, không cần phân biệt hai công thức lịch sự khi nói thể thường, chỉ có một dạng duy nhất.",
+          "en": "じゃなかった is the plain form of both じゃなかったです and じゃありませんでした, there's no need to pick between the two polite formulas in plain speech, since there's only one plain form."
         },
         "relatedGrammarId": "g_010"
       }
@@ -5719,7 +5821,9 @@
       {
         "pos": "i-adj",
         "form": "Dictionary form + rising intonation",
-        "exampleStr": "高い ＋ ？"
+        "exampleStr": "高い ＋ ？",
+        "formVi": "Thể từ điển + lên giọng",
+        "formEn": "Dictionary form + rising intonation"
       }
     ],
     "pragmatics": {
@@ -5740,12 +5844,12 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "Tính từ giữ nguyên không đổi -- chỉ ngữ điệu mới biến câu thành câu hỏi",
-          "en": "The adjective is untouched -- only intonation marks the question"
+          "vi": "Tính từ giữ nguyên không đổi, chỉ ngữ điệu mới biến câu thành câu hỏi",
+          "en": "The adjective is untouched, only intonation marks the question"
         },
         "description": {
           "vi": "Tính từ い giữ nguyên hình thức khẳng định, không chia gì thêm và không thêm か. Chỉ có ngữ điệu lên giọng phân biệt đây là câu hỏi.",
-          "en": "The i-adjective stays exactly as its affirmative form -- no extra conjugation, no か. Only rising intonation marks it as a question."
+          "en": "The i-adjective stays exactly as its affirmative form, no extra conjugation, no か. Only rising intonation marks it as a question."
         }
       }
     ],
@@ -5855,7 +5959,9 @@
       {
         "pos": "i-adj",
         "form": "Dictionary form (falling intonation)",
-        "exampleStr": "高い。"
+        "exampleStr": "高い。",
+        "formVi": "Thể từ điển (xuống giọng)",
+        "formEn": "Dictionary form (falling intonation)"
       }
     ],
     "pragmatics": {
@@ -5876,12 +5982,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Thể từ điển cũng chính là câu khẳng định thể thường -- không cần thêm gì cả",
-          "en": "The dictionary form doubles as the plain-form statement -- nothing to add"
+          "vi": "Thể từ điển cũng chính là câu khẳng định thể thường, không cần thêm gì cả",
+          "en": "The dictionary form doubles as the plain-form statement, nothing to add"
         },
         "description": {
           "vi": "Đây là điểm khiến tính từ い đơn giản hơn danh từ/な: thể từ điển CHÍNH LÀ thể thường khẳng định, không cần thêm だ hay bất cứ gì.",
-          "en": "This is what makes i-adjectives simpler than nouns/na-adjectives: the dictionary form IS the plain-form affirmative statement -- nothing needs to be added, not even だ."
+          "en": "This is what makes i-adjectives simpler than nouns/na-adjectives: the dictionary form IS the plain-form affirmative statement, nothing needs to be added, not even だ."
         }
       }
     ],
@@ -5947,8 +6053,8 @@
         "vi": "Con đường này hẹp và nguy hiểm.",
         "en": "This road is narrow and dangerous.",
         "contextualExplanation": {
-          "vi": "Vẫn nối được hai tính từ い bằng くて trong thể thường -- xem g_018.",
-          "en": "Two i-adjectives still link with くて in plain form -- see g_018."
+          "vi": "Vẫn nối được hai tính từ い bằng くて trong thể thường, xem g_018.",
+          "en": "Two i-adjectives still link with くて in plain form, see g_018."
         }
       }
     ],
@@ -5991,7 +6097,9 @@
       {
         "pos": "phrase",
         "form": "Clause1 (plain or polite) + けど + Clause2",
-        "exampleStr": "安い ＋ けど ＋ おいしくない"
+        "exampleStr": "安い ＋ けど ＋ おいしくない",
+        "formVi": "Mệnh đề 1 (thường hoặc lịch sự) + けど + Mệnh đề 2",
+        "formEn": "Clause1 (plain or polite) + けど + Clause2"
       }
     ],
     "pragmatics": {
@@ -6129,7 +6237,9 @@
       {
         "pos": "i-adj",
         "form": "い → かった (past, plain)",
-        "exampleStr": "高い → 高かった"
+        "exampleStr": "高い → 高かった",
+        "formVi": "い → かった (quá khứ, thể thường)",
+        "formEn": "い → かった (past, plain)"
       }
     ],
     "pragmatics": {
@@ -6150,12 +6260,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "かった chính là quá khứ thể thường -- không gắn thêm gì khác nữa",
-          "en": "かった IS the plain past -- nothing else attaches"
+          "vi": "かった chính là quá khứ thể thường, không gắn thêm gì khác nữa",
+          "en": "かった IS the plain past, nothing else attaches"
         },
         "description": {
           "vi": "かった đã là thể thường hoàn chỉnh của quá khứ, không cần thêm だった (tính từ い không dùng だ). Nhầm thành 高かっただ là lỗi phổ biến.",
-          "en": "かった is already the complete plain-form past -- だった never attaches after it (i-adjectives don't take だ). Writing 高かっただ is a common mistake."
+          "en": "かった is already the complete plain-form past, だった never attaches after it (i-adjectives don't take だ). Writing 高かっただ is a common mistake."
         },
         "examples": [
           {
@@ -6163,7 +6273,7 @@
             "correct": "高かった。",
             "explanation": {
               "vi": "かった đã đủ, không thêm だった.",
-              "en": "かった alone is complete -- never add だった."
+              "en": "かった alone is complete, never add だった."
             }
           }
         ]
@@ -6276,7 +6386,9 @@
       {
         "pos": "i-adj",
         "form": "い → くなかった (past negative, plain, any tense)",
-        "exampleStr": "高い → 高くなかった"
+        "exampleStr": "高い → 高くなかった",
+        "formVi": "い → くなかった (phủ định quá khứ, thể thường, mọi thì)",
+        "formEn": "い → くなかった (past negative, plain, any tense)"
       }
     ],
     "pragmatics": {
@@ -6301,8 +6413,8 @@
           "en": "いい negates to よくなかった even in this past-negative plain form"
         },
         "description": {
-          "vi": "いい vẫn giữ nguyên bất quy tắc ở đây: よくなかった (không phải いくなかった) -- áp dụng nhất quán across tất cả các thể của いい.",
-          "en": "いい keeps its irregularity here too: よくなかった (never いくなかった) -- consistent across all of いい's forms."
+          "vi": "いい vẫn giữ nguyên bất quy tắc ở đây: よくなかった (không phải いくなかった), áp dụng nhất quán across tất cả các thể của いい.",
+          "en": "いい keeps its irregularity here too: よくなかった (never いくなかった), consistent across all of いい's forms."
         }
       }
     ],
@@ -6355,7 +6467,7 @@
         "vi": "Hồi nhỏ tôi không thích học, nhưng cũng không ghét.",
         "en": "As a child, I didn't like studying. But I didn't hate it either.",
         "contextualExplanation": {
-          "vi": "So sánh với phủ định quá khứ của tính từ な (好きじゃなかった) -- cấu trúc khác くなかった.",
+          "vi": "So sánh với phủ định quá khứ của tính từ な (好きじゃなかった), cấu trúc khác くなかった.",
           "en": "For contrast, the na-adjective past negative (好きじゃなかった) uses a different structure than くなかった."
         }
       },
@@ -6366,7 +6478,7 @@
         "kana": "じつは、このみちはまだなくて、なかった。",
         "romaji": "Jitsu wa, kono michi wa mada nakute, nakatta.",
         "vi": "Thực ra con đường này trước đây chưa có, không tồn tại.",
-        "en": "Actually, this road didn't exist yet -- it wasn't there before.",
+        "en": "Actually, this road didn't exist yet, it wasn't there before.",
         "contextualExplanation": {
           "vi": "ない (tính từ い đặc biệt) cũng chia theo cùng quy tắc: なかった.",
           "en": "ない (a special i-adjective) also conjugates by the same rule: なかった."
@@ -6412,7 +6524,9 @@
       {
         "pos": "noun",
         "form": "(inanimate object) + はありますか",
-        "exampleStr": "ペン ＋ はありますか"
+        "exampleStr": "ペン ＋ はありますか",
+        "formVi": "(đồ vật) + はありますか",
+        "formEn": "(inanimate object) + はありますか"
       }
     ],
     "pragmatics": {
@@ -6433,12 +6547,12 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "あります chỉ dùng cho vật vô tri -- います dùng cho người/động vật",
-          "en": "あります is only for inanimate things -- います is for people/animals"
+          "vi": "あります chỉ dùng cho vật vô tri, います dùng cho người/động vật",
+          "en": "あります is only for inanimate things, います is for people/animals"
         },
         "description": {
-          "vi": "あります chỉ dùng cho vật vô tri (đồ vật, thực vật). Người/động vật luôn dùng います (xem g_039) -- nhầm lẫn hai động từ này là lỗi rất phổ biến.",
-          "en": "あります is used only for inanimate things (objects, plants). People/animals always use います (see g_039) -- mixing these two up is one of the most common beginner errors."
+          "vi": "あります chỉ dùng cho vật vô tri (đồ vật, thực vật). Người/động vật luôn dùng います (xem g_039), nhầm lẫn hai động từ này là lỗi rất phổ biến.",
+          "en": "あります is used only for inanimate things (objects, plants). People/animals always use います (see g_039), mixing these two up is one of the most common beginner errors."
         },
         "relatedGrammarId": "g_039"
       }
@@ -6491,8 +6605,8 @@
         "vi": "Này, có tẩy không?",
         "en": "Hey, do you have an eraser?",
         "contextualExplanation": {
-          "vi": "Thể thường của あります là ある -- xem g_069.",
-          "en": "The plain-form counterpart of あります is ある -- see g_069."
+          "vi": "Thể thường của あります là ある, xem g_069.",
+          "en": "The plain-form counterpart of あります is ある, see g_069."
         }
       },
       {
@@ -6549,7 +6663,9 @@
       {
         "pos": "noun",
         "form": "(vật) は (địa điểm)です/にあります",
-        "exampleStr": "トイレ ＋ はあそこにあります"
+        "exampleStr": "トイレ ＋ はあそこにあります",
+        "formVi": "(vật) は (địa điểm)です/にあります",
+        "formEn": "(thing) は (place)です/にあります"
       }
     ],
     "pragmatics": {
@@ -6574,8 +6690,8 @@
           "en": "The object is topic (は) here; the place stays background information"
         },
         "description": {
-          "vi": "Ở mẫu này, VẬT là chủ đề chính (は), địa điểm chỉ là thông tin bổ sung. So sánh với g_038_2 -- ở đó địa điểm mới là chủ đề, vật là thông tin mới được nhấn mạnh bằng が.",
-          "en": "In this pattern, the OBJECT is the main topic (は); the location is supplementary info. Contrast with g_038_2 -- there the location is the topic, and the object is the new information emphasized with が."
+          "vi": "Ở mẫu này, VẬT là chủ đề chính (は), địa điểm chỉ là thông tin bổ sung. So sánh với g_038_2, ở đó địa điểm mới là chủ đề, vật là thông tin mới được nhấn mạnh bằng が.",
+          "en": "In this pattern, the OBJECT is the main topic (は); the location is supplementary info. Contrast with g_038_2, there the location is the topic, and the object is the new information emphasized with が."
         },
         "relatedGrammarId": "g_038_2"
       }
@@ -6685,7 +6801,9 @@
       {
         "pos": "noun",
         "form": "(địa điểm)に (vật)があります",
-        "exampleStr": "公園 ＋ にベンチがあります"
+        "exampleStr": "公園 ＋ にベンチがあります",
+        "formVi": "(địa điểm)に (vật)があります",
+        "formEn": "(place)に (thing)があります"
       }
     ],
     "pragmatics": {
@@ -6822,7 +6940,9 @@
       {
         "pos": "noun",
         "form": "(person/animal) + はいますか",
-        "exampleStr": "田中さん ＋ はいますか"
+        "exampleStr": "田中さん ＋ はいますか",
+        "formVi": "(người/động vật) + はいますか",
+        "formEn": "(person/animal) + はいますか"
       }
     ],
     "pragmatics": {
@@ -6843,12 +6963,12 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "います chỉ dùng cho sinh vật sống, biết di chuyển -- あります dùng cho vật vô tri",
-          "en": "います is only for living, moving beings -- あります is for inanimate things"
+          "vi": "います chỉ dùng cho sinh vật sống, biết di chuyển, あります dùng cho vật vô tri",
+          "en": "います is only for living, moving beings, あります is for inanimate things"
         },
         "description": {
-          "vi": "います chuyên dùng cho người/động vật (thực thể sống, di chuyển được). Đồ vật/thực vật luôn dùng あります (g_037) -- đây là cặp động từ dễ gây nhầm lẫn nhất khi mới học N5.",
-          "en": "います is exclusively for people/animals (living, mobile beings). Objects/plants always use あります (g_037) -- this pair is the single most commonly confused item at N5 level."
+          "vi": "います chuyên dùng cho người/động vật (thực thể sống, di chuyển được). Đồ vật/thực vật luôn dùng あります (g_037), đây là cặp động từ dễ gây nhầm lẫn nhất khi mới học N5.",
+          "en": "います is exclusively for people/animals (living, mobile beings). Objects/plants always use あります (g_037), this pair is the single most commonly confused item at N5 level."
         },
         "relatedGrammarId": "g_037"
       }
@@ -6889,8 +7009,8 @@
         "vi": "Bây giờ trong văn phòng không có ai cả.",
         "en": "There's no one in the office right now.",
         "contextualExplanation": {
-          "vi": "誰も + いません (phủ định) nghĩa \"không có ai cả\" -- xem g_053.",
-          "en": "誰も + いません (negative) means \"no one at all\" -- see g_053."
+          "vi": "誰も + いません (phủ định) nghĩa \"không có ai cả\", xem g_053.",
+          "en": "誰も + いません (negative) means \"no one at all\", see g_053."
         }
       },
       {
@@ -6902,8 +7022,8 @@
         "vi": "Này, có con mèo không?",
         "en": "Hey, is there a cat around?",
         "contextualExplanation": {
-          "vi": "Thể thường của います là いる -- xem g_069.",
-          "en": "The plain-form counterpart of います is いる -- see g_069."
+          "vi": "Thể thường của います là いる, xem g_069.",
+          "en": "The plain-form counterpart of います is いる, see g_069."
         }
       },
       {
@@ -6915,8 +7035,8 @@
         "vi": "Trong lớp học có 5 sinh viên.",
         "en": "There are 5 students in the classroom.",
         "contextualExplanation": {
-          "vi": "います kết hợp với số lượng người để đếm -- xem g_043_1_2.",
-          "en": "います pairs with a person-count to enumerate people -- see g_043_1_2."
+          "vi": "います kết hợp với số lượng người để đếm, xem g_043_1_2.",
+          "en": "います pairs with a person-count to enumerate people, see g_043_1_2."
         }
       }
     ],
@@ -6960,7 +7080,9 @@
       {
         "pos": "noun",
         "form": "(người/vật sống) は (địa điểm)にいます",
-        "exampleStr": "田中さん ＋ は教室にいます"
+        "exampleStr": "田中さん ＋ は教室にいます",
+        "formVi": "(người/vật sống) は (địa điểm)にいます",
+        "formEn": "(person/living thing) は (place)にいます"
       }
     ],
     "pragmatics": {
@@ -7098,7 +7220,9 @@
       {
         "pos": "noun",
         "form": "(địa điểm)に (người/vật)がいます",
-        "exampleStr": "教室 ＋ に学生がいます"
+        "exampleStr": "教室 ＋ に学生がいます",
+        "formVi": "(địa điểm)に (người/vật)がいます",
+        "formEn": "(place)に (person/thing)がいます"
       }
     ],
     "pragmatics": {
@@ -7191,8 +7315,8 @@
         "vi": "Trong lớp này có 3 sinh viên nước ngoài.",
         "en": "There are 3 international students in this class.",
         "contextualExplanation": {
-          "vi": "います kết hợp số lượng người để đếm số lượng cụ thể -- xem g_043_1_2.",
-          "en": "います pairs with a person-count for a specific enumeration -- see g_043_1_2."
+          "vi": "います kết hợp số lượng người để đếm số lượng cụ thể, xem g_043_1_2.",
+          "en": "います pairs with a person-count for a specific enumeration, see g_043_1_2."
         }
       }
     ],
@@ -7236,7 +7360,9 @@
       {
         "pos": "noun",
         "form": "(địa điểm) + には／にも",
-        "exampleStr": "公園 ＋ には池があります"
+        "exampleStr": "公園 ＋ には池があります",
+        "formVi": "(địa điểm) + には／にも",
+        "formEn": "(place) + には／にも"
       }
     ],
     "pragmatics": {
@@ -7372,7 +7498,9 @@
       {
         "pos": "noun",
         "form": "N1 + と + N2",
-        "exampleStr": "ペン ＋ と ＋ ノート"
+        "exampleStr": "ペン ＋ と ＋ ノート",
+        "formVi": "N1 + と + N2",
+        "formEn": "N1 + と + N2"
       }
     ],
     "pragmatics": {
@@ -7394,12 +7522,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "と liệt kê đầy đủ, khép kín -- や ngụ ý \"và còn nữa\" (xem g_051)",
-          "en": "と lists an exhaustive/closed set -- や implies \"and others\" (see g_051)"
+          "vi": "と liệt kê đầy đủ, khép kín, や ngụ ý \"và còn nữa\" (xem g_051)",
+          "en": "と lists an exhaustive/closed set, や implies \"and others\" (see g_051)"
         },
         "description": {
           "vi": "と liệt kê ĐẦY ĐỦ, không còn vật nào khác. Khác với や (g_051), vốn ngụ ý còn những thứ khác không được nêu ra (\"và những thứ khác\").",
-          "en": "と lists a COMPLETE, exhaustive set -- nothing else exists beyond what's named. This differs from や (g_051), which implies unlisted items exist too (\"...and others\")."
+          "en": "と lists a COMPLETE, exhaustive set, nothing else exists beyond what's named. This differs from や (g_051), which implies unlisted items exist too (\"...and others\")."
         },
         "relatedGrammarId": "g_051"
       }
@@ -7438,7 +7566,7 @@
         "kana": "コーヒーとこうちゃ、どちらがいいですか。",
         "romaji": "Koohii to koucha, dochira ga ii desu ka.",
         "vi": "Cà phê và trà, bạn thích cái nào hơn?",
-        "en": "Coffee and tea -- which would you prefer?",
+        "en": "Coffee and tea, which would you prefer?",
         "contextualExplanation": {
           "vi": "と cũng dùng để nêu ra hai lựa chọn cụ thể trước khi hỏi so sánh.",
           "en": "と also names exactly two options before a comparison question."
@@ -7512,7 +7640,9 @@
       {
         "pos": "noun",
         "form": "が + (số lượng) + います／あります",
-        "exampleStr": "学生 ＋ が5人 ＋ います"
+        "exampleStr": "学生 ＋ が5人 ＋ います",
+        "formVi": "が + (số lượng) + います／あります",
+        "formEn": "が + (quantity) + います／あります"
       }
     ],
     "pragmatics": {
@@ -7614,8 +7744,8 @@
         "vi": "Trong túi chỉ có 3 cây bút thôi.",
         "en": "There are only 3 pens in the bag.",
         "contextualExplanation": {
-          "vi": "しか (chỉ) + phủ định cũng kết hợp được với cấu trúc số lượng để nhấn mạnh \"ít ỏi\" -- xem g_107.",
-          "en": "しか (\"only\") + negative also combines with the quantity structure to emphasize scarcity -- see g_107."
+          "vi": "しか (chỉ) + phủ định cũng kết hợp được với cấu trúc số lượng để nhấn mạnh \"ít ỏi\", xem g_107.",
+          "en": "しか (\"only\") + negative also combines with the quantity structure to emphasize scarcity, see g_107."
         }
       }
     ],
@@ -7659,12 +7789,16 @@
       {
         "pos": "verb",
         "form": "Masu-stem + ます (present/future)",
-        "exampleStr": "食べる → 食べ ＋ ます"
+        "exampleStr": "食べる → 食べ ＋ ます",
+        "formVi": "Vます bỏ ます + ます (hiện tại/tương lai)",
+        "formEn": "Masu-stem (V without ます) + ます (present/future)"
       },
       {
         "pos": "verb",
         "form": "Masu-stem + ました (past)",
-        "exampleStr": "食べる → 食べ ＋ ました"
+        "exampleStr": "食べる → 食べ ＋ ました",
+        "formVi": "Vます bỏ ます + ました (quá khứ)",
+        "formEn": "Masu-stem (V without ます) + ました (past)"
       }
     ],
     "pragmatics": {
@@ -7690,7 +7824,7 @@
         },
         "description": {
           "vi": "Vます diễn tả thói quen hoặc hành động sẽ xảy ra trong tương lai, KHÔNG diễn tả hành động đang diễn ra ngay lúc nói (cần Vています, xem g_094_1).",
-          "en": "Vます covers habitual actions or future events -- it does NOT express an action happening right now (that needs Vています, see g_094_1)."
+          "en": "Vます covers habitual actions or future events, it does NOT express an action happening right now (that needs Vています, see g_094_1)."
         },
         "relatedGrammarId": "g_094_1"
       }
@@ -7801,7 +7935,9 @@
       {
         "pos": "noun",
         "form": "(giờ) + に + Vます",
-        "exampleStr": "7時 ＋ に起きます"
+        "exampleStr": "7時 ＋ に起きます",
+        "formVi": "(giờ) + に + Vます",
+        "formEn": "(time) + に + Vます"
       }
     ],
     "pragmatics": {
@@ -7826,8 +7962,8 @@
           "en": "に marks a fixed point in time, not a duration"
         },
         "description": {
-          "vi": "に chỉ dùng khi nói về MỘT THỜI ĐIỂM cụ thể (7時に), không dùng khi nói về KHOẢNG THỜI GIAN (7時間, không thêm に) -- xem g_046.",
-          "en": "に marks a specific POINT in time (7時に), never a DURATION (7時間, no に attached) -- see g_046."
+          "vi": "に chỉ dùng khi nói về MỘT THỜI ĐIỂM cụ thể (7時に), không dùng khi nói về KHOẢNG THỜI GIAN (7時間, không thêm に), xem g_046.",
+          "en": "に marks a specific POINT in time (7時に), never a DURATION (7時間, no に attached), see g_046."
         },
         "relatedGrammarId": "g_046"
       }
@@ -7938,7 +8074,9 @@
       {
         "pos": "noun",
         "form": "(khoảng thời gian, không に) + Vます",
-        "exampleStr": "2時間 ＋ 勉強します"
+        "exampleStr": "2時間 ＋ 勉強します",
+        "formVi": "(khoảng thời gian, không に) + Vます",
+        "formEn": "(time span, no に) + Vます"
       }
     ],
     "pragmatics": {
@@ -7963,8 +8101,8 @@
           "en": "Never attach に to a duration"
         },
         "description": {
-          "vi": "2時間 (khoảng thời gian) KHÔNG được thêm に -- khác hẳn với thời điểm cụ thể ở g_045. Thêm に vào đây là lỗi rất phổ biến.",
-          "en": "2時間 (a duration) NEVER takes に -- unlike the specific time point in g_045. Adding に here is a very common mistake."
+          "vi": "2時間 (khoảng thời gian) KHÔNG được thêm に, khác hẳn với thời điểm cụ thể ở g_045. Thêm に vào đây là lỗi rất phổ biến.",
+          "en": "2時間 (a duration) NEVER takes に, unlike the specific time point in g_045. Adding に here is a very common mistake."
         },
         "examples": [
           {
@@ -8086,7 +8224,9 @@
       {
         "pos": "noun",
         "form": "(thời gian/địa điểm)から～まで + V",
-        "exampleStr": "9時 ＋ から5時まで働きます"
+        "exampleStr": "9時 ＋ から5時まで働きます",
+        "formVi": "(thời gian/địa điểm)から～まで + V",
+        "formEn": "(time/place)から～まで + V"
       }
     ],
     "pragmatics": {
@@ -8111,8 +8251,8 @@
           "en": "から～まで works for both time and place ranges"
         },
         "description": {
-          "vi": "から～まで dùng được cả cho thời gian (9時から5時まで) và không gian (家から駅まで) -- cùng một cấu trúc cho cả hai loại phạm vi.",
-          "en": "から～まで works for both time ranges (9時から5時まで) and spatial ranges (家から駅まで) -- one structure covers both."
+          "vi": "から～まで dùng được cả cho thời gian (9時から5時まで) và không gian (家から駅まで), cùng một cấu trúc cho cả hai loại phạm vi.",
+          "en": "から～まで works for both time ranges (9時から5時まで) and spatial ranges (家から駅まで), one structure covers both."
         }
       }
     ],
@@ -8224,12 +8364,16 @@
       {
         "pos": "verb",
         "form": "Masu-stem + ません (present/future negative)",
-        "exampleStr": "食べる → 食べ ＋ ません"
+        "exampleStr": "食べる → 食べ ＋ ません",
+        "formVi": "Vます bỏ ます + ません (phủ định hiện tại/tương lai)",
+        "formEn": "Masu-stem (V without ます) + ません (present/future negative)"
       },
       {
         "pos": "verb",
         "form": "Masu-stem + ませんでした (past negative)",
-        "exampleStr": "食べる → 食べ ＋ ませんでした"
+        "exampleStr": "食べる → 食べ ＋ ませんでした",
+        "formVi": "Vます bỏ ます + ませんでした (phủ định quá khứ)",
+        "formEn": "Masu-stem (V without ます) + ませんでした (past negative)"
       }
     ],
     "pragmatics": {
@@ -8250,12 +8394,12 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "ませんでした là một khối trọn vẹn -- đừng đánh dấu quá khứ hai lần",
-          "en": "ませんでした is one unit -- don't double-mark the past"
+          "vi": "ませんでした là một khối trọn vẹn, đừng đánh dấu quá khứ hai lần",
+          "en": "ませんでした is one unit, don't double-mark the past"
         },
         "description": {
           "vi": "Tương tự でした (g_009), でした ở đây gắn liền với ません thành một khối cố định, không tách rời hay chia lại.",
-          "en": "Just like でした in g_009, でした here fuses with ません into one fixed unit -- it's never split or re-conjugated."
+          "en": "Just like でした in g_009, でした here fuses with ません into one fixed unit, it's never split or re-conjugated."
         }
       }
     ],
@@ -8366,7 +8510,9 @@
       {
         "pos": "noun",
         "form": "(địa điểm)へ/に + 帰ります",
-        "exampleStr": "国 ＋ へ帰ります"
+        "exampleStr": "国 ＋ へ帰ります",
+        "formVi": "(địa điểm)へ/に + 帰ります",
+        "formEn": "(place)へ/に + 帰ります"
       }
     ],
     "pragmatics": {
@@ -8387,12 +8533,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "帰る ngụ ý quay về nơi xuất phát -- 行く dùng cho mọi di chuyển khác (xem g_049_2)",
-          "en": "帰る implies returning to a base -- 行く is any other movement (see g_049_2)"
+          "vi": "帰る ngụ ý quay về nơi xuất phát, 行く dùng cho mọi di chuyển khác (xem g_049_2)",
+          "en": "帰る implies returning to a base, 行く is any other movement (see g_049_2)"
         },
         "description": {
-          "vi": "帰る chuyên dùng cho việc quay VỀ một nơi được coi là \"gốc\" (nhà, quê hương, công ty mình làm) -- không dùng cho việc đi đến nơi mới. Nếu chỉ là \"đi đến\" một nơi bất kỳ, dùng 行く (g_049_2).",
-          "en": "帰る is specifically for returning to a place considered \"home base\" (house, home country, one's workplace) -- not for going to a new destination. For simply \"going to\" any place, use 行く (g_049_2)."
+          "vi": "帰る chuyên dùng cho việc quay VỀ một nơi được coi là \"gốc\" (nhà, quê hương, công ty mình làm), không dùng cho việc đi đến nơi mới. Nếu chỉ là \"đi đến\" một nơi bất kỳ, dùng 行く (g_049_2).",
+          "en": "帰る is specifically for returning to a place considered \"home base\" (house, home country, one's workplace), not for going to a new destination. For simply \"going to\" any place, use 行く (g_049_2)."
         },
         "relatedGrammarId": "g_049_2"
       }
@@ -8505,7 +8651,9 @@
       {
         "pos": "noun",
         "form": "(địa điểm)へ/に + 行きます",
-        "exampleStr": "学校 ＋ へ行きます"
+        "exampleStr": "学校 ＋ へ行きます",
+        "formVi": "(địa điểm)へ/に + 行きます",
+        "formEn": "(place)へ/に + 行きます"
       }
     ],
     "pragmatics": {
@@ -8526,12 +8674,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "へ và に sau một điểm đến -- gần như dùng thay nhau được ở trình độ N5",
-          "en": "へ vs に after a destination -- nearly interchangeable at N5"
+          "vi": "へ và に sau một điểm đến, gần như dùng thay nhau được ở trình độ N5",
+          "en": "へ vs に after a destination, nearly interchangeable at N5"
         },
         "description": {
-          "vi": "へ nhấn mạnh HƯỚNG di chuyển (một cách văn chương/rộng hơn), に nhấn mạnh ĐIỂM ĐẾN cụ thể -- ở trình độ N5, hai trợ từ này gần như dùng thay thế cho nhau.",
-          "en": "へ emphasizes DIRECTION of movement (a slightly more literary/broader nuance), に emphasizes the specific DESTINATION POINT -- at N5 level, the two are nearly interchangeable."
+          "vi": "へ nhấn mạnh HƯỚNG di chuyển (một cách văn chương/rộng hơn), に nhấn mạnh ĐIỂM ĐẾN cụ thể, ở trình độ N5, hai trợ từ này gần như dùng thay thế cho nhau.",
+          "en": "へ emphasizes DIRECTION of movement (a slightly more literary/broader nuance), に emphasizes the specific DESTINATION POINT, at N5 level, the two are nearly interchangeable."
         }
       }
     ],
@@ -8597,8 +8745,8 @@
         "vi": "Tôi sẽ đi xem phim cùng bạn.",
         "en": "I'm going to watch a movie with my friend.",
         "contextualExplanation": {
-          "vi": "行きます cũng kết hợp với に + mục đích (見に) -- xem g_058.",
-          "en": "行きます also combines with に + purpose (見に) -- see g_058."
+          "vi": "行きます cũng kết hợp với に + mục đích (見に), xem g_058.",
+          "en": "行きます also combines with に + purpose (見に), see g_058."
         }
       }
     ],
@@ -8643,7 +8791,9 @@
       {
         "pos": "noun",
         "form": "(địa điểm)へ/に + 来ます",
-        "exampleStr": "ここ ＋ へ来ます"
+        "exampleStr": "ここ ＋ へ来ます",
+        "formVi": "(địa điểm)へ/に + 来ます",
+        "formEn": "(place)へ/に + 来ます"
       }
     ],
     "pragmatics": {
@@ -8664,8 +8814,8 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "来る luôn mang nghĩa \"đến đây\" -- 行く luôn mang nghĩa \"rời khỏi đây\"",
-          "en": "来る is always \"toward here\" -- 行く is always \"away from here\""
+          "vi": "来る luôn mang nghĩa \"đến đây\", 行く luôn mang nghĩa \"rời khỏi đây\"",
+          "en": "来る is always \"toward here\", 行く is always \"away from here\""
         },
         "description": {
           "vi": "来る chỉ dùng khi ai đó di chuyển VỀ PHÍA người nói (hoặc điểm quy chiếu của câu chuyện). Nếu di chuyển RA XA người nói, luôn dùng 行く, kể cả khi người thứ ba đang \"đi đến\" một nơi khác.",
@@ -8723,8 +8873,8 @@
         "vi": "Bạn đến Nhật khi nào vậy?",
         "en": "When did you come to Japan?",
         "contextualExplanation": {
-          "vi": "来ました vì người nói đang ở Nhật -- điểm quy chiếu là nơi hội thoại diễn ra.",
-          "en": "来ました because the speaker is in Japan -- the reference point is where the conversation happens."
+          "vi": "来ました vì người nói đang ở Nhật, điểm quy chiếu là nơi hội thoại diễn ra.",
+          "en": "来ました because the speaker is in Japan, the reference point is where the conversation happens."
         }
       },
       {
@@ -8736,8 +8886,8 @@
         "vi": "Bạn tôi đã đến sân bay đón tôi.",
         "en": "My friend came to the airport to pick me up.",
         "contextualExplanation": {
-          "vi": "来て kết hợp với くれました (làm cho tôi) và mục đích 迎えに -- xem g_058, g_103.",
-          "en": "来て combines with くれました (\"did for me\") and purpose 迎えに -- see g_058, g_103."
+          "vi": "来て kết hợp với くれました (làm cho tôi) và mục đích 迎えに, xem g_058, g_103.",
+          "en": "来て combines with くれました (\"did for me\") and purpose 迎えに, see g_058, g_103."
         }
       }
     ],
@@ -8781,7 +8931,9 @@
       {
         "pos": "noun",
         "form": "(địa điểm)で + V",
-        "exampleStr": "図書館 ＋ で勉強します"
+        "exampleStr": "図書館 ＋ で勉強します",
+        "formVi": "(địa điểm)で + V",
+        "formEn": "(place)で + V"
       }
     ],
     "pragmatics": {
@@ -8806,8 +8958,8 @@
           "en": "で (action location) vs に (existence location, g_038_1/g_040_1)"
         },
         "description": {
-          "vi": "で dùng cho địa điểm DIỄN RA HÀNH ĐỘNG (勉強します, 食べます...). に dùng cho địa điểm TỒN TẠI (あります/います) -- hai trợ từ này phục vụ hai loại câu hoàn toàn khác nhau, đừng dùng lẫn.",
-          "en": "で marks the location WHERE AN ACTION HAPPENS (勉強します, 食べます...). に marks the location of EXISTENCE (あります/います) -- these serve two entirely different sentence types; don't mix them up."
+          "vi": "で dùng cho địa điểm DIỄN RA HÀNH ĐỘNG (勉強します, 食べます...). に dùng cho địa điểm TỒN TẠI (あります/います), hai trợ từ này phục vụ hai loại câu hoàn toàn khác nhau, đừng dùng lẫn.",
+          "en": "で marks the location WHERE AN ACTION HAPPENS (勉強します, 食べます...). に marks the location of EXISTENCE (あります/います), these serve two entirely different sentence types; don't mix them up."
         },
         "relatedGrammarId": "g_038_2"
       }
@@ -8919,7 +9071,9 @@
       {
         "pos": "noun",
         "form": "(đối tượng) + を + V (tha động từ)",
-        "exampleStr": "パン ＋ を食べます"
+        "exampleStr": "パン ＋ を食べます",
+        "formVi": "(đối tượng) + を + V (tha động từ)",
+        "formEn": "(object) + を + V (transitive verb)"
       }
     ],
     "pragmatics": {
@@ -8944,8 +9098,8 @@
           "en": "を also marks the space traversed for movement verbs"
         },
         "description": {
-          "vi": "を không chỉ đánh dấu tân ngữ trực tiếp mà còn dùng để chỉ không gian được \"đi qua\" với động từ di chuyển (公園を歩きます = đi bộ qua công viên) -- một cách dùng đặc biệt cần ghi nhớ.",
-          "en": "を doesn't only mark a direct object -- it also marks the space \"traversed\" with movement verbs (公園を歩きます = \"walk through the park\") -- a special use worth remembering."
+          "vi": "を không chỉ đánh dấu tân ngữ trực tiếp mà còn dùng để chỉ không gian được \"đi qua\" với động từ di chuyển (公園を歩きます = đi bộ qua công viên), một cách dùng đặc biệt cần ghi nhớ.",
+          "en": "を doesn't only mark a direct object, it also marks the space \"traversed\" with movement verbs (公園を歩きます = \"walk through the park\"), a special use worth remembering."
         }
       }
     ],
@@ -8998,8 +9152,8 @@
         "vi": "Đi dạo qua công viên.",
         "en": "Take a walk through the park.",
         "contextualExplanation": {
-          "vi": "を ở đây không phải tân ngữ mà chỉ không gian di chuyển qua -- một cách dùng đặc biệt của を.",
-          "en": "を here isn't a direct object -- it marks the space traversed, a special use of を."
+          "vi": "を ở đây không phải tân ngữ mà chỉ không gian di chuyển qua, một cách dùng đặc biệt của を.",
+          "en": "を here isn't a direct object, it marks the space traversed, a special use of を."
         }
       },
       {
@@ -9056,7 +9210,9 @@
       {
         "pos": "noun",
         "form": "(người) + と + V",
-        "exampleStr": "友達 ＋ と話します"
+        "exampleStr": "友達 ＋ と話します",
+        "formVi": "(người) + と + V",
+        "formEn": "(person) + と + V"
       }
     ],
     "pragmatics": {
@@ -9081,8 +9237,8 @@
           "en": "と (accompaniment) requires a mutual/reciprocal action, unlike に (one-directional)"
         },
         "description": {
-          "vi": "と dùng cho hành động qua lại/cùng làm (話す, 会う, 遊ぶ) -- ngụ ý cả hai bên đều tham gia. Một số động từ một chiều lại cần に (tặng cho ai đó) chứ không phải と.",
-          "en": "と is for mutual/reciprocal actions (話す \"talk\", 会う \"meet\", 遊ぶ \"play\") -- implying both parties participate. Some one-directional verbs instead need に (e.g. giving something to someone), not と."
+          "vi": "と dùng cho hành động qua lại/cùng làm (話す, 会う, 遊ぶ), ngụ ý cả hai bên đều tham gia. Một số động từ một chiều lại cần に (tặng cho ai đó) chứ không phải と.",
+          "en": "と is for mutual/reciprocal actions (話す \"talk\", 会う \"meet\", 遊ぶ \"play\"), implying both parties participate. Some one-directional verbs instead need に (e.g. giving something to someone), not と."
         }
       }
     ],
@@ -9192,12 +9348,16 @@
       {
         "pos": "noun",
         "form": "N1とかN2（とか）",
-        "exampleStr": "コーヒー ＋ とか紅茶とか"
+        "exampleStr": "コーヒー ＋ とか紅茶とか",
+        "formVi": "N1とかN2（とか）",
+        "formEn": "N1とかN2（とか）"
       },
       {
         "pos": "noun",
         "form": "N1やN2（など）",
-        "exampleStr": "コーヒー ＋ や紅茶など"
+        "exampleStr": "コーヒー ＋ や紅茶など",
+        "formVi": "N1やN2（など）",
+        "formEn": "N1やN2（など）"
       }
     ],
     "pragmatics": {
@@ -9219,8 +9379,8 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "とか mang tính thân mật, や trung tính/thiên về văn viết -- cả hai đều không liệt kê đầy đủ như と",
-          "en": "とか is casual, や is neutral/written -- neither is exhaustive like と"
+          "vi": "とか mang tính thân mật, や trung tính/thiên về văn viết, cả hai đều không liệt kê đầy đủ như と",
+          "en": "とか is casual, や is neutral/written, neither is exhaustive like と"
         },
         "description": {
           "vi": "Cả とか và や đều ngụ ý \"còn nhiều thứ khác nữa\", khác hẳn と (liệt kê đầy đủ, xem g_042). とか thân mật hơn, hay lặp lại (AとかBとか), còn や trang trọng hơn một chút, thường kết hợp với など ở cuối.",
@@ -9335,7 +9495,9 @@
       {
         "pos": "phrase",
         "form": "どこ/だれ/何 + か + Vか",
-        "exampleStr": "何 ＋ か食べますか"
+        "exampleStr": "何 ＋ か食べますか",
+        "formVi": "どこ/だれ/何 + か + Vか",
+        "formEn": "どこ/だれ/何 + か + Vか"
       }
     ],
     "pragmatics": {
@@ -9360,8 +9522,8 @@
           "en": "か after a question word makes it indefinite (\"some-\")"
         },
         "description": {
-          "vi": "か gắn ngay sau từ nghi vấn (何、どこ、誰) biến nó thành đại từ phiếm chỉ: 何か (cái gì đó), どこか (đâu đó), 誰か (ai đó) -- khác hẳn với 何 đứng một mình để hỏi cụ thể.",
-          "en": "か attached right after a question word (何, どこ, 誰) turns it into an indefinite pronoun: 何か (\"something\"), どこか (\"somewhere\"), 誰か (\"someone\") -- very different from 何 alone, which asks for a specific answer."
+          "vi": "か gắn ngay sau từ nghi vấn (何、どこ、誰) biến nó thành đại từ phiếm chỉ: 何か (cái gì đó), どこか (đâu đó), 誰か (ai đó), khác hẳn với 何 đứng một mình để hỏi cụ thể.",
+          "en": "か attached right after a question word (何, どこ, 誰) turns it into an indefinite pronoun: 何か (\"something\"), どこか (\"somewhere\"), 誰か (\"someone\"), very different from 何 alone, which asks for a specific answer."
         }
       }
     ],
@@ -9425,7 +9587,7 @@
         "kana": "このかばん、どこかでみたことがある。",
         "romaji": "Kono kaban, dokoka de mita koto ga aru.",
         "vi": "Cái túi này, tôi từng thấy ở đâu đó.",
-        "en": "This bag -- I've seen it somewhere before.",
+        "en": "This bag, I've seen it somewhere before.",
         "contextualExplanation": {
           "vi": "どこか cũng dùng ngoài câu hỏi, trong câu khẳng định mơ hồ về địa điểm.",
           "en": "どこか also appears outside questions, in a statement vague about location."
@@ -9472,7 +9634,9 @@
       {
         "pos": "phrase",
         "form": "どこ/だれ/何 + も + V（ない）",
-        "exampleStr": "何 ＋ も食べません"
+        "exampleStr": "何 ＋ も食べません",
+        "formVi": "どこ/だれ/何 + も + V（ない）",
+        "formEn": "どこ/だれ/何 + も + V（ない）"
       }
     ],
     "pragmatics": {
@@ -9497,8 +9661,8 @@
           "en": "も + negative = \"not...at all\", not the additive も from g_003"
         },
         "description": {
-          "vi": "も ở đây kết hợp với câu phủ định để tạo nghĩa \"không...tí nào cả\" -- khác hẳn も thêm vào (g_003, nghĩa \"cũng\"). Luôn cần động từ ở dạng phủ định đi kèm.",
-          "en": "も here combines with a negative verb to mean \"not...at all\" -- different from the additive も in g_003 (\"too/also\"). This always requires the verb to be negative."
+          "vi": "も ở đây kết hợp với câu phủ định để tạo nghĩa \"không...tí nào cả\", khác hẳn も thêm vào (g_003, nghĩa \"cũng\"). Luôn cần động từ ở dạng phủ định đi kèm.",
+          "en": "も here combines with a negative verb to mean \"not...at all\", different from the additive も in g_003 (\"too/also\"). This always requires the verb to be negative."
         },
         "relatedGrammarId": "g_003"
       }
@@ -9552,7 +9716,7 @@
         "vi": "Tiền, chẳng có tí nào cả.",
         "en": "I have no money at all.",
         "contextualExplanation": {
-          "vi": "全然 (hoàn toàn không) mang sắc thái tương tự どこも/何も/誰も khi kết hợp với phủ định.",
+          "vi": "全然 (hoàn toàn không) mang cảm giác tương tự どこも/何も/誰も khi kết hợp với phủ định.",
           "en": "全然 (\"not at all\") carries a similar nuance to どこも/何も/誰も when paired with a negative."
         }
       },
@@ -9609,7 +9773,9 @@
       {
         "pos": "noun",
         "form": "N + を + (số lượng) + ください",
-        "exampleStr": "コーヒー ＋ を2つください"
+        "exampleStr": "コーヒー ＋ を2つください",
+        "formVi": "N + を + (số lượng) + ください",
+        "formEn": "N + を + (quantity) + ください"
       }
     ],
     "pragmatics": {
@@ -9634,8 +9800,8 @@
           "en": "お願いします is slightly more polite/neutral than ください"
         },
         "description": {
-          "vi": "ください nghe hơi mang tính \"yêu cầu\" (imperative gốc), còn お願いします nhẹ nhàng, lịch sự hơn -- phù hợp khi gọi món/thanh toán ở nhà hàng, quầy tính tiền.",
-          "en": "ください carries a slight \"commanding\" undertone (it derives from an imperative), while お願いします is softer and more neutral-polite -- fitting when ordering food or at a checkout counter."
+          "vi": "ください nghe hơi mang tính \"yêu cầu\" (imperative gốc), còn お願いします nhẹ nhàng, lịch sự hơn, phù hợp khi gọi món/thanh toán ở nhà hàng, quầy tính tiền.",
+          "en": "ください carries a slight \"commanding\" undertone (it derives from an imperative), while お願いします is softer and more neutral-polite, fitting when ordering food or at a checkout counter."
         }
       }
     ],
@@ -9746,7 +9912,9 @@
       {
         "pos": "noun",
         "form": "(khoảng thời gian)に + tần suất/số lượng + V",
-        "exampleStr": "一週間 ＋ に3回運動します"
+        "exampleStr": "一週間 ＋ に3回運動します",
+        "formVi": "(khoảng thời gian)に + tần suất/số lượng + V",
+        "formEn": "(time span)に + frequency/amount + V"
       }
     ],
     "pragmatics": {
@@ -9884,12 +10052,16 @@
       {
         "pos": "verb",
         "form": "Masu-stem + ませんか (inviting)",
-        "exampleStr": "食べる → 食べ ＋ ませんか"
+        "exampleStr": "食べる → 食べ ＋ ませんか",
+        "formVi": "Vます bỏ ます + ませんか (rủ rê)",
+        "formEn": "Masu-stem (V without ます) + ませんか (inviting)"
       },
       {
         "pos": "verb",
         "form": "Masu-stem + ましょう (suggesting)",
-        "exampleStr": "食べる → 食べ ＋ ましょう"
+        "exampleStr": "食べる → 食べ ＋ ましょう",
+        "formVi": "Vます bỏ ます + ましょう (đề nghị)",
+        "formEn": "Masu-stem (V without ます) + ましょう (suggesting)"
       }
     ],
     "pragmatics": {
@@ -9914,8 +10086,8 @@
           "en": "ませんか is a softer, more deferential invitation than ましょう"
         },
         "description": {
-          "vi": "ませんか (\"chúng ta cùng... không?\") nhẹ nhàng, để ngỏ khả năng từ chối -- lịch sự hơn khi mời người chưa chắc muốn tham gia. ましょう (\"cùng... nào\") mang tính chủ động, thẳng thắn hơn, phù hợp khi cả hai đã đồng ý làm gì đó.",
-          "en": "ませんか (\"won't we...?\") is softer and leaves room to decline -- more polite when inviting someone who may not be sure. ましょう (\"let's...\") is more direct/assertive, fitting once both parties are already on board."
+          "vi": "ませんか (\"chúng ta cùng... không?\") nhẹ nhàng, để ngỏ khả năng từ chối, lịch sự hơn khi mời người chưa chắc muốn tham gia. ましょう (\"cùng... nào\") mang tính chủ động, thẳng thắn hơn, phù hợp khi cả hai đã đồng ý làm gì đó.",
+          "en": "ませんか (\"won't we...?\") is softer and leaves room to decline, more polite when inviting someone who may not be sure. ましょう (\"let's...\") is more direct/assertive, fitting once both parties are already on board."
         }
       }
     ],
@@ -10025,7 +10197,9 @@
       {
         "pos": "noun",
         "form": "(vật) + が欲しいです",
-        "exampleStr": "新しい靴 ＋ が欲しいです"
+        "exampleStr": "新しい靴 ＋ が欲しいです",
+        "formVi": "(vật) + が欲しいです",
+        "formEn": "(thing) + が欲しいです"
       }
     ],
     "pragmatics": {
@@ -10057,12 +10231,12 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "欲しい (\"muốn có vật gì\") khác với たい (\"muốn làm gì\") -- xem g_059",
-          "en": "欲しい (\"want a thing\") vs たい (\"want to do\") -- see g_059"
+          "vi": "欲しい (\"muốn có vật gì\") khác với たい (\"muốn làm gì\"), xem g_059",
+          "en": "欲しい (\"want a thing\") vs たい (\"want to do\"), see g_059"
         },
         "description": {
-          "vi": "欲しい dùng cho danh từ (muốn CÓ một vật), còn たい (g_059) gắn vào động từ (muốn LÀM một hành động) -- hai cấu trúc khác nhau dù cùng dịch là \"muốn\" trong tiếng Việt.",
-          "en": "欲しい pairs with a noun (wanting to HAVE a thing), while たい (g_059) attaches to a verb (wanting to DO an action) -- two different structures, even though both translate as \"want\"."
+          "vi": "欲しい dùng cho danh từ (muốn CÓ một vật), còn たい (g_059) gắn vào động từ (muốn LÀM một hành động), hai cấu trúc khác nhau dù cùng dịch là \"muốn\" trong tiếng Việt.",
+          "en": "欲しい pairs with a noun (wanting to HAVE a thing), while たい (g_059) attaches to a verb (wanting to DO an action), two different structures, even though both translate as \"want\"."
         },
         "relatedGrammarId": "g_059"
       }
@@ -10175,12 +10349,16 @@
       {
         "pos": "verb",
         "form": "Masu-stem + に + 行きます/来ます/帰ります",
-        "exampleStr": "食べる → 食べ ＋ に行きます"
+        "exampleStr": "食べる → 食べ ＋ に行きます",
+        "formVi": "Vます bỏ ます + に + 行きます/来ます/帰ります",
+        "formEn": "Masu-stem (V without ます) + に + 行きます/来ます/帰ります"
       },
       {
         "pos": "noun",
         "form": "N2 + に + 行きます/来ます/帰ります",
-        "exampleStr": "買い物 ＋ に行きます"
+        "exampleStr": "買い物 ＋ に行きます",
+        "formVi": "N2 + に + 行きます/来ます/帰ります",
+        "formEn": "N2 + に + 行きます/来ます/帰ります"
       }
     ],
     "pragmatics": {
@@ -10327,7 +10505,9 @@
       {
         "pos": "verb",
         "form": "Masu-stem + たいです",
-        "exampleStr": "食べる → 食べ ＋ たいです"
+        "exampleStr": "食べる → 食べ ＋ たいです",
+        "formVi": "Vます bỏ ます + たいです",
+        "formEn": "Masu-stem (V without ます) + たいです"
       }
     ],
     "pragmatics": {
@@ -10359,8 +10539,8 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "たい (\"muốn làm gì\") chỉ tự nhiên khi nói về mong muốn của chính người nói -- xem g_057 với 欲しい",
-          "en": "たい (\"want to do\") is only natural for the speaker's own wish -- see g_057 for 欲しい"
+          "vi": "たい (\"muốn làm gì\") chỉ tự nhiên khi nói về mong muốn của chính người nói, xem g_057 với 欲しい",
+          "en": "たい (\"want to do\") is only natural for the speaker's own wish, see g_057 for 欲しい"
         },
         "description": {
           "vi": "Cũng giống 欲しい, たい chỉ tự nhiên cho mong muốn của bản thân người nói (hoặc câu hỏi trực tiếp với người nghe). Dùng cho người thứ ba cần たがっている (ngoài N5).",
@@ -10431,8 +10611,8 @@
         "vi": "Vì mệt nên tôi muốn nghỉ một chút.",
         "en": "Since I'm tired, I want to rest a bit.",
         "contextualExplanation": {
-          "vi": "です lược bỏ trong văn nói thân mật -- xem g_078.",
-          "en": "です drops in casual speech -- see g_078."
+          "vi": "です lược bỏ trong văn nói thân mật, xem g_078.",
+          "en": "です drops in casual speech, see g_078."
         }
       }
     ],
@@ -10473,7 +10653,9 @@
       {
         "pos": "verb",
         "form": "Masu-stem + 方",
-        "exampleStr": "作る → 作り ＋ 方"
+        "exampleStr": "作る → 作り ＋ 方",
+        "formVi": "Vます bỏ ます + 方",
+        "formEn": "Masu-stem (V without ます) + 方"
       }
     ],
     "pragmatics": {
@@ -10494,8 +10676,8 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "方 gắn vào thân ます, tạo thành một DANH TỪ -- nên cần trợ từ riêng đi sau nó",
-          "en": "方 attaches to the masu-stem, forming a NOUN -- it needs its own particle after it"
+          "vi": "方 gắn vào thân ます, tạo thành một DANH TỪ, nên cần trợ từ riêng đi sau nó",
+          "en": "方 attaches to the masu-stem, forming a NOUN, it needs its own particle after it"
         },
         "description": {
           "vi": "方 biến động từ thành DANH TỪ (作り方 = \"cách làm\"), vì vậy cần trợ từ như を/が/は đi kèm khi dùng trong câu, giống một danh từ bình thường.",
@@ -10613,17 +10795,23 @@
       {
         "pos": "verb",
         "form": "Group 1: う-row → え-row + ます",
-        "exampleStr": "書く → 書けます"
+        "exampleStr": "書く → 書けます",
+        "formVi": "Nhóm 1: hàng う → hàng え + ます",
+        "formEn": "Group 1: う-row → え-row + ます"
       },
       {
         "pos": "verb",
         "form": "Group 2: drop る + られます",
-        "exampleStr": "食べる → 食べられます"
+        "exampleStr": "食べる → 食べられます",
+        "formVi": "Nhóm 2: bỏ る + られます",
+        "formEn": "Group 2: drop る + られます"
       },
       {
         "pos": "verb",
         "form": "Group 3: irregular",
-        "exampleStr": "する → できます／来る → 来られます"
+        "exampleStr": "する → できます／来る → 来られます",
+        "formVi": "Nhóm 3: bất quy tắc",
+        "formEn": "Group 3: irregular"
       }
     ],
     "pragmatics": {
@@ -10715,7 +10903,7 @@
         "en": "To do → can do",
         "contextualExplanation": {
           "vi": "する là ngoại lệ hoàn toàn, phải nhớ できます như một từ riêng.",
-          "en": "する is a total exception -- できます must be memorized as its own word."
+          "en": "する is a total exception, できます must be memorized as its own word."
         }
       }
     ],
@@ -10761,7 +10949,9 @@
       {
         "pos": "verb",
         "form": "が + potential form",
-        "exampleStr": "日本語 ＋ が話せます"
+        "exampleStr": "日本語 ＋ が話せます",
+        "formVi": "が + thể khả năng",
+        "formEn": "が + potential form"
       }
     ],
     "pragmatics": {
@@ -10853,8 +11043,8 @@
         "vi": "Từ đây có thể nhìn thấy núi Phú Sĩ.",
         "en": "You can see Mt. Fuji from here.",
         "contextualExplanation": {
-          "vi": "見えます (nhìn thấy được) là một dạng khả năng tự nhiên đặc biệt, không chia từ 見る -- xem g_170.",
-          "en": "見えます (\"can be seen\") is a special naturally-occurring potential form, not conjugated from 見る -- see g_170."
+          "vi": "見えます (nhìn thấy được) là một dạng khả năng tự nhiên đặc biệt, không chia từ 見る, xem g_170.",
+          "en": "見えます (\"can be seen\") is a special naturally-occurring potential form, not conjugated from 見る, see g_170."
         }
       }
     ],
@@ -10897,7 +11087,9 @@
       {
         "pos": "noun",
         "form": "(phương tiện)で + V",
-        "exampleStr": "電車 ＋ で行きます"
+        "exampleStr": "電車 ＋ で行きます",
+        "formVi": "(phương tiện)で + V",
+        "formEn": "(means)で + V"
       }
     ],
     "pragmatics": {
@@ -11034,7 +11226,9 @@
       {
         "pos": "noun",
         "form": "(tiền/thời gian) + がかかります",
-        "exampleStr": "1時間 ＋ がかかります"
+        "exampleStr": "1時間 ＋ がかかります",
+        "formVi": "(tiền/thời gian) + がかかります",
+        "formEn": "(money/time) + がかかります"
       }
     ],
     "pragmatics": {
@@ -11055,8 +11249,8 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "かかります chỉ dùng cho thời gian/tiền bạc -- không phải từ \"cần\" chung chung",
-          "en": "かかります is only for time/money -- not a general \"requires\""
+          "vi": "かかります chỉ dùng cho thời gian/tiền bạc, không phải từ \"cần\" chung chung",
+          "en": "かかります is only for time/money, not a general \"requires\""
         },
         "description": {
           "vi": "かかります chuyên dùng cho thời gian và tiền bạc (\"tốn/mất\"). Không dùng để nói \"cần\" cho các thứ khác (dùng 必要です cho trường hợp đó).",
@@ -11173,7 +11367,9 @@
       {
         "pos": "noun",
         "form": "(số tiền/thời gian)くらい/ぐらいで + V(khả năng)",
-        "exampleStr": "1万円 ＋ くらいで買えます"
+        "exampleStr": "1万円 ＋ くらいで買えます",
+        "formVi": "(số tiền/thời gian)くらい/ぐらいで + V(khả năng)",
+        "formEn": "(amount of money/time)くらい/ぐらいで + V(potential)"
       }
     ],
     "pragmatics": {
@@ -11252,7 +11448,7 @@
         "vi": "Khoảng 3 nghìn yên chắc là đủ nhỉ.",
         "en": "I wonder if about 3000 yen would be enough.",
         "contextualExplanation": {
-          "vi": "かな thêm sắc thái tự hỏi/không chắc chắn.",
+          "vi": "かな thêm cảm giác tự hỏi/không chắc chắn.",
           "en": "かな adds a musing, uncertain nuance."
         }
       },
@@ -11309,7 +11505,9 @@
       {
         "pos": "noun",
         "form": "N1は N2が + na-adjective + です",
-        "exampleStr": "田中さん ＋ は日本語が上手です"
+        "exampleStr": "田中さん ＋ は日本語が上手です",
+        "formVi": "N1は N2が + tính từ な + です",
+        "formEn": "N1は N2が + na-adjective + です"
       }
     ],
     "pragmatics": {
@@ -11330,12 +11528,12 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "Đây đều là tính từ đuôi な, không phải động từ -- が đánh dấu N2, không phải を",
-          "en": "These are all na-adjectives, not verbs -- が marks N2, not を"
+          "vi": "Đây đều là tính từ đuôi な, không phải động từ, が đánh dấu N2, không phải を",
+          "en": "These are all na-adjectives, not verbs, が marks N2, not を"
         },
         "description": {
-          "vi": "好き、嫌い、上手、下手、得意、苦手 đều là TÍNH TỪ な, không phải động từ -- vì vậy N2 luôn dùng が, không dùng を dù dịch sang tiếng Việt nghe giống động từ.",
-          "en": "好き, 嫌い, 上手, 下手, 得意, 苦手 are all NA-ADJECTIVES, not verbs -- so N2 always takes が, never を, even though the English translation sounds verb-like (\"like/dislike\")."
+          "vi": "好き、嫌い、上手、下手、得意、苦手 đều là TÍNH TỪ な, không phải động từ, vì vậy N2 luôn dùng が, không dùng を dù dịch sang tiếng Việt nghe giống động từ.",
+          "en": "好き, 嫌い, 上手, 下手, 得意, 苦手 are all NA-ADJECTIVES, not verbs, so N2 always takes が, never を, even though the English translation sounds verb-like (\"like/dislike\")."
         },
         "examples": [
           {
@@ -11351,8 +11549,8 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "上手/下手 khác với 得意/苦手 -- kỹ năng khách quan khác với sự tự tin cá nhân",
-          "en": "上手/下手 vs 得意/苦手 -- objective skill vs. personal confidence"
+          "vi": "上手/下手 khác với 得意/苦手, kỹ năng khách quan khác với sự tự tin cá nhân",
+          "en": "上手/下手 vs 得意/苦手, objective skill vs. personal confidence"
         },
         "description": {
           "vi": "上手/下手 đánh giá khách quan về kỹ năng (thường dùng khi nói về người khác, tránh dùng cho bản thân vì nghe như tự khen). 得意/苦手 mang tính chủ quan, nói về sự tự tin/e ngại của bản thân, phù hợp hơn khi tự nhận xét.",
@@ -11464,7 +11662,9 @@
       {
         "pos": "phrase",
         "form": "Clause1 (reason, plain/polite) + から + Clause2 (result)",
-        "exampleStr": "忙しいです ＋ から ＋ 行けません"
+        "exampleStr": "忙しいです ＋ から ＋ 行けません",
+        "formVi": "Mệnh đề 1 (lý do, thường / lịch sự) + から + Mệnh đề 2 (kết quả)",
+        "formEn": "Clause1 (reason, plain/polite) + から + Clause2 (result)"
       }
     ],
     "pragmatics": {
@@ -11486,12 +11686,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "から mang tính chủ quan/khẳng định mạnh hơn ので -- hợp khi nêu lý do cá nhân, nhưng kém tự nhiên khi xin phép trang trọng",
-          "en": "から is more subjective/assertive than ので -- fine for personal reasons, less smooth for formal excuses"
+          "vi": "から mang tính chủ quan/khẳng định mạnh hơn ので, hợp khi nêu lý do cá nhân, nhưng kém tự nhiên khi xin phép trang trọng",
+          "en": "から is more subjective/assertive than ので, fine for personal reasons, less smooth for formal excuses"
         },
         "description": {
-          "vi": "から nhấn mạnh lý do một cách chủ quan, khá thẳng thắn -- phù hợp trong hội thoại thường ngày. Trong ngữ cảnh xin phép/xin lỗi trang trọng, ので (ngoài N5 nhưng hữu ích để biết) nghe khách quan, mềm mỏng hơn.",
-          "en": "から asserts a reason fairly directly and subjectively -- fine for everyday conversation. In formal excuse/apology contexts, ので (beyond N5 but useful to know) sounds more objective and softer."
+          "vi": "から nhấn mạnh lý do một cách chủ quan, khá thẳng thắn, phù hợp trong hội thoại thường ngày. Trong ngữ cảnh xin phép/xin lỗi trang trọng, ので (ngoài N5 nhưng hữu ích để biết) nghe khách quan, mềm mỏng hơn.",
+          "en": "から asserts a reason fairly directly and subjectively, fine for everyday conversation. In formal excuse/apology contexts, ので (beyond N5 but useful to know) sounds more objective and softer."
         }
       }
     ],
@@ -11602,7 +11802,9 @@
       {
         "pos": "noun",
         "form": "N1は N2が + adjective",
-        "exampleStr": "象 ＋ は鼻が長いです"
+        "exampleStr": "象 ＋ は鼻が長いです",
+        "formVi": "N1は N2が + tính từ",
+        "formEn": "N1は N2が + adjective"
       }
     ],
     "pragmatics": {
@@ -11740,7 +11942,9 @@
       {
         "pos": "noun",
         "form": "(chủ ngữ được nhấn mạnh) + が + vị ngữ",
-        "exampleStr": "誰 ＋ が来ますか"
+        "exampleStr": "誰 ＋ が来ますか",
+        "formVi": "(chủ ngữ được nhấn mạnh) + が + vị ngữ",
+        "formEn": "(emphasised subject) + が + predicate"
       }
     ],
     "pragmatics": {
@@ -11832,8 +12036,8 @@
         "vi": "Cái bánh này là do chính tôi làm đấy.",
         "en": "This cake was made by me.",
         "contextualExplanation": {
-          "vi": "ケーキは (chủ đề đã biết) và 私が (nhấn mạnh CHÍNH XÁC ai là người làm) cùng xuất hiện, mỗi trợ từ một vai trò -- xem g_067.",
-          "en": "ケーキは (the known topic) and 私が (emphasizing exactly WHO did it) appear together, each playing a distinct role -- see g_067."
+          "vi": "ケーキは (chủ đề đã biết) và 私が (nhấn mạnh CHÍNH XÁC ai là người làm) cùng xuất hiện, mỗi trợ từ một vai trò, xem g_067.",
+          "en": "ケーキは (the known topic) and 私が (emphasizing exactly WHO did it) appear together, each playing a distinct role, see g_067."
         }
       }
     ],
@@ -11880,7 +12084,9 @@
       {
         "pos": "verb",
         "form": "Dictionary form (plain form of ます)",
-        "exampleStr": "食べます → 食べる"
+        "exampleStr": "食べます → 食べる",
+        "formVi": "Thể từ điển (thể thường của ます)",
+        "formEn": "Dictionary form (plain form of ます)"
       }
     ],
     "pragmatics": {
@@ -11894,20 +12100,20 @@
         "en": "The base form used in casual speech and as the building block for other grammar patterns"
       },
       "speakerStance": {
-        "vi": "Trung tính -- đây là thể gốc/thể trích dẫn, sắc thái tùy ngữ cảnh",
-        "en": "Neutral -- this is the citation/base form, tone depends on context"
+        "vi": "Trung tính, đây là thể gốc/thể trích dẫn, cảm giác tùy ngữ cảnh",
+        "en": "Neutral, this is the citation/base form, tone depends on context"
       }
     },
     "notesAndPitfalls": [
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Thể từ điển không chỉ \"để tra từ điển\" -- đó chính là thì hiện tại/tương lai thân mật dùng hằng ngày",
-          "en": "The dictionary form isn't just \"for dictionaries\" -- it's the everyday casual present/future tense"
+          "vi": "Thể từ điển không chỉ \"để tra từ điển\", đó chính là thì hiện tại/tương lai thân mật dùng hằng ngày",
+          "en": "The dictionary form isn't just \"for dictionaries\", it's the everyday casual present/future tense"
         },
         "description": {
-          "vi": "Tên gọi \"thể từ điển\" gây hiểu lầm -- đây không chỉ là dạng tra từ điển mà còn là cách chia ĐỘNG TỪ THÔNG THƯỜNG trong văn nói thân mật (tương đương ます ở thể lịch sự) và là gốc để tạo nhiều mẫu ngữ pháp khác (こと, ことができる...).",
-          "en": "The name \"dictionary form\" is a bit misleading -- it's not only for looking words up. It's also the everyday casual present/future tense (the plain-form counterpart of ます) and the base many other grammar patterns build on (こと, ことができる...)."
+          "vi": "Tên gọi \"thể từ điển\" gây hiểu lầm, đây không chỉ là dạng tra từ điển mà còn là cách chia ĐỘNG TỪ THÔNG THƯỜNG trong văn nói thân mật (tương đương ます ở thể lịch sự) và là gốc để tạo nhiều mẫu ngữ pháp khác (こと, ことができる...).",
+          "en": "The name \"dictionary form\" is a bit misleading, it's not only for looking words up. It's also the everyday casual present/future tense (the plain-form counterpart of ます) and the base many other grammar patterns build on (こと, ことができる...)."
         }
       }
     ],
@@ -11947,8 +12153,8 @@
         "vi": "Lần tới cùng xem phim không?",
         "en": "Want to watch a movie together next time?",
         "contextualExplanation": {
-          "vi": "Thể từ điển + lên giọng cuối câu tạo thành câu hỏi -- xem g_070.",
-          "en": "Dictionary form + rising intonation forms a question -- see g_070."
+          "vi": "Thể từ điển + lên giọng cuối câu tạo thành câu hỏi, xem g_070.",
+          "en": "Dictionary form + rising intonation forms a question, see g_070."
         }
       },
       {
@@ -12021,7 +12227,9 @@
       {
         "pos": "verb",
         "form": "Dictionary form + rising intonation",
-        "exampleStr": "行く ＋ ？"
+        "exampleStr": "行く ＋ ？",
+        "formVi": "Thể từ điển + lên giọng",
+        "formEn": "Dictionary form + rising intonation"
       }
     ],
     "pragmatics": {
@@ -12042,8 +12250,8 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "Không bao giờ thêm か vào câu hỏi thể thường thân mật -- quy tắc giống g_028_2",
-          "en": "Never add か to a plain-form casual question -- same rule as g_028_2"
+          "vi": "Không bao giờ thêm か vào câu hỏi thể thường thân mật, quy tắc giống g_028_2",
+          "en": "Never add か to a plain-form casual question, same rule as g_028_2"
         },
         "description": {
           "vi": "Giống hệt quy tắc ở g_028_2: câu hỏi thể thường với động từ KHÔNG dùng か, chỉ dựa vào ngữ điệu lên giọng.",
@@ -12088,8 +12296,8 @@
         "vi": "Cùng đi không?",
         "en": "Want to come along?",
         "contextualExplanation": {
-          "vi": "Câu hỏi phủ định thể thường cũng dùng làm lời rủ rê -- xem g_074.",
-          "en": "A plain-form negative question also works as an invitation -- see g_074."
+          "vi": "Câu hỏi phủ định thể thường cũng dùng làm lời rủ rê, xem g_074.",
+          "en": "A plain-form negative question also works as an invitation, see g_074."
         }
       },
       {
@@ -12161,12 +12369,16 @@
       {
         "pos": "verb",
         "form": "Dictionary form + ことができます",
-        "exampleStr": "泳ぐ ＋ ことができます"
+        "exampleStr": "泳ぐ ＋ ことができます",
+        "formVi": "Thể từ điển + ことができます",
+        "formEn": "Dictionary form + ことができます"
       },
       {
         "pos": "noun",
         "form": "N + ができます",
-        "exampleStr": "料理 ＋ ができます"
+        "exampleStr": "料理 ＋ ができます",
+        "formVi": "N + ができます",
+        "formEn": "N + ができます"
       }
     ],
     "pragmatics": {
@@ -12187,8 +12399,8 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "ことができる và thể khả năng (g_061_1) -- dùng thay nhau được, nhưng ことができる nghe trang trọng hơn",
-          "en": "ことができる vs the potential form (g_061_1) -- interchangeable, but ことができる reads more formal"
+          "vi": "ことができる và thể khả năng (g_061_1), dùng thay nhau được, nhưng ことができる nghe trang trọng hơn",
+          "en": "ことができる vs the potential form (g_061_1), interchangeable, but ことができる reads more formal"
         },
         "description": {
           "vi": "~ことができます và thể khả năng (泳げます, g_061_1) diễn tả cùng ý nghĩa. ことができます trang trọng/rõ ràng hơn một chút, hay dùng trong văn viết hoặc giới thiệu năng lực trang trọng. Thể khả năng tự nhiên hơn trong hội thoại thường ngày.",
@@ -12306,7 +12518,9 @@
       {
         "pos": "verb",
         "form": "Dictionary form + ことです",
-        "exampleStr": "本を読む ＋ ことです"
+        "exampleStr": "本を読む ＋ ことです",
+        "formVi": "Thể từ điển + ことです",
+        "formEn": "Dictionary form + ことです"
       }
     ],
     "pragmatics": {
@@ -12445,17 +12659,23 @@
       {
         "pos": "verb",
         "form": "Group 1: う-row → あ-row + ない",
-        "exampleStr": "書く → 書かない"
+        "exampleStr": "書く → 書かない",
+        "formVi": "Nhóm 1: hàng う → hàng あ + ない",
+        "formEn": "Group 1: う-row → あ-row + ない"
       },
       {
         "pos": "verb",
         "form": "Group 2: drop る + ない",
-        "exampleStr": "食べる → 食べない"
+        "exampleStr": "食べる → 食べない",
+        "formVi": "Nhóm 2: bỏ る + ない",
+        "formEn": "Group 2: drop る + ない"
       },
       {
         "pos": "verb",
         "form": "Group 3: irregular",
-        "exampleStr": "する → しない／来る → 来ない"
+        "exampleStr": "する → しない／来る → 来ない",
+        "formVi": "Nhóm 3: bất quy tắc",
+        "formEn": "Group 3: irregular"
       }
     ],
     "pragmatics": {
@@ -12469,8 +12689,8 @@
         "en": "The plain negative form, used in casual speech and as a base for many other patterns"
       },
       "speakerStance": {
-        "vi": "Trung tính -- thể gốc, sắc thái tùy ngữ cảnh",
-        "en": "Neutral -- base form, tone depends on context"
+        "vi": "Trung tính, thể gốc, cảm giác tùy ngữ cảnh",
+        "en": "Neutral, base form, tone depends on context"
       }
     },
     "notesAndPitfalls": [
@@ -12558,8 +12778,8 @@
         "vi": "Xin đừng lo lắng.",
         "en": "Please don't worry.",
         "contextualExplanation": {
-          "vi": "しない + でください tạo lời yêu cầu phủ định lịch sự -- xem g_099.",
-          "en": "しない + でください forms a polite negative request -- see g_099."
+          "vi": "しない + でください tạo lời yêu cầu phủ định lịch sự, xem g_099.",
+          "en": "しない + でください forms a polite negative request, see g_099."
         }
       }
     ],
@@ -12605,7 +12825,9 @@
       {
         "pos": "verb",
         "form": "ない-form + rising intonation (invitation)",
-        "exampleStr": "食べない ＋ ？"
+        "exampleStr": "食べない ＋ ？",
+        "formVi": "Thể ない + lên giọng (lời mời)",
+        "formEn": "ない-form + rising intonation (invitation)"
       }
     ],
     "pragmatics": {
@@ -12614,7 +12836,7 @@
         "spoken"
       ],
       "intent": {
-        "vi": "Mời ai đó cùng làm gì đó một cách thân mật, mang sắc thái giống ませんか",
+        "vi": "Mời ai đó cùng làm gì đó một cách thân mật, mang cảm giác giống ませんか",
         "en": "Casually inviting someone to do something together, echoing the nuance of ませんか"
       },
       "speakerStance": {
@@ -12626,12 +12848,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Câu hỏi thể phủ định ở đây không thật sự mang nghĩa phủ định -- đây là lời mời, giống ませんか",
-          "en": "A negative-form question here isn't really negative -- it's an invitation, mirroring ませんか"
+          "vi": "Câu hỏi thể phủ định ở đây không thật sự mang nghĩa phủ định, đây là lời mời, giống ませんか",
+          "en": "A negative-form question here isn't really negative, it's an invitation, mirroring ませんか"
         },
         "description": {
-          "vi": "Giống ませんか (g_056) ở thể lịch sự, câu hỏi phủ định thể thường ở đây KHÔNG mang nghĩa phủ định thật -- nó là lời mời nhẹ nhàng (\"cùng làm... không?\").",
-          "en": "Just like ませんか (g_056) at the polite level, this plain-form negative question does NOT carry real negative meaning -- it's a soft invitation (\"won't we... together?\")."
+          "vi": "Giống ませんか (g_056) ở thể lịch sự, câu hỏi phủ định thể thường ở đây KHÔNG mang nghĩa phủ định thật, nó là lời mời nhẹ nhàng (\"cùng làm... không?\").",
+          "en": "Just like ませんか (g_056) at the polite level, this plain-form negative question does NOT carry real negative meaning, it's a soft invitation (\"won't we... together?\")."
         },
         "relatedGrammarId": "g_056"
       }
@@ -12745,7 +12967,9 @@
       {
         "pos": "verb",
         "form": "Potential dictionary form / potential nai-form",
-        "exampleStr": "飲める／飲めない"
+        "exampleStr": "飲める／飲めない",
+        "formVi": "Thể khả năng (từ điển / ない)",
+        "formEn": "Potential dictionary form / potential nai-form"
       }
     ],
     "pragmatics": {
@@ -12759,8 +12983,8 @@
         "en": "Expressing capability/incapability in plain form"
       },
       "speakerStance": {
-        "vi": "Trung tính -- thể gốc để phát biểu khả năng",
-        "en": "Neutral -- base form for capability statements"
+        "vi": "Trung tính, thể gốc để phát biểu khả năng",
+        "en": "Neutral, base form for capability statements"
       }
     },
     "notesAndPitfalls": [
@@ -12885,17 +13109,23 @@
       {
         "pos": "verb",
         "form": "Group 1: sound-change + た／だ",
-        "exampleStr": "書く → 書いた"
+        "exampleStr": "書く → 書いた",
+        "formVi": "Nhóm 1: biến đổi âm + た／だ",
+        "formEn": "Group 1: sound-change + た／だ"
       },
       {
         "pos": "verb",
         "form": "Group 2: drop る + た",
-        "exampleStr": "食べる → 食べた"
+        "exampleStr": "食べる → 食べた",
+        "formVi": "Nhóm 2: bỏ る + た",
+        "formEn": "Group 2: drop る + た"
       },
       {
         "pos": "verb",
         "form": "Group 3: irregular",
-        "exampleStr": "する → した／来る → 来た"
+        "exampleStr": "する → した／来る → 来た",
+        "formVi": "Nhóm 3: bất quy tắc",
+        "formEn": "Group 3: irregular"
       }
     ],
     "pragmatics": {
@@ -12909,8 +13139,8 @@
         "en": "The plain past-tense form, used in casual speech and as a base for many other patterns"
       },
       "speakerStance": {
-        "vi": "Trung tính -- thể gốc, sắc thái tùy ngữ cảnh",
-        "en": "Neutral -- base form, tone depends on context"
+        "vi": "Trung tính, thể gốc, cảm giác tùy ngữ cảnh",
+        "en": "Neutral, base form, tone depends on context"
       }
     },
     "notesAndPitfalls": [
@@ -12921,8 +13151,8 @@
           "en": "The た-form uses the exact same sound-change rules as the て-form"
         },
         "description": {
-          "vi": "Thể た chia theo cùng quy tắc biến âm với thể て (chỉ đổi て thành た, で thành だ) -- nếu đã thuộc thể て (g_091), có thể suy ra thể た ngay lập tức.",
-          "en": "The た-form follows the exact same sound-change rules as the て-form (just swap て→た, で→だ) -- if you know the て-form (g_091), you already know the た-form."
+          "vi": "Thể た chia theo cùng quy tắc biến âm với thể て (chỉ đổi て thành た, で thành だ), nếu đã thuộc thể て (g_091), có thể suy ra thể た ngay lập tức.",
+          "en": "The た-form follows the exact same sound-change rules as the て-form (just swap て→た, で→だ), if you know the て-form (g_091), you already know the た-form."
         },
         "relatedGrammarId": "g_091"
       }
@@ -12976,8 +13206,8 @@
         "vi": "Hôm nay trời không mưa.",
         "en": "It didn't rain today.",
         "contextualExplanation": {
-          "vi": "なかった là quá khứ của ない -- phủ định quá khứ trong thể thường.",
-          "en": "なかった is ない's past tense -- the plain-form past negative."
+          "vi": "なかった là quá khứ của ない, phủ định quá khứ trong thể thường.",
+          "en": "なかった is ない's past tense, the plain-form past negative."
         }
       },
       {
@@ -13036,7 +13266,9 @@
       {
         "pos": "verb",
         "form": "Potential ta-form / potential nakatta-form",
-        "exampleStr": "飲めた／飲めなかった"
+        "exampleStr": "飲めた／飲めなかった",
+        "formVi": "Thể khả năng (た / なかった)",
+        "formEn": "Potential ta-form / potential nakatta-form"
       }
     ],
     "pragmatics": {
@@ -13050,8 +13282,8 @@
         "en": "Expressing past capability/incapability in plain form"
       },
       "speakerStance": {
-        "vi": "Trung tính -- thể gốc để phát biểu khả năng trong quá khứ",
-        "en": "Neutral -- base form for past capability statements"
+        "vi": "Trung tính, thể gốc để phát biểu khả năng trong quá khứ",
+        "en": "Neutral, base form for past capability statements"
       }
     },
     "notesAndPitfalls": [
@@ -13173,7 +13405,9 @@
       {
         "pos": "verb",
         "form": "たい／たい？／たくない／たかった",
-        "exampleStr": "食べたい／食べたい？／食べたくない／食べたかった"
+        "exampleStr": "食べたい／食べたい？／食べたくない／食べたかった",
+        "formVi": "たい／たい？／たくない／たかった",
+        "formEn": "たい／たい？／たくない／たかった"
       }
     ],
     "pragmatics": {
@@ -13198,8 +13432,8 @@
           "en": "たい conjugates exactly like an i-adjective across all four forms"
         },
         "description": {
-          "vi": "たい chia y hệt tính từ い ở cả 4 dạng: たい (khẳng định), たい？(câu hỏi, lên giọng), たくない (phủ định), たかった (quá khứ) -- không có gì đặc biệt cần nhớ thêm ngoài quy tắc tính từ い đã biết.",
-          "en": "たい conjugates exactly like an i-adjective across all four forms: たい (affirmative), たい？(question, rising intonation), たくない (negative), たかった (past) -- nothing new beyond the already-familiar i-adjective rules."
+          "vi": "たい chia y hệt tính từ い ở cả 4 dạng: たい (khẳng định), たい？(câu hỏi, lên giọng), たくない (phủ định), たかった (quá khứ), không có gì đặc biệt cần nhớ thêm ngoài quy tắc tính từ い đã biết.",
+          "en": "たい conjugates exactly like an i-adjective across all four forms: たい (affirmative), たい？(question, rising intonation), たくない (negative), たかった (past), nothing new beyond the already-familiar i-adjective rules."
         }
       }
     ],
@@ -13312,17 +13546,23 @@
       {
         "pos": "verb",
         "form": "Group 1: う-row → お-row + う",
-        "exampleStr": "行く → 行こう"
+        "exampleStr": "行く → 行こう",
+        "formVi": "Nhóm 1: hàng う → hàng お + う",
+        "formEn": "Group 1: う-row → お-row + う"
       },
       {
         "pos": "verb",
         "form": "Group 2: drop る + よう",
-        "exampleStr": "食べる → 食べよう"
+        "exampleStr": "食べる → 食べよう",
+        "formVi": "Nhóm 2: bỏ る + よう",
+        "formEn": "Group 2: drop る + よう"
       },
       {
         "pos": "verb",
         "form": "Group 3: irregular",
-        "exampleStr": "する → しよう／来る → 来よう"
+        "exampleStr": "する → しよう／来る → 来よう",
+        "formVi": "Nhóm 3: bất quy tắc",
+        "formEn": "Group 3: irregular"
       }
     ],
     "pragmatics": {
@@ -13331,8 +13571,8 @@
         "spoken"
       ],
       "intent": {
-        "vi": "Thể thường tương ứng với ましょう -- đề xuất một hành động hoặc bày tỏ quyết tâm của bản thân",
-        "en": "The plain-form counterpart of ましょう -- proposing an action or expressing one's own resolve"
+        "vi": "Thể thường tương ứng với ましょう, đề xuất một hành động hoặc bày tỏ quyết tâm của bản thân",
+        "en": "The plain-form counterpart of ましょう, proposing an action or expressing one's own resolve"
       },
       "speakerStance": {
         "vi": "Thân mật, không trang trọng; cũng có thể là lời tự nhủ riêng với chính mình",
@@ -13347,8 +13587,8 @@
           "en": "The volitional form also works as an inner monologue, not just an invitation"
         },
         "description": {
-          "vi": "Ngoài chức năng rủ rê (\"cùng làm... nào\"), thể ý chí còn dùng để tự nói với bản thân, thể hiện quyết tâm (\"mình sẽ...\") -- một cách dùng không có ở ましょう (chỉ dùng khi nói với người khác).",
-          "en": "Beyond its inviting function (\"let's...\"), the volitional form is also used as an inner monologue expressing personal resolve (\"I'll...\") -- a use ましょう doesn't have (it only addresses another person)."
+          "vi": "Ngoài chức năng rủ rê (\"cùng làm... nào\"), thể ý chí còn dùng để tự nói với bản thân, thể hiện quyết tâm (\"mình sẽ...\"), một cách dùng không có ở ましょう (chỉ dùng khi nói với người khác).",
+          "en": "Beyond its inviting function (\"let's...\"), the volitional form is also used as an inner monologue expressing personal resolve (\"I'll...\"), a use ましょう doesn't have (it only addresses another person)."
         }
       }
     ],
@@ -13401,8 +13641,8 @@
         "vi": "Nấu món gì đây nhỉ?",
         "en": "What should I/we make?",
         "contextualExplanation": {
-          "vi": "Thể ý chí + か cũng dùng để tự hỏi bản thân hoặc hỏi ý kiến người khác một cách nhẹ nhàng -- xem g_106.",
-          "en": "Volitional + か also expresses musing to oneself or gently asking for input -- see g_106."
+          "vi": "Thể ý chí + か cũng dùng để tự hỏi bản thân hoặc hỏi ý kiến người khác một cách nhẹ nhàng, xem g_106.",
+          "en": "Volitional + か also expresses musing to oneself or gently asking for input, see g_106."
         }
       },
       {
@@ -13461,12 +13701,16 @@
       {
         "pos": "verb",
         "form": "Dictionary form + 前に",
-        "exampleStr": "寝る ＋ 前に"
+        "exampleStr": "寝る ＋ 前に",
+        "formVi": "Thể từ điển + 前に",
+        "formEn": "Dictionary form + 前に"
       },
       {
         "pos": "noun",
         "form": "N + の前に",
-        "exampleStr": "食事 ＋ の前に"
+        "exampleStr": "食事 ＋ の前に",
+        "formVi": "N + の前に",
+        "formEn": "N + の前に"
       }
     ],
     "pragmatics": {
@@ -13491,8 +13735,8 @@
           "en": "V1 is always dictionary form before 前に, even if V2 is in the past"
         },
         "description": {
-          "vi": "Dù V2 ở thì quá khứ, V1 trước 前に vẫn LUÔN ở thể từ điển (không chia quá khứ) -- vì 前に chỉ mối quan hệ thời gian tương đối, không phải thời của cả câu.",
-          "en": "Even when V2 is in the past tense, V1 before 前に is ALWAYS in the dictionary form (never conjugated to past) -- because 前に marks a relative time relationship, not the tense of the whole sentence."
+          "vi": "Dù V2 ở thì quá khứ, V1 trước 前に vẫn LUÔN ở thể từ điển (không chia quá khứ), vì 前に chỉ mối quan hệ thời gian tương đối, không phải thời của cả câu.",
+          "en": "Even when V2 is in the past tense, V1 before 前に is ALWAYS in the dictionary form (never conjugated to past), because 前に marks a relative time relationship, not the tense of the whole sentence."
         },
         "examples": [
           {
@@ -13615,12 +13859,16 @@
       {
         "pos": "verb",
         "form": "た-form + 後で",
-        "exampleStr": "食べる → 食べた ＋ 後で"
+        "exampleStr": "食べる → 食べた ＋ 後で",
+        "formVi": "Thể た + 後で",
+        "formEn": "た-form + 後で"
       },
       {
         "pos": "noun",
         "form": "N + の後で",
-        "exampleStr": "食事 ＋ の後で"
+        "exampleStr": "食事 ＋ の後で",
+        "formVi": "N + の後で",
+        "formEn": "N + の後で"
       }
     ],
     "pragmatics": {
@@ -13761,22 +14009,30 @@
       {
         "pos": "verb",
         "form": "た-form (Vた) + ら",
-        "exampleStr": "降る → 降った ＋ ら"
+        "exampleStr": "降る → 降った ＋ ら",
+        "formVi": "Thể た (Vた) + ら",
+        "formEn": "た-form (Vた) + ら"
       },
       {
         "pos": "i-adj",
         "form": "かった (past) + ら",
-        "exampleStr": "忙しい → 忙しかった ＋ ら"
+        "exampleStr": "忙しい → 忙しかった ＋ ら",
+        "formVi": "かった (quá khứ) + ら",
+        "formEn": "かった (past) + ら"
       },
       {
         "pos": "na-adj",
         "form": "だった (past) + ら",
-        "exampleStr": "暇 → 暇だった ＋ ら"
+        "exampleStr": "暇 → 暇だった ＋ ら",
+        "formVi": "だった (quá khứ) + ら",
+        "formEn": "だった (past) + ら"
       },
       {
         "pos": "noun",
         "form": "だった (past) + ら",
-        "exampleStr": "休み → 休みだった ＋ ら"
+        "exampleStr": "休み → 休みだった ＋ ら",
+        "formVi": "だった (quá khứ) + ら",
+        "formEn": "だった (past) + ら"
       }
     ],
     "pragmatics": {
@@ -13798,12 +14054,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "たら so với と／ば／なら -- bốn thể điều kiện, bốn sắc thái khác nhau",
-          "en": "たら vs と／ば／なら -- four conditionals, four different feels"
+          "vi": "たら so với と／ば／なら, bốn thể điều kiện, bốn cảm giác khác nhau",
+          "en": "たら vs と／ば／なら, four conditionals, four different feels"
         },
         "description": {
           "vi": "たら linh hoạt nhất, dùng được cho hầu hết mọi tình huống (kể cả yêu cầu, lời mời sau đó). と dùng cho quy luật/sự thật hiển nhiên (không dùng với mệnh lệnh ở V2). ば nhấn mạnh điều kiện logic/giả định. なら phản hồi lại điều đối phương vừa nói. Xem g_084/g_085 (ば) và g_112 (なら).",
-          "en": "たら is the most flexible and can be followed by almost anything in V2, including commands/invitations -- the default choice when unsure. と is for automatic/general truths (V2 cannot be a command). ば emphasizes a logical/hypothetical condition. なら responds to something the listener just said. See g_084/g_085 (ば) and g_112 (なら) for contrast."
+          "en": "たら is the most flexible and can be followed by almost anything in V2, including commands/invitations, the default choice when unsure. と is for automatic/general truths (V2 cannot be a command). ば emphasizes a logical/hypothetical condition. なら responds to something the listener just said. See g_084/g_085 (ば) and g_112 (なら) for contrast."
         },
         "relatedGrammarId": "g_112"
       },
@@ -13868,8 +14124,8 @@
         "vi": "A: Mai rảnh không? B: Nếu rảnh thì đi xem phim đi.",
         "en": "A: Free tomorrow? B: If you're free, let's go watch a movie.",
         "contextualExplanation": {
-          "vi": "たら thường theo sau bằng lời mời/rủ rê (行こう) -- một điểm mà と không làm được.",
-          "en": "たら is commonly followed by an invitation (行こう) -- something と cannot do."
+          "vi": "たら thường theo sau bằng lời mời/rủ rê (行こう), một điểm mà と không làm được.",
+          "en": "たら is commonly followed by an invitation (行こう), something と cannot do."
         }
       },
       {
@@ -13925,7 +14181,9 @@
       {
         "pos": "verb",
         "form": "た-form + ばかりだ",
-        "exampleStr": "始める → 始めた ＋ ばかりだ"
+        "exampleStr": "始める → 始めた ＋ ばかりだ",
+        "formVi": "Thể た + ばかりだ",
+        "formEn": "た-form + ばかりだ"
       }
     ],
     "pragmatics": {
@@ -13938,20 +14196,20 @@
         "en": "Emphasizing that an action just happened, very recently"
       },
       "speakerStance": {
-        "vi": "Cảm nhận chủ quan về \"vừa mới\" -- thường dùng để giải thích một trạng thái hiện tại",
-        "en": "Subjective sense of \"just now\" -- often used to explain a current state"
+        "vi": "Cảm nhận chủ quan về \"vừa mới\", thường dùng để giải thích một trạng thái hiện tại",
+        "en": "Subjective sense of \"just now\", often used to explain a current state"
       }
     },
     "notesAndPitfalls": [
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "ばかり đo \"mới đây\" theo cảm nhận chủ quan -- không phải lúc nào cũng là mốc thời gian khách quan chặt chẽ",
-          "en": "ばかり measures subjective, felt recency -- not always a strict objective timeframe"
+          "vi": "ばかり đo \"mới đây\" theo cảm nhận chủ quan, không phải lúc nào cũng là mốc thời gian khách quan chặt chẽ",
+          "en": "ばかり measures subjective, felt recency, not always a strict objective timeframe"
         },
         "description": {
-          "vi": "ばかり mang tính cảm nhận chủ quan về \"vừa mới\" -- có thể dùng cho việc xảy ra vài phút trước, nhưng cũng có thể dùng cho việc vài tháng trước nếu người nói vẫn cảm thấy nó \"còn mới\". Không có mốc thời gian cứng nhắc.",
-          "en": "ばかり expresses a subjective sense of \"just now\" -- it can apply to something minutes ago, but also to something months ago if the speaker still feels it as recent. There's no strict objective cutoff."
+          "vi": "ばかり mang tính cảm nhận chủ quan về \"vừa mới\", có thể dùng cho việc xảy ra vài phút trước, nhưng cũng có thể dùng cho việc vài tháng trước nếu người nói vẫn cảm thấy nó \"còn mới\". Không có mốc thời gian cứng nhắc.",
+          "en": "ばかり expresses a subjective sense of \"just now\", it can apply to something minutes ago, but also to something months ago if the speaker still feels it as recent. There's no strict objective cutoff."
         }
       }
     ],
@@ -14061,7 +14319,9 @@
       {
         "pos": "verb",
         "form": "た-form + ことがあります",
-        "exampleStr": "行く → 行った ＋ ことがあります"
+        "exampleStr": "行く → 行った ＋ ことがあります",
+        "formVi": "Thể た + ことがあります",
+        "formEn": "た-form + ことがあります"
       }
     ],
     "pragmatics": {
@@ -14200,17 +14460,23 @@
       {
         "pos": "verb",
         "form": "Group 1: う-row → え-row + ば",
-        "exampleStr": "書く → 書けば"
+        "exampleStr": "書く → 書けば",
+        "formVi": "Nhóm 1: hàng う → hàng え + ば",
+        "formEn": "Group 1: う-row → え-row + ば"
       },
       {
         "pos": "verb",
         "form": "Group 2: drop る + れば",
-        "exampleStr": "食べる → 食べれば"
+        "exampleStr": "食べる → 食べれば",
+        "formVi": "Nhóm 2: bỏ る + れば",
+        "formEn": "Group 2: drop る + れば"
       },
       {
         "pos": "i-adj",
         "form": "い → ければ",
-        "exampleStr": "安い → 安ければ"
+        "exampleStr": "安い → 安ければ",
+        "formVi": "い → ければ",
+        "formEn": "い → ければ"
       }
     ],
     "pragmatics": {
@@ -14231,8 +14497,8 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Cách đổi sang hàng え giống hệt thể khả năng của nhóm 1 -- dễ nhầm lẫn",
-          "en": "The え-row substitution mirrors Group 1's potential form -- easy to conflate"
+          "vi": "Cách đổi sang hàng え giống hệt thể khả năng của nhóm 1, dễ nhầm lẫn",
+          "en": "The え-row substitution mirrors Group 1's potential form, easy to conflate"
         },
         "description": {
           "vi": "Với động từ nhóm 1, thể ば dùng CÙNG hàng え như thể khả năng (書く→書けば cũng giống 書ける), nhưng ば thêm vào sau chứ không phải ます. Dễ nhầm hai thể này vì âm giống nhau.",
@@ -14349,7 +14615,9 @@
       {
         "pos": "verb",
         "form": "ば-form + Clause2",
-        "exampleStr": "安ければ ＋ 買います"
+        "exampleStr": "安ければ ＋ 買います",
+        "formVi": "Thể ば + Mệnh đề 2",
+        "formEn": "ば-form + Clause2"
       }
     ],
     "pragmatics": {
@@ -14417,8 +14685,8 @@
         "vi": "Nếu không nhanh lên thì sẽ không kịp.",
         "en": "If we don't hurry, we won't make it in time.",
         "contextualExplanation": {
-          "vi": "なければ (phủ định) + kết quả -- xem thêm g_087, g_088.",
-          "en": "なければ (negative) + result -- see also g_087, g_088."
+          "vi": "なければ (phủ định) + kết quả, xem thêm g_087, g_088.",
+          "en": "なければ (negative) + result, see also g_087, g_088."
         }
       },
       {
@@ -14430,8 +14698,8 @@
         "vi": "Làm sao để giỏi lên được?",
         "en": "What should I do to get better (at it)?",
         "contextualExplanation": {
-          "vi": "どうすれば là mẫu câu hỏi xin lời khuyên rất phổ biến -- xem g_086.",
-          "en": "どうすれば is a very common way to ask for advice -- see g_086."
+          "vi": "どうすれば là mẫu câu hỏi xin lời khuyên rất phổ biến, xem g_086.",
+          "en": "どうすれば is a very common way to ask for advice, see g_086."
         }
       },
       {
@@ -14443,8 +14711,8 @@
         "vi": "Nếu thời tiết đẹp thì đi công viên nhé.",
         "en": "If the weather is nice, let's go to the park.",
         "contextualExplanation": {
-          "vi": "いい chia thành よければ (không phải いければ) -- ngoại lệ quan trọng cần nhớ.",
-          "en": "いい conjugates to よければ (never いければ) -- an important exception to remember."
+          "vi": "いい chia thành よければ (không phải いければ), ngoại lệ quan trọng cần nhớ.",
+          "en": "いい conjugates to よければ (never いければ), an important exception to remember."
         }
       }
     ],
@@ -14490,7 +14758,9 @@
       {
         "pos": "phrase",
         "form": "(question word) + ば-clause + か",
-        "exampleStr": "どう ＋ すればいいですか"
+        "exampleStr": "どう ＋ すればいいですか",
+        "formVi": "(từ để hỏi) + mệnh đề ば + か",
+        "formEn": "(question word) + ば-clause + か"
       }
     ],
     "pragmatics": {
@@ -14630,7 +14900,9 @@
       {
         "pos": "verb",
         "form": "ない-form → なければ",
-        "exampleStr": "行かない → 行かなければ"
+        "exampleStr": "行かない → 行かなければ",
+        "formVi": "Thể ない → なければ",
+        "formEn": "ない-form → なければ"
       }
     ],
     "pragmatics": {
@@ -14651,12 +14923,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "なければ chính là thể điều kiện ば gắn vào thể phủ định -- không phải một quy tắc riêng biệt",
-          "en": "なければ is the ば-conditional attached to the negative -- not a separate rule"
+          "vi": "なければ chính là thể điều kiện ば gắn vào thể phủ định, không phải một quy tắc riêng biệt",
+          "en": "なければ is the ば-conditional attached to the negative, not a separate rule"
         },
         "description": {
-          "vi": "なければ đơn giản là thể ない (行かない) + ば (行かなければ) -- không có gì mới, chỉ áp dụng quy tắc ば-conditional (g_084) lên động từ đã ở dạng phủ định.",
-          "en": "なければ is simply the negative form (行かない) + ば (行かなければ) -- nothing new, just the ば-conditional rule (g_084) applied to an already-negative verb."
+          "vi": "なければ đơn giản là thể ない (行かない) + ば (行かなければ), không có gì mới, chỉ áp dụng quy tắc ば-conditional (g_084) lên động từ đã ở dạng phủ định.",
+          "en": "なければ is simply the negative form (行かない) + ば (行かなければ), nothing new, just the ば-conditional rule (g_084) applied to an already-negative verb."
         },
         "relatedGrammarId": "g_084"
       }
@@ -14697,8 +14969,8 @@
         "vi": "Có phải làm xong trong hôm nay không?",
         "en": "Does it have to be done today?",
         "contextualExplanation": {
-          "vi": "なければいけませんか hỏi xem một điều kiện có bắt buộc hay không -- xem g_088.",
-          "en": "なければいけませんか asks whether a condition is mandatory -- see g_088."
+          "vi": "なければいけませんか hỏi xem một điều kiện có bắt buộc hay không, xem g_088.",
+          "en": "なければいけませんか asks whether a condition is mandatory, see g_088."
         }
       },
       {
@@ -14771,12 +15043,16 @@
       {
         "pos": "verb",
         "form": "なければ + なりません／いけません",
-        "exampleStr": "行く → 行かなければなりません"
+        "exampleStr": "行く → 行かなければなりません",
+        "formVi": "なければ + なりません／いけません",
+        "formEn": "なければ + なりません／いけません"
       },
       {
         "pos": "verb",
         "form": "ないと + いけません",
-        "exampleStr": "行く → 行かないといけません"
+        "exampleStr": "行く → 行かないといけません",
+        "formVi": "ないと + いけません",
+        "formEn": "ないと + いけません"
       }
     ],
     "pragmatics": {
@@ -14785,8 +15061,8 @@
         "neutral"
       ],
       "intent": {
-        "vi": "Diễn tả nghĩa vụ -- \"phải làm\"",
-        "en": "Expressing obligation -- \"must do\""
+        "vi": "Diễn tả nghĩa vụ, \"phải làm\"",
+        "en": "Expressing obligation, \"must do\""
       },
       "speakerStance": {
         "vi": "Trung tính, phát biểu một yêu cầu bắt buộc",
@@ -14797,12 +15073,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Nghĩa đen là \"nếu không X thì không được\" -- một cách phủ định kép để diễn tả sự bắt buộc",
-          "en": "Literally \"if not X, it won't do\" -- a double negative expressing obligation"
+          "vi": "Nghĩa đen là \"nếu không X thì không được\", một cách phủ định kép để diễn tả sự bắt buộc",
+          "en": "Literally \"if not X, it won't do\", a double negative expressing obligation"
         },
         "description": {
-          "vi": "Cấu trúc này về bản chất là \"nếu không làm X thì không được\" -- hai lần phủ định (なければ + なりません/いけません) tạo thành nghĩa \"phải làm\". Hiểu nghĩa đen giúp không bị bối rối bởi cấu trúc phức tạp này.",
-          "en": "This structure is literally \"if [you] don't X, it won't do\" -- a double negative (なければ + なりません/いけません) that produces the meaning \"must do\". Understanding the literal sense helps make sense of this otherwise complex-looking structure."
+          "vi": "Cấu trúc này về bản chất là \"nếu không làm X thì không được\", hai lần phủ định (なければ + なりません/いけません) tạo thành nghĩa \"phải làm\". Hiểu nghĩa đen giúp không bị bối rối bởi cấu trúc phức tạp này.",
+          "en": "This structure is literally \"if [you] don't X, it won't do\", a double negative (なければ + なりません/いけません) that produces the meaning \"must do\". Understanding the literal sense helps make sense of this otherwise complex-looking structure."
         }
       }
     ],
@@ -14855,8 +15131,8 @@
         "vi": "Tôi phải về rồi.",
         "en": "I have to head home now.",
         "contextualExplanation": {
-          "vi": "ないと (ngắn gọn hơn なければ) rất phổ biến trong văn nói thân mật -- xem g_089, g_090.",
-          "en": "ないと (a shorter form of なければ) is very common in casual speech -- see g_089, g_090."
+          "vi": "ないと (ngắn gọn hơn なければ) rất phổ biến trong văn nói thân mật, xem g_089, g_090.",
+          "en": "ないと (a shorter form of なければ) is very common in casual speech, see g_089, g_090."
         }
       },
       {
@@ -14915,7 +15191,9 @@
       {
         "pos": "verb",
         "form": "なければ → なきゃ (contraction)",
-        "exampleStr": "行かなければ → 行かなきゃ"
+        "exampleStr": "行かなければ → 行かなきゃ",
+        "formVi": "なければ → なきゃ (dạng rút gọn)",
+        "formEn": "なければ → なきゃ (contraction)"
       }
     ],
     "pragmatics": {
@@ -14936,12 +15214,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "なきゃ chỉ đơn thuần là rút gọn về âm -- なければ được nói tắt cho nhanh trong văn nói",
-          "en": "なきゃ is a pure sound contraction -- なければ shortened for speed in speech"
+          "vi": "なきゃ chỉ đơn thuần là rút gọn về âm, なければ được nói tắt cho nhanh trong văn nói",
+          "en": "なきゃ is a pure sound contraction, なければ shortened for speed in speech"
         },
         "description": {
-          "vi": "なきゃ chỉ là biến âm rút gọn của なければ (なければ → なきゃ) khi nói nhanh trong hội thoại -- không thay đổi nghĩa hay ngữ pháp, chỉ ngắn gọn hơn.",
-          "en": "なきゃ is purely a sound contraction of なければ (なければ → なきゃ) for speaking quickly in conversation -- no change in meaning or grammar, just shorter."
+          "vi": "なきゃ chỉ là biến âm rút gọn của なければ (なければ → なきゃ) khi nói nhanh trong hội thoại, không thay đổi nghĩa hay ngữ pháp, chỉ ngắn gọn hơn.",
+          "en": "なきゃ is purely a sound contraction of なければ (なければ → なきゃ) for speaking quickly in conversation, no change in meaning or grammar, just shorter."
         },
         "relatedGrammarId": "g_087"
       }
@@ -14995,8 +15273,8 @@
         "vi": "Không cần lo lắng đâu.",
         "en": "You don't need to worry.",
         "contextualExplanation": {
-          "vi": "なくていい (ngược lại với なきゃ) diễn tả \"không cần phải\" -- so sánh để thấy rõ cặp đối lập.",
-          "en": "なくていい (the opposite of なきゃ) expresses \"don't need to\" -- shown here for contrast."
+          "vi": "なくていい (ngược lại với なきゃ) diễn tả \"không cần phải\", so sánh để thấy rõ cặp đối lập.",
+          "en": "なくていい (the opposite of なきゃ) expresses \"don't need to\", shown here for contrast."
         }
       },
       {
@@ -15055,7 +15333,9 @@
       {
         "pos": "verb",
         "form": "なきゃ + いけない",
-        "exampleStr": "行く → 行かなきゃいけない"
+        "exampleStr": "行く → 行かなきゃいけない",
+        "formVi": "なきゃ + いけない",
+        "formEn": "なきゃ + いけない"
       }
     ],
     "pragmatics": {
@@ -15064,8 +15344,8 @@
         "spoken"
       ],
       "intent": {
-        "vi": "Dạng nói tương ứng của なければいけません -- diễn tả nghĩa vụ",
-        "en": "The casual, spoken counterpart of なければいけません -- expressing obligation"
+        "vi": "Dạng nói tương ứng của なければいけません, diễn tả nghĩa vụ",
+        "en": "The casual, spoken counterpart of なければいけません, expressing obligation"
       },
       "speakerStance": {
         "vi": "Thân mật, không trang trọng",
@@ -15109,7 +15389,7 @@
         "vi": "Chắc phải học bài rồi đây.",
         "en": "I really should start studying.",
         "contextualExplanation": {
-          "vi": "な cuối câu thêm sắc thái tự nhủ, hơi miễn cưỡng.",
+          "vi": "な cuối câu thêm cảm giác tự nhủ, hơi miễn cưỡng.",
           "en": "な at the end adds a musing, slightly reluctant nuance."
         }
       },
@@ -15122,7 +15402,7 @@
         "vi": "Cái này phải học thuộc hết à?",
         "en": "Do I have to memorize all of this?",
         "contextualExplanation": {
-          "vi": "の cuối câu thêm sắc thái ngạc nhiên/than vãn nhẹ.",
+          "vi": "の cuối câu thêm cảm giác ngạc nhiên/than vãn nhẹ.",
           "en": "の at the end adds a mildly surprised/complaining nuance."
         }
       },
@@ -15193,22 +15473,30 @@
       {
         "pos": "verb",
         "form": "Dictionary/nai/ta-form + なら",
-        "exampleStr": "行く ＋ なら"
+        "exampleStr": "行く ＋ なら",
+        "formVi": "Thể từ điển / ない / た + なら",
+        "formEn": "Dictionary/nai/ta-form + なら"
       },
       {
         "pos": "i-adj",
         "form": "Dictionary form + なら",
-        "exampleStr": "安い ＋ なら"
+        "exampleStr": "安い ＋ なら",
+        "formVi": "Thể từ điển + なら",
+        "formEn": "Dictionary form + なら"
       },
       {
         "pos": "na-adj",
         "form": "Stem + なら",
-        "exampleStr": "暇 ＋ なら"
+        "exampleStr": "暇 ＋ なら",
+        "formVi": "Tính từ な + なら",
+        "formEn": "na-adjective stem + なら"
       },
       {
         "pos": "noun",
         "form": "Bare noun + なら",
-        "exampleStr": "休み ＋ なら"
+        "exampleStr": "休み ＋ なら",
+        "formVi": "Danh từ trơn + なら",
+        "formEn": "Bare noun + なら"
       }
     ],
     "pragmatics": {
@@ -15222,16 +15510,16 @@
         "en": "Responding to a condition just raised by the listener, offering advice/a reaction"
       },
       "speakerStance": {
-        "vi": "Mang tính phản hồi -- xây dựng trực tiếp dựa trên điều đối phương vừa nói",
-        "en": "Reactive -- builds directly on what the other person just said"
+        "vi": "Mang tính phản hồi, xây dựng trực tiếp dựa trên điều đối phương vừa nói",
+        "en": "Reactive, builds directly on what the other person just said"
       }
     },
     "notesAndPitfalls": [
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "なら phản hồi lại điều vừa được nói ra -- khác với たら/ば/と, vốn không cần có câu nói trước đó",
-          "en": "なら reacts to something already said -- unlike たら/ば/と, which don't require a prior statement"
+          "vi": "なら phản hồi lại điều vừa được nói ra, khác với たら/ば/と, vốn không cần có câu nói trước đó",
+          "en": "なら reacts to something already said, unlike たら/ば/と, which don't require a prior statement"
         },
         "description": {
           "vi": "なら khác biệt rõ rệt với 3 điều kiện còn lại: nó luôn PHẢN HỒI lại điều đối phương vừa nói, không phải một giả định tự khởi xướng. Cũng vì vậy, なら thường theo sau bằng lời khuyên/đề xuất (行くなら、電車がいいですよ).",
@@ -15263,8 +15551,8 @@
         "vi": "Nếu bạn mệt thì nên nghỉ ngơi một chút.",
         "en": "If you're tired, you should rest a bit.",
         "contextualExplanation": {
-          "vi": "なら thường theo sau bằng lời khuyên (ほうがいい) -- một đặc trưng của cách dùng này.",
-          "en": "なら is commonly followed by advice (ほうがいい) -- a hallmark of this use."
+          "vi": "なら thường theo sau bằng lời khuyên (ほうがいい), một đặc trưng của cách dùng này.",
+          "en": "なら is commonly followed by advice (ほうがいい), a hallmark of this use."
         }
       },
       {
@@ -15302,8 +15590,8 @@
         "vi": "Nếu giỏi tiếng Nhật thì cũng làm được nghề phiên dịch nhỉ.",
         "en": "If you're good at Japanese, you could even do interpreting work.",
         "contextualExplanation": {
-          "vi": "なら sau tính từ な (上手) không cần thêm だ -- xem g_113 cho quy tắc riêng của な/N.",
-          "en": "なら after a na-adjective (上手) needs no extra だ -- see g_113 for na-adjective/noun-specific rules."
+          "vi": "なら sau tính từ な (上手) không cần thêm だ, xem g_113 cho quy tắc riêng của な/N.",
+          "en": "なら after a na-adjective (上手) needs no extra だ, see g_113 for na-adjective/noun-specific rules."
         }
       }
     ],
@@ -15346,12 +15634,16 @@
       {
         "pos": "na-adj",
         "form": "Stem (no だ) + なら",
-        "exampleStr": "暇 ＋ なら"
+        "exampleStr": "暇 ＋ なら",
+        "formVi": "Tính từ な (bỏ だ) + なら",
+        "formEn": "na-adjective stem (no だ) + なら"
       },
       {
         "pos": "noun",
         "form": "Bare noun (no だ) + なら",
-        "exampleStr": "休み ＋ なら"
+        "exampleStr": "休み ＋ なら",
+        "formVi": "Danh từ (bỏ だ) + なら",
+        "formEn": "Bare noun (no だ) + なら"
       }
     ],
     "pragmatics": {
@@ -15365,8 +15657,8 @@
         "en": "The na-adjective/noun-specific case of なら (a narrower reminder of g_112)"
       },
       "speakerStance": {
-        "vi": "Mang tính phản hồi -- xây dựng trực tiếp dựa trên điều đối phương vừa nói",
-        "en": "Reactive -- builds directly on what the other person just said"
+        "vi": "Mang tính phản hồi, xây dựng trực tiếp dựa trên điều đối phương vừa nói",
+        "en": "Reactive, builds directly on what the other person just said"
       }
     },
     "notesAndPitfalls": [
@@ -15501,17 +15793,23 @@
       {
         "pos": "verb",
         "form": "Group 1: う/つ/る→って, ぬ/ぶ/む→んで, く→いて, ぐ→いで, す→して",
-        "exampleStr": "買う→買って／飲む→飲んで／書く→書いて"
+        "exampleStr": "買う→買って／飲む→飲んで／書く→書いて",
+        "formVi": "Nhóm 1: う/つ/る→って, ぬ/ぶ/む→んで, く→いて, ぐ→いで, す→して",
+        "formEn": "Group 1: う/つ/る→って, ぬ/ぶ/む→んで, く→いて, ぐ→いで, す→して"
       },
       {
         "pos": "verb",
         "form": "Group 2: drop る + て",
-        "exampleStr": "食べる → 食べて"
+        "exampleStr": "食べる → 食べて",
+        "formVi": "Nhóm 2: bỏ る + て",
+        "formEn": "Group 2: drop る + て"
       },
       {
         "pos": "verb",
         "form": "Group 3: irregular",
-        "exampleStr": "する → して／来る → 来て"
+        "exampleStr": "する → して／来る → 来て",
+        "formVi": "Nhóm 3: bất quy tắc",
+        "formEn": "Group 3: irregular"
       }
     ],
     "pragmatics": {
@@ -15533,8 +15831,8 @@
       {
         "type": "common_mistake",
         "title": {
-          "vi": "Biến âm của nhóm 1 chia thành 5 nhóm nhỏ theo đuôi từ -- 行く là ngoại lệ thường gặp duy nhất",
-          "en": "Group 1's sound changes split into 5 sub-groups by ending -- 行く is the one common exception"
+          "vi": "Biến âm của nhóm 1 chia thành 5 nhóm nhỏ theo đuôi từ, 行く là ngoại lệ thường gặp duy nhất",
+          "en": "Group 1's sound changes split into 5 sub-groups by ending, 行く is the one common exception"
         },
         "description": {
           "vi": "Nhóm 1 chia theo 5 nhóm âm cuối: う/つ/る→って, ぬ/ぶ/む→んで, く→いて, ぐ→いで, す→して. 行く là ngoại lệ duy nhất trong nhóm く: 行く→行って (không phải 行いて).",
@@ -15660,7 +15958,9 @@
       {
         "pos": "verb",
         "form": "て-form + て-form + ... + final verb",
-        "exampleStr": "起きて ＋ 顔を洗って ＋ 朝ごはんを食べます"
+        "exampleStr": "起きて ＋ 顔を洗って ＋ 朝ごはんを食べます",
+        "formVi": "Thể て + thể て + ... + động từ cuối",
+        "formEn": "て-form + て-form + ... + final verb"
       }
     ],
     "pragmatics": {
@@ -15749,8 +16049,8 @@
         "jaRuby": "<ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>に<ruby>会<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>って、<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>して、<ruby>笑<rp>(</rp><rt>わら</rt><rp>)</rp></ruby>って、<ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しい<ruby>一日<rp>(</rp><rt>いちにち</rt><rp>)</rp></ruby>でした。",
         "kana": "ともだちにあって、はなして、わらって、たのしいいちにちでした。",
         "romaji": "Tomodachi ni atte, hanashite, waratte, tanoshii ichinichi deshita.",
-        "vi": "Gặp bạn, trò chuyện, cười đùa -- một ngày thật vui.",
-        "en": "I met my friend, we talked, we laughed -- it was a fun day.",
+        "vi": "Gặp bạn, trò chuyện, cười đùa, một ngày thật vui.",
+        "en": "I met my friend, we talked, we laughed, it was a fun day.",
         "contextualExplanation": {
           "vi": "Chuỗi て có thể dài hơn 2 động từ, kết thúc bằng một câu tổng kết (không phải động từ).",
           "en": "The て-chain can extend past 2 verbs, ending in a summarizing statement (not necessarily a verb)."
@@ -15799,7 +16099,9 @@
       {
         "pos": "verb",
         "form": "て-form + から + V2",
-        "exampleStr": "宿題をして ＋ から ＋ 遊びます"
+        "exampleStr": "宿題をして ＋ から ＋ 遊びます",
+        "formVi": "Thể て + から + V2",
+        "formEn": "て-form + から + V2"
       }
     ],
     "pragmatics": {
@@ -15941,7 +16243,9 @@
       {
         "pos": "verb",
         "form": "て-form + いる／います",
-        "exampleStr": "食べる → 食べて ＋ います"
+        "exampleStr": "食べる → 食べて ＋ います",
+        "formVi": "Thể て + いる／います",
+        "formEn": "て-form + いる／います"
       }
     ],
     "pragmatics": {
@@ -15962,12 +16266,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "ている có (ít nhất) bốn nghĩa khác nhau tùy loại động từ -- xem từ g_094_2 đến g_094_5",
-          "en": "ている has (at least) four distinct meanings depending on the verb type -- see g_094_2 through g_094_5"
+          "vi": "ている có (ít nhất) bốn nghĩa khác nhau tùy loại động từ, xem từ g_094_2 đến g_094_5",
+          "en": "ている has (at least) four distinct meanings depending on the verb type, see g_094_2 through g_094_5"
         },
         "description": {
-          "vi": "ている không chỉ là \"đang làm gì\" -- ý nghĩa thực tế phụ thuộc vào LOẠI động từ: đang diễn ra (g_094_2), thói quen (g_094_3), trạng thái kết quả (g_094_4), hoặc hành động kéo dài (g_094_5). Đây là điểm dễ gây nhầm lẫn nhất của mẫu này.",
-          "en": "ている isn't only \"doing right now\" -- its actual meaning depends on the TYPE of verb: an action in progress (g_094_2), a habit (g_094_3), a resultant state (g_094_4), or a long-running action (g_094_5). This is the most commonly confused aspect of the pattern."
+          "vi": "ている không chỉ là \"đang làm gì\", ý nghĩa thực tế phụ thuộc vào LOẠI động từ: đang diễn ra (g_094_2), thói quen (g_094_3), trạng thái kết quả (g_094_4), hoặc hành động kéo dài (g_094_5). Đây là điểm dễ gây nhầm lẫn nhất của mẫu này.",
+          "en": "ている isn't only \"doing right now\", its actual meaning depends on the TYPE of verb: an action in progress (g_094_2), a habit (g_094_3), a resultant state (g_094_4), or a long-running action (g_094_5). This is the most commonly confused aspect of the pattern."
         }
       }
     ],
@@ -15981,8 +16285,8 @@
         "vi": "Bây giờ tôi đang ăn cơm.",
         "en": "I'm eating right now.",
         "contextualExplanation": {
-          "vi": "ている ở đây diễn tả hành động đang diễn ra ngay lúc nói -- xem g_094_2.",
-          "en": "ている here expresses an action in progress right now -- see g_094_2."
+          "vi": "ている ở đây diễn tả hành động đang diễn ra ngay lúc nói, xem g_094_2.",
+          "en": "ている here expresses an action in progress right now, see g_094_2."
         }
       },
       {
@@ -15994,8 +16298,8 @@
         "vi": "Mỗi sáng tôi đều chạy bộ.",
         "en": "I run every morning.",
         "contextualExplanation": {
-          "vi": "ている ở đây diễn tả thói quen lặp lại -- xem g_094_3.",
-          "en": "ている here expresses a repeated habit -- see g_094_3."
+          "vi": "ている ở đây diễn tả thói quen lặp lại, xem g_094_3.",
+          "en": "ている here expresses a repeated habit, see g_094_3."
         }
       },
       {
@@ -16007,8 +16311,8 @@
         "vi": "Tôi chưa kết hôn.",
         "en": "I'm not married yet.",
         "contextualExplanation": {
-          "vi": "ている ở đây diễn tả trạng thái kết quả (chưa ở trạng thái đã kết hôn) -- xem g_094_4.",
-          "en": "ている here expresses a resultant state (not yet in the married state) -- see g_094_4."
+          "vi": "ている ở đây diễn tả trạng thái kết quả (chưa ở trạng thái đã kết hôn), xem g_094_4.",
+          "en": "ている here expresses a resultant state (not yet in the married state), see g_094_4."
         }
       },
       {
@@ -16033,8 +16337,8 @@
         "vi": "Tôi đã học tiếng Nhật được 10 năm.",
         "en": "I've been studying Japanese for 10 years.",
         "contextualExplanation": {
-          "vi": "ている ở đây diễn tả một hành động kéo dài liên tục -- xem g_094_5.",
-          "en": "ている here expresses a long-running continuous action -- see g_094_5."
+          "vi": "ている ở đây diễn tả một hành động kéo dài liên tục, xem g_094_5.",
+          "en": "ている here expresses a long-running continuous action, see g_094_5."
         }
       }
     ],
@@ -16080,7 +16384,9 @@
       {
         "pos": "verb",
         "form": "て-form + います (đang xảy ra ngay trước mắt)",
-        "exampleStr": "降る → 雨が降っています"
+        "exampleStr": "降る → 雨が降っています",
+        "formVi": "Thể て + います (đang xảy ra ngay trước mắt)",
+        "formEn": "て-form + います (happening right now)"
       }
     ],
     "pragmatics": {
@@ -16101,12 +16407,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Đây là nghĩa \"sách giáo khoa\" của ている -- nhưng chỉ là một trong bốn nghĩa",
-          "en": "This is the \"textbook\" meaning of ている -- but it's only one of four"
+          "vi": "Đây là nghĩa \"sách giáo khoa\" của ている, nhưng chỉ là một trong bốn nghĩa",
+          "en": "This is the \"textbook\" meaning of ている, but it's only one of four"
         },
         "description": {
-          "vi": "Đây là nghĩa \"đang diễn ra\" quen thuộc nhất (thường được dạy đầu tiên) nhưng chỉ áp dụng khi có thể QUAN SÁT TRỰC TIẾP hành động ngay lúc nói. Đừng mặc định mọi ている đều mang nghĩa này -- xem g_094_1.",
-          "en": "This is the most familiar \"in progress\" meaning (usually taught first), but it only applies when the action can be DIRECTLY OBSERVED at the moment of speaking. Don't assume every ている carries this meaning -- see g_094_1."
+          "vi": "Đây là nghĩa \"đang diễn ra\" quen thuộc nhất (thường được dạy đầu tiên) nhưng chỉ áp dụng khi có thể QUAN SÁT TRỰC TIẾP hành động ngay lúc nói. Đừng mặc định mọi ている đều mang nghĩa này, xem g_094_1.",
+          "en": "This is the most familiar \"in progress\" meaning (usually taught first), but it only applies when the action can be DIRECTLY OBSERVED at the moment of speaking. Don't assume every ている carries this meaning, see g_094_1."
         },
         "relatedGrammarId": "g_094_1"
       }
@@ -16220,7 +16526,9 @@
       {
         "pos": "verb",
         "form": "て-form + います (thói quen lặp lại)",
-        "exampleStr": "走る → 毎朝走っています"
+        "exampleStr": "走る → 毎朝走っています",
+        "formVi": "Thể て + います (thói quen lặp lại)",
+        "formEn": "て-form + います (repeated habit)"
       }
     ],
     "pragmatics": {
@@ -16229,8 +16537,8 @@
         "neutral"
       ],
       "intent": {
-        "vi": "Mô tả một hành động lặp lại, mang tính thói quen -- không phải điều đang xảy ra ngay lúc này",
-        "en": "Describing a repeated, habitual action -- not something happening at this exact moment"
+        "vi": "Mô tả một hành động lặp lại, mang tính thói quen, không phải điều đang xảy ra ngay lúc này",
+        "en": "Describing a repeated, habitual action, not something happening at this exact moment"
       },
       "speakerStance": {
         "vi": "Trung tính, mô tả một thói quen",
@@ -16245,8 +16553,8 @@
           "en": "A time-frequency word (毎朝, 週に3回...) is often what signals \"habit\" over \"in progress\""
         },
         "description": {
-          "vi": "Không có dấu hiệu ngữ pháp riêng để phân biệt \"đang diễn ra\" và \"thói quen\" -- thường phải dựa vào TỪ CHỈ TẦN SUẤT (毎朝, 週に3回) hoặc ngữ cảnh để biết ている đang mang nghĩa nào.",
-          "en": "There's no distinct grammatical marker separating \"in progress\" from \"habit\" -- usually a FREQUENCY word (毎朝, 週に3回) or context is what signals which meaning ている carries."
+          "vi": "Không có dấu hiệu ngữ pháp riêng để phân biệt \"đang diễn ra\" và \"thói quen\", thường phải dựa vào TỪ CHỈ TẦN SUẤT (毎朝, 週に3回) hoặc ngữ cảnh để biết ている đang mang nghĩa nào.",
+          "en": "There's no distinct grammatical marker separating \"in progress\" from \"habit\", usually a FREQUENCY word (毎朝, 週に3回) or context is what signals which meaning ている carries."
         }
       }
     ],
@@ -16359,7 +16667,9 @@
       {
         "pos": "verb",
         "form": "て-form + いる (kết quả của một sự thay đổi)",
-        "exampleStr": "結婚する → 結婚している"
+        "exampleStr": "結婚する → 結婚している",
+        "formVi": "Thể て + いる (kết quả của một sự thay đổi)",
+        "formEn": "て-form + いる (result of a change)"
       }
     ],
     "pragmatics": {
@@ -16380,12 +16690,12 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "結婚しています không mang nghĩa \"đang kết hôn ngay lúc này\" -- mà nghĩa là \"đã lập gia đình\" (một trạng thái)",
-          "en": "結婚しています ≠ \"is getting married right now\" -- it means \"is married\" (a state)"
+          "vi": "結婚しています không mang nghĩa \"đang kết hôn ngay lúc này\", mà nghĩa là \"đã lập gia đình\" (một trạng thái)",
+          "en": "結婚しています ≠ \"is getting married right now\", it means \"is married\" (a state)"
         },
         "description": {
           "vi": "Với các động từ diễn tả một THAY ĐỔI xảy ra tức thời (kết hôn, chết, biết, mở cửa...), ている KHÔNG diễn tả hành động đang xảy ra mà là TRẠNG THÁI sau khi thay đổi đó đã hoàn tất. 結婚しています nghĩa \"đã kết hôn (và vẫn đang trong tình trạng đó)\", không phải \"đang làm đám cưới\".",
-          "en": "For verbs describing an instantaneous CHANGE (getting married, dying, coming to know, a door opening...), ている does NOT mean the action is happening -- it means the STATE resulting from that change being complete. 結婚しています means \"is married (and remains so)\", not \"is in the middle of getting married\"."
+          "en": "For verbs describing an instantaneous CHANGE (getting married, dying, coming to know, a door opening...), ている does NOT mean the action is happening, it means the STATE resulting from that change being complete. 結婚しています means \"is married (and remains so)\", not \"is in the middle of getting married\"."
         }
       }
     ],
@@ -16425,8 +16735,8 @@
         "vi": "Thông tin đó tôi chưa biết. À không, tôi đã biết rồi.",
         "en": "I don't know that information yet. Oh wait, I already know it.",
         "contextualExplanation": {
-          "vi": "知っています (không phải 知ります) là dạng chuẩn để nói \"biết\" -- một trạng thái kết quả đặc biệt cần ghi nhớ.",
-          "en": "知っています (not 知ります) is the standard way to say \"know\" -- a resultant-state case worth memorizing specifically."
+          "vi": "知っています (không phải 知ります) là dạng chuẩn để nói \"biết\", một trạng thái kết quả đặc biệt cần ghi nhớ.",
+          "en": "知っています (not 知ります) is the standard way to say \"know\", a resultant-state case worth memorizing specifically."
         }
       },
       {
@@ -16498,7 +16808,9 @@
       {
         "pos": "verb",
         "form": "て-form + います (hành động kéo dài liên tục)",
-        "exampleStr": "住む → 東京に住んでいます"
+        "exampleStr": "住む → 東京に住んでいます",
+        "formVi": "Thể て + います (hành động kéo dài liên tục)",
+        "formEn": "て-form + います (continuous action)"
       }
     ],
     "pragmatics": {
@@ -16519,12 +16831,12 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Cách dùng này trùng với nghĩa \"trạng thái do kết quả\" (g_094_4) ở các động từ như 住む -- cả hai cách hiểu đều đúng",
-          "en": "This use overlaps with \"resultant state\" (g_094_4) for verbs like 住む -- both readings are valid"
+          "vi": "Cách dùng này trùng với nghĩa \"trạng thái do kết quả\" (g_094_4) ở các động từ như 住む, cả hai cách hiểu đều đúng",
+          "en": "This use overlaps with \"resultant state\" (g_094_4) for verbs like 住む, both readings are valid"
         },
         "description": {
-          "vi": "Với động từ như 住む (sống), ている vừa có thể hiểu là trạng thái kéo dài (đang sống ở đó liên tục) vừa là kết quả (đã chuyển đến và vẫn ở đó) -- ranh giới giữa hai cách hiểu này khá mờ, cả hai đều đúng.",
-          "en": "For verbs like 住む (\"live\"), ている can be read as either a long-running continuous state or a resultant state (moved there and still there) -- the line between these two readings is blurry, and both are valid."
+          "vi": "Với động từ như 住む (sống), ている vừa có thể hiểu là trạng thái kéo dài (đang sống ở đó liên tục) vừa là kết quả (đã chuyển đến và vẫn ở đó), ranh giới giữa hai cách hiểu này khá mờ, cả hai đều đúng.",
+          "en": "For verbs like 住む (\"live\"), ている can be read as either a long-running continuous state or a resultant state (moved there and still there), the line between these two readings is blurry, and both are valid."
         }
       }
     ],
@@ -16637,7 +16949,9 @@
       {
         "pos": "noun",
         "form": "N + を知っていますか",
-        "exampleStr": "あの人 ＋ を知っていますか"
+        "exampleStr": "あの人 ＋ を知っていますか",
+        "formVi": "N + を知っていますか",
+        "formEn": "N + を知っていますか"
       }
     ],
     "pragmatics": {
@@ -16739,8 +17053,8 @@
         "vi": "Bạn có biết là Tanaka đã kết hôn không?",
         "en": "Did you know that Tanaka got married?",
         "contextualExplanation": {
-          "vi": "こと danh từ hóa cả mệnh đề để làm tân ngữ cho 知っています -- xem g_176.",
-          "en": "こと nominalizes the whole clause to serve as the object of 知っています -- see g_176."
+          "vi": "こと danh từ hóa cả mệnh đề để làm tân ngữ cho 知っています, xem g_176.",
+          "en": "こと nominalizes the whole clause to serve as the object of 知っています, see g_176."
         }
       }
     ],
@@ -16781,7 +17095,9 @@
       {
         "pos": "noun",
         "form": "N + でも + いい/大丈夫/かまわない + です",
-        "exampleStr": "水 ＋ でもいいです"
+        "exampleStr": "水 ＋ でもいいです",
+        "formVi": "N + でも + いい/大丈夫/かまわない + です",
+        "formEn": "N + でも + いい/大丈夫/かまわない + です"
       }
     ],
     "pragmatics": {
@@ -16806,8 +17122,8 @@
           "en": "でも here means \"even\" (making N a low-bar acceptable option), not the conjunction \"but\""
         },
         "description": {
-          "vi": "でも ở đây là trợ từ kết hợp で+も, mang nghĩa \"ngay cả... cũng được\" -- KHÁC với でも đứng đầu câu mang nghĩa \"nhưng\". Đừng nhầm hai cách dùng này.",
-          "en": "でも here is the particle combination で+も, meaning \"even... is fine\" -- DIFFERENT from sentence-initial でも meaning \"but\". Don't confuse the two uses."
+          "vi": "でも ở đây là trợ từ kết hợp で+も, mang nghĩa \"ngay cả... cũng được\", KHÁC với でも đứng đầu câu mang nghĩa \"nhưng\". Đừng nhầm hai cách dùng này.",
+          "en": "でも here is the particle combination で+も, meaning \"even... is fine\", DIFFERENT from sentence-initial でも meaning \"but\". Don't confuse the two uses."
         }
       }
     ],
@@ -16918,7 +17234,9 @@
       {
         "pos": "verb",
         "form": "て-form + もいいですか",
-        "exampleStr": "座る → 座って ＋ もいいですか"
+        "exampleStr": "座る → 座って ＋ もいいですか",
+        "formVi": "Thể て + もいいですか",
+        "formEn": "て-form + もいいですか"
       }
     ],
     "pragmatics": {
@@ -16939,8 +17257,8 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "てもいいですか và てもよろしいですか -- khác nhau về mức độ lịch sự",
-          "en": "てもいいですか vs てもよろしいですか -- politeness level"
+          "vi": "てもいいですか và てもよろしいですか, khác nhau về mức độ lịch sự",
+          "en": "てもいいですか vs てもよろしいですか, politeness level"
         },
         "description": {
           "vi": "てもいいですか là mức lịch sự chuẩn mực. てもよろしいですか lịch sự và trang trọng hơn hẳn, phù hợp khi xin phép cấp trên hoặc trong ngữ cảnh dịch vụ khách hàng.",
@@ -17057,7 +17375,9 @@
       {
         "pos": "verb",
         "form": "て-form + もいいです",
-        "exampleStr": "座る → 座って ＋ もいいです"
+        "exampleStr": "座る → 座って ＋ もいいです",
+        "formVi": "Thể て + もいいです",
+        "formEn": "て-form + もいいです"
       }
     ],
     "pragmatics": {
@@ -17066,8 +17386,8 @@
         "neutral"
       ],
       "intent": {
-        "vi": "Cho phép ai đó -- \"làm X cũng được\"",
-        "en": "Granting permission -- \"it's okay to do X\""
+        "vi": "Cho phép ai đó, \"làm X cũng được\"",
+        "en": "Granting permission, \"it's okay to do X\""
       },
       "speakerStance": {
         "vi": "Cho phép, chấp thuận",
@@ -17082,8 +17402,8 @@
           "en": "This is the answer form to g_097's question, not a request"
         },
         "description": {
-          "vi": "Đây là câu TRẢ LỜI cho câu hỏi xin phép ở g_097 (bỏ か ở cuối) -- dùng khi CHO PHÉP người khác làm gì, không phải để xin phép.",
-          "en": "This is the ANSWER form to the permission question in g_097 (drop the か) -- used to GRANT permission to someone else, not to ask for it."
+          "vi": "Đây là câu TRẢ LỜI cho câu hỏi xin phép ở g_097 (bỏ か ở cuối), dùng khi CHO PHÉP người khác làm gì, không phải để xin phép.",
+          "en": "This is the ANSWER form to the permission question in g_097 (drop the か), used to GRANT permission to someone else, not to ask for it."
         },
         "relatedGrammarId": "g_097"
       }
@@ -17198,7 +17518,9 @@
       {
         "pos": "verb",
         "form": "ない-form → なくてもいいです",
-        "exampleStr": "行かない → 行かなくてもいいです"
+        "exampleStr": "行かない → 行かなくてもいいです",
+        "formVi": "Thể ない → なくてもいいです",
+        "formEn": "ない-form → なくてもいいです"
       }
     ],
     "pragmatics": {
@@ -17207,8 +17529,8 @@
         "neutral"
       ],
       "intent": {
-        "vi": "Phát biểu rằng một hành động không bắt buộc -- \"không cần làm X cũng được\"",
-        "en": "Stating that an action is not required -- \"it's okay not to do X\""
+        "vi": "Phát biểu rằng một hành động không bắt buộc, \"không cần làm X cũng được\"",
+        "en": "Stating that an action is not required, \"it's okay not to do X\""
       },
       "speakerStance": {
         "vi": "Trấn an, gỡ bỏ một nghĩa vụ",
@@ -17339,12 +17661,16 @@
       {
         "pos": "verb",
         "form": "て-form + ください",
-        "exampleStr": "待つ → 待って ＋ ください"
+        "exampleStr": "待つ → 待って ＋ ください",
+        "formVi": "Thể て + ください",
+        "formEn": "て-form + ください"
       },
       {
         "pos": "verb",
         "form": "ない-form + でください",
-        "exampleStr": "待たない → 待たない ＋ でください"
+        "exampleStr": "待たない → 待たない ＋ でください",
+        "formVi": "Thể ない + でください",
+        "formEn": "ない-form + でください"
       }
     ],
     "pragmatics": {
@@ -17357,8 +17683,8 @@
         "en": "Making a polite request or instruction, affirmative or negative"
       },
       "speakerStance": {
-        "vi": "Trực tiếp nhưng lịch sự -- có thể nghe như chỉ dẫn/mệnh lệnh trong ngữ cảnh trang trọng",
-        "en": "Direct but polite -- can sound like an instruction/command in formal contexts"
+        "vi": "Trực tiếp nhưng lịch sự, có thể nghe như chỉ dẫn/mệnh lệnh trong ngữ cảnh trang trọng",
+        "en": "Direct but polite, can sound like an instruction/command in formal contexts"
       }
     },
     "notesAndPitfalls": [
@@ -17483,7 +17809,9 @@
       {
         "pos": "verb",
         "form": "て-form + くれますか",
-        "exampleStr": "手伝う → 手伝って ＋ くれますか"
+        "exampleStr": "手伝う → 手伝って ＋ くれますか",
+        "formVi": "Thể て + くれますか",
+        "formEn": "て-form + くれますか"
       }
     ],
     "pragmatics": {
@@ -17508,8 +17836,8 @@
           "en": "くれる always implies the favor benefits the speaker (or someone in their in-group)"
         },
         "description": {
-          "vi": "くれる luôn ngụ ý hành động MANG LỢI cho người nói (hoặc người trong \"nhóm\" của người nói) -- khác với あげる (cho người khác, không phải mình). てくれますか nhấn mạnh sự biết ơn ngầm ẩn trong lời nhờ vả.",
-          "en": "くれる always implies the favor BENEFITS the speaker (or someone in the speaker's in-group) -- different from あげる (giving to someone else, not the speaker). てくれますか carries an implicit sense of gratitude in the request."
+          "vi": "くれる luôn ngụ ý hành động MANG LỢI cho người nói (hoặc người trong \"nhóm\" của người nói), khác với あげる (cho người khác, không phải mình). てくれますか nhấn mạnh sự biết ơn ngầm ẩn trong lời nhờ vả.",
+          "en": "くれる always implies the favor BENEFITS the speaker (or someone in the speaker's in-group), different from あげる (giving to someone else, not the speaker). てくれますか carries an implicit sense of gratitude in the request."
         }
       }
     ],
@@ -17575,8 +17903,8 @@
         "vi": "Em gái tôi đã giúp tôi làm bài tập.",
         "en": "My sister helped me with my homework.",
         "contextualExplanation": {
-          "vi": "Không phải câu hỏi -- てくれました kể lại một hành động đã xảy ra mang lợi cho người nói (xem g_103).",
-          "en": "Not a question -- てくれました reports a completed action that benefited the speaker (see g_103)."
+          "vi": "Không phải câu hỏi, てくれました kể lại một hành động đã xảy ra mang lợi cho người nói (xem g_103).",
+          "en": "Not a question, てくれました reports a completed action that benefited the speaker (see g_103)."
         }
       }
     ],
@@ -17621,12 +17949,16 @@
       {
         "pos": "verb",
         "form": "て-form + くれませんか",
-        "exampleStr": "手伝う → 手伝って ＋ くれませんか"
+        "exampleStr": "手伝う → 手伝って ＋ くれませんか",
+        "formVi": "Thể て + くれませんか",
+        "formEn": "て-form + くれませんか"
       },
       {
         "pos": "verb",
         "form": "て-form + くださいませんか",
-        "exampleStr": "手伝う → 手伝って ＋ くださいませんか"
+        "exampleStr": "手伝う → 手伝って ＋ くださいませんか",
+        "formVi": "Thể て + くださいませんか",
+        "formEn": "て-form + くださいませんか"
       }
     ],
     "pragmatics": {
@@ -17650,8 +17982,8 @@
           "en": "The negative question form is what makes this softer and more deferential"
         },
         "description": {
-          "vi": "Đổi từ câu khẳng định (くれますか) sang câu hỏi phủ định (くれませんか) làm lời nhờ vả nghe nhẹ nhàng, khiêm tốn hơn -- một quy luật lịch sự phổ biến trong tiếng Nhật (câu hỏi phủ định thường lịch sự hơn khẳng định).",
-          "en": "Switching from an affirmative question (くれますか) to a negative one (くれませんか) makes the request sound gentler and more humble -- a common politeness pattern in Japanese (a negative question often reads as more polite than an affirmative one)."
+          "vi": "Đổi từ câu khẳng định (くれますか) sang câu hỏi phủ định (くれませんか) làm lời nhờ vả nghe nhẹ nhàng, khiêm tốn hơn, một quy luật lịch sự phổ biến trong tiếng Nhật (câu hỏi phủ định thường lịch sự hơn khẳng định).",
+          "en": "Switching from an affirmative question (くれますか) to a negative one (くれませんか) makes the request sound gentler and more humble, a common politeness pattern in Japanese (a negative question often reads as more polite than an affirmative one)."
         },
         "relatedGrammarId": "g_100"
       }
@@ -17763,7 +18095,9 @@
       {
         "pos": "noun",
         "form": "N1は/が（私に）N2を + くれる／くれます",
-        "exampleStr": "田中さん ＋ が私に本をくれます"
+        "exampleStr": "田中さん ＋ が私に本をくれます",
+        "formVi": "N1は/が（私に）N2を + くれる／くれます",
+        "formEn": "N1は/が（私に）N2を + くれる／くれます"
       }
     ],
     "pragmatics": {
@@ -17784,8 +18118,8 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "くれる chỉ dùng khi N1 cho NGƯỜI NÓI (hoặc người trong nhóm của người nói) -- không bao giờ dùng ngược lại",
-          "en": "くれる can only be used when N1 gives to the SPEAKER (or their in-group) -- never the reverse"
+          "vi": "くれる chỉ dùng khi N1 cho NGƯỜI NÓI (hoặc người trong nhóm của người nói), không bao giờ dùng ngược lại",
+          "en": "くれる can only be used when N1 gives to the SPEAKER (or their in-group), never the reverse"
         },
         "description": {
           "vi": "くれる CHỈ dùng khi người khác cho THỨ GÌ ĐÓ đến người nói (hoặc người trong \"nhóm\" người nói: gia đình, đồng nghiệp gần). Nếu người nói cho người khác, phải dùng あげる (g_104), không phải くれる.",
@@ -17903,7 +18237,9 @@
       {
         "pos": "verb",
         "form": "て-form + くれる／くれます",
-        "exampleStr": "手伝う → 手伝って ＋ くれます"
+        "exampleStr": "手伝う → 手伝って ＋ くれます",
+        "formVi": "Thể て + くれる／くれます",
+        "formEn": "て-form + くれる／くれます"
       }
     ],
     "pragmatics": {
@@ -17928,8 +18264,8 @@
           "en": "てくれる always implies gratitude, even when just stating a fact"
         },
         "description": {
-          "vi": "てくれる không chỉ mô tả một hành động -- nó luôn ngụ ý người nói CẢM KÍCH vì hành động đó có lợi cho mình. So sánh với việc chỉ nói động từ trần trụi không kèm てくれる (nghe khách quan, thiếu sắc thái biết ơn).",
-          "en": "てくれる doesn't just describe an action -- it always implies the speaker is GRATEFUL because the action benefited them. Contrast with stating the bare verb without てくれる (which reads objective, lacking that grateful nuance)."
+          "vi": "てくれる không chỉ mô tả một hành động, nó luôn ngụ ý người nói CẢM KÍCH vì hành động đó có lợi cho mình. So sánh với việc chỉ nói động từ trần trụi không kèm てくれる (nghe khách quan, thiếu cảm giác biết ơn).",
+          "en": "てくれる doesn't just describe an action, it always implies the speaker is GRATEFUL because the action benefited them. Contrast with stating the bare verb without てくれる (which reads objective, lacking that grateful nuance)."
         },
         "relatedGrammarId": "g_100"
       }
@@ -17996,7 +18332,7 @@
         "vi": "Vào ngày mưa, có ai đó đã cho tôi mượn ô.",
         "en": "On a rainy day, someone lent me an umbrella.",
         "contextualExplanation": {
-          "vi": "N1 có thể là 誰か (một ai đó không rõ danh tính), vẫn giữ nguyên sắc thái biết ơn.",
+          "vi": "N1 có thể là 誰か (một ai đó không rõ danh tính), vẫn giữ nguyên cảm giác biết ơn.",
           "en": "N1 can be 誰か (\"someone\", unidentified), and the grateful nuance still holds."
         }
       }
@@ -18041,7 +18377,9 @@
       {
         "pos": "noun",
         "form": "N1は/が N2に N3を + あげる／あげます",
-        "exampleStr": "私 ＋ は田中さんに花をあげます"
+        "exampleStr": "私 ＋ は田中さんに花をあげます",
+        "formVi": "N1は/が N2に N3を + あげる／あげます",
+        "formEn": "N1は/が N2に N3を + あげる／あげます"
       }
     ],
     "pragmatics": {
@@ -18062,12 +18400,12 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "あげる không bao giờ dùng khi ai đó cho người nói -- trường hợp đó luôn dùng くれる",
-          "en": "あげる is never used for someone giving to the speaker -- that's always くれる"
+          "vi": "あげる không bao giờ dùng khi ai đó cho người nói, trường hợp đó luôn dùng くれる",
+          "en": "あげる is never used for someone giving to the speaker, that's always くれる"
         },
         "description": {
-          "vi": "あげる không bao giờ dùng khi người nhận là chính người nói (hoặc \"nhóm\" của người nói) -- trường hợp đó luôn phải dùng くれる (g_102). あげる chỉ dùng khi người nói (hoặc người khác) cho MỘT NGƯỜI KHÁC không phải mình.",
-          "en": "あげる is never used when the recipient is the speaker themselves (or their in-group) -- that case always requires くれる (g_102). あげる is only for the speaker (or someone else) giving to ANOTHER person, not themselves."
+          "vi": "あげる không bao giờ dùng khi người nhận là chính người nói (hoặc \"nhóm\" của người nói), trường hợp đó luôn phải dùng くれる (g_102). あげる chỉ dùng khi người nói (hoặc người khác) cho MỘT NGƯỜI KHÁC không phải mình.",
+          "en": "あげる is never used when the recipient is the speaker themselves (or their in-group), that case always requires くれる (g_102). あげる is only for the speaker (or someone else) giving to ANOTHER person, not themselves."
         },
         "examples": [
           {
@@ -18191,7 +18529,9 @@
       {
         "pos": "verb",
         "form": "て-form + あげる／あげます",
-        "exampleStr": "手伝う → 手伝って ＋ あげます"
+        "exampleStr": "手伝う → 手伝って ＋ あげます",
+        "formVi": "Thể て + あげる／あげます",
+        "formEn": "て-form + あげる／あげます"
       }
     ],
     "pragmatics": {
@@ -18330,12 +18670,16 @@
       {
         "pos": "verb",
         "form": "Masu-stem + ましょうか",
-        "exampleStr": "手伝う → 手伝い ＋ ましょうか"
+        "exampleStr": "手伝う → 手伝い ＋ ましょうか",
+        "formVi": "Vます bỏ ます + ましょうか",
+        "formEn": "Masu-stem (V without ます) + ましょうか"
       },
       {
         "pos": "verb",
         "form": "Volitional + か",
-        "exampleStr": "手伝う → 手伝おう ＋ か"
+        "exampleStr": "手伝う → 手伝おう ＋ か",
+        "formVi": "Thể ý chí + か",
+        "formEn": "Volitional + か"
       }
     ],
     "pragmatics": {
@@ -18356,12 +18700,12 @@
       {
         "type": "false_friend",
         "title": {
-          "vi": "ましょうか (đề nghị giúp) khác với ませんか (rủ rê, g_056) -- hình thức giống nhau nhưng ý định khác nhau",
-          "en": "ましょうか (offering) ≠ ませんか (inviting, g_056) -- similar shape, different intent"
+          "vi": "ましょうか (đề nghị giúp) khác với ませんか (rủ rê, g_056), hình thức giống nhau nhưng ý định khác nhau",
+          "en": "ましょうか (offering) ≠ ませんか (inviting, g_056), similar shape, different intent"
         },
         "description": {
-          "vi": "ましょうか đề nghị LÀM GIÚP người nghe (\"để tôi làm cho bạn nhé?\") -- khác với ませんか (g_056), vốn RỦ RÊ người nghe cùng làm (\"chúng ta cùng làm không?\"). Dễ nhầm vì hình thức gần giống nhau.",
-          "en": "ましょうか offers to DO something FOR the listener (\"shall I do it for you?\") -- different from ませんか (g_056), which INVITES the listener to do something TOGETHER (\"shall we do it?\"). Easy to confuse since the forms look similar."
+          "vi": "ましょうか đề nghị LÀM GIÚP người nghe (\"để tôi làm cho bạn nhé?\"), khác với ませんか (g_056), vốn RỦ RÊ người nghe cùng làm (\"chúng ta cùng làm không?\"). Dễ nhầm vì hình thức gần giống nhau.",
+          "en": "ましょうか offers to DO something FOR the listener (\"shall I do it for you?\"), different from ませんか (g_056), which INVITES the listener to do something TOGETHER (\"shall we do it?\"). Easy to confuse since the forms look similar."
         },
         "relatedGrammarId": "g_056"
       }
@@ -18472,7 +18816,9 @@
       {
         "pos": "noun",
         "form": "N/số từ + しか + V(phủ định)",
-        "exampleStr": "1000円 ＋ しかありません"
+        "exampleStr": "1000円 ＋ しかありません",
+        "formVi": "N/số từ + しか + V(phủ định)",
+        "formEn": "N/number + しか + V(negative)"
       }
     ],
     "pragmatics": {
@@ -18482,8 +18828,8 @@
         "casual"
       ],
       "intent": {
-        "vi": "Nhấn mạnh sự khan hiếm -- \"chỉ có N (và điều đó cảm thấy chưa đủ)\"",
-        "en": "Emphasizing scarcity -- \"only N (and it feels insufficient)\""
+        "vi": "Nhấn mạnh sự khan hiếm, \"chỉ có N (và điều đó cảm thấy chưa đủ)\"",
+        "en": "Emphasizing scarcity, \"only N (and it feels insufficient)\""
       },
       "speakerStance": {
         "vi": "Ngụ ý số lượng đó bị coi là không đủ/hạn chế",
@@ -18494,11 +18840,11 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "しか luôn đi kèm động từ phủ định -- và luôn mang sắc thái \"không đủ\", khác với だけ trung tính",
-          "en": "しか always requires a negative verb -- and always carries a \"not enough\" nuance, unlike neutral だけ"
+          "vi": "しか luôn đi kèm động từ phủ định, và luôn mang cảm giác \"không đủ\", khác với だけ trung tính",
+          "en": "しか always requires a negative verb, and always carries a \"not enough\" nuance, unlike neutral だけ"
         },
         "description": {
-          "vi": "しか BẮT BUỘC đi với động từ phủ định (khác だけ, g_108, không cần phủ định). しか cũng luôn mang sắc thái \"chỉ có... (và điều đó không đủ/đáng tiếc)\", trong khi だけ trung tính hơn, không ngụ ý thiếu thốn.",
+          "vi": "しか BẮT BUỘC đi với động từ phủ định (khác だけ, g_108, không cần phủ định). しか cũng luôn mang cảm giác \"chỉ có... (và điều đó không đủ/đáng tiếc)\", trong khi だけ trung tính hơn, không ngụ ý thiếu thốn.",
           "en": "しか REQUIRES a negative verb (unlike だけ, g_108, which doesn't). しか also always carries a \"only... (and that's not enough/unfortunate)\" nuance, while だけ is more neutral and doesn't imply insufficiency."
         },
         "relatedGrammarId": "g_108"
@@ -18514,8 +18860,8 @@
         "vi": "Trong ví chỉ có 1000 yên thôi.",
         "en": "I only have 1000 yen in my wallet.",
         "contextualExplanation": {
-          "vi": "しかありません mang sắc thái tiếc nuối, số tiền cảm thấy không đủ.",
-          "en": "しかありません carries a regretful nuance -- the amount feels insufficient."
+          "vi": "しかありません mang cảm giác tiếc nuối, số tiền cảm thấy không đủ.",
+          "en": "しかありません carries a regretful nuance, the amount feels insufficient."
         }
       },
       {
@@ -18610,7 +18956,9 @@
       {
         "pos": "noun",
         "form": "N/số từ + だけ",
-        "exampleStr": "1つ ＋ だけ"
+        "exampleStr": "1つ ＋ だけ",
+        "formVi": "N/số từ + だけ",
+        "formEn": "N/number + だけ"
       }
     ],
     "pragmatics": {
@@ -18624,20 +18972,20 @@
         "en": "Stating \"only N\", neutrally, without implying insufficiency"
       },
       "speakerStance": {
-        "vi": "Trung tính -- không có phán xét tích cực hay tiêu cực về số lượng",
-        "en": "Neutral -- no positive or negative judgment about the amount"
+        "vi": "Trung tính, không có phán xét tích cực hay tiêu cực về số lượng",
+        "en": "Neutral, no positive or negative judgment about the amount"
       }
     },
     "notesAndPitfalls": [
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "だけ dùng được cả với động từ khẳng định -- không bắt buộc đi với phủ định như しか",
-          "en": "だけ works with affirmative verbs too -- it doesn't require negation like しか"
+          "vi": "だけ dùng được cả với động từ khẳng định, không bắt buộc đi với phủ định như しか",
+          "en": "だけ works with affirmative verbs too, it doesn't require negation like しか"
         },
         "description": {
-          "vi": "だけ dùng được cả với động từ khẳng định lẫn phủ định, không bắt buộc phải phủ định như しか (g_107). Đây là điểm khác biệt cấu trúc quan trọng, không chỉ khác về sắc thái.",
-          "en": "だけ works with both affirmative and negative verbs -- unlike しか (g_107), it doesn't require negation. This is an important structural difference, not just a difference in nuance."
+          "vi": "だけ dùng được cả với động từ khẳng định lẫn phủ định, không bắt buộc phải phủ định như しか (g_107). Đây là điểm khác biệt cấu trúc quan trọng, không chỉ khác về cảm giác.",
+          "en": "だけ works with both affirmative and negative verbs, unlike しか (g_107), it doesn't require negation. This is an important structural difference, not just a difference in nuance."
         },
         "relatedGrammarId": "g_107"
       }
@@ -18678,7 +19026,7 @@
         "vi": "Chỉ có một mình bạn đến thôi à?",
         "en": "Are you coming alone (just one person)?",
         "contextualExplanation": {
-          "vi": "だけ hỏi để xác nhận số lượng chính xác, không mang sắc thái tiếc nuối.",
+          "vi": "だけ hỏi để xác nhận số lượng chính xác, không mang cảm giác tiếc nuối.",
           "en": "だけ asks to confirm an exact quantity, with no regretful nuance."
         }
       },
@@ -18748,7 +19096,9 @@
       {
         "pos": "noun",
         "form": "N (thay を/が) + は",
-        "exampleStr": "この本 ＋ は読みました"
+        "exampleStr": "この本 ＋ は読みました",
+        "formVi": "N (thay を/が) + は",
+        "formEn": "N (replaces を/が) + は"
       }
     ],
     "pragmatics": {
@@ -18769,7 +19119,7 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "Khi は thay thế cho を/が, nó thường mang sắc thái đối lập (\"riêng cái này thì...\")",
+          "vi": "Khi は thay thế cho を/が, nó thường mang cảm giác đối lập (\"riêng cái này thì...\")",
           "en": "When は replaces を/が, it often carries a contrastive nuance (\"this one, at least...\")"
         },
         "description": {
@@ -18884,7 +19234,9 @@
       {
         "pos": "phrase",
         "form": "N1は~が/けど、N2は~",
-        "exampleStr": "私は忙しいですが、弟は暇です"
+        "exampleStr": "私は忙しいですが、弟は暇です",
+        "formVi": "N1は~が/けど、N2は~",
+        "formEn": "N1は~が/けど、N2は~"
       }
     ],
     "pragmatics": {
@@ -18910,8 +19262,8 @@
           "en": "This is the explicit, two-clause version of the contrastive は seen in g_109"
         },
         "description": {
-          "vi": "Đây là dạng đầy đủ, \"chính thức\" của は đối lập đã thấy ở g_109 -- có mặt cả hai vế N1は và N2は trong cùng một câu, nối bằng が hoặc けど, làm sự đối lập trở nên tường minh.",
-          "en": "This is the explicit, \"full\" version of the contrastive は seen in g_109 -- both N1は and N2は clauses appear together in one sentence, linked by が or けど, making the contrast explicit."
+          "vi": "Đây là dạng đầy đủ, \"chính thức\" của は đối lập đã thấy ở g_109, có mặt cả hai vế N1は và N2は trong cùng một câu, nối bằng が hoặc けど, làm sự đối lập trở nên tường minh.",
+          "en": "This is the explicit, \"full\" version of the contrastive は seen in g_109, both N1は and N2は clauses appear together in one sentence, linked by が or けど, making the contrast explicit."
         },
         "relatedGrammarId": "g_109"
       }
@@ -19020,12 +19372,16 @@
       {
         "pos": "i-adj",
         "form": "い → さ (nominalizing)",
-        "exampleStr": "高い → 高さ"
+        "exampleStr": "高い → 高さ",
+        "formVi": "い → さ (danh từ hóa)",
+        "formEn": "い → さ (nominalizing)"
       },
       {
         "pos": "na-adj",
         "form": "Stem + さ",
-        "exampleStr": "便利 → 便利さ"
+        "exampleStr": "便利 → 便利さ",
+        "formVi": "Tính từ な + さ",
+        "formEn": "na-adjective stem + さ"
       }
     ],
     "pragmatics": {
@@ -19035,8 +19391,8 @@
         "written"
       ],
       "intent": {
-        "vi": "Biến một tính từ thành danh từ trừu tượng -- chính mức độ/tính chất có thể đo được",
-        "en": "Turning an adjective into an abstract noun -- the measurable degree/quality itself"
+        "vi": "Biến một tính từ thành danh từ trừu tượng, chính mức độ/tính chất có thể đo được",
+        "en": "Turning an adjective into an abstract noun, the measurable degree/quality itself"
       },
       "speakerStance": {
         "vi": "Trung tính, mang tính khách quan/đo lường được",

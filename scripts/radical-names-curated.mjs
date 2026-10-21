@@ -196,7 +196,6 @@ export const curatedRadicalNames = {
   "皮": "bì",
   "走": "tẩu",
   "己": "kỷ",
-  "⺦": "hỏa", // variant of 火
   "斿": "du",
   "与": "dữ", // variant of 與
   "冉": "nhiễm",
