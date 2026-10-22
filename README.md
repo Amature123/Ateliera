@@ -110,3 +110,9 @@ Since there is no server-side state, there is nothing to back up for user data b
 ## Stack
 
 React · Vite · TypeScript · Tailwind CSS · React Router · Zustand · nginx (Docker runtime)
+
+## Data credits
+
+- Minna no Nihongo word list: vitto4/MinnaNoDS (selection and glosses (c) 3A Corporation; personal, non-commercial study use alongside the books).
+- Pitch accent: Kanjium (CC BY-SA), from NHK accent dictionary and Wadoku.
+- Stroke order: KanjiVG (CC BY-SA 3.0).

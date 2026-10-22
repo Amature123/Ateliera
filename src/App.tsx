@@ -30,6 +30,7 @@ const Kanji = page("/kanji", "Kanji")
 const Radicals = page("/radicals", "Radicals")
 const KanjiLookup = page("/lookup", "KanjiLookup")
 const KanjiRules = page("/rules", "KanjiRules")
+const Accent = page("/accent", "Accent")
 const Counters = page("/counters", "Counters")
 const Homophones = page("/homophones", "Homophones")
 const Settings = page("/settings", "Settings")
@@ -68,7 +69,8 @@ export default function App() {
           <Route path="radicals" element={<Suspense fallback={<RouteFallback />}><Radicals /></Suspense>} />
           <Route path="lookup" element={<Suspense fallback={<RouteFallback />}><KanjiLookup /></Suspense>} />
           <Route path="rules" element={<Suspense fallback={<RouteFallback />}><KanjiRules /></Suspense>} />
-          <Route path="counters" element={<Suspense fallback={<RouteFallback />}><Counters /></Suspense>} />
+          <Route path="accent" element={<Suspense fallback={<RouteFallback />}><Accent /></Suspense>} />
+        <Route path="counters" element={<Suspense fallback={<RouteFallback />}><Counters /></Suspense>} />
           <Route path="homophones" element={<Suspense fallback={<RouteFallback />}><Homophones /></Suspense>} />
           <Route path="settings" element={<Suspense fallback={<RouteFallback />}><Settings /></Suspense>} />
           <Route path="*" element={<Navigate to="/" replace />} />

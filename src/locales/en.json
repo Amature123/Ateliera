@@ -44,6 +44,7 @@
     "transitivity": "Transitivity",
     "usage": "Word usage",
     "kanji": "Kanji",
+    "accent": "Pitch accent",
     "counters": "Counters",
     "homophones": "Homophones",
     "settings": "Settings",
@@ -132,10 +133,23 @@
       }
     }
   },
+  "accent": {
+    "title": "Pitch accent dictionary",
+    "intro": "Look up how a Japanese word is pronounced: where the pitch drops, or whether it stays flat. Search by kanji or kana.",
+    "placeholder": "Type a word, e.g. 箸 / はし / ハシ",
+    "loading": "Loading dictionary...",
+    "loadFailed": "Could not load the dictionary.",
+    "entries": "{n} headwords",
+    "resultCount": "Showing {n} (max {max})",
+    "credit": "Data: Kanjium pitch accent dataset (CC BY-SA), compiled from NHK's accent dictionary and Wadoku."
+  },
   "grammar": {
     "searchPlaceholder": "Search patterns, meaning, romaji, tags...",
     "tips": "Study tips",
     "countOfTotal": "{filtered} / {total} patterns",
+    "learnedProgress": "{n} / {total} learned",
+    "markLearned": "Mark as learned",
+    "learned": "Learned",
     "filterByVerbForm": "Filter by verb form",
     "filterByTone": "Filter by tone",
     "clearFilter": "Clear filter",

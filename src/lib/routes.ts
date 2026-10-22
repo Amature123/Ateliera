@@ -18,6 +18,7 @@ export const routeLoaders = {
   "/radicals": () => import("@/pages/Radicals"),
   "/lookup": () => import("@/pages/KanjiLookup"),
   "/rules": () => import("@/pages/KanjiRules"),
+  "/accent": () => import("@/pages/Accent"),
   "/counters": () => import("@/pages/Counters"),
   "/homophones": () => import("@/pages/Homophones"),
   "/settings": () => import("@/pages/Settings"),

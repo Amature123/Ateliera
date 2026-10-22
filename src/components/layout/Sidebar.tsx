@@ -34,6 +34,7 @@ const navGroups: { id: string; items: NavItem[] }[] = [
     { to: "/rules",        label: "規則",     kana: "きそく",       key: "rules" },
   ] },
   { id: "more", items: [
+    { to: "/accent",       label: "音",       kana: "アクセント",    key: "accent" },
     { to: "/counters",     label: "数え方",   kana: "かぞえかた",    key: "counters" },
     { to: "/homophones",   label: "同音語",   kana: "どうおんご",    key: "homophones" },
     { to: "/settings",     label: "設定",     kana: "せってい",      key: "settings" },

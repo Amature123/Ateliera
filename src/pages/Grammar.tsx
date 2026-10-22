@@ -15,6 +15,7 @@ import { FormationMatrix } from "@/components/ui/FormationMatrix"
 import { NotesAndTrapsCallout } from "@/components/ui/NotesAndTrapsCallout"
 import { InteractiveExampleCard } from "@/components/ui/InteractiveExampleCard"
 import { ToriLoader } from "@/components/ui/ToriLoader"
+import { useGrammarProgress } from "@/store/grammar-progress-store"
 
 // Cross-references (relatedGrammar/opposingGrammar/notesAndPitfalls[].relatedGrammarId)
 // can point across the N5/N4 boundary, so id -> pattern lookups always use the
@@ -60,6 +61,9 @@ export function Grammar() {
   const grammar = data?.grammar ?? EMPTY_GRAMMAR
   const categories = data?.categories ?? EMPTY_CATEGORIES
   const tips = data?.tips ?? EMPTY_TIPS
+  const learned = useGrammarProgress(s => s.learned)
+  const toggleLearned = useGrammarProgress(s => s.toggle)
+  const learnedCount = useMemo(() => grammar.filter(g => learned[g.id]).length, [grammar, learned])
   const [search, setSearch] = useState("")
   // The input reads `search`; the list reads the deferred copy so typing is
   // painted first and the card re-render never blocks the next keystroke.
@@ -220,6 +224,20 @@ export function Grammar() {
           <div className="w-full text-xs font-bold uppercase tracking-wider text-muted">
             {t('grammar.countOfTotal', { filtered: filtered.length, total: grammar.length })}
           </div>
+          <div className="w-full flex items-center gap-3">
+            <div
+              role="progressbar"
+              aria-valuemin={0}
+              aria-valuemax={grammar.length}
+              aria-valuenow={learnedCount}
+              className="flex-1 h-2 border-2 border-structural bg-paper"
+            >
+              <div className="h-full bg-green" style={{ width: `${grammar.length ? (learnedCount / grammar.length) * 100 : 0}%` }} />
+            </div>
+            <span className="text-xs font-bold uppercase tracking-wider text-muted shrink-0">
+              {t('grammar.learnedProgress', { n: learnedCount, total: grammar.length })}
+            </span>
+          </div>
         </div>
 
         {/* Category + verb-form filters (collapsible on mobile) */}
@@ -359,6 +377,7 @@ export function Grammar() {
                         g={g}
                         accent={accent}
                         selected={selected?.id === g.id}
+                        learned={!!learned[g.id]}
                         onSelect={setSelected}
                       />
                     ))}
@@ -422,6 +441,16 @@ export function Grammar() {
               <div className="text-xs font-mono text-muted mb-2">{selected.patternRomaji}</div>
             )}
             <div className="text-lg font-bold">{localize(selected.meaning)}</div>
+            <button
+              type="button"
+              aria-pressed={!!learned[selected.id]}
+              onClick={() => toggleLearned(selected.id)}
+              className={`mt-3 px-3 py-1.5 border-3 text-xs font-black uppercase tracking-wider cursor-pointer transition-colors ${
+                learned[selected.id] ? 'border-ink bg-green text-ink' : 'border-structural bg-paper hover:bg-yellow'
+              }`}
+            >
+              {learned[selected.id] ? `✓ ${t('grammar.learned')}` : t('grammar.markLearned')}
+            </button>
 
             {selected.pragmatics && selected.pragmatics.tones.length > 0 && (
               <div className="mt-3 flex flex-wrap gap-1.5">
@@ -558,7 +587,7 @@ export function Grammar() {
 
 // Memoized with a stable setter instead of a per-render closure, so the ~200
 // cards skip re-rendering on each keystroke while the deferred filter catches up.
-const GrammarCard = memo(function GrammarCard({ g, accent, selected, onSelect }: { g: GrammarPoint; accent: string; selected: boolean; onSelect: (g: GrammarPoint) => void }) {
+const GrammarCard = memo(function GrammarCard({ g, accent, selected, learned, onSelect }: { g: GrammarPoint; accent: string; selected: boolean; learned: boolean; onSelect: (g: GrammarPoint) => void }) {
   const { localize } = useTranslation()
   const ex = g.examples[0]
   return (
@@ -583,7 +612,9 @@ const GrammarCard = memo(function GrammarCard({ g, accent, selected, onSelect }:
           </div>
         )}
         <div className="flex items-start gap-2">
-          <span className={`text-[10px] font-black shrink-0 pt-0.5 ${selected ? 'text-paper/60' : 'text-muted'}`}>#{g.num}</span>
+          <span className={`text-[10px] font-black shrink-0 pt-0.5 ${selected ? 'text-paper/60' : 'text-muted'}`}>
+            {learned ? '✓' : '#'}{learned ? '' : g.num}
+          </span>
           <div className="flex-1 min-w-0">
             <div className="font-black text-sm leading-snug break-words pr-14">
               <Ruby text={g.pattern} html={g.patternRuby} />

@@ -44,6 +44,7 @@
     "transitivity": "Tha/Tự động từ",
     "usage": "Cách dùng từ",
     "kanji": "Kanji",
+    "accent": "Trọng âm",
     "counters": "Đếm số",
     "homophones": "Từ đồng âm",
     "settings": "Cài đặt",
@@ -132,10 +133,23 @@
       }
     }
   },
+  "accent": {
+    "title": "Từ điển trọng âm",
+    "intro": "Tra cách phát âm của một từ tiếng Nhật: giọng hạ xuống ở đâu, hay giữ đều. Tìm theo kanji hoặc kana.",
+    "placeholder": "Nhập một từ, ví dụ 箸 / はし / ハシ",
+    "loading": "Đang tải từ điển...",
+    "loadFailed": "Không tải được từ điển.",
+    "entries": "{n} từ",
+    "resultCount": "Hiển thị {n} (tối đa {max})",
+    "credit": "Dữ liệu: bộ trọng âm Kanjium (CC BY-SA), tổng hợp từ từ điển trọng âm NHK và Wadoku."
+  },
   "grammar": {
     "searchPlaceholder": "Tìm mẫu câu, nghĩa, romaji, thẻ tag...",
     "tips": "Mẹo ôn tập",
     "countOfTotal": "{filtered} / {total} mẫu câu",
+    "learnedProgress": "Đã học {n} / {total}",
+    "markLearned": "Đánh dấu đã học",
+    "learned": "Đã học",
     "filterByVerbForm": "Lọc theo thể động từ",
     "filterByTone": "Lọc theo văn phong",
     "clearFilter": "Xóa lọc",
