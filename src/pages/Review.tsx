@@ -86,13 +86,19 @@ export function Review() {
   )
 
   const [group, setGroup] = useState<string | null>(null)
+  // Minna no Nihongo lesson scope (vocab mode only), independent of `group`.
+  const [minnaLesson, setMinnaLesson] = useState<number | null>(null)
+  const minnaLessons = useMemo(
+    () => Array.from(new Set(vocab.map(v => v.minna).filter((n): n is number => n !== undefined))).sort((a, b) => a - b),
+    [vocab]
+  )
   const [kanjiChapter, setKanjiChapter] = useState<number | null>(null)
   const [pos, setPos] = useState<string | null>(null)
   const [countPreset, setCountPreset] = useState<number | 'all'>(20)
 
   // A chapter number or category name from one level has no meaning after
   // switching levels (matches VocabBrowser's same reset).
-  useEffect(() => { setGroup(null); setKanjiChapter(null); setPos(null) }, [level])
+  useEffect(() => { setGroup(null); setMinnaLesson(null); setKanjiChapter(null); setPos(null) }, [level])
 
   const [phase, setPhase] = useState<Phase>('setup')
   const [queue, setQueue] = useState<ReviewCard[]>([])
@@ -103,9 +109,10 @@ export function Review() {
   const vocabPool = useMemo(
     () => vocab.filter(v =>
       (group === null || groupKey(v) === group) &&
+      (minnaLesson === null || v.minna === minnaLesson) &&
       (pos === null || v.pos === pos)
     ),
-    [vocab, group, pos]
+    [vocab, group, minnaLesson, pos]
   )
 
   const kanjiPool = useMemo(() => {
@@ -194,6 +201,7 @@ export function Review() {
       <ReviewSetup
         mode={mode} setMode={setMode}
         group={group} setGroup={setGroup} groups={GROUPS} hasChapterKeys={hasChapterKeys} allChapterKeys={allChapterKeys}
+        minnaLesson={minnaLesson} setMinnaLesson={setMinnaLesson} minnaLessons={minnaLessons}
         kanjiChapter={kanjiChapter} setKanjiChapter={setKanjiChapter} kanjiChapterNums={kanjiChapterNums}
         pos={pos} setPos={setPos} posList={POS_LIST}
         countPreset={countPreset} setCountPreset={setCountPreset}
@@ -257,6 +265,7 @@ export function Review() {
 function ReviewSetup({
   mode, setMode,
   group, setGroup, groups, hasChapterKeys, allChapterKeys,
+  minnaLesson, setMinnaLesson, minnaLessons,
   kanjiChapter, setKanjiChapter, kanjiChapterNums,
   pos, setPos, posList,
   countPreset, setCountPreset,
@@ -264,6 +273,7 @@ function ReviewSetup({
 }: {
   mode: Mode; setMode: (m: Mode) => void
   group: string | null; setGroup: (g: string | null) => void; groups: string[]; hasChapterKeys: boolean; allChapterKeys: boolean
+  minnaLesson: number | null; setMinnaLesson: (n: number | null) => void; minnaLessons: number[]
   kanjiChapter: number | null; setKanjiChapter: (c: number | null) => void; kanjiChapterNums: number[]
   pos: string | null; setPos: (p: string | null) => void; posList: string[]
   countPreset: number | 'all'; setCountPreset: (c: number | 'all') => void
@@ -306,6 +316,18 @@ function ReviewSetup({
           {/* Vocab: unified chapter/category filter (same grouping as
               VocabBrowser). Kanji: plain chapter filter, every kanji entry
               is chaptered on both levels, so this is always available. */}
+          {mode === 'vocab' && minnaLessons.length > 0 && (
+            <FilterSection label={t('review.minnaLabel')}>
+              <ChipRow>
+                <Chip active={minnaLesson === null} onClick={() => setMinnaLesson(null)}>{t('common.all')}</Chip>
+                {minnaLessons.map(n => (
+                  <Chip key={n} active={minnaLesson === n} onClick={() => setMinnaLesson(minnaLesson === n ? null : n)}>
+                    {t('vocab.lessonN', { n })}
+                  </Chip>
+                ))}
+              </ChipRow>
+            </FilterSection>
+          )}
           {mode === 'vocab' ? (
             <FilterSection label={groupLabel}>
               <ChipRow>
