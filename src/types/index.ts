@@ -19,6 +19,9 @@
   // codebase's history, not a valid "no chapter" value.
   chapter?: number
   category?: string
+  // Minna no Nihongo lesson (1-50) that introduces this word. Words added
+  // from the Minna list carry no `chapter`; see scripts/minna/.
+  minna?: number
   tags: string[]
   homophones: string[]
   relatedWords: string[]

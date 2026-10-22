@@ -61,7 +61,8 @@ const KANJI_CHAR_RE = /[一-鿿㐀-䶿々]/
 // 1. Collect every unique kanji character appearing anywhere in vocab.
 const allChars = new Set()
 for (const entry of [...n5Vocab, ...n4Vocab]) {
-  for (const ch of entry.kanji ?? "") {
+  // Example sentences are clickable via <Furigana> too, so cover them as well.
+  for (const ch of (entry.kanji ?? "") + (entry.examples ?? []).map(e => e.ja).join("")) {
     if (KANJI_CHAR_RE.test(ch)) allChars.add(ch)
   }
 }

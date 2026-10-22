@@ -107,6 +107,12 @@ export function VocabBrowser() {
   const search = useDeferredValue(rawSearch)
 
   const [chapter, setChapter] = useState<string | null>(null)
+  // Which textbook ordering to browse by: Tori's own chapters or Minna no Nihongo lessons.
+  const [book, setBook] = useState<"tori" | "minna">("tori")
+  const keyOf = useMemo(
+    () => (book === "minna" ? (v: VocabEntry) => String(v.minna) : groupKey),
+    [book]
+  )
   const [pos, setPos] = useState<string | null>(null)
   // The selects read the immediate values (so the picker closes and shows the
   // choice at once); the list reads deferred copies, so re-filtering and
@@ -124,11 +130,15 @@ export function VocabBrowser() {
   const { t, localize } = useTranslation()
 
   // Loaded per level on demand (empty until the level's chunk arrives).
-  const vocab = useVocab(level)
+  const allVocab = useVocab(level)
+  const vocab = useMemo(
+    () => (book === "minna" ? allVocab.filter(v => v.minna !== undefined) : allVocab),
+    [allVocab, book]
+  )
   const vocabById = useMemo(() => new Map(vocab.map(v => [v.id, v])), [vocab])
   const CHAPTERS = useMemo(
-    () => Array.from(new Set(vocab.map(groupKey))).sort(compareGroupKeys),
-    [vocab]
+    () => Array.from(new Set(vocab.map(keyOf))).sort(compareGroupKeys),
+    [vocab, keyOf]
   )
   // N4 (and 'all', which mixes both levels) can list both chapter numbers
   // and category names - only fall back to the plain "All categories"
@@ -138,11 +148,11 @@ export function VocabBrowser() {
 
   // Reset the group filter across a level switch - a chapter number from
   // N5 or a category name from N4 has no meaning once vocab has switched.
-  useEffect(() => setChapter(null), [level])
+  useEffect(() => setChapter(null), [level, book])
 
   const filtered = useMemo(() => {
     return vocab.filter(v => {
-      if (deferredChapter !== null && groupKey(v) !== deferredChapter) return false
+      if (deferredChapter !== null && keyOf(v) !== deferredChapter) return false
       if (deferredPos !== null && v.pos !== deferredPos) return false
       if (search) {
         const q = search.toLowerCase()
@@ -157,7 +167,7 @@ export function VocabBrowser() {
       }
       return true
     })
-  }, [vocab, search, deferredChapter, deferredPos, localize])
+  }, [vocab, search, deferredChapter, deferredPos, localize, keyOf])
 
   // O(1) id → index map so VocabRow.onClick doesn't do a linear findIndex.
   const filteredIndexMap = useMemo(
@@ -176,21 +186,21 @@ export function VocabBrowser() {
   const groupTotals = useMemo(() => {
     const totals = new Map<string, number>()
     for (const v of filtered) {
-      const k = groupKey(v)
+      const k = keyOf(v)
       totals.set(k, (totals.get(k) ?? 0) + 1)
     }
     return totals
-  }, [filtered])
+  }, [filtered, keyOf])
 
   const groupedByChapter = useMemo(() => {
     const map = new Map<string, VocabEntry[]>()
     for (const v of visible) {
-      const k = groupKey(v)
+      const k = keyOf(v)
       if (!map.has(k)) map.set(k, [])
       map.get(k)!.push(v)
     }
     return [...map.entries()].sort(([a], [b]) => compareGroupKeys(a, b))
-  }, [visible])
+  }, [visible, keyOf])
 
   // Derive selected ID so VocabRow receives a simple string for isSelected;
   // React.memo can then short-circuit with a cheap string comparison.
@@ -210,12 +220,23 @@ export function VocabBrowser() {
             className="flex-1 min-w-[200px] px-4 py-2 border-3 border-structural font-sans font-bold text-sm bg-paper focus:outline-none focus:shadow-[2px_2px_0px_var(--color-blue)]"
           />
           <select
+            value={book}
+            onChange={e => setBook(e.target.value as "tori" | "minna")}
+            aria-label={t("vocab.book")}
+            className="px-3 py-2 border-3 border-structural font-bold text-sm bg-paper cursor-pointer"
+          >
+            <option value="tori">{t("vocab.bookTori")}</option>
+            <option value="minna">{t("vocab.bookMinna")}</option>
+          </select>
+          <select
             value={chapter ?? ""}
             onChange={e => setChapter(e.target.value || null)}
             className="px-3 py-2 border-3 border-structural font-bold text-sm bg-paper cursor-pointer"
           >
             <option value="">
-              {level === "N5"
+              {book === "minna"
+                ? t("vocab.allLessons")
+                : level === "N5"
                 ? t("vocab.allChapters")
                 : hasChapterKeys
                 ? t("vocab.allChaptersCategories")
@@ -223,7 +244,7 @@ export function VocabBrowser() {
             </option>
             {CHAPTERS.map(c => (
               <option key={c} value={c}>
-                {isChapterKey(c) ? t("common.chapterN", { n: c }) : c}
+                {book === "minna" ? t("vocab.lessonN", { n: c }) : isChapterKey(c) ? t("common.chapterN", { n: c }) : c}
               </option>
             ))}
           </select>
@@ -252,7 +273,9 @@ export function VocabBrowser() {
             <div key={chapterNum}>
               <div className="sticky top-0 z-10 px-4 py-1.5 bg-ink text-paper text-xs font-black uppercase tracking-wider flex items-center gap-2">
                 <span>
-                  {chapterNum === "?"
+                  {book === "minna"
+                    ? t("vocab.lessonN", { n: chapterNum })
+                    : chapterNum === "?"
                     ? t("vocab.unknownChapter")
                     : isChapterKey(chapterNum)
                     ? t("common.chapterN", { n: chapterNum })

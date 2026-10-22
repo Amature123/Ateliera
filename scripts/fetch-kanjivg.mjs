@@ -239,8 +239,10 @@ function main() {
   const existing = JSON.parse(readFileSync(outPath, "utf8"))
 
   const chars = new Set()
-  for (const v of vocabData) collectChars(v.kanji, chars)
-  for (const v of n4VocabData) collectChars(v.kanji, chars)
+  for (const v of [...vocabData, ...n4VocabData]) {
+    collectChars(v.kanji, chars)
+    for (const ex of v.examples ?? []) collectChars(ex.ja, chars)
+  }
   for (const kanjiData of [n5KanjiData, n4KanjiData]) {
     for (const chapter of kanjiData.chapters) {
       for (const group of chapter.groups) {
