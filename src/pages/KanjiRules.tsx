@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { OnyomiQuiz } from "@/components/kanji/OnyomiQuiz"
 import { useLocation } from "react-router-dom"
 import { AnimatedKanjiSvg } from "@/components/kanji/AnimatedKanjiSvg"
 import { KanjiDrawer } from "@/components/kanji/KanjiDrawer"
@@ -177,6 +178,8 @@ export function KanjiRules() {
           </div>
         ))}
       </section>
+
+      <OnyomiQuiz />
 
       <KanjiDrawer char={drawerChar} onClose={() => setDrawerChar(null)} />
     </div>
