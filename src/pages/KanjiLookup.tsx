@@ -47,9 +47,12 @@ export function KanjiLookup() {
   useEffect(() => {
     if (!vg || candidates) return
     let cancelled = false
-    buildCandidatesAsync(vg).then(c => { if (!cancelled) setCandidates(c) })
+    const kanjiOnlyVg = Object.fromEntries(
+      Object.entries(vg).filter(([ch]) => byChar.has(ch)),
+    )
+    buildCandidatesAsync(kanjiOnlyVg).then(c => { if (!cancelled) setCandidates(c) })
     return () => { cancelled = true }
-  }, [vg, candidates])
+  }, [vg, candidates, byChar])
 
   const guesses = useMemo(
     () => (candidates && strokes.length > 0 ? recognize(strokes, candidates) : []),

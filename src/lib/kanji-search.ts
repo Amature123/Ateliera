@@ -46,9 +46,9 @@ export function kanjiRecords(): KanjiRecord[] {
 /** Kanji typed directly → those kanji; otherwise Hán Việt (with or without
  *  tone marks), then readings (kana), then meaning text. */
 export function searchKanji(query: string, limit = 60): KanjiRecord[] {
-  const q = query.trim()
-  if (!q) return []
   const all = kanjiRecords()
+  const q = query.trim()
+  if (!q) return all.slice(0, limit)
   const typed = [...q].filter(c => CJK.test(c))
   if (typed.length > 0) {
     const byChar = new Map(all.map(r => [r.char, r]))

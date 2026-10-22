@@ -24,7 +24,7 @@ export function Layout() {
   // drop frames during the drawer's slide-in).
   const page = useMemo(() => (
     <main
-      className="flex-1 min-h-0 overflow-auto"
+      className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden"
       style={{
         paddingLeft: 'env(safe-area-inset-left)',
         paddingRight: 'env(safe-area-inset-right)',

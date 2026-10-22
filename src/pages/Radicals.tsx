@@ -4,6 +4,13 @@ import { KanjiDrawer } from "@/components/kanji/KanjiDrawer"
 import { Watermark } from "@/components/ui/ScreenHeader"
 import { useTranslation } from "@/lib/useTranslation"
 import { useKanjiVg } from "@/lib/kanji-vg"
+import { KANJI_INDEX } from "@/lib/kanji"
+import kanjiReadingsJson from "@/data/kanji-readings.json"
+
+const KNOWN_KANJI = new Set([
+  ...KANJI_INDEX.keys(),
+  ...Object.keys(kanjiReadingsJson as Record<string, unknown>),
+])
 
 interface Radical { glyph: string; hanviet: string; meaning: string; strokes: number }
 const RADICALS = radicalsJson as Radical[]
@@ -61,6 +68,7 @@ export function Radicals() {
     const map = new Map<string, string[]>()
     if (!vg) return map
     for (const [char, entry] of Object.entries(vg)) {
+      if (!KNOWN_KANJI.has(char)) continue
       for (const el of new Set(entry.components.map(c => c.element))) {
         if (el === char) continue
         const list = map.get(el) ?? []
@@ -116,28 +124,35 @@ export function Radicals() {
       <div className="border-b-3 border-structural pb-6 mb-6">
         <div className="text-xs font-bold uppercase tracking-widest text-muted mb-2">部首 · 214</div>
         <h1 className="text-[clamp(2rem,8vw,3rem)] font-black tracking-tighter">{L("Bộ thủ", "Radicals")}</h1>
-        <p className="text-muted font-bold text-sm mt-3 max-w-2xl leading-relaxed">
+        <p className="text-muted font-bold text-sm mt-2 max-w-2xl leading-relaxed">
           {L(
-            "214 bộ thủ theo tài liệu bothu.pdf (nét thuần Nhật). Lật thẻ để ôn tên Hán Việt và nghĩa; bấm chữ Hán ví dụ để xem cách chiết tự.",
-            "The 214 radicals from bothu.pdf (Japanese stroke forms). Flip cards to review the Hán Việt name and meaning; tap an example kanji to see its breakdown.",
+            "Ôn tập 214 bộ thủ tiếng Nhật. Lật thẻ để xem tên Hán Việt, ý nghĩa và các chữ Hán ví dụ.",
+            "Master the 214 Japanese radicals. Flip cards to review Hán Việt names, meanings, and example kanji.",
           )}
         </p>
-        <div className="flex flex-wrap items-center gap-2 mt-4">
-          {(["cards", "table"] as const).map(id => (
-            <button
-              key={id}
-              onClick={() => setTab(id)}
-              className={`px-3 py-1.5 border-2 border-structural text-xs font-black uppercase tracking-wider cursor-pointer ${tab === id ? "bg-ink text-paper" : "bg-card"}`}
-            >
-              {id === "cards" ? "Flashcard" : L("Bảng 214 bộ", "All 214")}
-            </button>
-          ))}
-          <span className="text-xs font-bold text-muted ml-2">
-            {L(`Đã thuộc ${known.size}/${RADICALS.length}`, `Known ${known.size}/${RADICALS.length}`)}
-          </span>
-        </div>
-        <div className="mt-3 h-2 border-2 border-structural bg-card max-w-xs">
-          <div className="h-full bg-green" style={{ width: `${(known.size / RADICALS.length) * 100}%` }} />
+        <div className="flex flex-wrap items-center justify-between gap-3 mt-4">
+          <div className="inline-flex border-2 border-structural overflow-hidden">
+            {(["cards", "table"] as const).map((id, i) => (
+              <button
+                key={id}
+                type="button"
+                onClick={() => setTab(id)}
+                className={`px-3.5 py-1.5 text-xs font-black uppercase tracking-wider cursor-pointer transition-colors ${
+                  i > 0 ? "border-l-2 border-structural" : ""
+                } ${tab === id ? "bg-ink text-paper" : "bg-card hover:bg-surface"}`}
+              >
+                {id === "cards" ? "Flashcard" : L("Bảng 214 bộ", "All 214")}
+              </button>
+            ))}
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="text-xs font-bold text-muted">
+              {L(`Đã thuộc ${known.size}/${RADICALS.length}`, `Known ${known.size}/${RADICALS.length}`)}
+            </span>
+            <div className="w-28 sm:w-36 h-2 border-2 border-structural bg-card overflow-hidden">
+              <div className="h-full bg-green transition-all" style={{ width: `${(known.size / RADICALS.length) * 100}%` }} />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -145,27 +160,29 @@ export function Radicals() {
         <div>
           <div className="flex flex-wrap items-center gap-2 mb-4">
             <button
+              type="button"
               onClick={() => { setDirection(d => (d === "glyph" ? "name" : "glyph")); setFlipped(false) }}
-              className="px-3 py-1.5 border-2 border-structural bg-card text-xs font-bold cursor-pointer"
+              className="px-3 py-1.5 border-2 border-structural bg-card hover:bg-surface text-xs font-bold cursor-pointer transition-colors"
             >
-              {showGlyphFront ? L("Hỏi: chữ → tên", "Ask: glyph → name") : L("Hỏi: tên → chữ", "Ask: name → glyph")}
+              {showGlyphFront ? L("Chiều: Chữ → Tên", "Mode: Glyph → Name") : L("Chiều: Tên → Chữ", "Mode: Name → Glyph")}
             </button>
             <button
+              type="button"
               onClick={() => { setOrder(o => shuffled(o)); setPos(0); setFlipped(false) }}
-              className="px-3 py-1.5 border-2 border-structural bg-card text-xs font-bold cursor-pointer"
+              className="px-3 py-1.5 border-2 border-structural bg-card hover:bg-surface text-xs font-bold cursor-pointer transition-colors"
             >
               {L("Xáo trộn", "Shuffle")}
             </button>
             <button
-              onClick={() => { setOrder(RADICALS.map((_, i) => i)); setPos(0); setFlipped(false) }}
-              className="px-3 py-1.5 border-2 border-structural bg-card text-xs font-bold cursor-pointer"
+              type="button"
+              aria-pressed={onlyUnknown}
+              onClick={() => { setOnlyUnknown(v => !v); setPos(0); setFlipped(false) }}
+              className={`px-3 py-1.5 border-2 text-xs font-bold cursor-pointer transition-colors ${
+                onlyUnknown ? "border-ink bg-ink text-paper" : "border-structural bg-card hover:bg-surface"
+              }`}
             >
-              {L("Theo thứ tự PDF", "PDF order")}
-            </button>
-            <label className="flex items-center gap-1.5 text-xs font-bold cursor-pointer">
-              <input type="checkbox" checked={onlyUnknown} onChange={e => { setOnlyUnknown(e.target.checked); setPos(0); setFlipped(false) }} />
               {L("Chỉ bộ chưa thuộc", "Unknown only")}
-            </label>
+            </button>
           </div>
 
           {card ? (

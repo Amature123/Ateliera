@@ -37,10 +37,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form",
-        "exampleStr": "学生 ＋ です",
-        "formVi": "Thể từ điển",
-        "formEn": "Dictionary form"
+        "form": "Noun 1 + は + Noun 2 + です (polite)",
+        "formVi": "Danh từ 1 + は + Danh từ 2 + です (văn nói/viết lịch sự)",
+        "formEn": "Noun 1 + は + Noun 2 + です (polite)",
+        "exampleStr": "私は学生です"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + です (omit N1は when topic is clear)",
+        "formVi": "Danh từ + です (lược N1は khi đã rõ chủ đề)",
+        "formEn": "Noun + です (omit N1は when topic is clear)",
+        "exampleStr": "ベトナム人です"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective (drop な) + です",
+        "formVi": "Tính từ な (bỏ な) + です",
+        "formEn": "na-adjective (drop な) + です",
+        "exampleStr": "元気です ／ 静かです"
       }
     ],
     "pragmatics": {
@@ -197,10 +211,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form + か",
-        "exampleStr": "学生 ＋ ですか",
-        "formVi": "Thể từ điển + か",
-        "formEn": "Dictionary form + か"
+        "form": "N1 は N2 + ですか (yes/no question)",
+        "formVi": "N1 は N2 + ですか (câu hỏi xác nhận)",
+        "formEn": "N1 は N2 + ですか (yes/no question)",
+        "exampleStr": "あなたは学生ですか"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 は + Question word + ですか",
+        "formVi": "N1 は + Từ để hỏi (だれ・なん・どこ) + ですか",
+        "formEn": "N1 は + Question word + ですか",
+        "exampleStr": "あの方はどなたですか"
+      },
+      {
+        "pos": "phrase",
+        "form": "Answer: はい, N2です / いいえ, N2じゃないです",
+        "formVi": "Trả lời: はい、N2です ／ いいえ、N2じゃないです",
+        "formEn": "Answer: はい, N2です / いいえ, N2じゃないです",
+        "exampleStr": "はい、そうです ／ いいえ、違います"
       }
     ],
     "pragmatics": {
@@ -357,11 +385,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Bare noun (replaces は/が/を)",
-        "particle": "も",
-        "exampleStr": "私 ＋ も",
-        "formVi": "Danh từ trơn (thay は/が/を)",
-        "formEn": "Bare noun (replaces は/が/を)"
+        "form": "Noun + も (replaces は / が / を)",
+        "formVi": "Danh từ + も (thay thế trực tiếp cho は・が・を)",
+        "formEn": "Noun + も (replaces は / が / を)",
+        "exampleStr": "私も学生です ／ コーヒーも飲みます"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + にも / へも (after に / へ)",
+        "formVi": "Danh từ + にも ／ へも (kết hợp sau trợ từ に・へ)",
+        "formEn": "Noun + にも / へも (after に / へ)",
+        "exampleStr": "日本にも行きました"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + でも (after で)",
+        "formVi": "Danh từ + でも (kết hợp sau trợ từ で)",
+        "formEn": "Noun + でも (after で)",
+        "exampleStr": "あの店でも買えます"
       }
     ],
     "pragmatics": {
@@ -665,10 +706,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form + でした",
-        "exampleStr": "学生 ＋ でした",
-        "formVi": "Thể từ điển + でした",
-        "formEn": "Dictionary form + でした"
+        "form": "Noun 1 + は + Noun 2 + でした (past affirmative)",
+        "formVi": "Danh từ 1 + は + Danh từ 2 + でした (quá khứ khẳng định)",
+        "formEn": "Noun 1 + は + Noun 2 + でした (past affirmative)",
+        "exampleStr": "昨日は日曜日でした"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective (drop な) + でした",
+        "formVi": "Tính từ な (bỏ な) + でした",
+        "formEn": "na-adjective (drop な) + でした",
+        "exampleStr": "テストは簡単でした"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + でしたか (past question)",
+        "formVi": "Danh từ + でしたか (câu hỏi quá khứ)",
+        "formEn": "Noun + でしたか (past question)",
+        "exampleStr": "旅行はどうでしたか"
       }
     ],
     "pragmatics": {
@@ -805,17 +860,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form + じゃなかったです",
-        "exampleStr": "学生 ＋ じゃなかったです",
-        "formVi": "Thể từ điển + じゃなかったです",
-        "formEn": "Dictionary form + じゃなかったです"
+        "form": "Noun + じゃなかったです (spoken polite)",
+        "formVi": "Danh từ + じゃなかったです (lịch sự, văn nói tự nhiên)",
+        "formEn": "Noun + じゃなかったです (spoken polite)",
+        "exampleStr": "昨日は休みじゃなかったです"
       },
       {
         "pos": "noun",
-        "form": "Dictionary form + じゃありませんでした",
-        "exampleStr": "学生 ＋ じゃありませんでした",
-        "formVi": "Thể từ điển + じゃありませんでした",
-        "formEn": "Dictionary form + じゃありませんでした"
+        "form": "Noun + じゃありませんでした (standard polite)",
+        "formVi": "Danh từ + じゃありませんでした (lịch sự chuẩn)",
+        "formEn": "Noun + じゃありませんでした (standard polite)",
+        "exampleStr": "昨日は雨じゃありませんでした"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + ではありませんでした (formal)",
+        "formVi": "Danh từ + ではありませんでした (trang trọng / văn viết)",
+        "formEn": "Noun + ではありませんでした (formal)",
+        "exampleStr": "学生ではありませんでした"
       }
     ],
     "pragmatics": {
@@ -962,10 +1024,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form + で (linking) + N3です",
-        "exampleStr": "学生 ＋ で ＋ 19歳です",
-        "formVi": "Thể từ điển + で (nối câu) + N3です",
-        "formEn": "Dictionary form + で (linking) + N3です"
+        "form": "Noun 1 + で, + Noun 2 + です (connect two nouns)",
+        "formVi": "Danh từ 1 + で、+ Danh từ 2 + です (nối 2 danh từ)",
+        "formEn": "Noun 1 + で, + Noun 2 + です (connect two nouns)",
+        "exampleStr": "グエンで、ベトナム人です"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective (drop な) + で, + Clause 2",
+        "formVi": "Tính từ な (bỏ な) + で、+ Mệnh đề sau",
+        "formEn": "na-adjective (drop な) + で, + Clause 2",
+        "exampleStr": "静かで、きれいな町です"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 で, N2 で, N3 です",
+        "formVi": "N1 で、N2 で、N3 です (liệt kê nhiều đặc điểm)",
+        "formEn": "N1 で, N2 で, N3 です",
+        "exampleStr": "25歳で、独身で、会社員です"
       }
     ],
     "pragmatics": {
@@ -1098,10 +1174,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form (は)いくらですか",
-        "exampleStr": "これ ＋ （は）いくらですか",
-        "formVi": "Thể từ điển (は)いくらですか",
-        "formEn": "Dictionary form (は)いくらですか"
+        "form": "Noun (item) + は + いくらですか",
+        "formVi": "Danh từ (đồ vật) + は + いくらですか",
+        "formEn": "Noun (item) + は + いくらですか",
+        "exampleStr": "このかばんはいくらですか"
+      },
+      {
+        "pos": "noun",
+        "form": "これ / それ / あれ + は + いくらですか",
+        "formVi": "これ／それ／あれ + は + いくらですか",
+        "formEn": "これ / それ / あれ + は + いくらですか",
+        "exampleStr": "これはいくらですか"
+      },
+      {
+        "pos": "noun",
+        "form": "この / その / あの + Noun + は + いくらですか",
+        "formVi": "この／その／あの + Danh từ + は + いくらですか",
+        "formEn": "この / その / あの + Noun + は + いくらですか",
+        "exampleStr": "その時計はいくらですか"
       }
     ],
     "pragmatics": {
@@ -1234,10 +1324,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(N1は)＋何ですか",
-        "exampleStr": "これ ＋ は何ですか",
-        "formVi": "(N1は)＋何ですか",
-        "formEn": "(N1は)＋何ですか"
+        "form": "Noun + は + 何（なん）ですか",
+        "formVi": "Danh từ + は + 何（なん）ですか",
+        "formEn": "Noun + は + 何（なん）ですか",
+        "exampleStr": "これは何ですか"
+      },
+      {
+        "pos": "noun",
+        "form": "何 + Noun / Particle + ですか",
+        "formVi": "何（なに／なん）+ Danh từ / Trợ từ + ですか",
+        "formEn": "何 + Noun / Particle + ですか",
+        "exampleStr": "何時ですか ／ 何曜日ですか"
+      },
+      {
+        "pos": "phrase",
+        "form": "Answer: (それは) + Noun + です",
+        "formVi": "Trả lời: （それは）+ Danh từ + です",
+        "formEn": "Answer: (それは) + Noun + です",
+        "exampleStr": "日本の辞書です"
       }
     ],
     "pragmatics": {
@@ -1372,10 +1476,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "誰の + N2ですか",
-        "exampleStr": "誰の ＋ かばんですか",
-        "formVi": "誰の + N2ですか",
-        "formEn": "誰の + N2ですか"
+        "form": "誰の + Noun + ですか (whose ~)",
+        "formVi": "誰（だれ）の + Danh từ + ですか (của ai)",
+        "formEn": "誰の + Noun + ですか (whose ~)",
+        "exampleStr": "これは誰のかばんですか"
+      },
+      {
+        "pos": "noun",
+        "form": "どなたの + Noun + ですか (whose ~ - polite)",
+        "formVi": "どなたの + Danh từ + ですか (của vị nào - lịch sự)",
+        "formEn": "どなたの + Noun + ですか (whose ~ - polite)",
+        "exampleStr": "どなたの傘ですか"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun (person) + の（です） (belongs to ~)",
+        "formVi": "Danh từ (người) + の（です） (của ~)",
+        "formEn": "Noun (person) + の（です） (belongs to ~)",
+        "exampleStr": "私の（かばん）です"
       }
     ],
     "pragmatics": {
@@ -1511,10 +1629,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "何の + N2ですか",
-        "exampleStr": "何の ＋ 本ですか",
-        "formVi": "何の + N2ですか",
-        "formEn": "何の + N2ですか"
+        "form": "何の + Noun + ですか (about what)",
+        "formVi": "何（なん）の + Danh từ + ですか (về nội dung/chủ đề gì)",
+        "formEn": "何の + Noun + ですか (about what)",
+        "exampleStr": "これは何の本ですか"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun (topic) + の + Noun (item)",
+        "formVi": "Danh từ (chủ đề) + の + Danh từ (vật)",
+        "formEn": "Noun (topic) + の + Noun (item)",
+        "exampleStr": "日本語の本です ／ 料理の雑誌です"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun (category) + の + Noun",
+        "formVi": "Danh từ (mục đích/loại) + の + Danh từ",
+        "formEn": "Noun (category) + の + Noun",
+        "exampleStr": "パソコンの先生です"
       }
     ],
     "pragmatics": {
@@ -1648,10 +1780,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "どこの + N2ですか",
-        "exampleStr": "どこの ＋ 会社ですか",
-        "formVi": "どこの + N2ですか",
-        "formEn": "どこの + N2ですか"
+        "form": "どこの + Noun + ですか (from where / what brand)",
+        "formVi": "どこの + Danh từ + ですか (xuất xứ/hãng nào)",
+        "formEn": "どこの + Noun + ですか (from where / what brand)",
+        "exampleStr": "これはどこのワインですか"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun (country/place) + の + Noun",
+        "formVi": "Danh từ (nước/nơi chốn) + の + Danh từ",
+        "formEn": "Noun (country/place) + の + Noun",
+        "exampleStr": "フランスのワインです"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun (company/school) + の + Noun",
+        "formVi": "Danh từ (công ty/trường) + の + Danh từ",
+        "formEn": "Noun (company/school) + の + Noun",
+        "exampleStr": "日本の車です"
       }
     ],
     "pragmatics": {
@@ -1786,10 +1932,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "何の + N2ですか",
-        "exampleStr": "何の ＋ 肉ですか",
-        "formVi": "何の + N2ですか",
-        "formEn": "何の + N2ですか"
+        "form": "何の + Noun + ですか",
+        "formVi": "何（なん）の + Danh từ + ですか",
+        "formEn": "何の + Noun + ですか",
+        "exampleStr": "あれは何の建物ですか"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun 1 (specialty) + の + Noun 2",
+        "formVi": "Danh từ 1 (chuyên môn) + の + Danh từ 2",
+        "formEn": "Noun 1 (specialty) + の + Noun 2",
+        "exampleStr": "自動車の会社です"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun 1 (type) + の + Noun 2",
+        "formVi": "Danh từ 1 (chất liệu/loại) + の + Danh từ 2",
+        "formEn": "Noun 1 (type) + の + Noun 2",
+        "exampleStr": "りんごのジュースです"
       }
     ],
     "pragmatics": {
@@ -1925,10 +2085,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1 + の + N2",
-        "exampleStr": "田中さん ＋ の ＋ かばん",
-        "formVi": "N1 + の + N2",
-        "formEn": "N1 + の + N2"
+        "form": "N1 (owner) + の + N2 (possession)",
+        "formVi": "N1 (sở hữu) + の + N2 (vật thuộc về N1)",
+        "formEn": "N1 (owner) + の + N2 (possession)",
+        "exampleStr": "私の鍵 ／ 田中さんの車"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 (organization/place) + の + N2",
+        "formVi": "N1 (tổ chức/nơi chốn) + の + N2 (thuộc về)",
+        "formEn": "N1 (organization/place) + の + N2",
+        "exampleStr": "さくら大学の学生"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 (topic/origin) + の + N2",
+        "formVi": "N1 (nội dung/xuất xứ) + の + N2",
+        "formEn": "N1 (topic/origin) + の + N2",
+        "exampleStr": "英語の辞書 ／ 日本のカメラ"
       }
     ],
     "pragmatics": {
@@ -2064,12 +2238,32 @@
     "patternRomaji": "~ ne",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "End of any sentence (plain or polite)",
-        "particle": "ね",
-        "exampleStr": "いい天気です ＋ ね",
-        "formVi": "Cuối câu bất kỳ (thể thường hoặc lịch sự)",
-        "formEn": "End of any sentence (plain or polite)"
+        "pos": "verb",
+        "form": "Verb (polite or plain) + ね",
+        "formVi": "Động từ (thể lịch sự / thể thường) + ね",
+        "formEn": "Verb (polite or plain) + ね",
+        "exampleStr": "毎日走りますね ／ よく食べるね"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (+ です) + ね",
+        "formVi": "Tính từ い (＋です) + ね",
+        "formEn": "i-adjective (+ です) + ね",
+        "exampleStr": "今日は暑いですね ／ おいしいね"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + です／だ + ね",
+        "formVi": "Tính từ な + です／だ + ね",
+        "formEn": "na-adjective + です／だ + ね",
+        "exampleStr": "静かですね ／ きれいだね"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + です／だ + ね",
+        "formVi": "Danh từ + です／だ + ね",
+        "formEn": "Noun + です／だ + ね",
+        "exampleStr": "いい天気ですね ／ 日曜日だね"
       }
     ],
     "pragmatics": {
@@ -2210,12 +2404,32 @@
     "patternRomaji": "~ yo",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "End of any sentence (plain or polite)",
-        "particle": "よ",
-        "exampleStr": "雨が降っています ＋ よ",
-        "formVi": "Cuối câu bất kỳ (thể thường hoặc lịch sự)",
-        "formEn": "End of any sentence (plain or polite)"
+        "pos": "verb",
+        "form": "Verb (polite or plain) + よ",
+        "formVi": "Động từ (thể lịch sự / thể thường) + よ",
+        "formEn": "Verb (polite or plain) + よ",
+        "exampleStr": "もう始まりますよ ／ 行くよ"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (+ です) + よ",
+        "formVi": "Tính từ い (＋です) + よ",
+        "formEn": "i-adjective (+ です) + よ",
+        "exampleStr": "この本は面白いですよ ／ 危ないよ"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + です／だ + よ",
+        "formVi": "Tính từ な + です／だ + よ",
+        "formEn": "na-adjective + です／だ + よ",
+        "exampleStr": "便利ですよ ／ 大丈夫だよ"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + です／だ + よ",
+        "formVi": "Danh từ + です／だ + よ",
+        "formEn": "Noun + です／だ + よ",
+        "exampleStr": "明日ですよ ／ 次の駅だよ"
       }
     ],
     "pragmatics": {
@@ -2355,12 +2569,32 @@
     "patternRomaji": "~ yo ne",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "End of any sentence (plain or polite)",
-        "particle": "よね",
-        "exampleStr": "田中さんも来ます ＋ よね",
-        "formVi": "Cuối câu bất kỳ (thể thường hoặc lịch sự)",
-        "formEn": "End of any sentence (plain or polite)"
+        "pos": "verb",
+        "form": "Verb (polite or plain) + よね",
+        "formVi": "Động từ (thể lịch sự / thể thường) + よね",
+        "formEn": "Verb (polite or plain) + よね",
+        "exampleStr": "明日来ますよね ／ 知っているよね"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (+ です) + よね",
+        "formVi": "Tính từ い (＋です) + よね",
+        "formEn": "i-adjective (+ です) + よね",
+        "exampleStr": "これ、高いですよね ／ おいしいよね"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + です／だ + よね",
+        "formVi": "Tính từ な + です／だ + よね",
+        "formEn": "na-adjective + です／だ + よね",
+        "exampleStr": "暇ですよね ／ 好きだよね"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + です／だ + よね",
+        "formVi": "Danh từ + です／だ + よね",
+        "formEn": "Noun + です／だ + よね",
+        "exampleStr": "田中さんですよね ／ 学生だよね"
       }
     ],
     "pragmatics": {
@@ -2497,10 +2731,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "は何時から何時までですか",
-        "exampleStr": "銀行 ＋ は何時から何時までですか",
-        "formVi": "は何時から何時までですか",
-        "formEn": "は何時から何時までですか"
+        "form": "Noun (time) + から (from ~)",
+        "formVi": "Danh từ (giờ/thời điểm) + から (từ ~)",
+        "formEn": "Noun (time) + から (from ~)",
+        "exampleStr": "9時から始まります"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun (time) + まで (until ~)",
+        "formVi": "Danh từ (giờ/thời điểm) + まで (đến ~)",
+        "formEn": "Noun (time) + まで (until ~)",
+        "exampleStr": "5時まで働きます"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 から N2 まで + です / V-masu",
+        "formVi": "N1 から N2 まで + です／Vます (từ N1 đến N2)",
+        "formEn": "N1 から N2 まで + です / V-masu",
+        "exampleStr": "昼休みは12時から1時までです"
       }
     ],
     "pragmatics": {
@@ -2636,10 +2884,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "Dictionary form + です",
-        "exampleStr": "高い ＋ です",
-        "formVi": "Thể từ điển + です",
-        "formEn": "Dictionary form + です"
+        "form": "i-adjective (keep い) + です",
+        "formVi": "Tính từ い (giữ nguyên い) + です",
+        "formEn": "i-adjective (keep い) + です",
+        "exampleStr": "この本はおもしろいです"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective + Noun + です",
+        "formVi": "Tính từ い + Danh từ + です",
+        "formEn": "i-adjective + Noun + です",
+        "exampleStr": "大きい車です"
+      },
+      {
+        "pos": "i-adj",
+        "form": "Irregular: いいです (good)",
+        "formVi": "Trường hợp đặc biệt: いいです (tốt)",
+        "formEn": "Irregular: いいです (good)",
+        "exampleStr": "天気がいいです"
       }
     ],
     "pragmatics": {
@@ -2775,10 +3037,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "い → く + ないです",
-        "exampleStr": "高い → 高く ＋ ないです",
-        "formVi": "い → く + ないです",
-        "formEn": "い → く + ないです"
+        "form": "i-adjective (drop い) + くないです",
+        "formVi": "Tính từ い (bỏ い) + くないです",
+        "formEn": "i-adjective (drop い) + くないです",
+        "exampleStr": "あまり高くないです"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + くありません (more formal)",
+        "formVi": "Tính từ い (bỏ い) + くありません (trang trọng hơn)",
+        "formEn": "i-adjective (drop い) + くありません (more formal)",
+        "exampleStr": "今日は暑くありません"
+      },
+      {
+        "pos": "i-adj",
+        "form": "Irregular: いい → よくないです / よくありません",
+        "formVi": "Bất quy tắc: いい → よくないです ／ よくありません",
+        "formEn": "Irregular: いい → よくないです / よくありません",
+        "exampleStr": "体調があまりよくないです"
       }
     ],
     "pragmatics": {
@@ -2924,10 +3200,24 @@
     "formationRules": [
       {
         "pos": "na-adj",
-        "form": "Stem + です",
-        "exampleStr": "元気 ＋ です",
-        "formVi": "Tính từ な + です",
-        "formEn": "na-adjective stem + です"
+        "form": "na-adjective (drop な) + です",
+        "formVi": "Tính từ な (bỏ な) + です",
+        "formEn": "na-adjective (drop な) + です",
+        "exampleStr": "この町は静かです"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective (keep な) + Noun + です",
+        "formVi": "Tính từ な (giữ な) + Danh từ + です",
+        "formEn": "na-adjective (keep な) + Noun + です",
+        "exampleStr": "静かな町です ／ 有名な人です"
+      },
+      {
+        "pos": "na-adj",
+        "form": "Note: きれい / 有名 / 嫌い are na-adjectives",
+        "formVi": "Lưu ý: きれい・有名・嫌い là tính từ な (dù tận cùng là い)",
+        "formEn": "Note: きれい / 有名 / 嫌い are na-adjectives",
+        "exampleStr": "部屋がきれいです"
       }
     ],
     "pragmatics": {
@@ -3073,17 +3363,24 @@
     "formationRules": [
       {
         "pos": "na-adj",
-        "form": "Stem + じゃないです",
-        "exampleStr": "元気 ＋ じゃないです",
-        "formVi": "Tính từ な + じゃないです",
-        "formEn": "na-adjective stem + じゃないです"
+        "form": "na-adjective (drop な) + じゃないです (common)",
+        "formVi": "Tính từ な (bỏ な) + じゃないです (thông dụng)",
+        "formEn": "na-adjective (drop な) + じゃないです (common)",
+        "exampleStr": "ここは静かじゃないです"
       },
       {
         "pos": "na-adj",
-        "form": "Stem + じゃありません",
-        "exampleStr": "元気 ＋ じゃありません",
-        "formVi": "Tính từ な + じゃありません",
-        "formEn": "na-adjective stem + じゃありません"
+        "form": "na-adjective (drop な) + じゃありません (standard)",
+        "formVi": "Tính từ な (bỏ な) + じゃありません (lịch sự chuẩn)",
+        "formEn": "na-adjective (drop な) + じゃありません (standard)",
+        "exampleStr": "あまり暇じゃありません"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective (drop な) + ではありません (formal)",
+        "formVi": "Tính từ な (bỏ な) + ではありません (trang trọng)",
+        "formEn": "na-adjective (drop な) + ではありません (formal)",
+        "exampleStr": "簡単ではありません"
       }
     ],
     "pragmatics": {
@@ -3220,17 +3517,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "Dictionary form + ですか",
-        "exampleStr": "高い ＋ ですか",
-        "formVi": "Thể từ điển + ですか",
-        "formEn": "Dictionary form + ですか"
+        "form": "i-adjective + ですか",
+        "formVi": "Tính từ い + ですか",
+        "formEn": "i-adjective + ですか",
+        "exampleStr": "日本の夏は暑いですか"
       },
       {
         "pos": "na-adj",
-        "form": "Stem + ですか",
-        "exampleStr": "元気 ＋ ですか",
-        "formVi": "Tính từ な + ですか",
-        "formEn": "na-adjective stem + ですか"
+        "form": "na-adjective stem + ですか",
+        "formVi": "Tính từ な (bỏ な) + ですか",
+        "formEn": "na-adjective stem + ですか",
+        "exampleStr": "この辺は静かですか"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + ですか",
+        "formVi": "Danh từ + ですか",
+        "formEn": "Noun + ですか",
+        "exampleStr": "あの人は先生ですか"
       }
     ],
     "pragmatics": {
@@ -3366,10 +3670,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "い → くて (linking) + second adjective",
-        "exampleStr": "安い → 安くて ＋ おいしいです",
-        "formVi": "い → くて (nối câu) + tính từ thứ hai",
-        "formEn": "い → くて (linking) + second adjective"
+        "form": "i-adjective (drop い) + くて, ~",
+        "formVi": "Tính từ い (bỏ い) + くて、〜",
+        "formEn": "i-adjective (drop い) + くて, ~",
+        "exampleStr": "安くて、おいしいです"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + で, ~ (for comparison)",
+        "formVi": "Tính từ な (bỏ な) + で、〜 (so sánh)",
+        "formEn": "na-adjective + で, ~ (for comparison)",
+        "exampleStr": "静かで、きれいな町です"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + で, ~ (for comparison)",
+        "formVi": "Danh từ + で、〜 (so sánh)",
+        "formEn": "Noun + で, ~ (for comparison)",
+        "exampleStr": "ベトナム人で、留学生です"
       }
     ],
     "pragmatics": {
@@ -3505,10 +3823,24 @@
     "formationRules": [
       {
         "pos": "na-adj",
-        "form": "Stem + で (linking) + second adjective",
-        "exampleStr": "静か → 静かで ＋ きれいです",
-        "formVi": "Tính từ な + で (nối câu) + tính từ thứ hai",
-        "formEn": "na-adjective stem + で (linking) + second adjective"
+        "form": "na-adjective (drop な) + で, ~",
+        "formVi": "Tính từ な (bỏ な) + で、〜",
+        "formEn": "na-adjective (drop な) + で, ~",
+        "exampleStr": "便利で、きれいです"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + で, ~",
+        "formVi": "Danh từ + で、〜",
+        "formEn": "Noun + で, ~",
+        "exampleStr": "二十歳で、大学生です"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + くて, ~ (for comparison)",
+        "formVi": "Tính từ い (bỏ い) + くて、〜 (so sánh)",
+        "formEn": "i-adjective (drop い) + くて, ~ (for comparison)",
+        "exampleStr": "広くて、明るいです"
       }
     ],
     "pragmatics": {
@@ -3641,11 +3973,25 @@
     "patternRomaji": "(N wa) dou desu ka",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "(Nは) + どうですか",
-        "exampleStr": "味 ＋ はどうですか",
-        "formVi": "(Nは) + どうですか",
-        "formEn": "(Nは) + どうですか"
+        "pos": "noun",
+        "form": "Noun + は + どうですか (present)",
+        "formVi": "Danh từ + は + どうですか (hỏi hiện tại)",
+        "formEn": "Noun + は + どうですか (present)",
+        "exampleStr": "日本の生活はどうですか"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + は + どうでしたか (past)",
+        "formVi": "Danh từ + は + どうでしたか (hỏi quá khứ)",
+        "formEn": "Noun + は + どうでしたか (past)",
+        "exampleStr": "昨日の試験はどうでしたか"
+      },
+      {
+        "pos": "verb",
+        "form": "V-te mite + どうでしたか",
+        "formVi": "Vてみて + どうでしたか (hỏi cảm nhận sau khi làm)",
+        "formEn": "V-te mite + どうでしたか",
+        "exampleStr": "食べてみてどうでしたか"
       }
     ],
     "pragmatics": {
@@ -3782,17 +4128,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "い → かった (past)",
-        "exampleStr": "高い → 高かった ＋ です",
-        "formVi": "い → かった (quá khứ)",
-        "formEn": "い → かった (past)"
+        "form": "Past affirmative: i-adjective (drop い) + かったです",
+        "formVi": "Khẳng định quá khứ: Tính từ い (bỏ い) + かったです",
+        "formEn": "Past affirmative: i-adjective (drop い) + かったです",
+        "exampleStr": "昨日は暑かったです"
       },
       {
         "pos": "i-adj",
-        "form": "い → くなかった (past negative)",
-        "exampleStr": "高い → 高くなかった ＋ です",
-        "formVi": "い → くなかった (phủ định quá khứ)",
-        "formEn": "い → くなかった (past negative)"
+        "form": "Past negative: i-adjective (drop い) + くなかったです",
+        "formVi": "Phủ định quá khứ: Tính từ い (bỏ い) + くなかったです",
+        "formEn": "Past negative: i-adjective (drop い) + くなかったです",
+        "exampleStr": "あまり寒くなかったです"
+      },
+      {
+        "pos": "i-adj",
+        "form": "Irregular: いい → よかったです / よくなかったです",
+        "formVi": "Bất quy tắc: いい → よかったです ／ よくなかったです",
+        "formEn": "Irregular: いい → よかったです / よくなかったです",
+        "exampleStr": "天気がよかったです"
       }
     ],
     "pragmatics": {
@@ -3950,17 +4303,24 @@
     "formationRules": [
       {
         "pos": "na-adj",
-        "form": "Stem + でした",
-        "exampleStr": "静か ＋ でした",
-        "formVi": "Tính từ な + でした",
-        "formEn": "na-adjective stem + でした"
+        "form": "Past affirmative: na-adjective (drop な) + でした",
+        "formVi": "Khẳng định quá khứ: Tính từ な (bỏ な) + でした",
+        "formEn": "Past affirmative: na-adjective (drop な) + でした",
+        "exampleStr": "公園は静かでした"
       },
       {
         "pos": "na-adj",
-        "form": "Stem + じゃなかったです",
-        "exampleStr": "静か ＋ じゃなかったです",
-        "formVi": "Tính từ な + じゃなかったです",
-        "formEn": "na-adjective stem + じゃなかったです"
+        "form": "Past negative: na-adjective (drop な) + じゃなかったです",
+        "formVi": "Phủ định quá khứ: Tính từ な (bỏ な) + じゃなかったです",
+        "formEn": "Past negative: na-adjective (drop な) + じゃなかったです",
+        "exampleStr": "あまり暇じゃなかったです"
+      },
+      {
+        "pos": "na-adj",
+        "form": "Formal past negative: na-adjective + じゃありませんでした",
+        "formVi": "Phủ định quá khứ trang trọng: Tính từ な (bỏ な) + じゃありませんでした",
+        "formEn": "Formal past negative: na-adjective + じゃありませんでした",
+        "exampleStr": "簡単じゃありませんでした"
       }
     ],
     "pragmatics": {
@@ -4097,17 +4457,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "Dictionary form + N (直接)",
-        "exampleStr": "面白い ＋ 映画",
-        "formVi": "Thể từ điển + N (直接)",
-        "formEn": "Dictionary form + N (直接)"
+        "form": "i-adjective + Noun",
+        "formVi": "Tính từ い + Danh từ",
+        "formEn": "i-adjective + Noun",
+        "exampleStr": "おもしろい映画 ／ 大きい車"
       },
       {
         "pos": "na-adj",
-        "form": "Stem + な + N",
-        "exampleStr": "静か ＋ な ＋ 町",
-        "formVi": "Tính từ な + な + N",
-        "formEn": "na-adjective stem + な + N"
+        "form": "na-adjective + な + Noun",
+        "formVi": "Tính từ な + な + Danh từ",
+        "formEn": "na-adjective + な + Noun",
+        "exampleStr": "静かな町 ／ 有名な人"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun 1 + の + Noun 2",
+        "formVi": "Danh từ 1 + の + Danh từ 2",
+        "formEn": "Noun 1 + の + Noun 2",
+        "exampleStr": "日本の料理 ／ 英語の先生"
       }
     ],
     "pragmatics": {
@@ -4251,11 +4618,32 @@
     "patternRomaji": "~ ga ~",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "Clause1 (polite/plain) + が + Clause2",
-        "exampleStr": "安いです ＋ が ＋ おいしくないです",
-        "formVi": "Mệnh đề 1 (lịch sự / thường) + が + Mệnh đề 2",
-        "formEn": "Clause1 (polite/plain) + が + Clause2"
+        "pos": "verb",
+        "form": "Verb (polite / plain) + が, ~",
+        "formVi": "Động từ (lịch sự / thường) + が、〜",
+        "formEn": "Verb (polite / plain) + が, ~",
+        "exampleStr": "毎日勉強しますが、まだ難しいです"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (+ です) + が, ~",
+        "formVi": "Tính từ い (＋です) + が、〜",
+        "formEn": "i-adjective (+ です) + が, ~",
+        "exampleStr": "高いですが、とてもいいです"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + です／だ + が, ~",
+        "formVi": "Tính từ な + です／だ + が、〜",
+        "formEn": "na-adjective + です／だ + が, ~",
+        "exampleStr": "便利ですが、人が多いです"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + です／だ + が, ~",
+        "formVi": "Danh từ + です／だ + が、〜",
+        "formEn": "Noun + です／だ + が, ~",
+        "exampleStr": "日曜日ですが、働きます"
       }
     ],
     "pragmatics": {
@@ -4392,10 +4780,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "で + question word + が一番Aですか",
-        "exampleStr": "果物 ＋ で何が一番好きですか",
-        "formVi": "で + từ để hỏi + が一番Aですか",
-        "formEn": "で + question word + が一番Aですか"
+        "form": "Noun (scope) + で + Question word + が一番 + A ですか",
+        "formVi": "Danh từ (phạm vi) + で + 何／どこ／だれ／いつ + が一番 + A ですか",
+        "formEn": "Noun (scope) + で + Question word + が一番 + A ですか",
+        "exampleStr": "日本料理で何が一番好きですか"
+      },
+      {
+        "pos": "i-adj",
+        "form": "(In N1) N2 が一番 + i-adjective + です",
+        "formVi": "（N1で）N2 が一番 + Tính từ い + です",
+        "formEn": "(In N1) N2 が一番 + i-adjective + です",
+        "exampleStr": "一年で8月が一番暑いです"
+      },
+      {
+        "pos": "na-adj",
+        "form": "(In N1) N2 が一番 + na-adjective + です",
+        "formVi": "（N1で）N2 が一番 + Tính từ な + です",
+        "formEn": "(In N1) N2 が一番 + na-adjective + です",
+        "exampleStr": "果物でいちごが一番好きです"
       }
     ],
     "pragmatics": {
@@ -4531,10 +4933,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1と N2(と)、どっち/どちらがAですか",
-        "exampleStr": "犬と猫、どっちが好きですか",
-        "formVi": "N1と N2(と)、どっち/どちらがAですか",
-        "formEn": "N1と N2(と)、どっち/どちらがAですか"
+        "form": "N1 と N2 と, どちら (どっち) が + A ですか",
+        "formVi": "N1 と N2 と、どちら（どっち）が + A ですか",
+        "formEn": "N1 と N2 と, どちら (どっち) が + A ですか",
+        "exampleStr": "コーヒーと紅茶と、どちらが好きですか"
+      },
+      {
+        "pos": "noun",
+        "form": "Answer: N1 のほうが + A です",
+        "formVi": "Trả lời: N1 のほうが + A です",
+        "formEn": "Answer: N1 のほうが + A です",
+        "exampleStr": "コーヒーのほうが好きです"
+      },
+      {
+        "pos": "noun",
+        "form": "Answer: どちらも (どっちも) + A です (both are ~)",
+        "formVi": "Trả lời: どちらも（どっちも）+ A です (cả hai đều ~)",
+        "formEn": "Answer: どちらも (どっちも) + A です (both are ~)",
+        "exampleStr": "どちらも好きです"
       }
     ],
     "pragmatics": {
@@ -4672,10 +5088,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1(は) N2より + Aです",
-        "exampleStr": "犬 ＋ は猫より大きいです",
-        "formVi": "N1(は) N2より + Aです",
-        "formEn": "N1(は) N2より + Aです"
+        "form": "N1 は N2 より + i-adjective + です",
+        "formVi": "N1 は N2 より + Tính từ い + です",
+        "formEn": "N1 は N2 より + i-adjective + です",
+        "exampleStr": "東京は大阪より大きいです"
+      },
+      {
+        "pos": "na-adj",
+        "form": "N1 は N2 より + na-adjective + です",
+        "formVi": "N1 は N2 より + Tính từ な + です",
+        "formEn": "N1 は N2 より + na-adjective + です",
+        "exampleStr": "バスは電車より便利です"
+      },
+      {
+        "pos": "verb",
+        "form": "N1 は N2 より + Verb",
+        "formVi": "N1 は N2 より + Động từ",
+        "formEn": "N1 は N2 より + Verb",
+        "exampleStr": "兄は私よりよく食べます"
       }
     ],
     "pragmatics": {
@@ -4811,17 +5241,31 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form + だ",
-        "exampleStr": "学生 ＋ だ",
-        "formVi": "Thể từ điển + だ",
-        "formEn": "Dictionary form + だ"
+        "form": "Noun + だ (present affirmative)",
+        "formVi": "Danh từ + だ (khẳng định hiện tại)",
+        "formEn": "Noun + だ (present affirmative)",
+        "exampleStr": "明日は休みだ"
       },
       {
         "pos": "na-adj",
-        "form": "Stem + だ",
-        "exampleStr": "元気 ＋ だ",
-        "formVi": "Tính từ な + だ",
-        "formEn": "na-adjective stem + だ"
+        "form": "na-adjective stem + だ",
+        "formVi": "Tính từ な (bỏ な) + だ",
+        "formEn": "na-adjective stem + だ",
+        "exampleStr": "この町は静かだ"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (keep い, NO だ)",
+        "formVi": "Tính từ い (giữ nguyên い, KHÔNG thêm だ)",
+        "formEn": "i-adjective (keep い, NO だ)",
+        "exampleStr": "このラーメンはおいしい (×おいしいだ)"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb dictionary form (V-ru)",
+        "formVi": "Động từ thể từ điển (Vる)",
+        "formEn": "Verb dictionary form (V-ru)",
+        "exampleStr": "毎日走る"
       }
     ],
     "pragmatics": {
@@ -4956,11 +5400,32 @@
     "patternRomaji": "(plain form question, rising intonation)",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "Plain form + rising intonation (no か)",
-        "exampleStr": "学生 ＋ ？",
-        "formVi": "Thể thường + lên giọng (không có か)",
-        "formEn": "Plain form + rising intonation (no か)"
+        "pos": "noun",
+        "form": "Bare noun (drop だ) + ? (rising intonation)",
+        "formVi": "Danh từ (bỏ だ) + ？ (lên giọng cuối câu)",
+        "formEn": "Bare noun (drop だ) + ? (rising intonation)",
+        "exampleStr": "明日は休み？"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective stem (drop だ) + ?",
+        "formVi": "Tính từ な (bỏ だ) + ？",
+        "formEn": "na-adjective stem (drop だ) + ?",
+        "exampleStr": "仕事は大変？"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective + ?",
+        "formVi": "Tính từ い + ？",
+        "formEn": "i-adjective + ?",
+        "exampleStr": "その本、おもしろい？"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb plain form + ?",
+        "formVi": "Động từ thể thường + ？",
+        "formEn": "Verb plain form + ?",
+        "exampleStr": "明日も行く？"
       }
     ],
     "pragmatics": {
@@ -5106,11 +5571,32 @@
     "patternRomaji": "(N1 wa) N2/A (da yo / da ne / da yo ne)",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "だ + よ／ね／よね",
-        "exampleStr": "学生 ＋ だよ",
-        "formVi": "だ + よ／ね／よね",
-        "formEn": "だ + よ／ね／よね"
+        "pos": "noun",
+        "form": "Noun + だよ / だね / だよね",
+        "formVi": "Danh từ + だよ ／ だね ／ だよね",
+        "formEn": "Noun + だよ / だね / だよね",
+        "exampleStr": "今日は金曜日だよ ／ 雨だね"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + だよ / だね / だよね",
+        "formVi": "Tính từ な + だよ ／ だね ／ だよね",
+        "formEn": "na-adjective + だよ / だね / だよね",
+        "exampleStr": "ここは静かだね ／ 大変だよね"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (no だ) + よ / ね / よね",
+        "formVi": "Tính từ い (bỏ だ) + よ ／ ね ／ よね",
+        "formEn": "i-adjective (no だ) + よ / ね / よね",
+        "exampleStr": "今日は暑いね ／ おいしいよ"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb plain form + よ / ね / よね",
+        "formVi": "Động từ thể thường + よ ／ ね ／ よね",
+        "formEn": "Verb plain form + よ / ね / よね",
+        "exampleStr": "もう帰るよ ／ よく降るね"
       }
     ],
     "pragmatics": {
@@ -5119,7 +5605,7 @@
         "spoken"
       ],
       "intent": {
-        "vi": "Khẳng định/xác nhận một sự thật trong văn nói thân mật, mang các cảm giác giống g_008_1-3",
+        "vi": "Khẳng định/xác nhận một sự thật trong văn nói thân mật, mang ý nghĩa và cách dùng giống g_008_1-3",
         "en": "Asserting/confirming a fact in casual speech, with the same nuance shades as g_008_1-3"
       },
       "speakerStance": {
@@ -5135,7 +5621,7 @@
           "en": "Same よ/ね/よね nuances as the polite forms, just riding on だ instead of です"
         },
         "description": {
-          "vi": "よ/ね/よね giữ nguyên cảm giác như đã học ở thể lịch sự (g_008_1-3), chỉ khác ở chỗ gắn vào だ (thể thường) thay vì です.",
+          "vi": "よ/ね/よね giữ nguyên ý nghĩa và cách dùng như đã học ở thể lịch sự (g_008_1-3), chỉ khác ở chỗ gắn vào だ (thể thường) thay vì です.",
           "en": "よ/ね/よね carry the exact same nuances covered for the polite forms (g_008_1-3), the only difference is attaching to だ (plain form) instead of です."
         },
         "relatedGrammarId": "g_008_1"
@@ -5246,11 +5732,32 @@
     "patternRomaji": "(N1 wa) N2/A-na janai?",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "じゃない + rising intonation",
-        "exampleStr": "学生 ＋ じゃない？",
-        "formVi": "じゃない + lên giọng",
-        "formEn": "じゃない + rising intonation"
+        "pos": "noun",
+        "form": "Noun + じゃない? (rising intonation)",
+        "formVi": "Danh từ + じゃない？ (lên giọng hỏi)",
+        "formEn": "Noun + じゃない? (rising intonation)",
+        "exampleStr": "あれは田中さんじゃない？"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + じゃない?",
+        "formVi": "Tính từ な + じゃない？",
+        "formEn": "na-adjective + じゃない?",
+        "exampleStr": "ここ、静かじゃない？"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + くない?",
+        "formVi": "Tính từ い (bỏ い) + くない？",
+        "formEn": "i-adjective (drop い) + くない?",
+        "exampleStr": "今日、寒くない？"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb nai-form + ?",
+        "formVi": "Động từ thể ない + ？",
+        "formEn": "Verb nai-form + ?",
+        "exampleStr": "一緒に行かない？"
       }
     ],
     "pragmatics": {
@@ -5386,11 +5893,32 @@
     "patternRomaji": "(N1 wa) N2/A-na janai",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "じゃない (statement, falling intonation)",
-        "exampleStr": "学生 ＋ じゃない",
-        "formVi": "じゃない (câu khẳng định, xuống giọng)",
-        "formEn": "じゃない (statement, falling intonation)"
+        "pos": "noun",
+        "form": "Noun + じゃない (plain negative)",
+        "formVi": "Danh từ + じゃない (phủ định thể thường)",
+        "formEn": "Noun + じゃない (plain negative)",
+        "exampleStr": "今日は休みじゃない"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + じゃない",
+        "formVi": "Tính từ な + じゃない",
+        "formEn": "na-adjective + じゃない",
+        "exampleStr": "あまり暇じゃない"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + くない",
+        "formVi": "Tính từ い (bỏ い) + くない",
+        "formEn": "i-adjective (drop い) + くない",
+        "exampleStr": "あまり高くない"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb nai-form (V-nai)",
+        "formVi": "Động từ thể ない (Vない)",
+        "formEn": "Verb nai-form (V-nai)",
+        "exampleStr": "お酒は飲まない"
       }
     ],
     "pragmatics": {
@@ -5527,17 +6055,31 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form + だった",
-        "exampleStr": "休み ＋ だった",
-        "formVi": "Thể từ điển + だった",
-        "formEn": "Dictionary form + だった"
+        "form": "Noun + だった (plain past affirmative)",
+        "formVi": "Danh từ + だった (quá khứ khẳng định thể thường)",
+        "formEn": "Noun + だった (plain past affirmative)",
+        "exampleStr": "昨日は雨だった"
       },
       {
         "pos": "na-adj",
-        "form": "Stem + だった",
-        "exampleStr": "暇 ＋ だった",
+        "form": "na-adjective + だった",
         "formVi": "Tính từ な + だった",
-        "formEn": "na-adjective stem + だった"
+        "formEn": "na-adjective + だった",
+        "exampleStr": "公園は静かだった"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + かった",
+        "formVi": "Tính từ い (bỏ い) + かった",
+        "formEn": "i-adjective (drop い) + かった",
+        "exampleStr": "映画はおもしろかった"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb ta-form (V-ta)",
+        "formVi": "Động từ thể た (Vた)",
+        "formEn": "Verb ta-form (V-ta)",
+        "exampleStr": "昨日映画を見た"
       }
     ],
     "pragmatics": {
@@ -5674,17 +6216,31 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "Dictionary form + じゃなかった",
-        "exampleStr": "休み ＋ じゃなかった",
-        "formVi": "Thể từ điển + じゃなかった",
-        "formEn": "Dictionary form + じゃなかった"
+        "form": "Noun + じゃなかった (plain past negative)",
+        "formVi": "Danh từ + じゃなかった (quá khứ phủ định thể thường)",
+        "formEn": "Noun + じゃなかった (plain past negative)",
+        "exampleStr": "昨日は休みじゃなかった"
       },
       {
         "pos": "na-adj",
-        "form": "Stem + じゃなかった",
-        "exampleStr": "暇 ＋ じゃなかった",
+        "form": "na-adjective + じゃなかった",
         "formVi": "Tính từ な + じゃなかった",
-        "formEn": "na-adjective stem + じゃなかった"
+        "formEn": "na-adjective + じゃなかった",
+        "exampleStr": "テストは簡単じゃなかった"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + くなかった",
+        "formVi": "Tính từ い (bỏ い) + くなかった",
+        "formEn": "i-adjective (drop い) + くなかった",
+        "exampleStr": "あまり寒くなかった"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb V-nakatta",
+        "formVi": "Động từ Vなかった",
+        "formEn": "Verb V-nakatta",
+        "exampleStr": "昨日はどこも出かけなかった"
       }
     ],
     "pragmatics": {
@@ -5820,10 +6376,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "Dictionary form + rising intonation",
-        "exampleStr": "高い ＋ ？",
-        "formVi": "Thể từ điển + lên giọng",
-        "formEn": "Dictionary form + rising intonation"
+        "form": "i-adjective + ? (rising intonation in plain form)",
+        "formVi": "Tính từ い + ？（lên giọng hỏi ở thể thường）",
+        "formEn": "i-adjective + ? (rising intonation in plain form)",
+        "exampleStr": "その映画、おもしろい？"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + くない? (negative question)",
+        "formVi": "Tính từ い (bỏ い) + くない？（hỏi phủ định）",
+        "formEn": "i-adjective (drop い) + くない? (negative question)",
+        "exampleStr": "これ、高くない？"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + かった? (past question)",
+        "formVi": "Tính từ い (bỏ い) + かった？（hỏi quá khứ）",
+        "formEn": "i-adjective (drop い) + かった? (past question)",
+        "exampleStr": "テスト、難しかった？"
       }
     ],
     "pragmatics": {
@@ -5958,10 +6528,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "Dictionary form (falling intonation)",
-        "exampleStr": "高い。",
-        "formVi": "Thể từ điển (xuống giọng)",
-        "formEn": "Dictionary form (falling intonation)"
+        "form": "i-adjective (dictionary form, NO だ)",
+        "formVi": "Tính từ い (dạng gốc, KHÔNG thêm だ)",
+        "formEn": "i-adjective (dictionary form, NO だ)",
+        "exampleStr": "今日は暑い"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective + よ / ね / よね",
+        "formVi": "Tính từ い + よ ／ ね ／ よね",
+        "formEn": "i-adjective + よ / ね / よね",
+        "exampleStr": "このケーキ、おいしいね"
+      },
+      {
+        "pos": "i-adj",
+        "form": "Irregular: いい (good)",
+        "formVi": "Bất quy tắc: いい (tốt)",
+        "formEn": "Irregular: いい (good)",
+        "exampleStr": "天気がいいよ"
       }
     ],
     "pragmatics": {
@@ -6095,11 +6679,32 @@
     "patternRomaji": "~ kedo ~",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "Clause1 (plain or polite) + けど + Clause2",
-        "exampleStr": "安い ＋ けど ＋ おいしくない",
-        "formVi": "Mệnh đề 1 (thường hoặc lịch sự) + けど + Mệnh đề 2",
-        "formEn": "Clause1 (plain or polite) + けど + Clause2"
+        "pos": "verb",
+        "form": "Verb (plain / polite) + けど, ~",
+        "formVi": "Động từ (thường / lịch sự) + けど、〜",
+        "formEn": "Verb (plain / polite) + けど, ~",
+        "exampleStr": "電話したけど、出なかった"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (+ です) + けど, ~",
+        "formVi": "Tính từ い (＋です) + けど、〜",
+        "formEn": "i-adjective (+ です) + けど, ~",
+        "exampleStr": "おいしいけど、ちょっと高い"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + だ／です + けど, ~",
+        "formVi": "Tính từ な + だ／です + けど、〜",
+        "formEn": "na-adjective + だ／です + けど, ~",
+        "exampleStr": "便利だけど、家賃が高い"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + だ／です + けど, ~",
+        "formVi": "Danh từ + だ／です + けど、〜",
+        "formEn": "Noun + だ／です + けど, ~",
+        "exampleStr": "日曜日だけど、仕事がある"
       }
     ],
     "pragmatics": {
@@ -6236,10 +6841,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "い → かった (past, plain)",
-        "exampleStr": "高い → 高かった",
-        "formVi": "い → かった (quá khứ, thể thường)",
-        "formEn": "い → かった (past, plain)"
+        "form": "i-adjective (drop い) + かった (plain past affirmative)",
+        "formVi": "Tính từ い (bỏ い) + かった (quá khứ khẳng định thể thường)",
+        "formEn": "i-adjective (drop い) + かった (plain past affirmative)",
+        "exampleStr": "昨日は忙しかった"
+      },
+      {
+        "pos": "i-adj",
+        "form": "Irregular: いい → よかった",
+        "formVi": "Bất quy tắc: いい → よかった",
+        "formEn": "Irregular: いい → よかった",
+        "exampleStr": "映画、とてもよかったよ"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + かった? (question)",
+        "formVi": "Tính từ い (bỏ い) + かった？（lên giọng hỏi）",
+        "formEn": "i-adjective (drop い) + かった? (question)",
+        "exampleStr": "旅行はどうだった？楽しかった？"
       }
     ],
     "pragmatics": {
@@ -6385,10 +7004,24 @@
     "formationRules": [
       {
         "pos": "i-adj",
-        "form": "い → くなかった (past negative, plain, any tense)",
-        "exampleStr": "高い → 高くなかった",
-        "formVi": "い → くなかった (phủ định quá khứ, thể thường, mọi thì)",
-        "formEn": "い → くなかった (past negative, plain, any tense)"
+        "form": "i-adjective (drop い) + くなかった (plain past negative)",
+        "formVi": "Tính từ い (bỏ い) + くなかった (quá khứ phủ định thể thường)",
+        "formEn": "i-adjective (drop い) + くなかった (plain past negative)",
+        "exampleStr": "昨日はあまり寒くなかった"
+      },
+      {
+        "pos": "i-adj",
+        "form": "Irregular: いい → よくなかった",
+        "formVi": "Bất quy tắc: いい → よくなかった",
+        "formEn": "Irregular: いい → よくなかった",
+        "exampleStr": "天気があまりよくなかった"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + くなかった?",
+        "formVi": "Tính từ い (bỏ い) + くなかった？（hỏi phủ định quá khứ）",
+        "formEn": "i-adjective (drop い) + くなかった?",
+        "exampleStr": "テスト、難しくなかった？"
       }
     ],
     "pragmatics": {
@@ -6523,10 +7156,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(inanimate object) + はありますか",
-        "exampleStr": "ペン ＋ はありますか",
-        "formVi": "(đồ vật) + はありますか",
-        "formEn": "(inanimate object) + はありますか"
+        "form": "(inanimate object) + はありますか (basic structure)",
+        "formVi": "(đồ vật) + はありますか (cấu trúc cơ bản)",
+        "formEn": "(inanimate object) + はありますか (basic structure)",
+        "exampleStr": "ペンはありますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(inanimate object) + はありますか (negative / extended usage)",
+        "formVi": "(đồ vật) + はありますか (dạng phủ định / mở rộng)",
+        "formEn": "(inanimate object) + はありますか (negative / extended usage)",
+        "exampleStr": "すみません、コピー機はありますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(inanimate object) + はありますか (question / conversational usage)",
+        "formVi": "(đồ vật) + はありますか (dạng câu hỏi / hội thoại)",
+        "formEn": "(inanimate object) + はありますか (question / conversational usage)",
+        "exampleStr": "すみません、今日はもう席がありません。"
       }
     ],
     "pragmatics": {
@@ -6662,10 +7309,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(vật) は (địa điểm)です/にあります",
-        "exampleStr": "トイレ ＋ はあそこにあります",
-        "formVi": "(vật) は (địa điểm)です/にあります",
-        "formEn": "(thing) は (place)です/にあります"
+        "form": "(thing) は (place)です/にあります (basic structure)",
+        "formVi": "(vật) は (địa điểm)です/にあります (cấu trúc cơ bản)",
+        "formEn": "(thing) は (place)です/にあります (basic structure)",
+        "exampleStr": "トイレはあそこにあります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(thing) は (place)です/にあります (negative / extended usage)",
+        "formVi": "(vật) は (địa điểm)です/にあります (dạng phủ định / mở rộng)",
+        "formEn": "(thing) は (place)です/にあります (negative / extended usage)",
+        "exampleStr": "エレベーターは2階にございます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(thing) は (place)です/にあります (question / conversational usage)",
+        "formVi": "(vật) は (địa điểm)です/にあります (dạng câu hỏi / hội thoại)",
+        "formEn": "(thing) は (place)です/にあります (question / conversational usage)",
+        "exampleStr": "ATMはこの建物の中にありますか。"
       }
     ],
     "pragmatics": {
@@ -6800,10 +7461,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(địa điểm)に (vật)があります",
-        "exampleStr": "公園 ＋ にベンチがあります",
-        "formVi": "(địa điểm)に (vật)があります",
-        "formEn": "(place)に (thing)があります"
+        "form": "(place)に (thing)があります (basic structure)",
+        "formVi": "(địa điểm)に (vật)があります (cấu trúc cơ bản)",
+        "formEn": "(place)に (thing)があります (basic structure)",
+        "exampleStr": "公園にベンチがあります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)に (thing)があります (negative / extended usage)",
+        "formVi": "(địa điểm)に (vật)があります (dạng phủ định / mở rộng)",
+        "formEn": "(place)に (thing)があります (negative / extended usage)",
+        "exampleStr": "この近くにコンビニがありますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)に (thing)があります (question / conversational usage)",
+        "formVi": "(địa điểm)に (vật)があります (dạng câu hỏi / hội thoại)",
+        "formEn": "(place)に (thing)があります (question / conversational usage)",
+        "exampleStr": "この駅の周りにはレストランがありません。"
       }
     ],
     "pragmatics": {
@@ -6939,10 +7614,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(person/animal) + はいますか",
-        "exampleStr": "田中さん ＋ はいますか",
-        "formVi": "(người/động vật) + はいますか",
-        "formEn": "(person/animal) + はいますか"
+        "form": "(person/animal) + はいますか (basic structure)",
+        "formVi": "(người/động vật) + はいますか (cấu trúc cơ bản)",
+        "formEn": "(person/animal) + はいますか (basic structure)",
+        "exampleStr": "田中さんはいますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(person/animal) + はいますか (negative / extended usage)",
+        "formVi": "(người/động vật) + はいますか (dạng phủ định / mở rộng)",
+        "formEn": "(person/animal) + はいますか (negative / extended usage)",
+        "exampleStr": "恐れ入りますが、田中はおりますでしょうか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(person/animal) + はいますか (question / conversational usage)",
+        "formVi": "(người/động vật) + はいますか (dạng câu hỏi / hội thoại)",
+        "formEn": "(person/animal) + はいますか (question / conversational usage)",
+        "exampleStr": "今、事務所には誰もいません。"
       }
     ],
     "pragmatics": {
@@ -7079,10 +7768,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(người/vật sống) は (địa điểm)にいます",
-        "exampleStr": "田中さん ＋ は教室にいます",
-        "formVi": "(người/vật sống) は (địa điểm)にいます",
-        "formEn": "(person/living thing) は (place)にいます"
+        "form": "(person/living thing) は (place)にいます (basic structure)",
+        "formVi": "(người/vật sống) は (địa điểm)にいます (cấu trúc cơ bản)",
+        "formEn": "(person/living thing) は (place)にいます (basic structure)",
+        "exampleStr": "田中さんは教室にいます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(person/living thing) は (place)にいます (negative / extended usage)",
+        "formVi": "(người/vật sống) は (địa điểm)にいます (dạng phủ định / mở rộng)",
+        "formEn": "(person/living thing) は (place)にいます (negative / extended usage)",
+        "exampleStr": "部長は今、会議室におります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(person/living thing) は (place)にいます (question / conversational usage)",
+        "formVi": "(người/vật sống) は (địa điểm)にいます (dạng câu hỏi / hội thoại)",
+        "formEn": "(person/living thing) は (place)にいます (question / conversational usage)",
+        "exampleStr": "お母さんはどこにいますか。"
       }
     ],
     "pragmatics": {
@@ -7219,10 +7922,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(địa điểm)に (người/vật)がいます",
-        "exampleStr": "教室 ＋ に学生がいます",
-        "formVi": "(địa điểm)に (người/vật)がいます",
-        "formEn": "(place)に (person/thing)がいます"
+        "form": "(place)に (person/thing)がいます (basic structure)",
+        "formVi": "(địa điểm)に (người/vật)がいます (cấu trúc cơ bản)",
+        "formEn": "(place)に (person/thing)がいます (basic structure)",
+        "exampleStr": "教室に学生がいます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)に (person/thing)がいます (negative / extended usage)",
+        "formVi": "(địa điểm)に (người/vật)がいます (dạng phủ định / mở rộng)",
+        "formEn": "(place)に (person/thing)がいます (negative / extended usage)",
+        "exampleStr": "受付に誰かいますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)に (person/thing)がいます (question / conversational usage)",
+        "formVi": "(địa điểm)に (người/vật)がいます (dạng câu hỏi / hội thoại)",
+        "formEn": "(place)に (person/thing)がいます (question / conversational usage)",
+        "exampleStr": "公園には誰もいません。"
       }
     ],
     "pragmatics": {
@@ -7359,10 +8076,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(địa điểm) + には／にも",
-        "exampleStr": "公園 ＋ には池があります",
-        "formVi": "(địa điểm) + には／にも",
-        "formEn": "(place) + には／にも"
+        "form": "(place) + には／にも (basic structure)",
+        "formVi": "(địa điểm) + には／にも (cấu trúc cơ bản)",
+        "formEn": "(place) + には／にも (basic structure)",
+        "exampleStr": "この公園には大きい池があります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place) + には／にも (negative / extended usage)",
+        "formVi": "(địa điểm) + には／にも (dạng phủ định / mở rộng)",
+        "formEn": "(place) + には／にも (negative / extended usage)",
+        "exampleStr": "この店にはベジタリアン向けのメニューもございます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place) + には／にも (question / conversational usage)",
+        "formVi": "(địa điểm) + には／にも (dạng câu hỏi / hội thoại)",
+        "formEn": "(place) + には／にも (question / conversational usage)",
+        "exampleStr": "この図書館にも自習室がありますか。"
       }
     ],
     "pragmatics": {
@@ -7497,10 +8228,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1 + と + N2",
-        "exampleStr": "ペン ＋ と ＋ ノート",
-        "formVi": "N1 + と + N2",
-        "formEn": "N1 + と + N2"
+        "form": "N1 + と + N2 (basic structure)",
+        "formVi": "N1 + と + N2 (cấu trúc cơ bản)",
+        "formEn": "N1 + と + N2 (basic structure)",
+        "exampleStr": "机の上にペンとノートがあります。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 + と + N2 (negative / extended usage)",
+        "formVi": "N1 + と + N2 (dạng phủ định / mở rộng)",
+        "formEn": "N1 + と + N2 (negative / extended usage)",
+        "exampleStr": "田中さんと鈴木さんが来ます。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 + と + N2 (question / conversational usage)",
+        "formVi": "N1 + と + N2 (dạng câu hỏi / hội thoại)",
+        "formEn": "N1 + と + N2 (question / conversational usage)",
+        "exampleStr": "コーヒーと紅茶、どちらがいいですか。"
       }
     ],
     "pragmatics": {
@@ -7639,10 +8384,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "が + (số lượng) + います／あります",
-        "exampleStr": "学生 ＋ が5人 ＋ います",
-        "formVi": "が + (số lượng) + います／あります",
-        "formEn": "が + (quantity) + います／あります"
+        "form": "が + (quantity) + います／あります (basic structure)",
+        "formVi": "が + (số lượng) + います／あります (cấu trúc cơ bản)",
+        "formEn": "が + (quantity) + います／あります (basic structure)",
+        "exampleStr": "教室に学生が20人います。"
+      },
+      {
+        "pos": "noun",
+        "form": "が + (quantity) + います／あります (negative / extended usage)",
+        "formVi": "が + (số lượng) + います／あります (dạng phủ định / mở rộng)",
+        "formEn": "が + (quantity) + います／あります (negative / extended usage)",
+        "exampleStr": "この図書館には本が10万冊あります。"
+      },
+      {
+        "pos": "noun",
+        "form": "が + (quantity) + います／あります (question / conversational usage)",
+        "formVi": "が + (số lượng) + います／あります (dạng câu hỏi / hội thoại)",
+        "formEn": "が + (quantity) + います／あります (question / conversational usage)",
+        "exampleStr": "兄弟は何人いますか。"
       }
     ],
     "pragmatics": {
@@ -7799,6 +8558,13 @@
         "exampleStr": "食べる → 食べ ＋ ました",
         "formVi": "Vます bỏ ます + ました (quá khứ)",
         "formEn": "Masu-stem (V without ます) + ました (past)"
+      },
+      {
+        "pos": "verb",
+        "form": "Group 3 verb: する / くる conjugation",
+        "formVi": "Động từ nhóm 3: する → して／した／しない、くる → きて／きた／こない",
+        "formEn": "Group 3 verb: する / くる conjugation",
+        "exampleStr": "昨日は勉強しませんでした。"
       }
     ],
     "pragmatics": {
@@ -7934,10 +8700,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(giờ) + に + Vます",
-        "exampleStr": "7時 ＋ に起きます",
-        "formVi": "(giờ) + に + Vます",
-        "formEn": "(time) + に + Vます"
+        "form": "(time) + に + Vます (basic structure)",
+        "formVi": "(giờ) + に + Vます (cấu trúc cơ bản)",
+        "formEn": "(time) + に + Vます (basic structure)",
+        "exampleStr": "毎朝7時に起きます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time) + に + Vます (negative / extended usage)",
+        "formVi": "(giờ) + に + Vます (dạng phủ định / mở rộng)",
+        "formEn": "(time) + に + Vます (negative / extended usage)",
+        "exampleStr": "会議は3時に始まります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time) + に + Vます (question / conversational usage)",
+        "formVi": "(giờ) + に + Vます (dạng câu hỏi / hội thoại)",
+        "formEn": "(time) + に + Vます (question / conversational usage)",
+        "exampleStr": "何時に寝ますか。"
       }
     ],
     "pragmatics": {
@@ -8073,10 +8853,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(khoảng thời gian, không に) + Vます",
-        "exampleStr": "2時間 ＋ 勉強します",
-        "formVi": "(khoảng thời gian, không に) + Vます",
-        "formEn": "(time span, no に) + Vます"
+        "form": "(time span, no に) + Vます (basic structure)",
+        "formVi": "(khoảng thời gian, không に) + Vます (cấu trúc cơ bản)",
+        "formEn": "(time span, no に) + Vます (basic structure)",
+        "exampleStr": "毎日2時間勉強します。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time span, no に) + Vます (negative / extended usage)",
+        "formVi": "(khoảng thời gian, không に) + Vます (dạng phủ định / mở rộng)",
+        "formEn": "(time span, no に) + Vます (negative / extended usage)",
+        "exampleStr": "会議は1時間くらい続きました。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time span, no に) + Vます (question / conversational usage)",
+        "formVi": "(khoảng thời gian, không に) + Vます (dạng câu hỏi / hội thoại)",
+        "formEn": "(time span, no に) + Vます (question / conversational usage)",
+        "exampleStr": "毎日どのくらい寝ますか。"
       }
     ],
     "pragmatics": {
@@ -8223,10 +9017,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(thời gian/địa điểm)から～まで + V",
-        "exampleStr": "9時 ＋ から5時まで働きます",
-        "formVi": "(thời gian/địa điểm)から～まで + V",
-        "formEn": "(time/place)から～まで + V"
+        "form": "(time/place)から～まで + V (basic structure)",
+        "formVi": "(thời gian/địa điểm)から～まで + V (cấu trúc cơ bản)",
+        "formEn": "(time/place)から～まで + V (basic structure)",
+        "exampleStr": "9時から5時まで働きます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time/place)から～まで + V (negative / extended usage)",
+        "formVi": "(thời gian/địa điểm)から～まで + V (dạng phủ định / mở rộng)",
+        "formEn": "(time/place)から～まで + V (negative / extended usage)",
+        "exampleStr": "家から駅まで歩いて行きます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time/place)から～まで + V (question / conversational usage)",
+        "formVi": "(thời gian/địa điểm)から～まで + V (dạng câu hỏi / hội thoại)",
+        "formEn": "(time/place)から～まで + V (question / conversational usage)",
+        "exampleStr": "空港まではここからどのくらいですか。"
       }
     ],
     "pragmatics": {
@@ -8374,6 +9182,13 @@
         "exampleStr": "食べる → 食べ ＋ ませんでした",
         "formVi": "Vます bỏ ます + ませんでした (phủ định quá khứ)",
         "formEn": "Masu-stem (V without ます) + ませんでした (past negative)"
+      },
+      {
+        "pos": "verb",
+        "form": "Group 3 verb: する / くる conjugation",
+        "formVi": "Động từ nhóm 3: する → して／した／しない、くる → きて／きた／こない",
+        "formEn": "Group 3 verb: する / くる conjugation",
+        "exampleStr": "昨日は雨が降りませんでした。"
       }
     ],
     "pragmatics": {
@@ -8509,10 +9324,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(địa điểm)へ/に + 帰ります",
-        "exampleStr": "国 ＋ へ帰ります",
-        "formVi": "(địa điểm)へ/に + 帰ります",
-        "formEn": "(place)へ/に + 帰ります"
+        "form": "(place)へ/に + 帰ります (basic structure)",
+        "formVi": "(địa điểm)へ/に + 帰ります (cấu trúc cơ bản)",
+        "formEn": "(place)へ/に + 帰ります (basic structure)",
+        "exampleStr": "毎年、夏に国へ帰ります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)へ/に + 帰ります (negative / extended usage)",
+        "formVi": "(địa điểm)へ/に + 帰ります (dạng phủ định / mở rộng)",
+        "formEn": "(place)へ/に + 帰ります (negative / extended usage)",
+        "exampleStr": "何時に家へ帰りますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)へ/に + 帰ります (question / conversational usage)",
+        "formVi": "(địa điểm)へ/に + 帰ります (dạng câu hỏi / hội thoại)",
+        "formEn": "(place)へ/に + 帰ります (question / conversational usage)",
+        "exampleStr": "今日は遅くまで帰りません。"
       }
     ],
     "pragmatics": {
@@ -8650,10 +9479,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(địa điểm)へ/に + 行きます",
-        "exampleStr": "学校 ＋ へ行きます",
-        "formVi": "(địa điểm)へ/に + 行きます",
-        "formEn": "(place)へ/に + 行きます"
+        "form": "(place)へ/に + 行きます (basic structure)",
+        "formVi": "(địa điểm)へ/に + 行きます (cấu trúc cơ bản)",
+        "formEn": "(place)へ/に + 行きます (basic structure)",
+        "exampleStr": "毎日、学校へ行きます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)へ/に + 行きます (negative / extended usage)",
+        "formVi": "(địa điểm)へ/に + 行きます (dạng phủ định / mở rộng)",
+        "formEn": "(place)へ/に + 行きます (negative / extended usage)",
+        "exampleStr": "今度、京都に行きたいです。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)へ/に + 行きます (question / conversational usage)",
+        "formVi": "(địa điểm)へ/に + 行きます (dạng câu hỏi / hội thoại)",
+        "formEn": "(place)へ/に + 行きます (question / conversational usage)",
+        "exampleStr": "休みの日、どこへ行きますか。"
       }
     ],
     "pragmatics": {
@@ -8790,10 +9633,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(địa điểm)へ/に + 来ます",
-        "exampleStr": "ここ ＋ へ来ます",
-        "formVi": "(địa điểm)へ/に + 来ます",
-        "formEn": "(place)へ/に + 来ます"
+        "form": "(place)へ/に + 来ます (basic structure)",
+        "formVi": "(địa điểm)へ/に + 来ます (cấu trúc cơ bản)",
+        "formEn": "(place)へ/に + 来ます (basic structure)",
+        "exampleStr": "明日、うちへ来ますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)へ/に + 来ます (negative / extended usage)",
+        "formVi": "(địa điểm)へ/に + 来ます (dạng phủ định / mở rộng)",
+        "formEn": "(place)へ/に + 来ます (negative / extended usage)",
+        "exampleStr": "田中さんはもうすぐこちらに来ます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)へ/に + 来ます (question / conversational usage)",
+        "formVi": "(địa điểm)へ/に + 来ます (dạng câu hỏi / hội thoại)",
+        "formEn": "(place)へ/に + 来ます (question / conversational usage)",
+        "exampleStr": "今日、山田さんは来ません。"
       }
     ],
     "pragmatics": {
@@ -8930,10 +9787,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(địa điểm)で + V",
-        "exampleStr": "図書館 ＋ で勉強します",
-        "formVi": "(địa điểm)で + V",
-        "formEn": "(place)で + V"
+        "form": "(place)で + V (basic structure)",
+        "formVi": "(địa điểm)で + V (cấu trúc cơ bản)",
+        "formEn": "(place)で + V (basic structure)",
+        "exampleStr": "図書館で勉強します。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)で + V (negative / extended usage)",
+        "formVi": "(địa điểm)で + V (dạng phủ định / mở rộng)",
+        "formEn": "(place)で + V (negative / extended usage)",
+        "exampleStr": "このレストランで食事をしました。"
+      },
+      {
+        "pos": "noun",
+        "form": "(place)で + V (question / conversational usage)",
+        "formVi": "(địa điểm)で + V (dạng câu hỏi / hội thoại)",
+        "formEn": "(place)で + V (question / conversational usage)",
+        "exampleStr": "どこで日本語を勉強しましたか。"
       }
     ],
     "pragmatics": {
@@ -9070,10 +9941,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(đối tượng) + を + V (tha động từ)",
-        "exampleStr": "パン ＋ を食べます",
-        "formVi": "(đối tượng) + を + V (tha động từ)",
-        "formEn": "(object) + を + V (transitive verb)"
+        "form": "(object) + を + V (transitive verb) (basic structure)",
+        "formVi": "(đối tượng) + を + V (tha động từ) (cấu trúc cơ bản)",
+        "formEn": "(object) + を + V (transitive verb) (basic structure)",
+        "exampleStr": "朝ごはんにパンを食べます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(object) + を + V (transitive verb) (negative / extended usage)",
+        "formVi": "(đối tượng) + を + V (tha động từ) (dạng phủ định / mở rộng)",
+        "formEn": "(object) + を + V (transitive verb) (negative / extended usage)",
+        "exampleStr": "毎日、新聞を読みます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(object) + を + V (transitive verb) (question / conversational usage)",
+        "formVi": "(đối tượng) + を + V (tha động từ) (dạng câu hỏi / hội thoại)",
+        "formEn": "(object) + を + V (transitive verb) (question / conversational usage)",
+        "exampleStr": "何を勉強していますか。"
       }
     ],
     "pragmatics": {
@@ -9209,10 +10094,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(người) + と + V",
-        "exampleStr": "友達 ＋ と話します",
-        "formVi": "(người) + と + V",
-        "formEn": "(person) + と + V"
+        "form": "(person) + と + V (basic structure)",
+        "formVi": "(người) + と + V (cấu trúc cơ bản)",
+        "formEn": "(person) + と + V (basic structure)",
+        "exampleStr": "友達と話します。"
+      },
+      {
+        "pos": "noun",
+        "form": "(person) + と + V (negative / extended usage)",
+        "formVi": "(người) + と + V (dạng phủ định / mở rộng)",
+        "formEn": "(person) + と + V (negative / extended usage)",
+        "exampleStr": "週末、家族と食事をします。"
+      },
+      {
+        "pos": "noun",
+        "form": "(person) + と + V (question / conversational usage)",
+        "formVi": "(người) + と + V (dạng câu hỏi / hội thoại)",
+        "formEn": "(person) + と + V (question / conversational usage)",
+        "exampleStr": "誰と映画を見ましたか。"
       }
     ],
     "pragmatics": {
@@ -9358,6 +10257,13 @@
         "exampleStr": "コーヒー ＋ や紅茶など",
         "formVi": "N1やN2（など）",
         "formEn": "N1やN2（など）"
+      },
+      {
+        "pos": "noun",
+        "form": "N1やN2（など） (in full sentence)",
+        "formVi": "N1やN2（など） (áp dụng trong câu thực tế)",
+        "formEn": "N1やN2（など） (in full sentence)",
+        "exampleStr": "週末は買い物とか掃除とか、忙しいです。"
       }
     ],
     "pragmatics": {
@@ -9494,10 +10400,24 @@
     "formationRules": [
       {
         "pos": "phrase",
-        "form": "どこ/だれ/何 + か + Vか",
-        "exampleStr": "何 ＋ か食べますか",
-        "formVi": "どこ/だれ/何 + か + Vか",
-        "formEn": "どこ/だれ/何 + か + Vか"
+        "form": "どこ/だれ/何 + か + Vか (basic structure)",
+        "formVi": "どこ/だれ/何 + か + Vか (cấu trúc cơ bản)",
+        "formEn": "どこ/だれ/何 + か + Vか (basic structure)",
+        "exampleStr": "何か食べますか。"
+      },
+      {
+        "pos": "phrase",
+        "form": "どこ/だれ/何 + か + Vか (negative / extended usage)",
+        "formVi": "どこ/だれ/何 + か + Vか (dạng phủ định / mở rộng)",
+        "formEn": "どこ/だれ/何 + か + Vか (negative / extended usage)",
+        "exampleStr": "どこか行きたいところはありますか。"
+      },
+      {
+        "pos": "phrase",
+        "form": "どこ/だれ/何 + か + Vか (question / conversational usage)",
+        "formVi": "どこ/だれ/何 + か + Vか (dạng câu hỏi / hội thoại)",
+        "formEn": "どこ/だれ/何 + か + Vか (question / conversational usage)",
+        "exampleStr": "誰か日本語がわかりますか。"
       }
     ],
     "pragmatics": {
@@ -9633,10 +10553,24 @@
     "formationRules": [
       {
         "pos": "phrase",
-        "form": "どこ/だれ/何 + も + V（ない）",
-        "exampleStr": "何 ＋ も食べません",
-        "formVi": "どこ/だれ/何 + も + V（ない）",
-        "formEn": "どこ/だれ/何 + も + V（ない）"
+        "form": "どこ/だれ/何 + も + V（ない） (basic structure)",
+        "formVi": "どこ/だれ/何 + も + V（ない） (cấu trúc cơ bản)",
+        "formEn": "どこ/だれ/何 + も + V（ない） (basic structure)",
+        "exampleStr": "今日は何も食べませんでした。"
+      },
+      {
+        "pos": "phrase",
+        "form": "どこ/だれ/何 + も + V（ない） (negative / extended usage)",
+        "formVi": "どこ/だれ/何 + も + V（ない） (dạng phủ định / mở rộng)",
+        "formEn": "どこ/だれ/何 + も + V（ない） (negative / extended usage)",
+        "exampleStr": "週末はどこも行きませんでした。"
+      },
+      {
+        "pos": "phrase",
+        "form": "どこ/だれ/何 + も + V（ない） (question / conversational usage)",
+        "formVi": "どこ/だれ/何 + も + V（ない） (dạng câu hỏi / hội thoại)",
+        "formEn": "どこ/だれ/何 + も + V（ない） (question / conversational usage)",
+        "exampleStr": "教室には誰もいませんでした。"
       }
     ],
     "pragmatics": {
@@ -9716,7 +10650,7 @@
         "vi": "Tiền, chẳng có tí nào cả.",
         "en": "I have no money at all.",
         "contextualExplanation": {
-          "vi": "全然 (hoàn toàn không) mang cảm giác tương tự どこも/何も/誰も khi kết hợp với phủ định.",
+          "vi": "全然 (hoàn toàn không) mang ý nhấn mạnh phủ định tương tự どこも/何も/誰も khi kết hợp với phủ định.",
           "en": "全然 (\"not at all\") carries a similar nuance to どこも/何も/誰も when paired with a negative."
         }
       },
@@ -9772,10 +10706,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N + を + (số lượng) + ください",
-        "exampleStr": "コーヒー ＋ を2つください",
-        "formVi": "N + を + (số lượng) + ください",
-        "formEn": "N + を + (quantity) + ください"
+        "form": "N + を + (quantity) + ください (basic structure)",
+        "formVi": "N + を + (số lượng) + ください (cấu trúc cơ bản)",
+        "formEn": "N + を + (quantity) + ください (basic structure)",
+        "exampleStr": "コーヒーを2つください。"
+      },
+      {
+        "pos": "noun",
+        "form": "N + を + (quantity) + ください (negative / extended usage)",
+        "formVi": "N + を + (số lượng) + ください (dạng phủ định / mở rộng)",
+        "formEn": "N + を + (quantity) + ください (negative / extended usage)",
+        "exampleStr": "このりんごを3個お願いします。"
+      },
+      {
+        "pos": "noun",
+        "form": "N + を + (quantity) + ください (question / conversational usage)",
+        "formVi": "N + を + (số lượng) + ください (dạng câu hỏi / hội thoại)",
+        "formEn": "N + を + (quantity) + ください (question / conversational usage)",
+        "exampleStr": "すみません、この切符を1枚もらえますか。"
       }
     ],
     "pragmatics": {
@@ -9911,10 +10859,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(khoảng thời gian)に + tần suất/số lượng + V",
-        "exampleStr": "一週間 ＋ に3回運動します",
-        "formVi": "(khoảng thời gian)に + tần suất/số lượng + V",
-        "formEn": "(time span)に + frequency/amount + V"
+        "form": "(time span)に + frequency/amount + V (basic structure)",
+        "formVi": "(khoảng thời gian)に + tần suất/số lượng + V (cấu trúc cơ bản)",
+        "formEn": "(time span)に + frequency/amount + V (basic structure)",
+        "exampleStr": "一週間に3回運動します。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time span)に + frequency/amount + V (negative / extended usage)",
+        "formVi": "(khoảng thời gian)に + tần suất/số lượng + V (dạng phủ định / mở rộng)",
+        "formEn": "(time span)に + frequency/amount + V (negative / extended usage)",
+        "exampleStr": "このバスは1時間に2本あります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(time span)に + frequency/amount + V (question / conversational usage)",
+        "formVi": "(khoảng thời gian)に + tần suất/số lượng + V (dạng câu hỏi / hội thoại)",
+        "formEn": "(time span)に + frequency/amount + V (question / conversational usage)",
+        "exampleStr": "一年に何回旅行しますか。"
       }
     ],
     "pragmatics": {
@@ -10062,6 +11024,13 @@
         "exampleStr": "食べる → 食べ ＋ ましょう",
         "formVi": "Vます bỏ ます + ましょう (đề nghị)",
         "formEn": "Masu-stem (V without ます) + ましょう (suggesting)"
+      },
+      {
+        "pos": "verb",
+        "form": "Group 3 verb: する / くる conjugation",
+        "formVi": "Động từ nhóm 3: する → して／した／しない、くる → きて／きた／こない",
+        "formEn": "Group 3 verb: する / くる conjugation",
+        "exampleStr": "週末、映画を見に行きませんか。"
       }
     ],
     "pragmatics": {
@@ -10196,10 +11165,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(vật) + が欲しいです",
-        "exampleStr": "新しい靴 ＋ が欲しいです",
-        "formVi": "(vật) + が欲しいです",
-        "formEn": "(thing) + が欲しいです"
+        "form": "(thing) + が欲しいです (basic structure)",
+        "formVi": "(vật) + が欲しいです (cấu trúc cơ bản)",
+        "formEn": "(thing) + が欲しいです (basic structure)",
+        "exampleStr": "新しい靴が欲しいです。"
+      },
+      {
+        "pos": "noun",
+        "form": "(thing) + が欲しいです (negative / extended usage)",
+        "formVi": "(vật) + が欲しいです (dạng phủ định / mở rộng)",
+        "formEn": "(thing) + が欲しいです (negative / extended usage)",
+        "exampleStr": "誕生日に何が欲しいですか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(thing) + が欲しいです (question / conversational usage)",
+        "formVi": "(vật) + が欲しいです (dạng câu hỏi / hội thoại)",
+        "formEn": "(thing) + が欲しいです (question / conversational usage)",
+        "exampleStr": "今は特に何も欲しくないです。"
       }
     ],
     "pragmatics": {
@@ -10359,6 +11342,13 @@
         "exampleStr": "買い物 ＋ に行きます",
         "formVi": "N2 + に + 行きます/来ます/帰ります",
         "formEn": "N2 + に + 行きます/来ます/帰ります"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb (Groups 1, 2, 3) in the required form",
+        "formVi": "Động từ (nhóm 1・2・3) chia đúng thể yêu cầu trước mẫu câu",
+        "formEn": "Verb (Groups 1, 2, 3) in the required form",
+        "exampleStr": "何をしに日本へ来ましたか。"
       }
     ],
     "pragmatics": {
@@ -10504,10 +11494,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Masu-stem + たいです",
-        "exampleStr": "食べる → 食べ ＋ たいです",
-        "formVi": "Vます bỏ ます + たいです",
-        "formEn": "Masu-stem (V without ます) + たいです"
+        "form": "Masu-stem (V without ます) + たいです (Group 1: u-row → i-row)",
+        "formVi": "Vます bỏ ます + たいです (Nhóm 1: đổi đuôi hàng う → hàng い)",
+        "formEn": "Masu-stem (V without ます) + たいです (Group 1: u-row → i-row)",
+        "exampleStr": "食べる → 食べ ＋ たいです"
+      },
+      {
+        "pos": "verb",
+        "form": "Masu-stem (V without ます) + たいです (Group 2: drop る)",
+        "formVi": "Vます bỏ ます + たいです (Nhóm 2: bỏ る)",
+        "formEn": "Masu-stem (V without ます) + たいです (Group 2: drop る)",
+        "exampleStr": "食べる → 食べ ＋ たいです"
+      },
+      {
+        "pos": "verb",
+        "form": "Masu-stem (V without ます) + たいです (Group 3: する → し, くる → き)",
+        "formVi": "Vます bỏ ます + たいです (Nhóm 3: する → し、くる → き)",
+        "formEn": "Masu-stem (V without ます) + たいです (Group 3: する → し, くる → き)",
+        "exampleStr": "食べる → 食べ ＋ たいです"
       }
     ],
     "pragmatics": {
@@ -10652,10 +11656,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Masu-stem + 方",
-        "exampleStr": "作る → 作り ＋ 方",
-        "formVi": "Vます bỏ ます + 方",
-        "formEn": "Masu-stem (V without ます) + 方"
+        "form": "Masu-stem (V without ます) + 方 (Group 1: u-row → i-row)",
+        "formVi": "Vます bỏ ます + 方 (Nhóm 1: đổi đuôi hàng う → hàng い)",
+        "formEn": "Masu-stem (V without ます) + 方 (Group 1: u-row → i-row)",
+        "exampleStr": "作る → 作り ＋ 方"
+      },
+      {
+        "pos": "verb",
+        "form": "Masu-stem (V without ます) + 方 (Group 2: drop る)",
+        "formVi": "Vます bỏ ます + 方 (Nhóm 2: bỏ る)",
+        "formEn": "Masu-stem (V without ます) + 方 (Group 2: drop る)",
+        "exampleStr": "作る → 作り ＋ 方"
+      },
+      {
+        "pos": "verb",
+        "form": "Masu-stem (V without ます) + 方 (Group 3: する → し, くる → き)",
+        "formVi": "Vます bỏ ます + 方 (Nhóm 3: する → し、くる → き)",
+        "formEn": "Masu-stem (V without ます) + 方 (Group 3: する → し, くる → き)",
+        "exampleStr": "作る → 作り ＋ 方"
       }
     ],
     "pragmatics": {
@@ -10948,10 +11966,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "が + potential form",
-        "exampleStr": "日本語 ＋ が話せます",
-        "formVi": "が + thể khả năng",
-        "formEn": "が + potential form"
+        "form": "が + potential form (Group 1 verb: u-ending)",
+        "formVi": "が + thể khả năng (Động từ nhóm 1: đuôi hàng う)",
+        "formEn": "が + potential form (Group 1 verb: u-ending)",
+        "exampleStr": "日本語 ＋ が話せます"
+      },
+      {
+        "pos": "verb",
+        "form": "が + potential form (Group 2 verb: -iru / -eru)",
+        "formVi": "が + thể khả năng (Động từ nhóm 2: đuôi -iru / -eru)",
+        "formEn": "が + potential form (Group 2 verb: -iru / -eru)",
+        "exampleStr": "日本語 ＋ が話せます"
+      },
+      {
+        "pos": "verb",
+        "form": "が + potential form (Group 3 verb: する・くる)",
+        "formVi": "が + thể khả năng (Động từ nhóm 3: する・くる)",
+        "formEn": "が + potential form (Group 3 verb: する・くる)",
+        "exampleStr": "日本語 ＋ が話せます"
       }
     ],
     "pragmatics": {
@@ -11086,10 +12118,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(phương tiện)で + V",
-        "exampleStr": "電車 ＋ で行きます",
-        "formVi": "(phương tiện)で + V",
-        "formEn": "(means)で + V"
+        "form": "(means)で + V (basic structure)",
+        "formVi": "(phương tiện)で + V (cấu trúc cơ bản)",
+        "formEn": "(means)で + V (basic structure)",
+        "exampleStr": "毎日、電車で会社に行きます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(means)で + V (negative / extended usage)",
+        "formVi": "(phương tiện)で + V (dạng phủ định / mở rộng)",
+        "formEn": "(means)で + V (negative / extended usage)",
+        "exampleStr": "この漢字は日本語で何と読みますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "(means)で + V (question / conversational usage)",
+        "formVi": "(phương tiện)で + V (dạng câu hỏi / hội thoại)",
+        "formEn": "(means)で + V (question / conversational usage)",
+        "exampleStr": "何で会社まで来ますか。"
       }
     ],
     "pragmatics": {
@@ -11225,10 +12271,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(tiền/thời gian) + がかかります",
-        "exampleStr": "1時間 ＋ がかかります",
-        "formVi": "(tiền/thời gian) + がかかります",
-        "formEn": "(money/time) + がかかります"
+        "form": "(money/time) + がかかります (basic structure)",
+        "formVi": "(tiền/thời gian) + がかかります (cấu trúc cơ bản)",
+        "formEn": "(money/time) + がかかります (basic structure)",
+        "exampleStr": "駅から家まで10分かかります。"
+      },
+      {
+        "pos": "noun",
+        "form": "(money/time) + がかかります (negative / extended usage)",
+        "formVi": "(tiền/thời gian) + がかかります (dạng phủ định / mở rộng)",
+        "formEn": "(money/time) + がかかります (negative / extended usage)",
+        "exampleStr": "この旅行は10万円ぐらいかかりました。"
+      },
+      {
+        "pos": "noun",
+        "form": "(money/time) + がかかります (question / conversational usage)",
+        "formVi": "(tiền/thời gian) + がかかります (dạng câu hỏi / hội thoại)",
+        "formEn": "(money/time) + がかかります (question / conversational usage)",
+        "exampleStr": "東京から大阪までどのくらい時間がかかりますか。"
       }
     ],
     "pragmatics": {
@@ -11366,10 +12426,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(số tiền/thời gian)くらい/ぐらいで + V(khả năng)",
-        "exampleStr": "1万円 ＋ くらいで買えます",
-        "formVi": "(số tiền/thời gian)くらい/ぐらいで + V(khả năng)",
-        "formEn": "(amount of money/time)くらい/ぐらいで + V(potential)"
+        "form": "(amount of money/time)くらい/ぐらいで + V(potential) (basic structure)",
+        "formVi": "(số tiền/thời gian)くらい/ぐらいで + V(khả năng) (cấu trúc cơ bản)",
+        "formEn": "(amount of money/time)くらい/ぐらいで + V(potential) (basic structure)",
+        "exampleStr": "このかばんは1万円くらいで買えます。"
+      },
+      {
+        "pos": "noun",
+        "form": "(amount of money/time)くらい/ぐらいで + V(potential) (negative / extended usage)",
+        "formVi": "(số tiền/thời gian)くらい/ぐらいで + V(khả năng) (dạng phủ định / mở rộng)",
+        "formEn": "(amount of money/time)くらい/ぐらいで + V(potential) (negative / extended usage)",
+        "exampleStr": "30分ぐらいで着けると思います。"
+      },
+      {
+        "pos": "noun",
+        "form": "(amount of money/time)くらい/ぐらいで + V(potential) (question / conversational usage)",
+        "formVi": "(số tiền/thời gian)くらい/ぐらいで + V(khả năng) (dạng câu hỏi / hội thoại)",
+        "formEn": "(amount of money/time)くらい/ぐらいで + V(potential) (question / conversational usage)",
+        "exampleStr": "いくらぐらいで泊まれますか。"
       }
     ],
     "pragmatics": {
@@ -11504,10 +12578,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1は N2が + na-adjective + です",
-        "exampleStr": "田中さん ＋ は日本語が上手です",
-        "formVi": "N1は N2が + tính từ な + です",
-        "formEn": "N1は N2が + na-adjective + です"
+        "form": "N1は N2が + na-adjective + です (basic structure)",
+        "formVi": "N1は N2が + tính từ な + です (cấu trúc cơ bản)",
+        "formEn": "N1は N2が + na-adjective + です (basic structure)",
+        "exampleStr": "私は猫が好きです。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は N2が + na-adjective + です (negative / extended usage)",
+        "formVi": "N1は N2が + tính từ な + です (dạng phủ định / mở rộng)",
+        "formEn": "N1は N2が + na-adjective + です (negative / extended usage)",
+        "exampleStr": "田中さんはピアノが上手です。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は N2が + na-adjective + です (question / conversational usage)",
+        "formVi": "N1は N2が + tính từ な + です (dạng câu hỏi / hội thoại)",
+        "formEn": "N1は N2が + na-adjective + です (question / conversational usage)",
+        "exampleStr": "実は、料理があまり得意じゃないです。"
       }
     ],
     "pragmatics": {
@@ -11660,11 +12748,32 @@
     "patternRomaji": "~ kara ~",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "Clause1 (reason, plain/polite) + から + Clause2 (result)",
-        "exampleStr": "忙しいです ＋ から ＋ 行けません",
-        "formVi": "Mệnh đề 1 (lý do, thường / lịch sự) + から + Mệnh đề 2 (kết quả)",
-        "formEn": "Clause1 (reason, plain/polite) + から + Clause2 (result)"
+        "pos": "verb",
+        "form": "Verb (plain / polite) + から, ~",
+        "formVi": "Động từ (thường / lịch sự) + から、〜",
+        "formEn": "Verb (plain / polite) + から, ~",
+        "exampleStr": "雨が降っているから、行かない"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (+ です) + から, ~",
+        "formVi": "Tính từ い (＋です) + から、〜",
+        "formEn": "i-adjective (+ です) + から, ~",
+        "exampleStr": "危ないから、触らないで"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + だ／です + から, ~",
+        "formVi": "Tính từ な + だ／です + から、〜",
+        "formEn": "na-adjective + だ／です + から, ~",
+        "exampleStr": "静かだから、勉強しやすい"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + だ／です + から, ~",
+        "formVi": "Danh từ + だ／です + から、〜",
+        "formEn": "Noun + だ／です + から, ~",
+        "exampleStr": "明日は休みだから、ゆっくり寝る"
       }
     ],
     "pragmatics": {
@@ -11801,10 +12910,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1は N2が + adjective",
-        "exampleStr": "象 ＋ は鼻が長いです",
-        "formVi": "N1は N2が + tính từ",
-        "formEn": "N1は N2が + adjective"
+        "form": "N1は N2が + adjective (basic structure)",
+        "formVi": "N1は N2が + tính từ (cấu trúc cơ bản)",
+        "formEn": "N1は N2が + adjective (basic structure)",
+        "exampleStr": "象は鼻が長いです。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は N2が + adjective (negative / extended usage)",
+        "formVi": "N1は N2が + tính từ (dạng phủ định / mở rộng)",
+        "formEn": "N1は N2が + adjective (negative / extended usage)",
+        "exampleStr": "田中さんは足が速いです。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は N2が + adjective (question / conversational usage)",
+        "formVi": "N1は N2が + tính từ (dạng câu hỏi / hội thoại)",
+        "formEn": "N1は N2が + adjective (question / conversational usage)",
+        "exampleStr": "この部屋は日当たりがよくないです。"
       }
     ],
     "pragmatics": {
@@ -11941,10 +13064,31 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "(chủ ngữ được nhấn mạnh) + が + vị ngữ",
-        "exampleStr": "誰 ＋ が来ますか",
-        "formVi": "(chủ ngữ được nhấn mạnh) + が + vị ngữ",
-        "formEn": "(emphasised subject) + が + predicate"
+        "form": "Noun 1 + が + Noun 2 です",
+        "formVi": "Danh từ 1 + が + Danh từ 2 です",
+        "formEn": "Noun 1 + が + Noun 2 です",
+        "exampleStr": "田中さんが先生です"
+      },
+      {
+        "pos": "i-adj",
+        "form": "Noun + が + i-adjective (です)",
+        "formVi": "Danh từ + が + Tính từ い (です)",
+        "formEn": "Noun + が + i-adjective (です)",
+        "exampleStr": "どれが一番いいですか"
+      },
+      {
+        "pos": "na-adj",
+        "form": "Noun + が + na-adjective (です)",
+        "formVi": "Danh từ + が + Tính từ な (です)",
+        "formEn": "Noun + が + na-adjective (です)",
+        "exampleStr": "どこが一番便利ですか"
+      },
+      {
+        "pos": "verb",
+        "form": "Noun + が + Verb",
+        "formVi": "Danh từ + が + Động từ",
+        "formEn": "Noun + が + Verb",
+        "exampleStr": "誰が来ましたか"
       }
     ],
     "pragmatics": {
@@ -12083,10 +13227,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Dictionary form (plain form of ます)",
-        "exampleStr": "食べます → 食べる",
-        "formVi": "Thể từ điển (thể thường của ます)",
-        "formEn": "Dictionary form (plain form of ます)"
+        "form": "Dictionary form (plain form of ます) (Group 1 verb: u-ending)",
+        "formVi": "Thể từ điển (thể thường của ます) (Động từ nhóm 1: đuôi hàng う)",
+        "formEn": "Dictionary form (plain form of ます) (Group 1 verb: u-ending)",
+        "exampleStr": "食べます → 食べる"
+      },
+      {
+        "pos": "verb",
+        "form": "Dictionary form (plain form of ます) (Group 2 verb: -iru / -eru)",
+        "formVi": "Thể từ điển (thể thường của ます) (Động từ nhóm 2: đuôi -iru / -eru)",
+        "formEn": "Dictionary form (plain form of ます) (Group 2 verb: -iru / -eru)",
+        "exampleStr": "食べます → 食べる"
+      },
+      {
+        "pos": "verb",
+        "form": "Dictionary form (plain form of ます) (Group 3 verb: する・くる)",
+        "formVi": "Thể từ điển (thể thường của ます) (Động từ nhóm 3: する・くる)",
+        "formEn": "Dictionary form (plain form of ます) (Group 3 verb: する・くる)",
+        "exampleStr": "食べます → 食べる"
       }
     ],
     "pragmatics": {
@@ -12100,7 +13258,7 @@
         "en": "The base form used in casual speech and as the building block for other grammar patterns"
       },
       "speakerStance": {
-        "vi": "Trung tính, đây là thể gốc/thể trích dẫn, cảm giác tùy ngữ cảnh",
+        "vi": "Trung tính, đây là thể gốc/thể trích dẫn, tông giọng tùy ngữ cảnh",
         "en": "Neutral, this is the citation/base form, tone depends on context"
       }
     },
@@ -12226,10 +13384,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Dictionary form + rising intonation",
-        "exampleStr": "行く ＋ ？",
-        "formVi": "Thể từ điển + lên giọng",
-        "formEn": "Dictionary form + rising intonation"
+        "form": "Dictionary form + rising intonation (Group 1 verb: u-ending)",
+        "formVi": "Thể từ điển + lên giọng (Động từ nhóm 1: đuôi hàng う)",
+        "formEn": "Dictionary form + rising intonation (Group 1 verb: u-ending)",
+        "exampleStr": "行く ＋ ？"
+      },
+      {
+        "pos": "verb",
+        "form": "Dictionary form + rising intonation (Group 2 verb: -iru / -eru)",
+        "formVi": "Thể từ điển + lên giọng (Động từ nhóm 2: đuôi -iru / -eru)",
+        "formEn": "Dictionary form + rising intonation (Group 2 verb: -iru / -eru)",
+        "exampleStr": "行く ＋ ？"
+      },
+      {
+        "pos": "verb",
+        "form": "Dictionary form + rising intonation (Group 3 verb: する・くる)",
+        "formVi": "Thể từ điển + lên giọng (Động từ nhóm 3: する・くる)",
+        "formEn": "Dictionary form + rising intonation (Group 3 verb: する・くる)",
+        "exampleStr": "行く ＋ ？"
       }
     ],
     "pragmatics": {
@@ -12379,6 +13551,13 @@
         "exampleStr": "料理 ＋ ができます",
         "formVi": "N + ができます",
         "formEn": "N + ができます"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb (Groups 1, 2, 3) in the required form",
+        "formVi": "Động từ (nhóm 1・2・3) chia đúng thể yêu cầu trước mẫu câu",
+        "formEn": "Verb (Groups 1, 2, 3) in the required form",
+        "exampleStr": "この会議室は今、使うことができません。"
       }
     ],
     "pragmatics": {
@@ -12517,10 +13696,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Dictionary form + ことです",
-        "exampleStr": "本を読む ＋ ことです",
-        "formVi": "Thể từ điển + ことです",
-        "formEn": "Dictionary form + ことです"
+        "form": "Dictionary form + ことです (Group 1 verb: u-ending)",
+        "formVi": "Thể từ điển + ことです (Động từ nhóm 1: đuôi hàng う)",
+        "formEn": "Dictionary form + ことです (Group 1 verb: u-ending)",
+        "exampleStr": "本を読む ＋ ことです"
+      },
+      {
+        "pos": "verb",
+        "form": "Dictionary form + ことです (Group 2 verb: -iru / -eru)",
+        "formVi": "Thể từ điển + ことです (Động từ nhóm 2: đuôi -iru / -eru)",
+        "formEn": "Dictionary form + ことです (Group 2 verb: -iru / -eru)",
+        "exampleStr": "本を読む ＋ ことです"
+      },
+      {
+        "pos": "verb",
+        "form": "Dictionary form + ことです (Group 3 verb: する・くる)",
+        "formVi": "Thể từ điển + ことです (Động từ nhóm 3: する・くる)",
+        "formEn": "Dictionary form + ことです (Group 3 verb: する・くる)",
+        "exampleStr": "本を読む ＋ ことです"
       }
     ],
     "pragmatics": {
@@ -12689,7 +13882,7 @@
         "en": "The plain negative form, used in casual speech and as a base for many other patterns"
       },
       "speakerStance": {
-        "vi": "Trung tính, thể gốc, cảm giác tùy ngữ cảnh",
+        "vi": "Trung tính, thể gốc, tông giọng tùy ngữ cảnh",
         "en": "Neutral, base form, tone depends on context"
       }
     },
@@ -12824,10 +14017,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "ない-form + rising intonation (invitation)",
-        "exampleStr": "食べない ＋ ？",
-        "formVi": "Thể ない + lên giọng (lời mời)",
-        "formEn": "ない-form + rising intonation (invitation)"
+        "form": "ない-form + rising intonation (invitation) (Group 1: u-row → a-row + ない; う → わない)",
+        "formVi": "Thể ない + lên giọng (lời mời) (Nhóm 1: đuôi hàng う → hàng あ + ない; う → わない)",
+        "formEn": "ない-form + rising intonation (invitation) (Group 1: u-row → a-row + ない; う → わない)",
+        "exampleStr": "食べない ＋ ？"
+      },
+      {
+        "pos": "verb",
+        "form": "ない-form + rising intonation (invitation) (Group 2: drop る + ない)",
+        "formVi": "Thể ない + lên giọng (lời mời) (Nhóm 2: bỏ る + ない)",
+        "formEn": "ない-form + rising intonation (invitation) (Group 2: drop る + ない)",
+        "exampleStr": "食べない ＋ ？"
+      },
+      {
+        "pos": "verb",
+        "form": "ない-form + rising intonation (invitation) (Group 3: する → しない, くる → こない)",
+        "formVi": "Thể ない + lên giọng (lời mời) (Nhóm 3: する → しない、くる → こない)",
+        "formEn": "ない-form + rising intonation (invitation) (Group 3: する → しない, くる → こない)",
+        "exampleStr": "食べない ＋ ？"
       }
     ],
     "pragmatics": {
@@ -12836,7 +14043,7 @@
         "spoken"
       ],
       "intent": {
-        "vi": "Mời ai đó cùng làm gì đó một cách thân mật, mang cảm giác giống ませんか",
+        "vi": "Mời ai đó cùng làm gì đó một cách thân mật, mang ý rủ rê giống ませんか",
         "en": "Casually inviting someone to do something together, echoing the nuance of ませんか"
       },
       "speakerStance": {
@@ -12966,10 +14173,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Potential dictionary form / potential nai-form",
-        "exampleStr": "飲める／飲めない",
-        "formVi": "Thể khả năng (từ điển / ない)",
-        "formEn": "Potential dictionary form / potential nai-form"
+        "form": "Potential dictionary form / potential nai-form (Group 1 verb: u-ending)",
+        "formVi": "Thể khả năng (từ điển / ない) (Động từ nhóm 1: đuôi hàng う)",
+        "formEn": "Potential dictionary form / potential nai-form (Group 1 verb: u-ending)",
+        "exampleStr": "飲める／飲めない"
+      },
+      {
+        "pos": "verb",
+        "form": "Potential dictionary form / potential nai-form (Group 2 verb: -iru / -eru)",
+        "formVi": "Thể khả năng (từ điển / ない) (Động từ nhóm 2: đuôi -iru / -eru)",
+        "formEn": "Potential dictionary form / potential nai-form (Group 2 verb: -iru / -eru)",
+        "exampleStr": "飲める／飲めない"
+      },
+      {
+        "pos": "verb",
+        "form": "Potential dictionary form / potential nai-form (Group 3 verb: する・くる)",
+        "formVi": "Thể khả năng (từ điển / ない) (Động từ nhóm 3: する・くる)",
+        "formEn": "Potential dictionary form / potential nai-form (Group 3 verb: する・くる)",
+        "exampleStr": "飲める／飲めない"
       }
     ],
     "pragmatics": {
@@ -13139,7 +14360,7 @@
         "en": "The plain past-tense form, used in casual speech and as a base for many other patterns"
       },
       "speakerStance": {
-        "vi": "Trung tính, thể gốc, cảm giác tùy ngữ cảnh",
+        "vi": "Trung tính, thể gốc, tông giọng tùy ngữ cảnh",
         "en": "Neutral, base form, tone depends on context"
       }
     },
@@ -13265,10 +14486,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Potential ta-form / potential nakatta-form",
-        "exampleStr": "飲めた／飲めなかった",
-        "formVi": "Thể khả năng (た / なかった)",
-        "formEn": "Potential ta-form / potential nakatta-form"
+        "form": "Potential ta-form / potential nakatta-form (Group 1 verb: u-ending)",
+        "formVi": "Thể khả năng (た / なかった) (Động từ nhóm 1: đuôi hàng う)",
+        "formEn": "Potential ta-form / potential nakatta-form (Group 1 verb: u-ending)",
+        "exampleStr": "飲めた／飲めなかった"
+      },
+      {
+        "pos": "verb",
+        "form": "Potential ta-form / potential nakatta-form (Group 2 verb: -iru / -eru)",
+        "formVi": "Thể khả năng (た / なかった) (Động từ nhóm 2: đuôi -iru / -eru)",
+        "formEn": "Potential ta-form / potential nakatta-form (Group 2 verb: -iru / -eru)",
+        "exampleStr": "飲めた／飲めなかった"
+      },
+      {
+        "pos": "verb",
+        "form": "Potential ta-form / potential nakatta-form (Group 3 verb: する・くる)",
+        "formVi": "Thể khả năng (た / なかった) (Động từ nhóm 3: する・くる)",
+        "formEn": "Potential ta-form / potential nakatta-form (Group 3 verb: する・くる)",
+        "exampleStr": "飲めた／飲めなかった"
       }
     ],
     "pragmatics": {
@@ -13404,10 +14639,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "たい／たい？／たくない／たかった",
-        "exampleStr": "食べたい／食べたい？／食べたくない／食べたかった",
-        "formVi": "たい／たい？／たくない／たかった",
-        "formEn": "たい／たい？／たくない／たかった"
+        "form": "たい／たい？／たくない／たかった (Group 1: u-row → i-row)",
+        "formVi": "たい／たい？／たくない／たかった (Nhóm 1: đổi đuôi hàng う → hàng い)",
+        "formEn": "たい／たい？／たくない／たかった (Group 1: u-row → i-row)",
+        "exampleStr": "食べたい／食べたい？／食べたくない／食べたかった"
+      },
+      {
+        "pos": "verb",
+        "form": "たい／たい？／たくない／たかった (Group 2: drop る)",
+        "formVi": "たい／たい？／たくない／たかった (Nhóm 2: bỏ る)",
+        "formEn": "たい／たい？／たくない／たかった (Group 2: drop る)",
+        "exampleStr": "食べたい／食べたい？／食べたくない／食べたかった"
+      },
+      {
+        "pos": "verb",
+        "form": "たい／たい？／たくない／たかった (Group 3: する → し, くる → き)",
+        "formVi": "たい／たい？／たくない／たかった (Nhóm 3: する → し、くる → き)",
+        "formEn": "たい／たい？／たくない／たかった (Group 3: する → し, くる → き)",
+        "exampleStr": "食べたい／食べたい？／食べたくない／食べたかった"
       }
     ],
     "pragmatics": {
@@ -13711,6 +14960,13 @@
         "exampleStr": "食事 ＋ の前に",
         "formVi": "N + の前に",
         "formEn": "N + の前に"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb (Groups 1, 2, 3) in the required form",
+        "formVi": "Động từ (nhóm 1・2・3) chia đúng thể yêu cầu trước mẫu câu",
+        "formEn": "Verb (Groups 1, 2, 3) in the required form",
+        "exampleStr": "出かける前に、何をしますか。"
       }
     ],
     "pragmatics": {
@@ -13869,6 +15125,13 @@
         "exampleStr": "食事 ＋ の後で",
         "formVi": "N + の後で",
         "formEn": "N + の後で"
+      },
+      {
+        "pos": "verb",
+        "form": "Verb (Groups 1, 2, 3) in the required form",
+        "formVi": "Động từ (nhóm 1・2・3) chia đúng thể yêu cầu trước mẫu câu",
+        "formEn": "Verb (Groups 1, 2, 3) in the required form",
+        "exampleStr": "授業が終わった後で、何をしますか。"
       }
     ],
     "pragmatics": {
@@ -14054,7 +15317,7 @@
       {
         "type": "nuance_trap",
         "title": {
-          "vi": "たら so với と／ば／なら, bốn thể điều kiện, bốn cảm giác khác nhau",
+          "vi": "たら so với と／ば／なら, bốn thể điều kiện, bốn cách dùng khác nhau",
           "en": "たら vs と／ば／なら, four conditionals, four different feels"
         },
         "description": {
@@ -14180,10 +15443,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "た-form + ばかりだ",
-        "exampleStr": "始める → 始めた ＋ ばかりだ",
-        "formVi": "Thể た + ばかりだ",
-        "formEn": "た-form + ばかりだ"
+        "form": "た-form + ばかりだ (Group 1: -tta / -nda / -ita / -ida / -shita)",
+        "formVi": "Thể た + ばかりだ (Nhóm 1: った・んだ・いた・いだ・した)",
+        "formEn": "た-form + ばかりだ (Group 1: -tta / -nda / -ita / -ida / -shita)",
+        "exampleStr": "始める → 始めた ＋ ばかりだ"
+      },
+      {
+        "pos": "verb",
+        "form": "た-form + ばかりだ (Group 2: drop る + た)",
+        "formVi": "Thể た + ばかりだ (Nhóm 2: bỏ る + た)",
+        "formEn": "た-form + ばかりだ (Group 2: drop る + た)",
+        "exampleStr": "始める → 始めた ＋ ばかりだ"
+      },
+      {
+        "pos": "verb",
+        "form": "た-form + ばかりだ (Group 3: する → した, くる → きた)",
+        "formVi": "Thể た + ばかりだ (Nhóm 3: する → した、くる → きた)",
+        "formEn": "た-form + ばかりだ (Group 3: する → した, くる → きた)",
+        "exampleStr": "始める → 始めた ＋ ばかりだ"
       }
     ],
     "pragmatics": {
@@ -14318,10 +15595,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "た-form + ことがあります",
-        "exampleStr": "行く → 行った ＋ ことがあります",
-        "formVi": "Thể た + ことがあります",
-        "formEn": "た-form + ことがあります"
+        "form": "た-form + ことがあります (Group 1: -tta / -nda / -ita / -ida / -shita)",
+        "formVi": "Thể た + ことがあります (Nhóm 1: った・んだ・いた・いだ・した)",
+        "formEn": "た-form + ことがあります (Group 1: -tta / -nda / -ita / -ida / -shita)",
+        "exampleStr": "行く → 行った ＋ ことがあります"
+      },
+      {
+        "pos": "verb",
+        "form": "た-form + ことがあります (Group 2: drop る + た)",
+        "formVi": "Thể た + ことがあります (Nhóm 2: bỏ る + た)",
+        "formEn": "た-form + ことがあります (Group 2: drop る + た)",
+        "exampleStr": "行く → 行った ＋ ことがあります"
+      },
+      {
+        "pos": "verb",
+        "form": "た-form + ことがあります (Group 3: する → した, くる → きた)",
+        "formVi": "Thể た + ことがあります (Nhóm 3: する → した、くる → きた)",
+        "formEn": "た-form + ことがあります (Group 3: する → した, くる → きた)",
+        "exampleStr": "行く → 行った ＋ ことがあります"
       }
     ],
     "pragmatics": {
@@ -14459,24 +15750,31 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "Group 1: う-row → え-row + ば",
-        "exampleStr": "書く → 書けば",
-        "formVi": "Nhóm 1: hàng う → hàng え + ば",
-        "formEn": "Group 1: う-row → え-row + ば"
+        "form": "Group 1 verb: u-row → e-row + ば",
+        "formVi": "Động từ nhóm 1: đuôi hàng う → hàng え + ば",
+        "formEn": "Group 1 verb: u-row → e-row + ば",
+        "exampleStr": "行く → 行けば ／ 飲む → 飲めば"
       },
       {
         "pos": "verb",
-        "form": "Group 2: drop る + れば",
-        "exampleStr": "食べる → 食べれば",
-        "formVi": "Nhóm 2: bỏ る + れば",
-        "formEn": "Group 2: drop る + れば"
+        "form": "Group 2: drop る + れば / Group 3: すれば・くれば",
+        "formVi": "Động từ nhóm 2: bỏ る + れば ／ Nhóm 3: すれば・くれば",
+        "formEn": "Group 2: drop る + れば / Group 3: すれば・くれば",
+        "exampleStr": "食べる → 食べれば ／ する → すれば"
       },
       {
         "pos": "i-adj",
-        "form": "い → ければ",
-        "exampleStr": "安い → 安ければ",
-        "formVi": "い → ければ",
-        "formEn": "い → ければ"
+        "form": "i-adjective (drop い) + ければ",
+        "formVi": "Tính từ い (bỏ い) + ければ",
+        "formEn": "i-adjective (drop い) + ければ",
+        "exampleStr": "安い → 安ければ ／ いい → よければ"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective / Noun + なら(ば)",
+        "formVi": "Tính từ な ／ Danh từ + なら(ば)",
+        "formEn": "na-adjective / Noun + なら(ば)",
+        "exampleStr": "静かなら ／ 雨なら"
       }
     ],
     "pragmatics": {
@@ -14614,10 +15912,31 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "ば-form + Clause2",
-        "exampleStr": "安ければ ＋ 買います",
-        "formVi": "Thể ば + Mệnh đề 2",
-        "formEn": "ば-form + Clause2"
+        "form": "Verb ba-form (V-ba) + result clause",
+        "formVi": "Động từ thể ば (Vば) + mệnh đề kết quả",
+        "formEn": "Verb ba-form (V-ba) + result clause",
+        "exampleStr": "薬を飲めば、元気になります"
+      },
+      {
+        "pos": "i-adj",
+        "form": "i-adjective (drop い) + ければ + result clause",
+        "formVi": "Tính từ い (bỏ い) + ければ + mệnh đề kết quả",
+        "formEn": "i-adjective (drop い) + ければ + result clause",
+        "exampleStr": "天気がよければ、散歩しましょう"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective + なら(ば) + result clause",
+        "formVi": "Tính từ な + なら(ば) + mệnh đề kết quả",
+        "formEn": "na-adjective + なら(ば) + result clause",
+        "exampleStr": "暇なら、手伝ってください"
+      },
+      {
+        "pos": "noun",
+        "form": "Noun + なら(ば) + result clause",
+        "formVi": "Danh từ + なら(ば) + mệnh đề kết quả",
+        "formEn": "Noun + なら(ば) + result clause",
+        "exampleStr": "明日が雨なら、行きません"
       }
     ],
     "pragmatics": {
@@ -14757,10 +16076,24 @@
     "formationRules": [
       {
         "pos": "phrase",
-        "form": "(question word) + ば-clause + か",
-        "exampleStr": "どう ＋ すればいいですか",
-        "formVi": "(từ để hỏi) + mệnh đề ば + か",
-        "formEn": "(question word) + ば-clause + か"
+        "form": "(question word) + ば-clause + か (basic structure)",
+        "formVi": "(từ để hỏi) + mệnh đề ば + か (cấu trúc cơ bản)",
+        "formEn": "(question word) + ば-clause + か (basic structure)",
+        "exampleStr": "日本語が上手になるには、どうすればいいですか。"
+      },
+      {
+        "pos": "phrase",
+        "form": "(question word) + ば-clause + か (negative / extended usage)",
+        "formVi": "(từ để hỏi) + mệnh đề ば + か (dạng phủ định / mở rộng)",
+        "formEn": "(question word) + ば-clause + か (negative / extended usage)",
+        "exampleStr": "この漢字は何と読めばいいですか。"
+      },
+      {
+        "pos": "phrase",
+        "form": "(question word) + ば-clause + か (question / conversational usage)",
+        "formVi": "(từ để hỏi) + mệnh đề ば + か (dạng câu hỏi / hội thoại)",
+        "formEn": "(question word) + ば-clause + か (question / conversational usage)",
+        "exampleStr": "いつ来ればいいですか。"
       }
     ],
     "pragmatics": {
@@ -14899,10 +16232,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "ない-form → なければ",
-        "exampleStr": "行かない → 行かなければ",
-        "formVi": "Thể ない → なければ",
-        "formEn": "ない-form → なければ"
+        "form": "ない-form → なければ (Group 1: u-row → a-row + ない; う → わない)",
+        "formVi": "Thể ない → なければ (Nhóm 1: đuôi hàng う → hàng あ + ない; う → わない)",
+        "formEn": "ない-form → なければ (Group 1: u-row → a-row + ない; う → わない)",
+        "exampleStr": "行かない → 行かなければ"
+      },
+      {
+        "pos": "verb",
+        "form": "ない-form → なければ (Group 2: drop る + ない)",
+        "formVi": "Thể ない → なければ (Nhóm 2: bỏ る + ない)",
+        "formEn": "ない-form → なければ (Group 2: drop る + ない)",
+        "exampleStr": "行かない → 行かなければ"
+      },
+      {
+        "pos": "verb",
+        "form": "ない-form → なければ (Group 3: する → しない, くる → こない)",
+        "formVi": "Thể ない → なければ (Nhóm 3: する → しない、くる → こない)",
+        "formEn": "ない-form → なければ (Group 3: する → しない, くる → こない)",
+        "exampleStr": "行かない → 行かなければ"
       }
     ],
     "pragmatics": {
@@ -15053,6 +16400,13 @@
         "exampleStr": "行く → 行かないといけません",
         "formVi": "ないと + いけません",
         "formEn": "ないと + いけません"
+      },
+      {
+        "pos": "verb",
+        "form": "Group 3 verb: する / くる conjugation",
+        "formVi": "Động từ nhóm 3: する → して／した／しない、くる → きて／きた／こない",
+        "formEn": "Group 3 verb: する / くる conjugation",
+        "exampleStr": "パスポートを持っていかなければなりませんか。"
       }
     ],
     "pragmatics": {
@@ -15190,10 +16544,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "なければ → なきゃ (contraction)",
-        "exampleStr": "行かなければ → 行かなきゃ",
-        "formVi": "なければ → なきゃ (dạng rút gọn)",
-        "formEn": "なければ → なきゃ (contraction)"
+        "form": "なければ → なきゃ (contraction) (Group 1: u-row → a-row + ない; う → わない)",
+        "formVi": "なければ → なきゃ (dạng rút gọn) (Nhóm 1: đuôi hàng う → hàng あ + ない; う → わない)",
+        "formEn": "なければ → なきゃ (contraction) (Group 1: u-row → a-row + ない; う → わない)",
+        "exampleStr": "行かなければ → 行かなきゃ"
+      },
+      {
+        "pos": "verb",
+        "form": "なければ → なきゃ (contraction) (Group 2: drop る + ない)",
+        "formVi": "なければ → なきゃ (dạng rút gọn) (Nhóm 2: bỏ る + ない)",
+        "formEn": "なければ → なきゃ (contraction) (Group 2: drop る + ない)",
+        "exampleStr": "行かなければ → 行かなきゃ"
+      },
+      {
+        "pos": "verb",
+        "form": "なければ → なきゃ (contraction) (Group 3: する → しない, くる → こない)",
+        "formVi": "なければ → なきゃ (dạng rút gọn) (Nhóm 3: する → しない、くる → こない)",
+        "formEn": "なければ → なきゃ (contraction) (Group 3: する → しない, くる → こない)",
+        "exampleStr": "行かなければ → 行かなきゃ"
       }
     ],
     "pragmatics": {
@@ -15332,10 +16700,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "なきゃ + いけない",
-        "exampleStr": "行く → 行かなきゃいけない",
-        "formVi": "なきゃ + いけない",
-        "formEn": "なきゃ + いけない"
+        "form": "なきゃ + いけない (Group 1: u-row → a-row + ない; う → わない)",
+        "formVi": "なきゃ + いけない (Nhóm 1: đuôi hàng う → hàng あ + ない; う → わない)",
+        "formEn": "なきゃ + いけない (Group 1: u-row → a-row + ない; う → わない)",
+        "exampleStr": "行く → 行かなきゃいけない"
+      },
+      {
+        "pos": "verb",
+        "form": "なきゃ + いけない (Group 2: drop る + ない)",
+        "formVi": "なきゃ + いけない (Nhóm 2: bỏ る + ない)",
+        "formEn": "なきゃ + いけない (Group 2: drop る + ない)",
+        "exampleStr": "行く → 行かなきゃいけない"
+      },
+      {
+        "pos": "verb",
+        "form": "なきゃ + いけない (Group 3: する → しない, くる → こない)",
+        "formVi": "なきゃ + いけない (Nhóm 3: する → しない、くる → こない)",
+        "formEn": "なきゃ + いけない (Group 3: する → しない, くる → こない)",
+        "exampleStr": "行く → 行かなきゃいけない"
       }
     ],
     "pragmatics": {
@@ -15644,6 +17026,13 @@
         "exampleStr": "休み ＋ なら",
         "formVi": "Danh từ (bỏ だ) + なら",
         "formEn": "Bare noun (no だ) + なら"
+      },
+      {
+        "pos": "noun",
+        "form": "Bare noun (no だ) + なら (in full sentence)",
+        "formVi": "Danh từ (bỏ だ) + なら (áp dụng trong câu thực tế)",
+        "formEn": "Bare noun (no だ) + なら (in full sentence)",
+        "exampleStr": "休みなら、いつがいいですか。"
       }
     ],
     "pragmatics": {
@@ -15957,10 +17346,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + て-form + ... + final verb",
-        "exampleStr": "起きて ＋ 顔を洗って ＋ 朝ごはんを食べます",
-        "formVi": "Thể て + thể て + ... + động từ cuối",
-        "formEn": "て-form + て-form + ... + final verb"
+        "form": "て-form + て-form + ... + final verb (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + thể て + ... + động từ cuối (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + て-form + ... + final verb (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "起きて ＋ 顔を洗って ＋ 朝ごはんを食べます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + て-form + ... + final verb (Group 2: drop る + て)",
+        "formVi": "Thể て + thể て + ... + động từ cuối (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + て-form + ... + final verb (Group 2: drop る + て)",
+        "exampleStr": "起きて ＋ 顔を洗って ＋ 朝ごはんを食べます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + て-form + ... + final verb (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + thể て + ... + động từ cuối (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + て-form + ... + final verb (Group 3: する → して, くる → きて)",
+        "exampleStr": "起きて ＋ 顔を洗って ＋ 朝ごはんを食べます"
       }
     ],
     "pragmatics": {
@@ -16098,10 +17501,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + から + V2",
-        "exampleStr": "宿題をして ＋ から ＋ 遊びます",
-        "formVi": "Thể て + から + V2",
-        "formEn": "て-form + から + V2"
+        "form": "て-form + から + V2 (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + から + V2 (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + から + V2 (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "宿題をして ＋ から ＋ 遊びます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + から + V2 (Group 2: drop る + て)",
+        "formVi": "Thể て + から + V2 (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + から + V2 (Group 2: drop る + て)",
+        "exampleStr": "宿題をして ＋ から ＋ 遊びます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + から + V2 (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + から + V2 (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + から + V2 (Group 3: する → して, くる → きて)",
+        "exampleStr": "宿題をして ＋ から ＋ 遊びます"
       }
     ],
     "pragmatics": {
@@ -16242,10 +17659,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + いる／います",
-        "exampleStr": "食べる → 食べて ＋ います",
-        "formVi": "Thể て + いる／います",
-        "formEn": "て-form + いる／います"
+        "form": "て-form + いる／います (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + いる／います (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + いる／います (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "食べる → 食べて ＋ います"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + いる／います (Group 2: drop る + て)",
+        "formVi": "Thể て + いる／います (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + いる／います (Group 2: drop る + て)",
+        "exampleStr": "食べる → 食べて ＋ います"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + いる／います (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + いる／います (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + いる／います (Group 3: する → して, くる → きて)",
+        "exampleStr": "食べる → 食べて ＋ います"
       }
     ],
     "pragmatics": {
@@ -16383,10 +17814,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + います (đang xảy ra ngay trước mắt)",
-        "exampleStr": "降る → 雨が降っています",
-        "formVi": "Thể て + います (đang xảy ra ngay trước mắt)",
-        "formEn": "て-form + います (happening right now)"
+        "form": "て-form + います (happening right now) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + います (đang xảy ra ngay trước mắt) (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + います (happening right now) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "降る → 雨が降っています"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + います (happening right now) (Group 2: drop る + て)",
+        "formVi": "Thể て + います (đang xảy ra ngay trước mắt) (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + います (happening right now) (Group 2: drop る + て)",
+        "exampleStr": "降る → 雨が降っています"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + います (happening right now) (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + います (đang xảy ra ngay trước mắt) (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + います (happening right now) (Group 3: する → して, くる → きて)",
+        "exampleStr": "降る → 雨が降っています"
       }
     ],
     "pragmatics": {
@@ -16525,10 +17970,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + います (thói quen lặp lại)",
-        "exampleStr": "走る → 毎朝走っています",
-        "formVi": "Thể て + います (thói quen lặp lại)",
-        "formEn": "て-form + います (repeated habit)"
+        "form": "て-form + います (repeated habit) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + います (thói quen lặp lại) (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + います (repeated habit) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "走る → 毎朝走っています"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + います (repeated habit) (Group 2: drop る + て)",
+        "formVi": "Thể て + います (thói quen lặp lại) (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + います (repeated habit) (Group 2: drop る + て)",
+        "exampleStr": "走る → 毎朝走っています"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + います (repeated habit) (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + います (thói quen lặp lại) (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + います (repeated habit) (Group 3: する → して, くる → きて)",
+        "exampleStr": "走る → 毎朝走っています"
       }
     ],
     "pragmatics": {
@@ -16666,10 +18125,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + いる (kết quả của một sự thay đổi)",
-        "exampleStr": "結婚する → 結婚している",
-        "formVi": "Thể て + いる (kết quả của một sự thay đổi)",
-        "formEn": "て-form + いる (result of a change)"
+        "form": "て-form + いる (result of a change) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + いる (kết quả của một sự thay đổi) (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + いる (result of a change) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "結婚する → 結婚している"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + いる (result of a change) (Group 2: drop る + て)",
+        "formVi": "Thể て + いる (kết quả của một sự thay đổi) (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + いる (result of a change) (Group 2: drop る + て)",
+        "exampleStr": "結婚する → 結婚している"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + いる (result of a change) (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + いる (kết quả của một sự thay đổi) (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + いる (result of a change) (Group 3: する → して, くる → きて)",
+        "exampleStr": "結婚する → 結婚している"
       }
     ],
     "pragmatics": {
@@ -16807,10 +18280,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + います (hành động kéo dài liên tục)",
-        "exampleStr": "住む → 東京に住んでいます",
-        "formVi": "Thể て + います (hành động kéo dài liên tục)",
-        "formEn": "て-form + います (continuous action)"
+        "form": "て-form + います (continuous action) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + います (hành động kéo dài liên tục) (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + います (continuous action) (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "住む → 東京に住んでいます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + います (continuous action) (Group 2: drop る + て)",
+        "formVi": "Thể て + います (hành động kéo dài liên tục) (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + います (continuous action) (Group 2: drop る + て)",
+        "exampleStr": "住む → 東京に住んでいます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + います (continuous action) (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + います (hành động kéo dài liên tục) (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + います (continuous action) (Group 3: する → して, くる → きて)",
+        "exampleStr": "住む → 東京に住んでいます"
       }
     ],
     "pragmatics": {
@@ -16948,10 +18435,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N + を知っていますか",
-        "exampleStr": "あの人 ＋ を知っていますか",
-        "formVi": "N + を知っていますか",
-        "formEn": "N + を知っていますか"
+        "form": "N + を知っていますか (basic structure)",
+        "formVi": "N + を知っていますか (cấu trúc cơ bản)",
+        "formEn": "N + を知っていますか (basic structure)",
+        "exampleStr": "あの人を知っていますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "N + を知っていますか (negative / extended usage)",
+        "formVi": "N + を知っていますか (dạng phủ định / mở rộng)",
+        "formEn": "N + を知っていますか (negative / extended usage)",
+        "exampleStr": "この近くにいいレストランを知っていますか。"
+      },
+      {
+        "pos": "noun",
+        "form": "N + を知っていますか (question / conversational usage)",
+        "formVi": "N + を知っていますか (dạng câu hỏi / hội thoại)",
+        "formEn": "N + を知っていますか (question / conversational usage)",
+        "exampleStr": "すみません、その道は知りません。"
       }
     ],
     "pragmatics": {
@@ -17094,10 +18595,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N + でも + いい/大丈夫/かまわない + です",
-        "exampleStr": "水 ＋ でもいいです",
-        "formVi": "N + でも + いい/大丈夫/かまわない + です",
-        "formEn": "N + でも + いい/大丈夫/かまわない + です"
+        "form": "N + でも + いい/大丈夫/かまわない + です (basic structure)",
+        "formVi": "N + でも + いい/大丈夫/かまわない + です (cấu trúc cơ bản)",
+        "formEn": "N + でも + いい/大丈夫/かまわない + です (basic structure)",
+        "exampleStr": "水でもいいです。"
+      },
+      {
+        "pos": "noun",
+        "form": "N + でも + いい/大丈夫/かまわない + です (negative / extended usage)",
+        "formVi": "N + でも + いい/大丈夫/かまわない + です (dạng phủ định / mở rộng)",
+        "formEn": "N + でも + いい/大丈夫/かまわない + です (negative / extended usage)",
+        "exampleStr": "明日でも大丈夫です。"
+      },
+      {
+        "pos": "noun",
+        "form": "N + でも + いい/大丈夫/かまわない + です (question / conversational usage)",
+        "formVi": "N + でも + いい/大丈夫/かまわない + です (dạng câu hỏi / hội thoại)",
+        "formEn": "N + でも + いい/大丈夫/かまわない + です (question / conversational usage)",
+        "exampleStr": "これでもかまわないですか。"
       }
     ],
     "pragmatics": {
@@ -17233,10 +18748,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + もいいですか",
-        "exampleStr": "座る → 座って ＋ もいいですか",
-        "formVi": "Thể て + もいいですか",
-        "formEn": "て-form + もいいですか"
+        "form": "て-form + もいいですか (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + もいいですか (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + もいいですか (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "座る → 座って ＋ もいいですか"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + もいいですか (Group 2: drop る + て)",
+        "formVi": "Thể て + もいいですか (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + もいいですか (Group 2: drop る + て)",
+        "exampleStr": "座る → 座って ＋ もいいですか"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + もいいですか (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + もいいですか (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + もいいですか (Group 3: する → して, くる → きて)",
+        "exampleStr": "座る → 座って ＋ もいいですか"
       }
     ],
     "pragmatics": {
@@ -17374,10 +18903,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + もいいです",
-        "exampleStr": "座る → 座って ＋ もいいです",
-        "formVi": "Thể て + もいいです",
-        "formEn": "て-form + もいいです"
+        "form": "て-form + もいいです (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + もいいです (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + もいいです (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "座る → 座って ＋ もいいです"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + もいいです (Group 2: drop る + て)",
+        "formVi": "Thể て + もいいです (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + もいいです (Group 2: drop る + て)",
+        "exampleStr": "座る → 座って ＋ もいいです"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + もいいです (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + もいいです (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + もいいです (Group 3: する → して, くる → きて)",
+        "exampleStr": "座る → 座って ＋ もいいです"
       }
     ],
     "pragmatics": {
@@ -17517,10 +19060,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "ない-form → なくてもいいです",
-        "exampleStr": "行かない → 行かなくてもいいです",
-        "formVi": "Thể ない → なくてもいいです",
-        "formEn": "ない-form → なくてもいいです"
+        "form": "ない-form → なくてもいいです (Group 1: u-row → a-row + ない; う → わない)",
+        "formVi": "Thể ない → なくてもいいです (Nhóm 1: đuôi hàng う → hàng あ + ない; う → わない)",
+        "formEn": "ない-form → なくてもいいです (Group 1: u-row → a-row + ない; う → わない)",
+        "exampleStr": "行かない → 行かなくてもいいです"
+      },
+      {
+        "pos": "verb",
+        "form": "ない-form → なくてもいいです (Group 2: drop る + ない)",
+        "formVi": "Thể ない → なくてもいいです (Nhóm 2: bỏ る + ない)",
+        "formEn": "ない-form → なくてもいいです (Group 2: drop る + ない)",
+        "exampleStr": "行かない → 行かなくてもいいです"
+      },
+      {
+        "pos": "verb",
+        "form": "ない-form → なくてもいいです (Group 3: する → しない, くる → こない)",
+        "formVi": "Thể ない → なくてもいいです (Nhóm 3: する → しない、くる → こない)",
+        "formEn": "ない-form → なくてもいいです (Group 3: する → しない, くる → こない)",
+        "exampleStr": "行かない → 行かなくてもいいです"
       }
     ],
     "pragmatics": {
@@ -17671,6 +19228,13 @@
         "exampleStr": "待たない → 待たない ＋ でください",
         "formVi": "Thể ない + でください",
         "formEn": "ない-form + でください"
+      },
+      {
+        "pos": "verb",
+        "form": "Group 3 verb: する / くる conjugation",
+        "formVi": "Động từ nhóm 3: する → して／した／しない、くる → きて／きた／こない",
+        "formEn": "Group 3 verb: する / くる conjugation",
+        "exampleStr": "ここに車を止めないでください。"
       }
     ],
     "pragmatics": {
@@ -17808,10 +19372,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + くれますか",
-        "exampleStr": "手伝う → 手伝って ＋ くれますか",
-        "formVi": "Thể て + くれますか",
-        "formEn": "て-form + くれますか"
+        "form": "て-form + くれますか (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + くれますか (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + くれますか (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "手伝う → 手伝って ＋ くれますか"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + くれますか (Group 2: drop る + て)",
+        "formVi": "Thể て + くれますか (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + くれますか (Group 2: drop る + て)",
+        "exampleStr": "手伝う → 手伝って ＋ くれますか"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + くれますか (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + くれますか (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + くれますか (Group 3: する → して, くる → きて)",
+        "exampleStr": "手伝う → 手伝って ＋ くれますか"
       }
     ],
     "pragmatics": {
@@ -17959,6 +19537,13 @@
         "exampleStr": "手伝う → 手伝って ＋ くださいませんか",
         "formVi": "Thể て + くださいませんか",
         "formEn": "て-form + くださいませんか"
+      },
+      {
+        "pos": "verb",
+        "form": "Group 3 verb: する / くる conjugation",
+        "formVi": "Động từ nhóm 3: する → して／した／しない、くる → きて／きた／こない",
+        "formEn": "Group 3 verb: する / くる conjugation",
+        "exampleStr": "窓を閉めてくれませんか。"
       }
     ],
     "pragmatics": {
@@ -18094,10 +19679,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1は/が（私に）N2を + くれる／くれます",
-        "exampleStr": "田中さん ＋ が私に本をくれます",
-        "formVi": "N1は/が（私に）N2を + くれる／くれます",
-        "formEn": "N1は/が（私に）N2を + くれる／くれます"
+        "form": "N1は/が（私に）N2を + くれる／くれます (basic structure)",
+        "formVi": "N1は/が（私に）N2を + くれる／くれます (cấu trúc cơ bản)",
+        "formEn": "N1は/が（私に）N2を + くれる／くれます (basic structure)",
+        "exampleStr": "田中さんが私に本をくれました。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は/が（私に）N2を + くれる／くれます (negative / extended usage)",
+        "formVi": "N1は/が（私に）N2を + くれる／くれます (dạng phủ định / mở rộng)",
+        "formEn": "N1は/が（私に）N2を + くれる／くれます (negative / extended usage)",
+        "exampleStr": "先生が私に辞書をくださいました。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は/が（私に）N2を + くれる／くれます (question / conversational usage)",
+        "formVi": "N1は/が（私に）N2を + くれる／くれます (dạng câu hỏi / hội thoại)",
+        "formEn": "N1は/が（私に）N2を + くれる／くれます (question / conversational usage)",
+        "exampleStr": "誕生日に何をくれましたか。"
       }
     ],
     "pragmatics": {
@@ -18236,10 +19835,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + くれる／くれます",
-        "exampleStr": "手伝う → 手伝って ＋ くれます",
-        "formVi": "Thể て + くれる／くれます",
-        "formEn": "て-form + くれる／くれます"
+        "form": "て-form + くれる／くれます (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + くれる／くれます (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + くれる／くれます (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "手伝う → 手伝って ＋ くれます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + くれる／くれます (Group 2: drop る + て)",
+        "formVi": "Thể て + くれる／くれます (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + くれる／くれます (Group 2: drop る + て)",
+        "exampleStr": "手伝う → 手伝って ＋ くれます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + くれる／くれます (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + くれる／くれます (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + くれる／くれます (Group 3: する → して, くる → きて)",
+        "exampleStr": "手伝う → 手伝って ＋ くれます"
       }
     ],
     "pragmatics": {
@@ -18376,10 +19989,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N1は/が N2に N3を + あげる／あげます",
-        "exampleStr": "私 ＋ は田中さんに花をあげます",
-        "formVi": "N1は/が N2に N3を + あげる／あげます",
-        "formEn": "N1は/が N2に N3を + あげる／あげます"
+        "form": "N1は/が N2に N3を + あげる／あげます (basic structure)",
+        "formVi": "N1は/が N2に N3を + あげる／あげます (cấu trúc cơ bản)",
+        "formEn": "N1は/が N2に N3を + あげる／あげます (basic structure)",
+        "exampleStr": "私は田中さんに花をあげました。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は/が N2に N3を + あげる／あげます (negative / extended usage)",
+        "formVi": "N1は/が N2に N3を + あげる／あげます (dạng phủ định / mở rộng)",
+        "formEn": "N1は/が N2に N3を + あげる／あげます (negative / extended usage)",
+        "exampleStr": "部長にお土産を差し上げました。"
+      },
+      {
+        "pos": "noun",
+        "form": "N1は/が N2に N3を + あげる／あげます (question / conversational usage)",
+        "formVi": "N1は/が N2に N3を + あげる／あげます (dạng câu hỏi / hội thoại)",
+        "formEn": "N1は/が N2に N3を + あげる／あげます (question / conversational usage)",
+        "exampleStr": "母の日に何をあげますか。"
       }
     ],
     "pragmatics": {
@@ -18528,10 +20155,24 @@
     "formationRules": [
       {
         "pos": "verb",
-        "form": "て-form + あげる／あげます",
-        "exampleStr": "手伝う → 手伝って ＋ あげます",
-        "formVi": "Thể て + あげる／あげます",
-        "formEn": "て-form + あげる／あげます"
+        "form": "て-form + あげる／あげます (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "formVi": "Thể て + あげる／あげます (Nhóm 1: って・んで・いて・いで・して)",
+        "formEn": "て-form + あげる／あげます (Group 1: -tte / -nde / -ite / -ide / -shite)",
+        "exampleStr": "手伝う → 手伝って ＋ あげます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + あげる／あげます (Group 2: drop る + て)",
+        "formVi": "Thể て + あげる／あげます (Nhóm 2: bỏ る + て)",
+        "formEn": "て-form + あげる／あげます (Group 2: drop る + て)",
+        "exampleStr": "手伝う → 手伝って ＋ あげます"
+      },
+      {
+        "pos": "verb",
+        "form": "て-form + あげる／あげます (Group 3: する → して, くる → きて)",
+        "formVi": "Thể て + あげる／あげます (Nhóm 3: する → して、くる → きて)",
+        "formEn": "て-form + あげる／あげます (Group 3: する → して, くる → きて)",
+        "exampleStr": "手伝う → 手伝って ＋ あげます"
       }
     ],
     "pragmatics": {
@@ -18680,6 +20321,13 @@
         "exampleStr": "手伝う → 手伝おう ＋ か",
         "formVi": "Thể ý chí + か",
         "formEn": "Volitional + か"
+      },
+      {
+        "pos": "verb",
+        "form": "Group 3 verb: する / くる conjugation",
+        "formVi": "Động từ nhóm 3: する → して／した／しない、くる → きて／きた／こない",
+        "formEn": "Group 3 verb: する / くる conjugation",
+        "exampleStr": "窓を開けましょうか。"
       }
     ],
     "pragmatics": {
@@ -18815,10 +20463,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N/số từ + しか + V(phủ định)",
-        "exampleStr": "1000円 ＋ しかありません",
-        "formVi": "N/số từ + しか + V(phủ định)",
-        "formEn": "N/number + しか + V(negative)"
+        "form": "N/number + しか + V(negative) (basic structure)",
+        "formVi": "N/số từ + しか + V(phủ định) (cấu trúc cơ bản)",
+        "formEn": "N/number + しか + V(negative) (basic structure)",
+        "exampleStr": "財布に1000円しかありません。"
+      },
+      {
+        "pos": "noun",
+        "form": "N/number + しか + V(negative) (negative / extended usage)",
+        "formVi": "N/số từ + しか + V(phủ định) (dạng phủ định / mở rộng)",
+        "formEn": "N/number + しか + V(negative) (negative / extended usage)",
+        "exampleStr": "この電車は平日しか走っていません。"
+      },
+      {
+        "pos": "noun",
+        "form": "N/number + しか + V(negative) (question / conversational usage)",
+        "formVi": "N/số từ + しか + V(phủ định) (dạng câu hỏi / hội thoại)",
+        "formEn": "N/number + しか + V(negative) (question / conversational usage)",
+        "exampleStr": "まだ半分しか終わっていませんか。"
       }
     ],
     "pragmatics": {
@@ -18955,10 +20617,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N/số từ + だけ",
-        "exampleStr": "1つ ＋ だけ",
-        "formVi": "N/số từ + だけ",
-        "formEn": "N/number + だけ"
+        "form": "N/number + だけ (basic structure)",
+        "formVi": "N/số từ + だけ (cấu trúc cơ bản)",
+        "formEn": "N/number + だけ (basic structure)",
+        "exampleStr": "これだけ買います。"
+      },
+      {
+        "pos": "noun",
+        "form": "N/number + だけ (negative / extended usage)",
+        "formVi": "N/số từ + だけ (dạng phủ định / mở rộng)",
+        "formEn": "N/number + だけ (negative / extended usage)",
+        "exampleStr": "今日は少しだけ食べました。"
+      },
+      {
+        "pos": "noun",
+        "form": "N/number + だけ (question / conversational usage)",
+        "formVi": "N/số từ + だけ (dạng câu hỏi / hội thoại)",
+        "formEn": "N/number + だけ (question / conversational usage)",
+        "exampleStr": "一人だけ来ますか。"
       }
     ],
     "pragmatics": {
@@ -18984,7 +20660,7 @@
           "en": "だけ works with affirmative verbs too, it doesn't require negation like しか"
         },
         "description": {
-          "vi": "だけ dùng được cả với động từ khẳng định lẫn phủ định, không bắt buộc phải phủ định như しか (g_107). Đây là điểm khác biệt cấu trúc quan trọng, không chỉ khác về cảm giác.",
+          "vi": "だけ dùng được cả với động từ khẳng định lẫn phủ định, không bắt buộc phải phủ định như しか (g_107). Đây là điểm khác biệt cấu trúc quan trọng, không chỉ khác về hàm ý.",
           "en": "だけ works with both affirmative and negative verbs, unlike しか (g_107), it doesn't require negation. This is an important structural difference, not just a difference in nuance."
         },
         "relatedGrammarId": "g_107"
@@ -19095,10 +20771,24 @@
     "formationRules": [
       {
         "pos": "noun",
-        "form": "N (thay を/が) + は",
-        "exampleStr": "この本 ＋ は読みました",
-        "formVi": "N (thay を/が) + は",
-        "formEn": "N (replaces を/が) + は"
+        "form": "N (replaces を/が) + は (basic structure)",
+        "formVi": "N (thay を/が) + は (cấu trúc cơ bản)",
+        "formEn": "N (replaces を/が) + は (basic structure)",
+        "exampleStr": "この本は読みました。"
+      },
+      {
+        "pos": "noun",
+        "form": "N (replaces を/が) + は (negative / extended usage)",
+        "formVi": "N (thay を/が) + は (dạng phủ định / mở rộng)",
+        "formEn": "N (replaces を/が) + は (negative / extended usage)",
+        "exampleStr": "肉は食べません。魚は食べます。"
+      },
+      {
+        "pos": "noun",
+        "form": "N (replaces を/が) + は (question / conversational usage)",
+        "formVi": "N (thay を/が) + は (dạng câu hỏi / hội thoại)",
+        "formEn": "N (replaces を/が) + は (question / conversational usage)",
+        "exampleStr": "この漢字は読めますか。"
       }
     ],
     "pragmatics": {
@@ -19232,11 +20922,32 @@
     "patternRomaji": "N1 wa ~ ga/kedo, N2 wa ~",
     "formationRules": [
       {
-        "pos": "phrase",
-        "form": "N1は~が/けど、N2は~",
-        "exampleStr": "私は忙しいですが、弟は暇です",
-        "formVi": "N1は~が/けど、N2は~",
-        "formEn": "N1は~が/けど、N2は~"
+        "pos": "verb",
+        "form": "N1 は V1 が／けど, N2 は V2",
+        "formVi": "N1 は V1 が／けど、N2 は V2",
+        "formEn": "N1 は V1 が／けど, N2 は V2",
+        "exampleStr": "肉は食べるけど、魚は食べない"
+      },
+      {
+        "pos": "i-adj",
+        "form": "N1 は i-adj 1 が／けど, N2 は i-adj 2",
+        "formVi": "N1 は A1い が／けど、N2 は A2い",
+        "formEn": "N1 は i-adj 1 が／けど, N2 は i-adj 2",
+        "exampleStr": "夏は暑いけど、冬は寒い"
+      },
+      {
+        "pos": "na-adj",
+        "form": "N1 は na-adj 1 だ／です が／けど, N2 は ~",
+        "formVi": "N1 は A1な だ／です が／けど、N2 は〜",
+        "formEn": "N1 は na-adj 1 だ／です が／けど, N2 は ~",
+        "exampleStr": "サッカーは好きだけど、野球は嫌いだ"
+      },
+      {
+        "pos": "noun",
+        "form": "N1 は N3 だ／です が／けど, N2 は N4",
+        "formVi": "N1 は N3 だ／です が／けど、N2 は N4",
+        "formEn": "N1 は N3 だ／です が／けど, N2 は N4",
+        "exampleStr": "兄は医者ですが、弟は会社員です"
       }
     ],
     "pragmatics": {
@@ -19382,6 +21093,13 @@
         "exampleStr": "便利 → 便利さ",
         "formVi": "Tính từ な + さ",
         "formEn": "na-adjective stem + さ"
+      },
+      {
+        "pos": "na-adj",
+        "form": "na-adjective stem + さ (in full sentence)",
+        "formVi": "Tính từ な + さ (áp dụng trong câu thực tế)",
+        "formEn": "na-adjective stem + さ (in full sentence)",
+        "exampleStr": "この部屋の広さはどのくらいですか。"
       }
     ],
     "pragmatics": {

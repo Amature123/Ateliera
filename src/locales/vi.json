@@ -288,6 +288,7 @@
     "noAnimation": "Chưa có hoạt hình nét chữ cho chữ này.",
     "loadingStrokes": "Đang tải thứ tự nét…",
     "hanvietLabel": "Hán Việt",
+    "strokeCount": "{n} nét",
     "meaning": "Nghĩa",
     "ariaLabel": "Hoạt hình nét chữ {char}",
     "positions": {

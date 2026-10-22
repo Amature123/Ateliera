@@ -48,7 +48,7 @@ for (const chapter of [...n5KanjiData.chapters, ...n4KanjiData.chapters]) {
   }
 }
 
-const components = new Set()
+const components = new Set(pdfByGlyph.keys())
 for (const char in kanjivgData) {
   for (const comp of kanjivgData[char].components) components.add(comp.element)
 }

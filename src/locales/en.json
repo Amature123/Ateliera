@@ -288,6 +288,7 @@
     "noAnimation": "No stroke animation available for this character yet.",
     "loadingStrokes": "Loading stroke order…",
     "hanvietLabel": "Sino-Vietnamese",
+    "strokeCount": "{n} strokes",
     "meaning": "Meaning",
     "ariaLabel": "Stroke animation for {char}",
     "positions": {

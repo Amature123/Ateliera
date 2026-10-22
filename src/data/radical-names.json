@@ -4,93 +4,9 @@
     "meaning": "Một",
     "curated": false
   },
-  "乙": {
-    "hanviet": "Ất",
-    "meaning": "Can ất",
-    "curated": false
-  },
-  "亠": {
-    "hanviet": "Đầu",
-    "meaning": "Đầu",
-    "curated": false
-  },
-  "八": {
-    "hanviet": "Bát",
-    "meaning": "Tám",
-    "curated": false
-  },
-  "二": {
-    "hanviet": "Nhị",
-    "meaning": "Hai",
-    "curated": false
-  },
-  "囗": {
-    "hanviet": "Vi",
-    "meaning": "Vây quanh",
-    "curated": false
-  },
-  "儿": {
-    "hanviet": "Nhân đi",
-    "meaning": "Dáng bước chân",
-    "curated": false
-  },
-  "十": {
-    "hanviet": "Thập",
-    "meaning": "Mười",
-    "curated": false
-  },
-  "冂": {
-    "hanviet": "Quynh",
-    "meaning": "Biên giới",
-    "curated": false
-  },
-  "丿": {
-    "hanviet": "Phiệt",
-    "meaning": "Nét phẩy",
-    "curated": false
-  },
-  "火": {
-    "hanviet": "Hỏa",
-    "meaning": "Lửa",
-    "curated": false
-  },
-  "白": {
-    "hanviet": "Bạch",
-    "meaning": "Màu trắng",
-    "curated": false
-  },
-  "田": {
-    "hanviet": "Điền",
-    "meaning": "Ruộng",
-    "curated": false
-  },
-  "禾": {
-    "hanviet": "Hòa",
-    "meaning": "Lúa",
-    "curated": false
-  },
-  "氵": {
-    "hanviet": "3 chấm thủy",
-    "meaning": "Ba chấm thủy",
-    "curated": false
-  },
-  "永": {
-    "hanviet": "Vĩnh",
-    "curated": true
-  },
-  "雨": {
-    "hanviet": "Vũ",
-    "meaning": "Mưa",
-    "curated": false
-  },
-  "日": {
-    "hanviet": "Nhật",
-    "meaning": "Ngày (mặt trời)",
-    "curated": false
-  },
-  "水": {
-    "hanviet": "Thủy",
-    "meaning": "Nước",
+  "丨": {
+    "hanviet": "Cổn",
+    "meaning": "Nét sổ",
     "curated": false
   },
   "丶": {
@@ -98,33 +14,34 @@
     "meaning": "Điểm, chấm",
     "curated": false
   },
-  "月": {
-    "hanviet": "Nguyệt",
-    "meaning": "Mặt trăng",
+  "丿": {
+    "hanviet": "Phiệt",
+    "meaning": "Nét phẩy",
     "curated": false
   },
-  "彐": {
-    "hanviet": "Kệ",
-    "meaning": "Đầu con nhím",
+  "乙": {
+    "hanviet": "Ất",
+    "meaning": "Can ất",
     "curated": false
   },
-  "云": {
-    "hanviet": "Vân",
-    "curated": true
-  },
-  "大": {
-    "hanviet": "Đại",
-    "meaning": "To, lớn",
+  "亅": {
+    "hanviet": "Quyết",
+    "meaning": "Nét móc",
     "curated": false
   },
-  "小": {
-    "hanviet": "Tiểu",
-    "meaning": "Nhỏ",
+  "二": {
+    "hanviet": "Nhị",
+    "meaning": "Hai",
     "curated": false
   },
-  "木": {
-    "hanviet": "Mộc",
-    "meaning": "Cây",
+  "人": {
+    "hanviet": "Nhân",
+    "meaning": "Người",
+    "curated": false
+  },
+  "儿": {
+    "hanviet": "Nhân đi",
+    "meaning": "Dáng bước chân",
     "curated": false
   },
   "亻": {
@@ -132,15 +49,1085 @@
     "meaning": "Dáng người đứng",
     "curated": false
   },
+  "𠆢": {
+    "hanviet": "Nhân nằm",
+    "meaning": "Dáng người nằm",
+    "curated": false
+  },
+  "几": {
+    "hanviet": "Kỉ",
+    "meaning": "Cái ghế",
+    "curated": false
+  },
+  "入": {
+    "hanviet": "Nhập",
+    "meaning": "Vào",
+    "curated": false
+  },
+  "八": {
+    "hanviet": "Bát",
+    "meaning": "Tám",
+    "curated": false
+  },
+  "冂": {
+    "hanviet": "Quynh",
+    "meaning": "Biên giới",
+    "curated": false
+  },
+  "凵": {
+    "hanviet": "Khảm",
+    "meaning": "Há miệng",
+    "curated": false
+  },
+  "匚": {
+    "hanviet": "Phương",
+    "meaning": "Tủ đựng",
+    "curated": false
+  },
+  "亠": {
+    "hanviet": "Đầu",
+    "meaning": "Đầu",
+    "curated": false
+  },
+  "冖": {
+    "hanviet": "Mịch",
+    "meaning": "Trùm khăn",
+    "curated": false
+  },
+  "宀": {
+    "hanviet": "Miên",
+    "meaning": "Mái nhà",
+    "curated": false
+  },
+  "冫": {
+    "hanviet": "2 chấm băng",
+    "meaning": "Nước lạnh",
+    "curated": false
+  },
+  "水": {
+    "hanviet": "Thủy",
+    "meaning": "Nước",
+    "curated": false
+  },
+  "氵": {
+    "hanviet": "3 chấm thủy",
+    "meaning": "Ba chấm thủy",
+    "curated": false
+  },
+  "火": {
+    "hanviet": "Hỏa",
+    "meaning": "Lửa",
+    "curated": false
+  },
+  "灬": {
+    "hanviet": "4 chấm hỏa",
+    "meaning": "Bốn chấm hỏa",
+    "curated": false
+  },
+  "刀": {
+    "hanviet": "Đao",
+    "meaning": "Kiếm",
+    "curated": false
+  },
+  "刂": {
+    "hanviet": "Bộ đao",
+    "meaning": "Bộ đao",
+    "curated": false
+  },
+  "力": {
+    "hanviet": "Lực",
+    "meaning": "Sức lực",
+    "curated": false
+  },
+  "方": {
+    "hanviet": "Phương",
+    "meaning": "Phương hướng",
+    "curated": false
+  },
+  "勹": {
+    "hanviet": "Bao",
+    "meaning": "Bao bọc",
+    "curated": false
+  },
+  "匕": {
+    "hanviet": "Chuỷ",
+    "curated": false
+  },
+  "十": {
+    "hanviet": "Thập",
+    "meaning": "Mười",
+    "curated": false
+  },
+  "土": {
+    "hanviet": "Thổ",
+    "meaning": "Đất",
+    "curated": false
+  },
+  "士": {
+    "hanviet": "Sĩ",
+    "meaning": "Binh sĩ",
+    "curated": false
+  },
+  "干": {
+    "hanviet": "Can",
+    "meaning": "Khô khan",
+    "curated": false
+  },
+  "工": {
+    "hanviet": "Công",
+    "meaning": "Công nhân",
+    "curated": false
+  },
+  "巾": {
+    "hanviet": "Cân",
+    "meaning": "Cái khăn",
+    "curated": false
+  },
+  "卜": {
+    "hanviet": "Bốc",
+    "meaning": "Quẻ bói",
+    "curated": false
+  },
+  "卩": {
+    "hanviet": "Tiết",
+    "meaning": "Đốt tre",
+    "curated": false
+  },
+  "厂": {
+    "hanviet": "Hán",
+    "meaning": "Sườn núi",
+    "curated": false
+  },
+  "广": {
+    "hanviet": "Nghiễm",
+    "meaning": "Mái hiên",
+    "curated": false
+  },
+  "疒": {
+    "hanviet": "Nạch",
+    "meaning": "Bệnh tật",
+    "curated": false
+  },
+  "斤": {
+    "hanviet": "Cân",
+    "meaning": "Cái rìu",
+    "curated": false
+  },
+  "厶": {
+    "hanviet": "Khư",
+    "meaning": "Riêng tư",
+    "curated": false
+  },
   "口": {
     "hanviet": "Khẩu",
     "meaning": "Cái miệng",
+    "curated": false
+  },
+  "囗": {
+    "hanviet": "Vi",
+    "meaning": "Vây quanh",
+    "curated": false
+  },
+  "又": {
+    "hanviet": "Hựu",
+    "meaning": "Lại nữa",
+    "curated": false
+  },
+  "夂": {
+    "hanviet": "Truy",
+    "meaning": "Phía sau",
+    "curated": false
+  },
+  "攵": {
+    "hanviet": "Phộc",
+    "meaning": "Đánh khẽ",
+    "curated": false
+  },
+  "文": {
+    "hanviet": "Văn",
+    "meaning": "Văn học",
+    "curated": false
+  },
+  "支": {
+    "hanviet": "Chi",
+    "meaning": "Chi nhánh",
+    "curated": false
+  },
+  "皮": {
+    "hanviet": "Bì",
+    "meaning": "Da",
+    "curated": false
+  },
+  "夕": {
+    "hanviet": "Tịch",
+    "meaning": "Chiều tối",
+    "curated": false
+  },
+  "歹": {
+    "hanviet": "Ngạt",
+    "meaning": "Xấu xa",
+    "curated": false
+  },
+  "大": {
+    "hanviet": "Đại",
+    "meaning": "To, lớn",
+    "curated": false
+  },
+  "女": {
+    "hanviet": "Nữ",
+    "meaning": "Phụ nữ",
+    "curated": false
+  },
+  "子": {
+    "hanviet": "Tử",
+    "meaning": "Con",
+    "curated": false
+  },
+  "寸": {
+    "hanviet": "Thốn",
+    "meaning": "Tấc",
+    "curated": false
+  },
+  "小": {
+    "hanviet": "Tiểu",
+    "meaning": "Nhỏ",
+    "curated": false
+  },
+  "示": {
+    "hanviet": "Thị",
+    "meaning": "Chỉ thị",
+    "curated": false
+  },
+  "礻": {
+    "hanviet": "Bộ thị",
+    "curated": false
+  },
+  "衣": {
+    "hanviet": "Bộ y",
+    "curated": false
+  },
+  "衤": {
+    "hanviet": "Bộ y",
+    "curated": false
+  },
+  "尢": {
+    "hanviet": "Uông",
+    "meaning": "Yếu đuối",
+    "curated": false
+  },
+  "尸": {
+    "hanviet": "Thi",
+    "meaning": "Xác chết",
+    "curated": false
+  },
+  "戸": {
+    "hanviet": "Hộ",
+    "meaning": "Cánh cửa",
+    "curated": false
+  },
+  "屮": {
+    "hanviet": "Triệt",
+    "meaning": "Mầm non",
+    "curated": false
+  },
+  "山": {
+    "hanviet": "Sơn",
+    "meaning": "Núi",
+    "curated": false
+  },
+  "川": {
+    "hanviet": "Xuyên",
+    "meaning": "Sông",
+    "curated": false
+  },
+  "巛": {
+    "hanviet": "Bộ xuyên",
+    "curated": false
+  },
+  "己": {
+    "hanviet": "Kỉ",
+    "meaning": "Bản thân",
+    "curated": false
+  },
+  "幺": {
+    "hanviet": "Yêu",
+    "meaning": "Nhỏ",
+    "curated": false
+  },
+  "玄": {
+    "hanviet": "Huyền",
+    "meaning": "Màu đen",
+    "curated": false
+  },
+  "糸": {
+    "hanviet": "Mịch",
+    "meaning": "Sợi tơ",
+    "curated": false
+  },
+  "廴": {
+    "hanviet": "Dẫn",
+    "meaning": "Bước dài",
+    "curated": false
+  },
+  "辶": {
+    "hanviet": "Sước",
+    "meaning": "Đi xa",
+    "curated": false
+  },
+  "艹": {
+    "hanviet": "Thảo",
+    "meaning": "Cỏ",
+    "curated": false
+  },
+  "廾": {
+    "hanviet": "Củng",
+    "meaning": "Chắp tay",
+    "curated": false
+  },
+  "弋": {
+    "hanviet": "Dặc",
+    "meaning": "Chiếm lấy",
+    "curated": false
+  },
+  "戈": {
+    "hanviet": "Qua",
+    "meaning": "Cây qua",
+    "curated": false
+  },
+  "戊": {
+    "hanviet": "Mâu",
+    "meaning": "Bụi cây",
+    "curated": false
+  },
+  "戌": {
+    "hanviet": "Tuất",
+    "meaning": "Giờ tuất",
+    "curated": false
+  },
+  "弓": {
+    "hanviet": "Cung",
+    "meaning": "Cung tên",
+    "curated": false
+  },
+  "彐": {
+    "hanviet": "Kệ",
+    "meaning": "Đầu con nhím",
+    "curated": false
+  },
+  "彡": {
+    "hanviet": "Sam",
+    "meaning": "Tóc",
+    "curated": false
+  },
+  "彳": {
+    "hanviet": "Sách",
+    "meaning": "Bước trái",
+    "curated": false
+  },
+  "心": {
+    "hanviet": "Tâm",
+    "meaning": "Trái tim",
+    "curated": false
+  },
+  "忄": {
+    "hanviet": "Bộ tâm",
+    "curated": false
+  },
+  "手": {
+    "hanviet": "Thủ",
+    "meaning": "Cái tay",
+    "curated": false
+  },
+  "扌": {
+    "hanviet": "Bộ thủ",
+    "curated": false
+  },
+  "毛": {
+    "hanviet": "Mao",
+    "meaning": "Lông",
+    "curated": false
+  },
+  "斗": {
+    "hanviet": "Đấu",
+    "meaning": "Cái đấu",
+    "curated": false
+  },
+  "无": {
+    "hanviet": "Vô",
+    "meaning": "Không",
+    "curated": false
+  },
+  "日": {
+    "hanviet": "Nhật",
+    "meaning": "Ngày (mặt trời)",
+    "curated": false
+  },
+  "月": {
+    "hanviet": "Nguyệt",
+    "meaning": "Mặt trăng",
+    "curated": false
+  },
+  "木": {
+    "hanviet": "Mộc",
+    "meaning": "Cây",
+    "curated": false
+  },
+  "米": {
+    "hanviet": "Mễ",
+    "meaning": "Gạo",
+    "curated": false
+  },
+  "禾": {
+    "hanviet": "Hòa",
+    "meaning": "Lúa",
+    "curated": false
+  },
+  "釆": {
+    "hanviet": "Biện",
+    "meaning": "Phân biệt",
+    "curated": false
+  },
+  "耒": {
+    "hanviet": "Lỗi",
+    "meaning": "Cái cày",
+    "curated": false
+  },
+  "欠": {
+    "hanviet": "Khiếm",
+    "meaning": "Khiếm khuyết, thiếu",
+    "curated": false
+  },
+  "止": {
+    "hanviet": "Chỉ",
+    "meaning": "Dừng lại",
+    "curated": false
+  },
+  "殳": {
+    "hanviet": "Thù",
+    "meaning": "Binh khí",
+    "curated": false
+  },
+  "毋": {
+    "hanviet": "Vô",
+    "meaning": "Chớ, đừng",
+    "curated": false
+  },
+  "比": {
+    "hanviet": "Tỉ",
+    "meaning": "So sánh",
+    "curated": false
+  },
+  "氏": {
+    "hanviet": "Thị",
+    "meaning": "Họ",
+    "curated": false
+  },
+  "气": {
+    "hanviet": "Khí",
+    "meaning": "Hơi nước",
+    "curated": false
+  },
+  "勿": {
+    "hanviet": "Vật",
+    "meaning": "Chớ",
+    "curated": false
+  },
+  "爪": {
+    "hanviet": "Trảo",
+    "meaning": "Móng tay",
+    "curated": false
+  },
+  "爫": {
+    "hanviet": "Bộ trảo",
+    "curated": false
+  },
+  "瓜": {
+    "hanviet": "Qua",
+    "meaning": "Dưa",
+    "curated": false
+  },
+  "父": {
+    "hanviet": "Phụ",
+    "meaning": "Bố",
+    "curated": false
+  },
+  "爿": {
+    "hanviet": "Tường",
+    "meaning": "Tấm ván",
+    "curated": false
+  },
+  "丬": {
+    "hanviet": "Bộ tường",
+    "curated": false
+  },
+  "片": {
+    "hanviet": "Phiến",
+    "meaning": "Mảnh, tấm",
+    "curated": false
+  },
+  "牙": {
+    "hanviet": "Nha",
+    "meaning": "Răng nanh",
+    "curated": false
+  },
+  "牛": {
+    "hanviet": "Ngưu",
+    "meaning": "Trâu bò",
+    "curated": false
+  },
+  "牜": {
+    "hanviet": "Bộ ngưu",
+    "meaning": "Con bò",
+    "curated": false
+  },
+  "缶": {
+    "hanviet": "Phẫu",
+    "meaning": "Đồ sành",
+    "curated": false
+  },
+  "羊": {
+    "hanviet": "Dương",
+    "meaning": "Con dê",
+    "curated": false
+  },
+  "犬": {
+    "hanviet": "Khuyển",
+    "meaning": "Con chó",
+    "curated": false
+  },
+  "犭": {
+    "hanviet": "Bộ khuyển",
+    "curated": false
+  },
+  "玉": {
+    "hanviet": "Ngọc",
+    "meaning": "Viên ngọc",
+    "curated": false
+  },
+  "生": {
+    "hanviet": "Sinh",
+    "meaning": "Học sinh",
+    "curated": false
+  },
+  "瓦": {
+    "hanviet": "Ngõa",
+    "meaning": "Ngói",
+    "curated": false
+  },
+  "甘": {
+    "hanviet": "Cam",
+    "meaning": "Ngọt",
+    "curated": false
+  },
+  "用": {
+    "hanviet": "Dụng",
+    "meaning": "Sử dụng",
+    "curated": false
+  },
+  "角": {
+    "hanviet": "Giác",
+    "meaning": "Góc",
+    "curated": false
+  },
+  "田": {
+    "hanviet": "Điền",
+    "meaning": "Ruộng",
+    "curated": false
+  },
+  "匹": {
+    "hanviet": "Thất",
+    "meaning": "Đếm con vật",
+    "curated": false
+  },
+  "癶": {
+    "hanviet": "Bát",
+    "meaning": "Trở lại",
+    "curated": false
+  },
+  "白": {
+    "hanviet": "Bạch",
+    "meaning": "Màu trắng",
+    "curated": false
+  },
+  "皿": {
+    "hanviet": "Mãnh",
+    "meaning": "Cái đĩa",
+    "curated": false
+  },
+  "血": {
+    "hanviet": "Huyết",
+    "meaning": "Máu",
+    "curated": false
+  },
+  "目": {
+    "hanviet": "Mục",
+    "meaning": "Mắt",
+    "curated": false
+  },
+  "自": {
+    "hanviet": "Tự",
+    "meaning": "Bản thân",
+    "curated": false
+  },
+  "見": {
+    "hanviet": "Kiến",
+    "meaning": "Nhìn",
+    "curated": false
+  },
+  "貝": {
+    "hanviet": "Bối",
+    "meaning": "Bảo bối, con sò",
+    "curated": false
+  },
+  "頁": {
+    "hanviet": "Hiệt",
+    "meaning": "Trang giấy, đầu",
+    "curated": false
+  },
+  "首": {
+    "hanviet": "Thủ",
+    "meaning": "Thủ tướng, cái cổ",
+    "curated": false
+  },
+  "矛": {
+    "hanviet": "Mâu",
+    "meaning": "Mẫu thuẫn",
+    "curated": false
+  },
+  "矢": {
+    "hanviet": "Thỉ",
+    "meaning": "Mũi tên",
+    "curated": false
+  },
+  "石": {
+    "hanviet": "Thạch",
+    "meaning": "Đá",
+    "curated": false
+  },
+  "穴": {
+    "hanviet": "Huyệt",
+    "meaning": "Lỗ",
+    "curated": false
+  },
+  "立": {
+    "hanviet": "Lập",
+    "meaning": "Đứng",
+    "curated": false
+  },
+  "音": {
+    "hanviet": "Âm",
+    "meaning": "Âm thanh",
+    "curated": false
+  },
+  "竹": {
+    "hanviet": "Trúc",
+    "meaning": "Tre trúc",
+    "curated": false
+  },
+  "⺮": {
+    "hanviet": "Bộ trúc",
+    "curated": false
+  },
+  "罒": {
+    "hanviet": "Võng",
+    "curated": false
+  },
+  "羽": {
+    "hanviet": "Vũ",
+    "meaning": "Lông vũ",
+    "curated": false
+  },
+  "老": {
+    "hanviet": "Lão",
+    "meaning": "Người già",
+    "curated": false
+  },
+  "而": {
+    "hanviet": "Nhi",
+    "meaning": "Mà, và",
+    "curated": false
+  },
+  "耳": {
+    "hanviet": "Nhĩ",
+    "meaning": "Cái tai",
+    "curated": false
+  },
+  "聿": {
+    "hanviet": "Duật",
+    "meaning": "Bút",
+    "curated": false
+  },
+  "肉": {
+    "hanviet": "Nhục",
+    "meaning": "Thịt",
+    "curated": false
+  },
+  "⺼": {
+    "hanviet": "Bộ nhục",
+    "curated": false
+  },
+  "臣": {
+    "hanviet": "Thần",
+    "meaning": "Đại thần",
+    "curated": false
+  },
+  "至": {
+    "hanviet": "Chí",
+    "meaning": "Kịp, đến",
+    "curated": false
+  },
+  "臼": {
+    "hanviet": "Cữu",
+    "meaning": "Cái cối",
+    "curated": false
+  },
+  "舌": {
+    "hanviet": "Thiệt",
+    "meaning": "Lưỡi",
+    "curated": false
+  },
+  "舛": {
+    "hanviet": "Suyễn",
+    "meaning": "Sai lầm",
+    "curated": false
+  },
+  "舟": {
+    "hanviet": "Chu",
+    "meaning": "Thuyền",
+    "curated": false
+  },
+  "良": {
+    "hanviet": "Lương",
+    "meaning": "Tốt",
+    "curated": false
+  },
+  "色": {
+    "hanviet": "Sắc",
+    "meaning": "Màu sắc",
+    "curated": false
+  },
+  "虍": {
+    "hanviet": "Hổ",
+    "meaning": "Vằn con hổ",
+    "curated": false
+  },
+  "虫": {
+    "hanviet": "Trùng",
+    "meaning": "Côn trùng",
+    "curated": false
+  },
+  "行": {
+    "hanviet": "Hành",
+    "meaning": "Đi, ngân hàng",
+    "curated": false
+  },
+  "言": {
+    "hanviet": "Ngôn",
+    "meaning": "Nói",
+    "curated": false
+  },
+  "谷": {
+    "hanviet": "Cốc",
+    "meaning": "Thung lũng",
+    "curated": false
+  },
+  "豆": {
+    "hanviet": "Đậu",
+    "meaning": "Hạt đậu",
+    "curated": false
+  },
+  "豕": {
+    "hanviet": "Thỉ",
+    "meaning": "Con lợn",
+    "curated": false
+  },
+  "豸": {
+    "hanviet": "Trãi",
+    "meaning": "Con sâu",
+    "curated": false
+  },
+  "赤": {
+    "hanviet": "Xích",
+    "meaning": "Màu đỏ",
+    "curated": false
+  },
+  "走": {
+    "hanviet": "Tẩu",
+    "meaning": "Chạy",
+    "curated": false
+  },
+  "足": {
+    "hanviet": "Túc",
+    "meaning": "Chân",
+    "curated": false
+  },
+  "⻊": {
+    "hanviet": "Bộ túc",
+    "curated": false
+  },
+  "身": {
+    "hanviet": "Thân",
+    "meaning": "Bản thân",
+    "curated": false
+  },
+  "車": {
+    "hanviet": "Xa",
+    "meaning": "Xe",
+    "curated": false
+  },
+  "辛": {
+    "hanviet": "Tân",
+    "meaning": "Cay",
+    "curated": false
+  },
+  "辰": {
+    "hanviet": "Thần",
+    "meaning": "Thìn",
+    "curated": false
+  },
+  "阝": {
+    "hanviet": "Ấp",
+    "meaning": "Vùng đất",
+    "curated": false
+  },
+  "酉": {
+    "hanviet": "Dậu",
+    "meaning": "Giờ dậu",
+    "curated": false
+  },
+  "里": {
+    "hanviet": "Lí",
+    "meaning": "Làng",
+    "curated": false
+  },
+  "黑": {
+    "hanviet": "Hắc",
+    "meaning": "Màu đen",
+    "curated": false
+  },
+  "金": {
+    "hanviet": "Kim",
+    "meaning": "Kim loại, tiền, vàng",
     "curated": false
   },
   "長": {
     "hanviet": "Trường",
     "meaning": "Dài",
     "curated": false
+  },
+  "門": {
+    "hanviet": "Môn",
+    "meaning": "Cổng",
+    "curated": false
+  },
+  "隶": {
+    "hanviet": "Đãi",
+    "meaning": "Kịp đến",
+    "curated": false
+  },
+  "隹": {
+    "hanviet": "Truy",
+    "meaning": "Chim",
+    "curated": false
+  },
+  "雨": {
+    "hanviet": "Vũ",
+    "meaning": "Mưa",
+    "curated": false
+  },
+  "青": {
+    "hanviet": "Thanh",
+    "meaning": "Màu xanh",
+    "curated": false
+  },
+  "非": {
+    "hanviet": "Phi",
+    "meaning": "Phi thường",
+    "curated": false
+  },
+  "面": {
+    "hanviet": "Diện",
+    "meaning": "Bề mặt",
+    "curated": false
+  },
+  "革": {
+    "hanviet": "Cách",
+    "meaning": "Cải cách",
+    "curated": false
+  },
+  "韋": {
+    "hanviet": "Vi",
+    "meaning": "Da",
+    "curated": false
+  },
+  "風": {
+    "hanviet": "Phong",
+    "meaning": "Gió",
+    "curated": false
+  },
+  "飛": {
+    "hanviet": "Phi",
+    "meaning": "Bay",
+    "curated": false
+  },
+  "食": {
+    "hanviet": "Thực",
+    "meaning": "Ăn",
+    "curated": false
+  },
+  "飠": {
+    "hanviet": "Bộ thực",
+    "curated": false
+  },
+  "骨": {
+    "hanviet": "Cốt",
+    "meaning": "Xương",
+    "curated": false
+  },
+  "高": {
+    "hanviet": "Cao",
+    "meaning": "Cao, đắt",
+    "curated": false
+  },
+  "馬": {
+    "hanviet": "Mã",
+    "meaning": "Con ngựa",
+    "curated": false
+  },
+  "鬼": {
+    "hanviet": "Quỷ",
+    "meaning": "Con quỷ",
+    "curated": false
+  },
+  "魚": {
+    "hanviet": "Ngư",
+    "meaning": "Con cá",
+    "curated": false
+  },
+  "鳥": {
+    "hanviet": "Điểu",
+    "meaning": "Con chim",
+    "curated": false
+  },
+  "鹿": {
+    "hanviet": "Lộc",
+    "meaning": "Con hươu",
+    "curated": false
+  },
+  "麻": {
+    "hanviet": "Ma",
+    "meaning": "Ma túy",
+    "curated": false
+  },
+  "黃": {
+    "hanviet": "Hoàng",
+    "meaning": "Màu vàng",
+    "curated": false
+  },
+  "龍": {
+    "hanviet": "Long",
+    "meaning": "Con rồng",
+    "curated": false
+  },
+  "龜": {
+    "hanviet": "Quy",
+    "meaning": "Con rùa",
+    "curated": false
+  },
+  "鼻": {
+    "hanviet": "Tị",
+    "meaning": "Cái mũi",
+    "curated": false
+  },
+  "鼓": {
+    "hanviet": "Cổ",
+    "meaning": "Cái trống",
+    "curated": false
+  },
+  "禸": {
+    "hanviet": "Nhựu",
+    "meaning": "Vết chân",
+    "curated": false
+  },
+  "斉": {
+    "hanviet": "Tề",
+    "meaning": "Ngang bằng",
+    "curated": false
+  },
+  "黒": {
+    "hanviet": "Hắc",
+    "meaning": "Màu đen",
+    "curated": false
+  },
+  "黄": {
+    "hanviet": "Hoàng",
+    "meaning": "Màu vàng",
+    "curated": false
+  },
+  "竜": {
+    "hanviet": "Long",
+    "meaning": "Con rồng",
+    "curated": false
+  },
+  "亀": {
+    "hanviet": "Quy",
+    "meaning": "Con rùa",
+    "curated": false
+  },
+  "⻌": {
+    "hanviet": "Sước",
+    "meaning": "Đi xa",
+    "curated": false
+  },
+  "⻏": {
+    "hanviet": "Ấp",
+    "meaning": "Vùng đất",
+    "curated": false
+  },
+  "⺨": {
+    "hanviet": "Bộ khuyển",
+    "curated": false
+  },
+  "⺤": {
+    "hanviet": "Bộ trảo",
+    "curated": false
+  },
+  "⺷": {
+    "hanviet": "Dương",
+    "meaning": "Con dê",
+    "curated": false
+  },
+  "⺕": {
+    "hanviet": "Kệ",
+    "meaning": "Đầu con nhím",
+    "curated": false
+  },
+  "⺌": {
+    "hanviet": "Tiểu",
+    "meaning": "Nhỏ",
+    "curated": false
+  },
+  "⺍": {
+    "hanviet": "Tiểu",
+    "meaning": "Nhỏ",
+    "curated": false
+  },
+  "⺦": {
+    "hanviet": "Bộ tường",
+    "curated": false
+  },
+  "龰": {
+    "hanviet": "Chỉ",
+    "meaning": "Dừng lại",
+    "curated": false
+  },
+  "永": {
+    "hanviet": "Vĩnh",
+    "curated": true
+  },
+  "云": {
+    "hanviet": "Vân",
+    "curated": true
   },
   "髟": {
     "hanviet": "Tiêu",
@@ -154,167 +1141,28 @@
     "hanviet": "Bản",
     "curated": false
   },
-  "土": {
-    "hanviet": "Thổ",
-    "meaning": "Đất",
-    "curated": false
-  },
-  "卜": {
-    "hanviet": "Bốc",
-    "meaning": "Quẻ bói",
-    "curated": false
-  },
-  "丨": {
-    "hanviet": "Cổn",
-    "meaning": "Nét sổ",
-    "curated": false
-  },
-  "工": {
-    "hanviet": "Công",
-    "meaning": "Công nhân",
-    "curated": false
-  },
   "丆": {
     "hanviet": "Hán",
     "curated": true
-  },
-  "又": {
-    "hanviet": "Hựu",
-    "meaning": "Lại nữa",
-    "curated": false
-  },
-  "夕": {
-    "hanviet": "Tịch",
-    "meaning": "Chiều tối",
-    "curated": false
-  },
-  "立": {
-    "hanviet": "Lập",
-    "meaning": "Đứng",
-    "curated": false
-  },
-  "見": {
-    "hanviet": "Kiến",
-    "meaning": "Nhìn",
-    "curated": false
-  },
-  "彳": {
-    "hanviet": "Sách",
-    "meaning": "Bước trái",
-    "curated": false
-  },
-  "金": {
-    "hanviet": "Kim",
-    "meaning": "Kim loại, tiền, vàng",
-    "curated": false
-  },
-  "米": {
-    "hanviet": "Mễ",
-    "meaning": "Gạo",
-    "curated": false
-  },
-  "刂": {
-    "hanviet": "Bộ đao",
-    "meaning": "Bộ đao",
-    "curated": false
   },
   "帚": {
     "hanviet": "Trửu",
     "curated": true
   },
-  "食": {
-    "hanviet": "Thực",
-    "meaning": "Ăn",
-    "curated": false
-  },
   "艮": {
     "hanviet": "Cấn",
     "curated": true
   },
-  "飠": {
-    "hanviet": "Bộ thực",
-    "curated": false
-  },
-  "欠": {
-    "hanviet": "Khiếm",
-    "meaning": "Khiếm khuyết, thiếu",
-    "curated": false
-  },
   "反": {
     "hanviet": "Phản",
-    "curated": false
-  },
-  "人": {
-    "hanviet": "Nhân",
-    "meaning": "Người",
-    "curated": false
-  },
-  "牛": {
-    "hanviet": "Ngưu",
-    "meaning": "Trâu bò",
-    "curated": false
-  },
-  "干": {
-    "hanviet": "Can",
-    "meaning": "Khô khan",
-    "curated": false
-  },
-  "勿": {
-    "hanviet": "Vật",
-    "meaning": "Chớ",
-    "curated": false
-  },
-  "子": {
-    "hanviet": "Tử",
-    "meaning": "Con",
-    "curated": false
-  },
-  "生": {
-    "hanviet": "Sinh",
-    "meaning": "Học sinh",
-    "curated": false
-  },
-  "气": {
-    "hanviet": "Khí",
-    "meaning": "Hơi nước",
     "curated": false
   },
   "乂": {
     "hanviet": "Nghệ",
     "curated": true
   },
-  "艹": {
-    "hanviet": "Thảo",
-    "meaning": "Cỏ",
-    "curated": false
-  },
   "夫": {
     "hanviet": "Phu",
-    "curated": false
-  },
-  "毛": {
-    "hanviet": "Mao",
-    "meaning": "Lông",
-    "curated": false
-  },
-  "冖": {
-    "hanviet": "Mịch",
-    "meaning": "Trùm khăn",
-    "curated": false
-  },
-  "手": {
-    "hanviet": "Thủ",
-    "meaning": "Cái tay",
-    "curated": false
-  },
-  "父": {
-    "hanviet": "Phụ",
-    "meaning": "Bố",
-    "curated": false
-  },
-  "毋": {
-    "hanviet": "Vô",
-    "meaning": "Chớ, đừng",
     "curated": false
   },
   "毎": {
@@ -325,31 +1173,6 @@
     "hanviet": "Ngột",
     "curated": true
   },
-  "車": {
-    "hanviet": "Xa",
-    "meaning": "Xe",
-    "curated": false
-  },
-  "耳": {
-    "hanviet": "Nhĩ",
-    "meaning": "Cái tai",
-    "curated": false
-  },
-  "斤": {
-    "hanviet": "Cân",
-    "meaning": "Cái rìu",
-    "curated": false
-  },
-  "音": {
-    "hanviet": "Âm",
-    "meaning": "Âm thanh",
-    "curated": false
-  },
-  "門": {
-    "hanviet": "Môn",
-    "meaning": "Cổng",
-    "curated": false
-  },
   "寺": {
     "hanviet": "Tự",
     "curated": false
@@ -358,28 +1181,8 @@
     "hanviet": "Quân",
     "curated": true
   },
-  "辶": {
-    "hanviet": "Sước",
-    "meaning": "Đi xa",
-    "curated": false
-  },
-  "寸": {
-    "hanviet": "Thốn",
-    "meaning": "Tấc",
-    "curated": false
-  },
-  "目": {
-    "hanviet": "Mục",
-    "meaning": "Mắt",
-    "curated": false
-  },
   "千": {
     "hanviet": "Thiên",
-    "curated": false
-  },
-  "里": {
-    "hanviet": "Lí",
-    "meaning": "Làng",
     "curated": false
   },
   "何": {
@@ -390,80 +1193,16 @@
     "hanviet": "Khả",
     "curated": true
   },
-  "罒": {
-    "hanviet": "Võng",
-    "curated": false
-  },
-  "貝": {
-    "hanviet": "Bối",
-    "meaning": "Bảo bối, con sò",
-    "curated": false
-  },
-  "入": {
-    "hanviet": "Nhập",
-    "meaning": "Vào",
-    "curated": false
-  },
-  "山": {
-    "hanviet": "Sơn",
-    "meaning": "Núi",
-    "curated": false
-  },
-  "肉": {
-    "hanviet": "Nhục",
-    "meaning": "Thịt",
-    "curated": false
-  },
-  "凵": {
-    "hanviet": "Khảm",
-    "meaning": "Há miệng",
-    "curated": false
-  },
-  "言": {
-    "hanviet": "Ngôn",
-    "meaning": "Nói",
-    "curated": false
-  },
-  "舌": {
-    "hanviet": "Thiệt",
-    "meaning": "Lưỡi",
-    "curated": false
-  },
   "央": {
     "hanviet": "Ương",
     "curated": true
-  },
-  "力": {
-    "hanviet": "Lực",
-    "meaning": "Sức lực",
-    "curated": false
   },
   "丁": {
     "hanviet": "Đinh",
     "curated": false
   },
-  "灬": {
-    "hanviet": "4 chấm hỏa",
-    "meaning": "Bốn chấm hỏa",
-    "curated": false
-  },
-  "女": {
-    "hanviet": "Nữ",
-    "meaning": "Phụ nữ",
-    "curated": false
-  },
   "化": {
     "hanviet": "Hóa",
-    "curated": false
-  },
-  "宀": {
-    "hanviet": "Miên",
-    "meaning": "Mái nhà",
-    "curated": false
-  },
-  "士": {
-    "hanviet": "Sĩ",
-    "meaning": "Binh sĩ",
     "curated": false
   },
   "売": {
@@ -474,10 +1213,6 @@
     "hanviet": "Chấp",
     "curated": true
   },
-  "匕": {
-    "hanviet": "Chuỷ",
-    "curated": false
-  },
   "西": {
     "hanviet": "Tây",
     "curated": false
@@ -486,82 +1221,13 @@
     "hanviet": "Tảo",
     "curated": false
   },
-  "酉": {
-    "hanviet": "Dậu",
-    "meaning": "Giờ dậu",
-    "curated": false
-  },
-  "聿": {
-    "hanviet": "Duật",
-    "meaning": "Bút",
-    "curated": false
-  },
-  "川": {
-    "hanviet": "Xuyên",
-    "meaning": "Sông",
-    "curated": false
-  },
-  "方": {
-    "hanviet": "Phương",
-    "meaning": "Phương hướng",
-    "curated": false
-  },
-  "礻": {
-    "hanviet": "Bộ thị",
-    "curated": false
-  },
-  "豕": {
-    "hanviet": "Thỉ",
-    "meaning": "Con lợn",
-    "curated": false
-  },
-  "刀": {
-    "hanviet": "Đao",
-    "meaning": "Kiếm",
-    "curated": false
-  },
-  "止": {
-    "hanviet": "Chỉ",
-    "meaning": "Dừng lại",
-    "curated": false
-  },
-  "疒": {
-    "hanviet": "Nạch",
-    "meaning": "Bệnh tật",
-    "curated": false
-  },
   "丙": {
     "hanviet": "Bính",
     "curated": true
   },
-  "幺": {
-    "hanviet": "Yêu",
-    "meaning": "Nhỏ",
-    "curated": false
-  },
-  "夂": {
-    "hanviet": "Truy",
-    "meaning": "Phía sau",
-    "curated": false
-  },
-  "玉": {
-    "hanviet": "Ngọc",
-    "meaning": "Viên ngọc",
-    "curated": false
-  },
   "匸": {
     "hanviet": "Hệ",
     "curated": true
-  },
-  "矢": {
-    "hanviet": "Thỉ",
-    "meaning": "Mũi tên",
-    "curated": false
-  },
-  "厶": {
-    "hanviet": "Khư",
-    "meaning": "Riêng tư",
-    "curated": false
   },
   "耂": {
     "hanviet": "Lão",
@@ -571,37 +1237,12 @@
     "hanviet": "Hiếu",
     "curated": true
   },
-  "攵": {
-    "hanviet": "Phộc",
-    "meaning": "Đánh khẽ",
-    "curated": false
-  },
-  "巾": {
-    "hanviet": "Cân",
-    "meaning": "Cái khăn",
-    "curated": false
-  },
-  "韋": {
-    "hanviet": "Vi",
-    "meaning": "Da",
-    "curated": false
-  },
   "王": {
     "hanviet": "Vương",
     "curated": false
   },
   "原": {
     "hanviet": "Nguyên",
-    "curated": false
-  },
-  "頁": {
-    "hanviet": "Hiệt",
-    "meaning": "Trang giấy, đầu",
-    "curated": false
-  },
-  "亅": {
-    "hanviet": "Quyết",
-    "meaning": "Nét móc",
     "curated": false
   },
   "交": {
@@ -616,11 +1257,6 @@
     "hanviet": "Canh",
     "curated": true
   },
-  "尸": {
-    "hanviet": "Thi",
-    "meaning": "Xác chết",
-    "curated": false
-  },
   "句": {
     "hanviet": "Cú",
     "curated": false
@@ -628,11 +1264,6 @@
   "垂": {
     "hanviet": "Thùy",
     "curated": true
-  },
-  "阝": {
-    "hanviet": "Ấp",
-    "meaning": "Vùng đất",
-    "curated": false
   },
   "⻖": {
     "hanviet": "Phụ",
@@ -645,26 +1276,6 @@
   "吾": {
     "hanviet": "Ngô",
     "curated": true
-  },
-  "辛": {
-    "hanviet": "Tân",
-    "meaning": "Cay",
-    "curated": false
-  },
-  "釆": {
-    "hanviet": "Biện",
-    "meaning": "Phân biệt",
-    "curated": false
-  },
-  "戸": {
-    "hanviet": "Hộ",
-    "meaning": "Cánh cửa",
-    "curated": false
-  },
-  "殳": {
-    "hanviet": "Thù",
-    "meaning": "Binh khí",
-    "curated": false
   },
   "吏": {
     "hanviet": "Lại",
@@ -682,10 +1293,6 @@
     "hanviet": "Diên",
     "curated": false
   },
-  "扌": {
-    "hanviet": "Bộ thủ",
-    "curated": false
-  },
   "旨": {
     "hanviet": "Chỉ",
     "curated": true
@@ -694,18 +1301,8 @@
     "hanviet": "Luân",
     "curated": true
   },
-  "青": {
-    "hanviet": "Thanh",
-    "meaning": "Màu xanh",
-    "curated": false
-  },
   "雲": {
     "hanviet": "Vân",
-    "curated": false
-  },
-  "隹": {
-    "hanviet": "Truy",
-    "meaning": "Chim",
     "curated": false
   },
   "建": {
@@ -720,32 +1317,12 @@
     "hanviet": "Quả",
     "curated": false
   },
-  "廾": {
-    "hanviet": "Củng",
-    "meaning": "Chắp tay",
-    "curated": false
-  },
-  "广": {
-    "hanviet": "Nghiễm",
-    "meaning": "Mái hiên",
-    "curated": false
-  },
   "占": {
     "hanviet": "Chiếm",
     "curated": false
   },
   "周": {
     "hanviet": "Chu",
-    "curated": false
-  },
-  "至": {
-    "hanviet": "Chí",
-    "meaning": "Kịp, đến",
-    "curated": false
-  },
-  "馬": {
-    "hanviet": "Mã",
-    "meaning": "Con ngựa",
     "curated": false
   },
   "尺": {
@@ -772,17 +1349,8 @@
     "hanviet": "Á",
     "curated": true
   },
-  "心": {
-    "hanviet": "Tâm",
-    "meaning": "Trái tim",
-    "curated": false
-  },
   "者": {
     "hanviet": "Giả",
-    "curated": false
-  },
-  "犭": {
-    "hanviet": "Bộ khuyển",
     "curated": false
   },
   "夹": {
@@ -791,15 +1359,6 @@
   },
   "三": {
     "hanviet": "Tam",
-    "curated": false
-  },
-  "冫": {
-    "hanviet": "2 chấm băng",
-    "meaning": "Nước lạnh",
-    "curated": false
-  },
-  "忄": {
-    "hanviet": "Bộ tâm",
     "curated": false
   },
   "亡": {
@@ -814,18 +1373,9 @@
     "hanviet": "Cửu",
     "curated": false
   },
-  "衤": {
-    "hanviet": "Bộ y",
-    "curated": false
-  },
   "复": {
     "hanviet": "Phục",
     "curated": true
-  },
-  "竹": {
-    "hanviet": "Trúc",
-    "meaning": "Tre trúc",
-    "curated": false
   },
   "間": {
     "hanviet": "Gian",
@@ -843,11 +1393,6 @@
     "hanviet": "Ninh",
     "curated": true
   },
-  "犬": {
-    "hanviet": "Khuyển",
-    "meaning": "Con chó",
-    "curated": false
-  },
   "受": {
     "hanviet": "Thụ",
     "curated": false
@@ -856,19 +1401,9 @@
     "hanviet": "Nghiệp",
     "curated": true
   },
-  "羊": {
-    "hanviet": "Dương",
-    "meaning": "Con dê",
-    "curated": false
-  },
   "叔": {
     "hanviet": "Thúc",
     "curated": true
-  },
-  "面": {
-    "hanviet": "Diện",
-    "meaning": "Bề mặt",
-    "curated": false
   },
   "啇": {
     "hanviet": "Đích",
@@ -878,18 +1413,8 @@
     "hanviet": "Thất",
     "curated": false
   },
-  "糸": {
-    "hanviet": "Mịch",
-    "meaning": "Sợi tơ",
-    "curated": false
-  },
   "義": {
     "hanviet": "Nghĩa",
-    "curated": false
-  },
-  "豆": {
-    "hanviet": "Đậu",
-    "meaning": "Hạt đậu",
     "curated": false
   },
   "亦": {
@@ -908,19 +1433,9 @@
     "hanviet": "Dương",
     "curated": true
   },
-  "歹": {
-    "hanviet": "Ngạt",
-    "meaning": "Xấu xa",
-    "curated": false
-  },
   "戋": {
     "hanviet": "Tiễn",
     "curated": true
-  },
-  "廴": {
-    "hanviet": "Dẫn",
-    "meaning": "Bước dài",
-    "curated": false
   },
   "憂": {
     "hanviet": "Ưu",
@@ -930,23 +1445,8 @@
     "hanviet": "Vị",
     "curated": true
   },
-  "示": {
-    "hanviet": "Thị",
-    "meaning": "Chỉ thị",
-    "curated": false
-  },
   "式": {
     "hanviet": "Thức",
-    "curated": false
-  },
-  "弓": {
-    "hanviet": "Cung",
-    "meaning": "Cung tên",
-    "curated": false
-  },
-  "虫": {
-    "hanviet": "Trùng",
-    "meaning": "Côn trùng",
     "curated": false
   },
   "免": {
@@ -956,11 +1456,6 @@
   "刑": {
     "hanviet": "Hình",
     "curated": true
-  },
-  "谷": {
-    "hanviet": "Cốc",
-    "meaning": "Thung lũng",
-    "curated": false
   },
   "廷": {
     "hanviet": "Đình",
@@ -978,22 +1473,12 @@
     "hanviet": "Tài",
     "curated": false
   },
-  "几": {
-    "hanviet": "Kỉ",
-    "meaning": "Cái ghế",
-    "curated": false
-  },
   "具": {
     "hanviet": "Cụ",
     "curated": false
   },
   "相": {
     "hanviet": "Tương",
-    "curated": false
-  },
-  "黄": {
-    "hanviet": "Hoàng",
-    "meaning": "Màu vàng",
     "curated": false
   },
   "肖": {
@@ -1016,16 +1501,6 @@
     "hanviet": "Thượng",
     "curated": true
   },
-  "矛": {
-    "hanviet": "Mâu",
-    "meaning": "Mẫu thuẫn",
-    "curated": false
-  },
-  "穴": {
-    "hanviet": "Huyệt",
-    "meaning": "Lỗ",
-    "curated": false
-  },
   "昷": {
     "hanviet": "Ôn",
     "curated": true
@@ -1046,20 +1521,6 @@
     "hanviet": "Đại",
     "curated": false
   },
-  "衣": {
-    "hanviet": "Bộ y",
-    "curated": false
-  },
-  "皿": {
-    "hanviet": "Mãnh",
-    "meaning": "Cái đĩa",
-    "curated": false
-  },
-  "戌": {
-    "hanviet": "Tuất",
-    "meaning": "Giờ tuất",
-    "curated": false
-  },
   "埶": {
     "hanviet": "Nghệ",
     "curated": true
@@ -1070,25 +1531,6 @@
   },
   "少": {
     "hanviet": "Thiểu",
-    "curated": false
-  },
-  "皮": {
-    "hanviet": "Bì",
-    "meaning": "Da",
-    "curated": false
-  },
-  "走": {
-    "hanviet": "Tẩu",
-    "meaning": "Chạy",
-    "curated": false
-  },
-  "己": {
-    "hanviet": "Kỉ",
-    "meaning": "Bản thân",
-    "curated": false
-  },
-  "丬": {
-    "hanviet": "Bộ tường",
     "curated": false
   },
   "斿": {
@@ -1111,19 +1553,9 @@
     "hanviet": "Đán",
     "curated": true
   },
-  "厂": {
-    "hanviet": "Hán",
-    "meaning": "Sườn núi",
-    "curated": false
-  },
   "志": {
     "hanviet": "Chí",
     "curated": true
-  },
-  "革": {
-    "hanviet": "Cách",
-    "meaning": "Cải cách",
-    "curated": false
   },
   "民": {
     "hanviet": "Dân",
@@ -1133,24 +1565,9 @@
     "hanviet": "Thị",
     "curated": true
   },
-  "自": {
-    "hanviet": "Tự",
-    "meaning": "Bản thân",
-    "curated": false
-  },
   "兌": {
     "hanviet": "Đoài",
     "curated": true
-  },
-  "卩": {
-    "hanviet": "Tiết",
-    "meaning": "Đốt tre",
-    "curated": false
-  },
-  "氏": {
-    "hanviet": "Thị",
-    "meaning": "Họ",
-    "curated": false
   },
   "分": {
     "hanviet": "Phân",
@@ -1272,24 +1689,9 @@
     "hanviet": "Kinh",
     "curated": false
   },
-  "身": {
-    "hanviet": "Thân",
-    "meaning": "Bản thân",
-    "curated": false
-  },
   "巷": {
     "hanviet": "Hạng",
     "curated": true
-  },
-  "癶": {
-    "hanviet": "Bát",
-    "meaning": "Trở lại",
-    "curated": false
-  },
-  "片": {
-    "hanviet": "Phiến",
-    "meaning": "Mảnh, tấm",
-    "curated": false
   },
   "勺": {
     "hanviet": "Chước",
@@ -1303,24 +1705,9 @@
     "hanviet": "Đông",
     "curated": false
   },
-  "麻": {
-    "hanviet": "Ma",
-    "meaning": "Ma túy",
-    "curated": false
-  },
-  "石": {
-    "hanviet": "Thạch",
-    "meaning": "Đá",
-    "curated": false
-  },
   "隼": {
     "hanviet": "Chuẩn",
     "curated": true
-  },
-  "用": {
-    "hanviet": "Dụng",
-    "meaning": "Sử dụng",
-    "curated": false
   },
   "余": {
     "hanviet": "Dư",
@@ -1340,11 +1727,6 @@
   },
   "了": {
     "hanviet": "Liễu",
-    "curated": false
-  },
-  "羽": {
-    "hanviet": "Vũ",
-    "meaning": "Lông vũ",
     "curated": false
   },
   "氺": {
@@ -1383,18 +1765,8 @@
     "hanviet": "Cập",
     "curated": true
   },
-  "色": {
-    "hanviet": "Sắc",
-    "meaning": "Màu sắc",
-    "curated": false
-  },
   "主": {
     "hanviet": "Chủ",
-    "curated": false
-  },
-  "文": {
-    "hanviet": "Văn",
-    "meaning": "Văn học",
     "curated": false
   },
   "直": {
@@ -1412,11 +1784,6 @@
   "并": {
     "hanviet": "Tính",
     "curated": true
-  },
-  "瓦": {
-    "hanviet": "Ngõa",
-    "meaning": "Ngói",
-    "curated": false
   },
   "中": {
     "hanviet": "Trung",
@@ -1450,29 +1817,9 @@
     "hanviet": "Yểm",
     "curated": true
   },
-  "角": {
-    "hanviet": "Giác",
-    "meaning": "Góc",
-    "curated": false
-  },
-  "彡": {
-    "hanviet": "Sam",
-    "meaning": "Tóc",
-    "curated": false
-  },
   "冓": {
     "hanviet": "Cấu",
     "curated": true
-  },
-  "首": {
-    "hanviet": "Thủ",
-    "meaning": "Thủ tướng, cái cổ",
-    "curated": false
-  },
-  "非": {
-    "hanviet": "Phi",
-    "meaning": "Phi thường",
-    "curated": false
   },
   "或": {
     "hanviet": "Hoặc",
@@ -1485,11 +1832,6 @@
   "忍": {
     "hanviet": "Nhẫn",
     "curated": true
-  },
-  "弋": {
-    "hanviet": "Dặc",
-    "meaning": "Chiếm lấy",
-    "curated": false
   },
   "尭": {
     "hanviet": "Nghiêu",
@@ -1511,11 +1853,6 @@
     "hanviet": "Triệu",
     "curated": false
   },
-  "戈": {
-    "hanviet": "Qua",
-    "meaning": "Cây qua",
-    "curated": false
-  },
   "曷": {
     "hanviet": "Hạt",
     "curated": true
@@ -1532,11 +1869,6 @@
     "hanviet": "Tư",
     "curated": false
   },
-  "隶": {
-    "hanviet": "Đãi",
-    "meaning": "Kịp đến",
-    "curated": false
-  },
   "縣": {
     "hanviet": "Huyện",
     "curated": true
@@ -1544,11 +1876,6 @@
   "令": {
     "hanviet": "Lệnh",
     "curated": true
-  },
-  "臣": {
-    "hanviet": "Thần",
-    "meaning": "Đại thần",
-    "curated": false
   },
   "莫": {
     "hanviet": "Mạc",
@@ -1566,11 +1893,6 @@
     "hanviet": "Lưỡng",
     "curated": false
   },
-  "骨": {
-    "hanviet": "Cốt",
-    "meaning": "Xương",
-    "curated": false
-  },
   "則": {
     "hanviet": "Tắc",
     "curated": false
@@ -1579,17 +1901,12 @@
     "hanviet": "Hôi",
     "curated": true
   },
+  "宁": {
+    "hanviet": "Trữ",
+    "curated": true
+  },
   "客": {
     "hanviet": "Khách",
-    "curated": false
-  },
-  "鳥": {
-    "hanviet": "Điểu",
-    "meaning": "Con chim",
-    "curated": false
-  },
-  "爫": {
-    "hanviet": "Bộ trảo",
     "curated": false
   },
   "曲": {
@@ -1608,13 +1925,12 @@
     "hanviet": "Thúc",
     "curated": false
   },
-  "舛": {
-    "hanviet": "Suyễn",
-    "meaning": "Sai lầm",
-    "curated": false
-  },
   "俞": {
     "hanviet": "Du",
+    "curated": true
+  },
+  "疋": {
+    "hanviet": "Sơ",
     "curated": true
   },
   "亟": {
@@ -1633,36 +1949,12 @@
     "hanviet": "Gia",
     "curated": false
   },
-  "足": {
-    "hanviet": "Túc",
-    "meaning": "Chân",
-    "curated": false
-  },
-  "巛": {
-    "hanviet": "Bộ xuyên",
-    "curated": false
-  },
-  "辰": {
-    "hanviet": "Thần",
-    "meaning": "Thìn",
-    "curated": false
-  },
   "烝": {
     "hanviet": "Chưng",
     "curated": true
   },
-  "支": {
-    "hanviet": "Chi",
-    "meaning": "Chi nhánh",
-    "curated": false
-  },
   "合": {
     "hanviet": "Hợp",
-    "curated": false
-  },
-  "魚": {
-    "hanviet": "Ngư",
-    "meaning": "Con cá",
     "curated": false
   },
   "帛": {
@@ -1671,6 +1963,10 @@
   },
   "禽": {
     "hanviet": "Cầm",
+    "curated": true
+  },
+  "亘": {
+    "hanviet": "Tuyên",
     "curated": true
   },
   "喿": {
@@ -1685,13 +1981,12 @@
     "hanviet": "Lỗ",
     "curated": true
   },
-  "戊": {
-    "hanviet": "Mâu",
-    "meaning": "Bụi cây",
-    "curated": false
-  },
   "耑": {
     "hanviet": "Đoan",
+    "curated": true
+  },
+  "夬": {
+    "hanviet": "Quải",
     "curated": true
   },
   "井": {
@@ -1725,11 +2020,6 @@
   "焦": {
     "hanviet": "Tiêu",
     "curated": true
-  },
-  "玄": {
-    "hanviet": "Huyền",
-    "meaning": "Màu đen",
-    "curated": false
   },
   "告": {
     "hanviet": "Cáo",
@@ -1767,11 +2057,6 @@
     "hanviet": "Phục",
     "curated": false
   },
-  "斉": {
-    "hanviet": "Tề",
-    "meaning": "Ngang bằng",
-    "curated": false
-  },
   "列": {
     "hanviet": "Liệt",
     "curated": false
@@ -1784,11 +2069,6 @@
     "hanviet": "Cánh",
     "curated": true
   },
-  "耒": {
-    "hanviet": "Lỗi",
-    "meaning": "Cái cày",
-    "curated": false
-  },
   "昔": {
     "hanviet": "Tích",
     "curated": false
@@ -1799,16 +2079,6 @@
   },
   "任": {
     "hanviet": "Nhiệm",
-    "curated": false
-  },
-  "牙": {
-    "hanviet": "Nha",
-    "meaning": "Răng nanh",
-    "curated": false
-  },
-  "行": {
-    "hanviet": "Hành",
-    "meaning": "Đi, ngân hàng",
     "curated": false
   },
   "朮": {
@@ -1838,11 +2108,6 @@
   "筑": {
     "hanviet": "Trúc",
     "curated": true
-  },
-  "勹": {
-    "hanviet": "Bao",
-    "meaning": "Bao bọc",
-    "curated": false
   },
   "正": {
     "hanviet": "Chính",
@@ -1896,11 +2161,6 @@
     "hanviet": "Tương",
     "curated": false
   },
-  "缶": {
-    "hanviet": "Phẫu",
-    "meaning": "Đồ sành",
-    "curated": false
-  },
   "允": {
     "hanviet": "Doãn",
     "curated": true
@@ -1916,11 +2176,6 @@
   "肋": {
     "hanviet": "Lặc",
     "curated": true
-  },
-  "舟": {
-    "hanviet": "Chu",
-    "meaning": "Thuyền",
-    "curated": false
   },
   "亢": {
     "hanviet": "Kháng",
@@ -1990,11 +2245,6 @@
     "hanviet": "Phổ",
     "curated": true
   },
-  "良": {
-    "hanviet": "Lương",
-    "meaning": "Tốt",
-    "curated": false
-  },
   "劵": {
     "hanviet": "Khoán",
     "curated": true
@@ -2058,5 +2308,209 @@
   "午": {
     "hanviet": "Ngọ",
     "curated": false
+  },
+  "于": {
+    "hanviet": "Vu",
+    "curated": true
+  },
+  "习": {
+    "hanviet": "Tập",
+    "curated": true
+  },
+  "天": {
+    "hanviet": "Thiên",
+    "curated": false
+  },
+  "丈": {
+    "hanviet": "Trượng",
+    "curated": false
+  },
+  "冊": {
+    "hanviet": "Sách",
+    "curated": false
+  },
+  "百": {
+    "hanviet": "Bách",
+    "curated": false
+  },
+  "丸": {
+    "hanviet": "Hoàn",
+    "curated": false
+  },
+  "呑": {
+    "hanviet": "Thôn",
+    "curated": true
+  },
+  "再": {
+    "hanviet": "Tái",
+    "curated": false
+  },
+  "刃": {
+    "hanviet": "Nhẫn",
+    "curated": true
+  },
+  "卉": {
+    "hanviet": "Hủy",
+    "curated": true
+  },
+  "県": {
+    "hanviet": "Huyện",
+    "curated": false
+  },
+  "丞": {
+    "hanviet": "Thừa",
+    "curated": true
+  },
+  "凡": {
+    "hanviet": "Phàm",
+    "curated": true
+  },
+  "享": {
+    "hanviet": "Hưởng",
+    "curated": true
+  },
+  "乃": {
+    "hanviet": "Nãi",
+    "curated": true
+  },
+  "能": {
+    "hanviet": "Năng",
+    "curated": false
+  },
+  "其": {
+    "hanviet": "Kỳ",
+    "curated": true
+  },
+  "酋": {
+    "hanviet": "Tù",
+    "curated": true
+  },
+  "丰": {
+    "hanviet": "Phong",
+    "curated": true
+  },
+  "妾": {
+    "hanviet": "Thiếp",
+    "curated": true
+  },
+  "並": {
+    "hanviet": "Tịnh",
+    "curated": false
+  },
+  "制": {
+    "hanviet": "Chế",
+    "curated": false
+  },
+  "容": {
+    "hanviet": "Dung",
+    "curated": false
+  },
+  "喜": {
+    "hanviet": "Hỉ",
+    "curated": false
+  },
+  "之": {
+    "hanviet": "Chi",
+    "curated": true
+  },
+  "景": {
+    "hanviet": "Cảnh",
+    "curated": false
+  },
+  "乎": {
+    "hanviet": "Hồ",
+    "curated": true
+  },
+  "農": {
+    "hanviet": "Nông",
+    "curated": true
+  },
+  "坐": {
+    "hanviet": "Tọa",
+    "curated": true
+  },
+  "呉": {
+    "hanviet": "Ngô",
+    "curated": true
+  },
+  "亭": {
+    "hanviet": "Đình",
+    "curated": true
+  },
+  "凶": {
+    "hanviet": "Hung",
+    "curated": true
+  },
+  "思": {
+    "hanviet": "Tư",
+    "curated": false
+  },
+  "丗": {
+    "hanviet": "Thế",
+    "curated": true
+  },
+  "弱": {
+    "hanviet": "Nhược",
+    "curated": false
+  },
+  "矣": {
+    "hanviet": "Hĩ",
+    "curated": true
+  },
+  "弯": {
+    "hanviet": "Loan",
+    "curated": true
+  },
+  "甚": {
+    "hanviet": "Thậm",
+    "curated": true
+  },
+  "楚": {
+    "hanviet": "Sở",
+    "curated": true
+  },
+  "府": {
+    "hanviet": "Phủ",
+    "curated": false
+  },
+  "屋": {
+    "hanviet": "Ốc",
+    "curated": false
+  },
+  "就": {
+    "hanviet": "Tựu",
+    "curated": false
+  },
+  "昭": {
+    "hanviet": "Chiêu",
+    "curated": true
+  },
+  "庶": {
+    "hanviet": "Thứ",
+    "curated": true
+  },
+  "旧": {
+    "hanviet": "Cựu",
+    "curated": true
+  },
+  "包": {
+    "hanviet": "Bao",
+    "curated": true
+  },
+  "従": {
+    "hanviet": "Tùng",
+    "curated": true
+  },
+  "専": {
+    "hanviet": "Chuyên",
+    "curated": false
+  },
+  "卅": {
+    "hanviet": "Táp",
+    "curated": true
+  },
+  "乀": {
+    "hanviet": "Phất",
+    "curated": true
   }
 }

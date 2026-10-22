@@ -258,7 +258,10 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
   }
 
   // Prev/next walks the textbook order (anchors by chapter, then the rest).
-  const order = useMemo(() => (vgData ? kanjiOrder(Object.keys(vgData)) : []), [vgData])
+  const order = useMemo(
+    () => (vgData ? kanjiOrder(Object.keys(vgData).filter(c => KANJI_INDEX.has(c) || c in kanjiReadings)) : []),
+    [vgData],
+  )
   const orderIndex = displayChar ? order.indexOf(displayChar) : -1
   const step = (delta: number) => {
     if (orderIndex < 0) return
@@ -448,7 +451,21 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
               </div>
             )}
 
-            <div className="flex justify-center gap-2 mt-3">
+            {radicalInfo && (!hanviet || !meaningText) && (
+              <div className="mt-3 border-2 p-3 text-left" style={{ borderColor: DRAWER_MUTED }}>
+                <div className="text-[10px] font-black uppercase tracking-wider" style={{ color: DRAWER_MUTED }}>{t('kanjiDrawer.radicalCard')}</div>
+                <div className="text-base font-black" style={{ color: DRAWER_INK }}>{radicalInfo.hanviet}</div>
+                {radicalInfo.meaning && <div className="text-xs font-bold mt-0.5" style={{ color: DRAWER_MUTED }}>{radicalInfo.meaning}</div>}
+              </div>
+            )}
+
+            <div className="flex items-center justify-center gap-2 mt-3">
+              <span
+                className="px-2.5 py-1.5 border-2 font-black text-xs uppercase tracking-wider"
+                style={{ borderColor: DRAWER_HAIRLINE, color: DRAWER_MUTED }}
+              >
+                {t('kanjiDrawer.strokeCount', { n: entry.strokes.length })}
+              </span>
               <button
                 onClick={() => setShowNumbers(v => !v)}
                 aria-pressed={showNumbers}

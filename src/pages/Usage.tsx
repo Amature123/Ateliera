@@ -279,7 +279,7 @@ function TrapBox({ label, text }: { label: string; text: string }) {
   )
 }
 
-// -- Similar words ---------------------------------------------------------
+// - Similar words ---------------------------------------------------------
 
 function WearQuickPick({ l, localize }: { l: L; localize: Localize }) {
   return (
@@ -361,7 +361,7 @@ const SynonymGroupBlock = memo(function SynonymGroupBlock({
   )
 })
 
-// -- Verb + particle pairs -------------------------------------------------
+// - Verb + particle pairs -------------------------------------------------
 
 const CollocationGroupBlock = memo(function CollocationGroupBlock({
   group, t, localize,
@@ -416,7 +416,7 @@ const CollocationGroupBlock = memo(function CollocationGroupBlock({
   )
 })
 
-// -- Adding meaning to a verb (補助動詞) -----------------------------------
+// - Adding meaning to a verb (補助動詞) -----------------------------------
 
 const AuxiliaryVerbCard = memo(function AuxiliaryVerbCard({
   entry, t, localize, navigate, grammarById,

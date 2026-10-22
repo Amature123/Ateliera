@@ -16,7 +16,7 @@ import path from "node:path"
 import { fileURLToPath } from "node:url"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const mdPath = path.join(__dirname, "../../N4_Grammar_and_Kanji_Summary-Final.md")
+const mdPath = path.join(__dirname, "../../data/N4_Grammar_and_Kanji_Summary-Final.md")
 const kanjiPath = path.join(__dirname, "../src/data/n4/kanji.json")
 
 const md = fs.readFileSync(mdPath, "utf8")
@@ -63,6 +63,7 @@ const data = JSON.parse(fs.readFileSync(kanjiPath, "utf8"))
 let filledGroups = 0, filledWords = 0
 
 for (const chapter of data.chapters) {
+  if (chapter.chapter >= 25) continue
   for (const group of chapter.groups) {
     const row = byAnchor.get(group.anchor)
     if (!row) throw new Error(`no MD row found for anchor "${group.anchor}" (group ${group.id})`)
